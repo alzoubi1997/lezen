@@ -1,15 +1,11 @@
-import { getCurrentUser } from '@/lib/auth'
-import { redirect } from 'next/navigation'
+'use client'
+
 import Layout from '@/components/Layout'
 import ErrorsContent from '@/components/ErrorsContent'
 
-export default async function ErrorsPage() {
-  const user = await getCurrentUser()
-
-  if (!user) {
-    redirect('/auth')
-  }
-
+// Make this a client component to avoid blocking server-side auth check
+// Auth will be handled client-side in Layout component
+export default function ErrorsPage() {
   return (
     <Layout>
       <ErrorsContent />

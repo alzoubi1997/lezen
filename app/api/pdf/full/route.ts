@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma'
 import { generateFullPDF } from '@/lib/pdf-generator'
 import { pdfFullSchema } from '@/lib/validations'
 
+export const dynamic = 'force-dynamic'
+
 export async function GET(request: NextRequest) {
   const user = await getCurrentUser()
 

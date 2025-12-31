@@ -172,7 +172,8 @@
     "currentPractices": "التمارين الحالية",
     "missing": "ناقص",
     "remainingToComplete": "متبقي لإكمال الكتلة",
-    "morePractices": "تمارين"
+    "morePractices": "تمارين",
+    "noAttemptsInBlock": "لا توجد تمارين في هذه الكتلة بعد"
   },
   "errors": {
     "title": "دفتر الأخطاء",

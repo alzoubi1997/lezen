@@ -712,61 +712,76 @@ export default function NT2ProgressDashboard() {
         </div>
       )}
 
-      {/* Incomplete Block Section */}
-      {data.incompleteBlock && data.incompleteBlock.length > 0 && (
-        <div className="mt-6 overflow-hidden rounded-xl border-l-4 border-orange-500 bg-white shadow-md" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-          <div className="bg-gradient-to-r from-orange-50 via-orange-100/80 to-orange-50 px-6 py-5 border-b border-orange-200">
-            <div className={`flex items-center ${locale === 'ar' ? 'flex-row-reverse' : ''} justify-between`}>
-              {locale === 'ar' ? (
+      {/* Incomplete Block Section - Always visible */}
+      <div className="mt-6 overflow-hidden rounded-xl border-l-4 border-orange-500 bg-white shadow-md" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+        <div className="bg-gradient-to-r from-orange-50 via-orange-100/80 to-orange-50 px-6 py-5 border-b border-orange-200">
+          <div className={`flex items-center ${locale === 'ar' ? 'flex-row-reverse' : ''} justify-between`}>
+            {locale === 'ar' ? (
+              <>
+                <span className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-1.5 text-xs font-bold text-white shadow-md">
+                  {(data.incompleteBlock?.length || 0)}/3 {t('dashboard.complete')}
+                </span>
+                <h3 className="text-lg font-bold text-orange-900 text-right">
+                  {t('dashboard.incompleteBlock')}
+                </h3>
+              </>
+            ) : (
+              <>
+                <h3 className="text-lg font-bold text-orange-900 text-left">
+                  {t('dashboard.incompleteBlock')}
+                </h3>
+                <span className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-1.5 text-xs font-bold text-white shadow-md">
+                  {(data.incompleteBlock?.length || 0)}/3 {t('dashboard.complete')}
+                </span>
+              </>
+            )}
+          </div>
+        </div>
+        <div className="p-6">
+          <p className={`mb-4 text-sm font-bold leading-relaxed text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            {t('dashboard.incompleteBlockExplanation')}
+          </p>
+          
+          <div className="mb-4 rounded-xl border-l-4 border-orange-500 bg-gradient-to-br from-orange-50 to-white p-5 shadow-md">
+            <p className={`mb-3 text-xs font-bold uppercase tracking-wider text-orange-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              {t('dashboard.currentPractices')}:
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {data.incompleteBlock && data.incompleteBlock.length > 0 ? (
                 <>
-                  <span className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-1.5 text-xs font-bold text-white shadow-md">
-                    {data.incompleteBlock.length}/3 {t('dashboard.complete')}
-                  </span>
-                  <h3 className="text-lg font-bold text-orange-900 text-right">
-                    {t('dashboard.incompleteBlock')}
-                  </h3>
+                  {data.incompleteBlock.map((attempt, idx) => (
+                    <span
+                      key={attempt.id}
+                      className="rounded-full bg-gradient-to-r from-orange-600 to-orange-700 px-4 py-1.5 text-sm font-bold text-white shadow-md hover:from-orange-700 hover:to-orange-800 transition-all"
+                    >
+                      {attempt.modelTitle}
+                    </span>
+                  ))}
+                  {Array.from({ length: 3 - data.incompleteBlock.length }).map((_, idx) => (
+                    <span
+                      key={`missing-${idx}`}
+                      className="rounded-full border-2 border-dashed border-orange-400 bg-white px-4 py-1.5 text-sm font-bold text-orange-600"
+                    >
+                      {t('dashboard.missing')}
+                    </span>
+                  ))}
                 </>
               ) : (
                 <>
-                  <h3 className="text-lg font-bold text-orange-900 text-left">
-                    {t('dashboard.incompleteBlock')}
-                  </h3>
-                  <span className="rounded-full bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-1.5 text-xs font-bold text-white shadow-md">
-                    {data.incompleteBlock.length}/3 {t('dashboard.complete')}
-                  </span>
+                  {Array.from({ length: 3 }).map((_, idx) => (
+                    <span
+                      key={`missing-${idx}`}
+                      className="rounded-full border-2 border-dashed border-orange-400 bg-white px-4 py-1.5 text-sm font-bold text-orange-600"
+                    >
+                      {t('dashboard.missing')}
+                    </span>
+                  ))}
                 </>
               )}
             </div>
           </div>
-          <div className="p-6">
-            <p className={`mb-4 text-sm font-bold leading-relaxed text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
-              {t('dashboard.incompleteBlockExplanation')}
-            </p>
-            
-            <div className="mb-4 rounded-xl border-l-4 border-orange-500 bg-gradient-to-br from-orange-50 to-white p-5 shadow-md">
-              <p className={`mb-3 text-xs font-bold uppercase tracking-wider text-orange-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
-                {t('dashboard.currentPractices')}:
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {data.incompleteBlock.map((attempt, idx) => (
-                  <span
-                    key={attempt.id}
-                    className="rounded-full bg-gradient-to-r from-orange-600 to-orange-700 px-4 py-1.5 text-sm font-bold text-white shadow-md hover:from-orange-700 hover:to-orange-800 transition-all"
-                  >
-                    {attempt.modelTitle}
-                  </span>
-                ))}
-                {Array.from({ length: 3 - data.incompleteBlock.length }).map((_, idx) => (
-                  <span
-                    key={`missing-${idx}`}
-                    className="rounded-full border-2 border-dashed border-orange-400 bg-white px-4 py-1.5 text-sm font-bold text-orange-600"
-                  >
-                    {t('dashboard.missing')}
-                  </span>
-                ))}
-              </div>
-            </div>
 
+          {data.incompleteBlock && data.incompleteBlock.length > 0 ? (
             <div className="rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-5 shadow-md">
               <p className={`mb-4 text-sm font-bold text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                 {t('dashboard.attemptsInBlock')}:
@@ -809,15 +824,21 @@ export default function NT2ProgressDashboard() {
                 ))}
               </div>
             </div>
-
-            <div className="mt-4 rounded-xl border-l-4 border-orange-500 bg-gradient-to-br from-orange-50 to-white p-5 shadow-md">
-              <p className={`text-sm font-bold text-orange-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
-                {t('dashboard.remainingToComplete')}: {3 - data.incompleteBlock.length} {t('dashboard.morePractices')}
+          ) : (
+            <div className="rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-5 shadow-md">
+              <p className={`text-sm font-medium text-gray-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                {t('dashboard.noAttemptsInBlock')}
               </p>
             </div>
+          )}
+
+          <div className="mt-4 rounded-xl border-l-4 border-orange-500 bg-gradient-to-br from-orange-50 to-white p-5 shadow-md">
+            <p className={`text-sm font-bold text-orange-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              {t('dashboard.remainingToComplete')}: {3 - (data.incompleteBlock?.length || 0)} {t('dashboard.morePractices')}
+            </p>
           </div>
         </div>
-      )}
+      </div>
     </div>
   )
 }

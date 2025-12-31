@@ -1,0 +1,178 @@
+{
+  "practiceId": 13,
+  "texts": [
+    {
+      "textId": 1,
+      "title": "Wetenschap onder druk: wat gebeurt er als twijfel publiek bezit wordt?",
+      "body": "Wetenschap wordt vaak gezien als een domein van zekerheid, feiten en controleerbare kennis. Toch is twijfel een essentieel onderdeel van het wetenschappelijk proces. Hypotheses worden getest, verworpen of aangepast, en conclusies blijven voorlopig zolang nieuw bewijs zich aandient. In de afgelopen jaren is die interne, methodologische twijfel steeds vaker zichtbaar geworden voor het brede publiek. Dat roept de vraag op wat er gebeurt wanneer wetenschappelijke onzekerheid niet langer binnen academische kringen blijft, maar onderdeel wordt van het publieke debat.\n\nEnerzijds kan deze zichtbaarheid bijdragen aan transparantie. Burgers krijgen inzicht in hoe kennis tot stand komt en leren dat wetenschap geen verzameling onveranderlijke waarheden is, maar een dynamisch proces. In theorie kan dit het vertrouwen vergroten, omdat onderzoekers niet pretenderen alles te weten. In de praktijk blijkt echter dat publieke twijfel vaak anders wordt geïnterpreteerd dan bedoeld. Wat binnen de wetenschap geldt als een teken van zorgvuldigheid, wordt buiten die context soms gezien als bewijs van onbetrouwbaarheid.\n\nDeze spanning wordt versterkt door de rol van media en politiek. Wetenschappelijke bevindingen worden zelden in hun volledige nuance gepresenteerd. Complexe statistische onzekerheden of methodologische beperkingen worden samengevat in korte koppen, waarbij tegenstrijdige resultaten naast elkaar worden gezet zonder uitleg. Hierdoor ontstaat het beeld dat de wetenschap het niet eens is, terwijl het in werkelijkheid vaak gaat om verschillen in invalshoek, meetmethode of interpretatie. Twijfel wordt zo losgekoppeld van haar betekenis en krijgt een eigen leven in het publieke domein.\n\nBovendien wordt wetenschappelijke twijfel steeds vaker strategisch ingezet. In maatschappelijke discussies over klimaat, gezondheid of technologie wordt onzekerheid gebruikt om beleid te vertragen of verantwoordelijkheid te ontlopen. Door te benadrukken dat niet alles bewezen is, ontstaat ruimte om bestaande belangen te beschermen. Dit mechanisme is vooral zichtbaar wanneer economische of ideologische belangen op het spel staan. Twijfel fungeert dan niet als uitnodiging tot verder onderzoek, maar als instrument om besluitvorming te blokkeren.\n\nVoor wetenschappers zelf brengt deze ontwikkeling nieuwe uitdagingen met zich mee. Zij worden niet alleen beoordeeld op de kwaliteit van hun onderzoek, maar ook op hun vermogen om onzekerheid begrijpelijk uit te leggen aan een niet-gespecialiseerd publiek. Tegelijkertijd bestaat het risico dat onderzoekers hun conclusies sterker formuleren dan gerechtvaardigd, uit angst om als besluiteloos of inconsequent te worden gezien. Daarmee kan de openheid die wetenschap kenmerkt juist onder druk komen te staan.\n\nDe vraag is dan hoe wetenschap haar geloofwaardigheid kan behouden in een context waarin twijfel publiek bezit is geworden. Een mogelijke richting ligt in betere wetenschapscommunicatie, waarbij niet alleen resultaten worden gedeeld, maar ook het proces erachter. Dat vraagt om tijd, middelen en erkenning, die binnen het huidige academische systeem niet altijd vanzelfsprekend zijn. Daarnaast vergt het van het publiek een zekere bereidheid om complexiteit te accepteren en niet elke onzekerheid te vertalen naar wantrouwen.\n\nUiteindelijk laat deze ontwikkeling zien dat wetenschap en samenleving steeds nauwer met elkaar verweven zijn geraakt. Twijfel verdwijnt niet door haar te verbergen, maar kan ook niet zonder context worden losgelaten. De uitdaging ligt in het vinden van een balans waarin onzekerheid haar wetenschappelijke functie behoudt, zonder te worden misbruikt of verkeerd begrepen in het publieke debat.",
+      "wordCount": 512,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat is volgens de tekst een positief effect van het zichtbaar worden van wetenschappelijke twijfel voor het publiek?",
+          "options": {
+            "A": "Dat wetenschap sneller tot definitieve conclusies komt",
+            "B": "Dat burgers beter begrijpen hoe wetenschappelijke kennis ontstaat",
+            "C": "Dat wetenschappers minder kritiek krijgen"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst stelt dat zichtbaarheid kan bijdragen aan transparantie en begrip van het wetenschappelijk proces.",
+          "evidenceQuote": "Burgers krijgen inzicht in hoe kennis tot stand komt en leren dat wetenschap geen verzameling onveranderlijke waarheden is"
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Waarom leidt publieke twijfel volgens de tekst vaak tot wantrouwen in plaats van vertrouwen?",
+          "options": {
+            "A": "Omdat wetenschappers bewust fouten maken",
+            "B": "Omdat twijfel buiten de wetenschappelijke context anders wordt geïnterpreteerd",
+            "C": "Omdat media wetenschappelijke onderwerpen vermijden"
+          },
+          "correctAnswer": "B",
+          "explanation": "Wat intern zorgvuldigheid betekent, wordt extern gezien als onbetrouwbaarheid.",
+          "evidenceQuote": "Wat binnen de wetenschap geldt als een teken van zorgvuldigheid, wordt buiten die context soms gezien als bewijs van onbetrouwbaarheid"
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Wat wordt bedoeld met het idee dat twijfel \"een eigen leven krijgt\" in het publieke domein?",
+          "options": {
+            "A": "Dat twijfel volledig verdwijnt uit het debat",
+            "B": "Dat twijfel losraakt van haar oorspronkelijke betekenis",
+            "C": "Dat twijfel alleen nog door politici wordt gebruikt"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst beschrijft hoe twijfel wordt losgekoppeld van haar wetenschappelijke context.",
+          "evidenceQuote": "Twijfel wordt zo losgekoppeld van haar betekenis en krijgt een eigen leven in het publieke domein"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom bespreekt de auteur het strategisch gebruik van twijfel in maatschappelijke discussies?",
+          "options": {
+            "A": "Om te laten zien dat twijfel altijd schadelijk is",
+            "B": "Om te verklaren hoe onzekerheid wordt gebruikt om besluitvorming te beïnvloeden",
+            "C": "Om wetenschappers verantwoordelijk te houden voor politieke keuzes"
+          },
+          "correctAnswer": "B",
+          "explanation": "De auteur toont hoe twijfel wordt ingezet om beleid te vertragen of belangen te beschermen.",
+          "evidenceQuote": "Twijfel fungeert dan niet als uitnodiging tot verder onderzoek, maar als instrument om besluitvorming te blokkeren"
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is het centrale thema van de tekst?",
+          "options": {
+            "A": "De afname van wetenschappelijke kwaliteit",
+            "B": "De invloed van publieke twijfel op de relatie tussen wetenschap en samenleving",
+            "C": "De rol van technologie in wetenschappelijk onderzoek"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst onderzoekt consequenties van publieke twijfel voor vertrouwen en communicatie.",
+          "evidenceQuote": "De vraag is dan hoe wetenschap haar geloofwaardigheid kan behouden in een context waarin twijfel publiek bezit is geworden"
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie kan worden getrokken over de omgang met twijfel?",
+          "options": {
+            "A": "Twijfel moet volledig worden vermeden in publieke communicatie",
+            "B": "Twijfel vereist context om haar functie te behouden",
+            "C": "Twijfel is vooral een probleem van de media"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst benadrukt het belang van balans en context bij het delen van onzekerheid.",
+          "evidenceQuote": "Twijfel verdwijnt niet door haar te verbergen, maar kan ook niet zonder context worden losgelaten"
+        }
+      ]
+    },
+    {
+      "textId": 2,
+      "title": "Nieuwsconsumptie in tijden van overvloed: beter geïnformeerd of juist verward?",
+      "body": "De hoeveelheid nieuws die burgers dagelijks tot zich nemen is in de afgelopen decennia explosief toegenomen. Waar nieuwsconsumptie vroeger beperkt was tot een ochtendkrant, een radiobulletin en het journaal, worden mensen vandaag de dag continu geconfronteerd met meldingen, analyses, meningen en updates. Deze overvloed roept een fundamentele vraag op: leidt meer nieuws automatisch tot beter geïnformeerde burgers, of zorgt het juist voor verwarring en oppervlakkig begrip?\n\nVoorstanders van brede nieuwsvoorziening stellen dat toegang tot een grote diversiteit aan bronnen de democratische betrokkenheid vergroot. Burgers kunnen verschillende perspectieven vergelijken, factchecks raadplegen en zich verdiepen in achtergronden die vroeger moeilijk bereikbaar waren. In theorie zou deze rijkdom aan informatie leiden tot kritischere burgers die beter in staat zijn politieke en maatschappelijke ontwikkelingen te beoordelen. Deze redenering gaat echter uit van de aanname dat meer informatie ook daadwerkelijk leidt tot meer inzicht.\n\nIn de praktijk blijkt nieuwsconsumptie vaak fragmentarisch. Veel mensen volgen het nieuws niet via diepgravende artikelen, maar via korte berichten op sociale media, pushmeldingen of samenvattingen. Hierdoor ontstaat een continue stroom van losse feiten zonder context. Onderzoekers wijzen erop dat deze manier van consumeren het moeilijk maakt om samenhang te zien en prioriteiten te stellen. Niet elk nieuwsfeit is immers even relevant, maar in een constante informatiestroom vervaagt dit onderscheid.\n\nDaarnaast speelt emotie een steeds grotere rol in de selectie en presentatie van nieuws. Algoritmes belonen inhoud die aandacht trekt, wat vaak leidt tot nadruk op conflict, verontwaardiging of sensatie. Hierdoor krijgen extreme standpunten en incidenten relatief veel zichtbaarheid, terwijl genuanceerde analyses minder worden gedeeld. Het gevolg is dat nieuwsconsumenten een vertekend beeld kunnen krijgen van de werkelijkheid, waarbij uitzonderingen als regel worden ervaren.\n\nEen ander probleem is cognitieve overbelasting. Psychologisch onderzoek toont aan dat mensen moeite hebben met het verwerken van grote hoeveelheden informatie. Wanneer nieuws zich in hoog tempo aandient, neemt de kans toe dat mensen afhaken of selectief gaan filteren op basis van bevestiging van bestaande overtuigingen. Dit fenomeen, ook wel bekend als selectieve blootstelling, versterkt polarisatie en vermindert de bereidheid om tegengestelde standpunten serieus te nemen.\n\nToch is het te eenvoudig om nieuwsconsumenten uitsluitend als slachtoffers van het systeem te beschouwen. Ook individuele keuzes spelen een rol. Sommige mensen ontwikkelen strategieën om met overvloed om te gaan, bijvoorbeeld door vaste momenten voor nieuws te kiezen of zich te beperken tot een klein aantal betrouwbare bronnen. Anderen investeren juist bewust in achtergrondinformatie en longreads. Dit wijst erop dat de impact van nieuwsoverschot sterk verschilt per persoon.\n\nDe vraag is daarom niet alleen hoeveel nieuws beschikbaar is, maar ook hoe burgers leren omgaan met die beschikbaarheid. Mediawijsheid wordt steeds vaker genoemd als essentiële vaardigheid. Het vermogen om bronnen te beoordelen, context te herkennen en informatie te wegen is cruciaal om niet te verdrinken in het aanbod. Zonder deze vaardigheden kan overvloed aan nieuws leiden tot onzekerheid, wantrouwen en apathie.\n\nUiteindelijk lijkt nieuwsconsumptie in tijden van overvloed zowel kansen als risico's te bieden. Meer informatie kan leiden tot beter geïnformeerde burgers, maar alleen wanneer die informatie wordt verwerkt binnen een kader van reflectie en selectie. Zonder dat kader verandert overvloed in ruis, en kennis in verwarring. De uitdaging ligt dus niet zozeer in het beperken van nieuws, maar in het ontwikkelen van mechanismen – zowel individueel als institutioneel – die helpen betekenis te geven aan wat ons dagelijks bereikt.",
+      "wordCount": 549,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat was volgens de tekst een belangrijk verschil tussen nieuwsconsumptie vroeger en nu?",
+          "options": {
+            "A": "Nieuws werd vroeger vooral internationaal aangeboden",
+            "B": "Nieuws was vroeger beperkt tot een klein aantal vaste momenten",
+            "C": "Nieuws werd vroeger vooral door experts geïnterpreteerd"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst beschrijft dat nieuwsconsumptie vroeger gebonden was aan vaste media en tijdstippen.",
+          "evidenceQuote": "Waar nieuwsconsumptie vroeger beperkt was tot een ochtendkrant, een radiobulletin en het journaal"
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan worden afgeleid over de relatie tussen nieuws en democratische betrokkenheid?",
+          "options": {
+            "A": "Meer nieuws leidt altijd tot meer betrokkenheid",
+            "B": "Betrokkenheid hangt af van hoe nieuws wordt verwerkt",
+            "C": "Democratische betrokkenheid is onafhankelijk van nieuwsconsumptie"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst suggereert dat toegang alleen niet voldoende is zonder inzicht en verwerking.",
+          "evidenceQuote": "Deze redenering gaat echter uit van de aanname dat meer informatie ook daadwerkelijk leidt tot meer inzicht"
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke uitspraak komt het dichtst bij de betekenis van 'fragmentarische nieuwsconsumptie'?",
+          "options": {
+            "A": "Nieuws wordt voornamelijk lokaal gevolgd",
+            "B": "Nieuws wordt in losse, niet-samenhangende delen geconsumeerd",
+            "C": "Nieuws wordt vooral via traditionele media verspreid"
+          },
+          "correctAnswer": "B",
+          "explanation": "Fragmentarisch verwijst hier naar losse feiten zonder context.",
+          "evidenceQuote": "Hierdoor ontstaat een continue stroom van losse feiten zonder context"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom benoemt de auteur algoritmes expliciet in de tekst?",
+          "options": {
+            "A": "Om technologische vooruitgang te prijzen",
+            "B": "Om een verklaring te geven voor vertekende nieuwsbeelden",
+            "C": "Om sociale media volledig af te wijzen"
+          },
+          "correctAnswer": "B",
+          "explanation": "Algoritmes worden genoemd als oorzaak van nadruk op sensatie en extremen.",
+          "evidenceQuote": "Algoritmes belonen inhoud die aandacht trekt, wat vaak leidt tot nadruk op conflict"
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale boodschap van de tekst?",
+          "options": {
+            "A": "Nieuwsoverschot is vooral een technologisch probleem",
+            "B": "Meer nieuws is schadelijk voor de samenleving",
+            "C": "Nieuwsoverschot biedt kansen en risico's afhankelijk van omgang ermee"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst weegt zowel positieve als negatieve gevolgen van nieuwsoverschot.",
+          "evidenceQuote": "Uiteindelijk lijkt nieuwsconsumptie in tijden van overvloed zowel kansen als risico's te bieden"
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Wat kan worden geconcludeerd over de rol van mediawijsheid?",
+          "options": {
+            "A": "Mediawijsheid is vooral relevant voor journalisten",
+            "B": "Mediawijsheid kan de negatieve effecten van nieuwsoverschot beperken",
+            "C": "Mediawijsheid vervangt de noodzaak van betrouwbare media"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst presenteert mediawijsheid als sleutel om betekenis te geven aan informatie.",
+          "evidenceQuote": "Mediawijsheid wordt steeds vaker genoemd als essentiële vaardigheid"
+        }
+      ]
+    }
+  ]
+}
+

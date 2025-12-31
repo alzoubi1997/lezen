@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 3,
+  "titleNl": "Oefening 3",
+  "titleAr": "تمرين 3",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "De verantwoordelijkheid van experts tegenover algoritmen",
+      "topic": "Technologie & ethiek",
+      "level": "C1",
+      "content": "De verantwoordelijkheid van experts tegenover algoritmen\n\nDe opkomst van algoritmen heeft de manier waarop beslissingen worden genomen ingrijpend veranderd. In steeds meer domeinen, van gezondheidszorg tot rechtspraak en van personeelsselectie tot kredietverlening, spelen geautomatiseerde systemen een centrale rol. Deze systemen beloven efficiëntie, consistentie en objectiviteit. Tegelijkertijd roept hun groeiende invloed fundamentele vragen op over verantwoordelijkheid. Wanneer beslissingen mede of volledig door algoritmen worden genomen, rijst de vraag wie uiteindelijk aansprakelijk is voor de gevolgen: de expert, de organisatie of het systeem zelf.\n\nAlgoritmen worden vaak voorgesteld als neutrale hulpmiddelen die menselijke fouten verminderen. In werkelijkheid zijn ze gebaseerd op data en modellen die door mensen zijn ontworpen. De keuzes die daarbij worden gemaakt, zoals welke variabelen worden meegenomen en hoe risico's worden gewogen, weerspiegelen impliciete aannames. Wanneer deze aannames niet expliciet worden besproken, ontstaat het gevaar dat algoritmische uitkomsten als objectieve waarheid worden geaccepteerd, terwijl ze slechts een specifieke interpretatie van de werkelijkheid vertegenwoordigen.\n\nExperts bevinden zich hierdoor in een lastige positie. Enerzijds beschikken zij over professionele kennis en ervaring die essentieel is om beslissingen te duiden. Anderzijds worden zij steeds vaker geconfronteerd met systemen die aanbevelingen doen op basis van grote hoeveelheden data. Het volgen van zo'n aanbeveling kan veilig lijken, omdat de verantwoordelijkheid wordt gedeeld met het systeem. Afwijken daarvan vereist echter argumentatie en kan leiden tot verantwoording achteraf. Hierdoor ontstaat de neiging om algoritmen leidend te maken, zelfs wanneer experts twijfels hebben.\n\nDit spanningsveld is zichtbaar in de gezondheidszorg. Artsen gebruiken algoritmen om diagnoses te ondersteunen of behandelopties te rangschikken. Hoewel deze systemen waardevolle inzichten kunnen bieden, kunnen zij de complexiteit van individuele gevallen niet volledig omvatten. Wanneer een arts een algoritmisch advies volgt dat slecht uitpakt, is het onduidelijk of de fout bij de arts of bij het systeem ligt. Deze onduidelijkheid kan het professioneel oordeel onder druk zetten.\n\nOok in andere sectoren speelt dit probleem. Bij personeelsselectie worden algoritmen ingezet om kandidaten te beoordelen op basis van vooraf vastgestelde criteria. Dit kan leiden tot efficiëntere processen, maar ook tot uitsluiting wanneer data historische vooroordelen bevat. Experts die deze systemen gebruiken, dragen een verantwoordelijkheid om de uitkomsten kritisch te evalueren. Blind vertrouwen in technologie kan bestaande ongelijkheden versterken in plaats van verminderen.\n\nVoorstanders van algoritmische besluitvorming benadrukken dat menselijke beslissingen eveneens subjectief en foutgevoelig zijn. Zij stellen dat algoritmen transparanter en consistenter kunnen zijn dan individuele experts. Dit argument heeft waarde, maar verliest zijn kracht wanneer algoritmen worden gebruikt zonder voldoende inzicht in hun werking. Transparantie betekent niet alleen inzicht in de uitkomst, maar ook begrip van de onderliggende aannames en beperkingen.\n\nDaarom pleiten critici voor een herdefinitie van verantwoordelijkheid. In plaats van verantwoordelijkheid te verschuiven naar technologie, zou zij juist explicieter bij experts moeten blijven liggen. Algoritmen kunnen ondersteunen, maar mogen het professioneel oordeel niet vervangen. Dit vraagt om duidelijke kaders waarin experts bevoegd zijn om af te wijken van algoritmische aanbevelingen en waarin organisaties verantwoordelijkheid nemen voor de inzet van deze systemen.\n\nDe uitdaging ligt in het vinden van een evenwicht tussen technologische ondersteuning en menselijke verantwoordelijkheid. Algoritmen kunnen waardevolle hulpmiddelen zijn, mits zij worden ingebed in een cultuur van kritisch denken en ethische reflectie. Alleen wanneer experts hun rol blijven erkennen en versterken, kan technologie bijdragen aan betere en rechtvaardigere besluitvorming.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is het centrale probleem dat in de tekst wordt besproken?",
+          "promptAr": "ما هي المشكلة المركزية التي يناقشها النص؟",
+          "options": [
+            "Dat algoritmen te complex zijn om te gebruiken",
+            "Dat de verantwoordelijkheid bij algoritmische beslissingen onduidelijk wordt",
+            "Dat experts onvoldoende technische kennis hebben"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst bespreekt het probleem dat onduidelijk is wie verantwoordelijk is wanneer algoritmen beslissingen nemen.",
+          "explanationAr": "النص يناقش مشكلة عدم وضوح المسؤولية عند اتخاذ الخوارزميات للقرارات.",
+          "trapNoteNl": "A en C worden niet genoemd als het centrale probleem.",
+          "trapNoteAr": "A و C غير مذكورين كمشكلة مركزية.",
+          "evidenceQuote": "rijst de vraag wie uiteindelijk aansprakelijk is voor de gevolgen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom kunnen algoritmen volgens de tekst niet als volledig objectief worden beschouwd?",
+          "promptAr": "لماذا لا يمكن اعتبار الخوارزميات موضوعية تمامًا حسب النص؟",
+          "options": [
+            "Omdat ze te weinig data gebruiken",
+            "Omdat ze menselijke aannames en keuzes weerspiegelen",
+            "Omdat ze altijd fouten bevatten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat algoritmen gebaseerd zijn op menselijke keuzes en impliciete aannames.",
+          "explanationAr": "النص يوضح أن الخوارزميات مبنية على خيارات بشرية وافتراضات ضمنية.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "weerspiegelen impliciete aannames"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat wordt bedoeld met de 'neiging om algoritmen leidend te maken'?",
+          "promptAr": "ماذا يعني \"الميل لجعل الخوارزميات قائدة\"؟",
+          "options": [
+            "Experts nemen sneller beslissingen",
+            "Experts volgen algoritmisch advies om verantwoordelijkheid te vermijden",
+            "Experts begrijpen algoritmen beter dan voorheen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat het volgen van algoritmisch advies veilig kan lijken omdat verantwoordelijkheid wordt gedeeld.",
+          "explanationAr": "النص يوضح أن اتباع نصيحة خوارزمية قد يبدو آمنًا لأن المسؤولية مشتركة.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "Het volgen van zo'n aanbeveling kan veilig lijken"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke sector wordt expliciet genoemd als voorbeeld van het spanningsveld tussen expert en algoritme?",
+          "promptAr": "ما القطاع المذكور صراحة كمثال للتوتر بين الخبير والخوارزمية؟",
+          "options": [
+            "Rechtspraak",
+            "Gezondheidszorg",
+            "Kredietverlening"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt expliciet de gezondheidszorg als voorbeeld waar dit spanningsveld zichtbaar is.",
+          "explanationAr": "النص يذكر صراحة الرعاية الصحية كمثال حيث يكون هذا التوتر واضحًا.",
+          "trapNoteNl": "A en C worden wel genoemd, maar niet als expliciet voorbeeld van het spanningsveld.",
+          "trapNoteAr": "A و C مذكوران لكن ليسا كمثال صريح للتوتر.",
+          "evidenceQuote": "Dit spanningsveld is zichtbaar in de gezondheidszorg"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom kan het gebruik van algoritmen bij personeelsselectie problematisch zijn?",
+          "promptAr": "لماذا قد يكون استخدام الخوارزميات في اختيار الموظفين إشكاليًا؟",
+          "options": [
+            "Omdat het proces trager wordt",
+            "Omdat algoritmen altijd discrimineren",
+            "Omdat bestaande vooroordelen kunnen worden versterkt"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst stelt dat algoritmen bij personeelsselectie kunnen leiden tot uitsluiting wanneer data historische vooroordelen bevat.",
+          "explanationAr": "النص يوضح أن الخوارزميات في اختيار الموظفين قد تؤدي للاستبعاد عندما تحتوي البيانات على تحيزات تاريخية.",
+          "trapNoteNl": "A wordt niet genoemd. B is te absoluut.",
+          "trapNoteAr": "A غير مذكور. B مطلق جدًا.",
+          "evidenceQuote": "data historische vooroordelen bevat"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom pleiten critici volgens de tekst voor een herdefinitie van verantwoordelijkheid?",
+          "promptAr": "لماذا يدعو النقاد لإعادة تعريف المسؤولية حسب النص؟",
+          "options": [
+            "Om algoritmen meer macht te geven",
+            "Om technologie volledig af te wijzen",
+            "Om het professioneel oordeel van experts te behouden"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst stelt dat algoritmen het professioneel oordeel niet mogen vervangen en dat verantwoordelijkheid bij experts moet blijven.",
+          "explanationAr": "النص يوضح أن الخوارزميات لا يجب أن تحل محل الحكم المهني وأن المسؤولية يجب أن تبقى عند الخبراء.",
+          "trapNoteNl": "A en B zijn het tegenovergestelde van wat de tekst zegt.",
+          "trapNoteAr": "A و B عكس ما يقوله النص.",
+          "evidenceQuote": "Algoritmen kunnen ondersteunen, maar mogen het professioneel oordeel niet vervangen"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Waarom complexiteit structurele oplossingen vereist",
+      "topic": "Beleid & complexiteit",
+      "level": "C1",
+      "content": "Waarom complexiteit structurele oplossingen vereist\n\nIn beleidsvorming en academische debatten wordt steeds vaker erkend dat complexe maatschappelijke problemen niet effectief kunnen worden aangepakt met eenvoudige maatregelen. Toch blijft de neiging bestaan om ingewikkelde vraagstukken te reduceren tot overzichtelijke oorzaken en snelle ingrepen. Deze spanning tussen complexiteit en vereenvoudiging vormt een fundamenteel probleem in hedendaagse besluitvorming en heeft grote gevolgen voor de effectiviteit van beleid.\n\nComplexe problemen kenmerken zich door meerdere niveaus van samenhang. Economische processen beïnvloeden sociale structuren, terwijl culturele normen het gedrag van individuen sturen. Tegelijkertijd reageren instituties op deze dynamieken met regels en beleid, die op hun beurt nieuwe gedragsvormen creëren. Deze wederzijdse beïnvloeding maakt het moeilijk om één duidelijke oorzaak aan te wijzen. Wanneer beleidsmakers dat toch proberen, ontstaat het risico dat belangrijke mechanismen onzichtbaar blijven.\n\nEen centraal kenmerk van complexiteit is dat systemen zich niet lineair gedragen. Kleine ingrepen kunnen grote gevolgen hebben, terwijl ingrijpende maatregelen soms nauwelijks effect sorteren. Dit fenomeen wordt versterkt door menselijk gedrag. Mensen reageren niet passief op beleid, maar interpreteren, omzeilen of herdefiniëren regels op basis van hun eigen belangen en omstandigheden. Hierdoor kunnen goedbedoelde maatregelen onverwachte en soms ongewenste uitkomsten hebben.\n\nIn de praktijk leidt deze complexiteit vaak tot beleidsfalen. Wanneer resultaten tegenvallen, wordt de oplossing gezocht in strengere controle of aanvullende regels. Dit kan tijdelijk effect hebben, maar vergroot op lange termijn de afstand tussen beleid en werkelijkheid. Problemen verschuiven of manifesteren zich in een andere vorm, waardoor een cyclus van aanpassing en teleurstelling ontstaat. Het oorspronkelijke probleem blijft bestaan, terwijl de administratieve last toeneemt.\n\nBinnen organisaties is een vergelijkbaar patroon zichtbaar. Tegenvallende prestaties worden regelmatig verklaard door individuele tekortkomingen, zoals gebrek aan motivatie of discipline. Op basis daarvan worden uniforme maatregelen ingevoerd die weinig rekening houden met contextuele verschillen. Hierdoor worden structurele oorzaken, zoals leiderschap, cultuur of samenwerking, onvoldoende aangepakt. Medewerkers passen zich aan om aan nieuwe eisen te voldoen, zonder dat de onderliggende problemen worden opgelost.\n\nEen academische benadering van complexiteit benadrukt daarom het belang van structureel denken. In plaats van te zoeken naar snelle oplossingen, wordt gekeken naar patronen, interacties en langetermijneffecten. Dit vraagt om beleid dat flexibel is en ruimte laat voor aanpassing. Evaluatie wordt niet gezien als eindpunt, maar als doorlopend proces waarin inzichten voortdurend worden bijgesteld.\n\nDaarnaast vereist omgaan met complexiteit institutionele bescheidenheid. Beleidsmakers en organisaties moeten erkennen dat niet alle variabelen vooraf te overzien zijn. Dit betekent dat onzekerheid geen teken is van falen, maar een inherent onderdeel van besluitvorming. Door deze onzekerheid expliciet te erkennen, ontstaat ruimte voor leren en verbetering in plaats van defensieve controle.\n\nCommunicatie speelt hierbij een cruciale rol. Het uitleggen van complexiteit is moeilijker dan het presenteren van eenvoudige oplossingen. Toch is transparantie over beperkingen en onzekerheden essentieel om draagvlak te creëren. Wanneer burgers en medewerkers begrijpen dat beleid wordt aangepast op basis van nieuwe inzichten, neemt het vertrouwen in besluitvorming toe, zelfs wanneer resultaten niet onmiddellijk zichtbaar zijn.\n\nHet accepteren van complexiteit betekent niet dat besluitvorming verlamd raakt. Integendeel, het maakt doelgerichter handelen mogelijk. Door meerdere perspectieven te betrekken en door beleid als voorlopig te beschouwen, kunnen organisaties en overheden beter inspelen op veranderende omstandigheden. Structurele oplossingen vragen tijd en geduld, maar bieden uiteindelijk meer stabiliteit dan snelle ingrepen.\n\nDe uitdaging ligt daarom niet in het vinden van het perfecte antwoord, maar in het ontwikkelen van processen die leren mogelijk maken. Pas wanneer complexiteit wordt gezien als uitgangspunt in plaats van als obstakel, kunnen oplossingen ontstaan die recht doen aan de werkelijkheid en bijdragen aan duurzame verandering.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kern van de tekst?",
+          "promptAr": "ما جوهر النص؟",
+          "options": [
+            "Complexe problemen vereisen strengere regels",
+            "Complexiteit vraagt om structurele en flexibele benaderingen",
+            "Eenvoudige oplossingen zijn altijd inefficiënt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt herhaaldelijk dat complexe problemen niet opgelost kunnen worden met snelle of eenvoudige maatregelen, maar vragen om een structurele en flexibele aanpak. De schrijver legt uit dat vereenvoudiging leidt tot beleidsfalen en dat complexiteit als uitgangspunt moet worden genomen. Evidence uit de tekst: \"Complexe maatschappelijke problemen niet effectief kunnen worden aangepakt met eenvoudige maatregelen.\"",
+          "explanationAr": "النص يؤكد أن التعقيد يتطلب نهجًا هيكليًا ومرنًا بدلًا من التدابير البسيطة.",
+          "trapNoteNl": "A en C zijn te extreem en worden niet ondersteund door de tekst.",
+          "trapNoteAr": "A و C متطرفان ولا يدعمهما النص.",
+          "evidenceQuote": "complexe maatschappelijke problemen niet effectief kunnen worden aangepakt met eenvoudige maatregelen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom zijn snelle beleidsingrepen vaak ineffectief?",
+          "promptAr": "لماذا التدخلات السياسية السريعة غالبًا غير فعالة؟",
+          "options": [
+            "Omdat ze te weinig steun krijgen",
+            "Omdat ze onderliggende mechanismen negeren",
+            "Omdat ze te duur zijn"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Snelle beleidsingrepen falen omdat ze zich richten op zichtbare symptomen en geen rekening houden met onderliggende mechanismen en samenhang tussen factoren. Hierdoor blijven structurele oorzaken bestaan. Evidence uit de tekst: \"Wanneer beleidsmakers dat toch proberen, ontstaat het risico dat belangrijke mechanismen onzichtbaar blijven.\"",
+          "explanationAr": "النص يوضح أنه عندما يركز صانعو السياسات على عنصر واحد، تبقى الآليات المهمة غير مرئية.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "ontstaat het risico dat belangrijke mechanismen onzichtbaar blijven"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is een kenmerk van niet-lineaire systemen volgens de tekst?",
+          "promptAr": "ما هي خاصية الأنظمة غير الخطية حسب النص؟",
+          "options": [
+            "Grote maatregelen hebben altijd grote effecten",
+            "Kleine ingrepen kunnen grote gevolgen hebben",
+            "Systemen reageren altijd voorspelbaar"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft niet-lineaire systemen als systemen waarin kleine veranderingen grote gevolgen kunnen hebben, terwijl grote ingrepen soms weinig effect sorteren. Evidence uit de tekst: \"Kleine ingrepen kunnen grote gevolgen hebben, terwijl ingrijpende maatregelen soms nauwelijks effect sorteren.\"",
+          "explanationAr": "النص يوضح صراحة أن التدخلات الصغيرة قد يكون لها عواقب كبيرة، بينما التدابير الكبيرة أحيانًا لا تحقق تأثيرًا يذكر.",
+          "trapNoteNl": "A en C worden niet genoemd als kenmerk.",
+          "trapNoteAr": "A و C غير مذكورين كخاصية.",
+          "evidenceQuote": "Kleine ingrepen kunnen grote gevolgen hebben"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met 'institutionele bescheidenheid'?",
+          "promptAr": "ماذا يقصد الكاتب بـ \"التواضع المؤسسي\"؟",
+          "options": [
+            "Minder beleid voeren",
+            "Onzekerheid erkennen als onderdeel van besluitvorming",
+            "Verantwoordelijkheid vermijden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Met 'institutionele bescheidenheid' bedoelt de schrijver dat beleidsmakers moeten erkennen dat onzekerheid onvermijdelijk is en dat niet alle variabelen vooraf te controleren zijn. Evidence uit de tekst: \"Dit betekent dat onzekerheid geen teken is van falen, maar een inherent onderdeel van besluitvorming.\"",
+          "explanationAr": "النص يوضح أن عدم اليقين ليس علامة فشل بل جزء متأصل من اتخاذ القرارات.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "onzekerheid geen teken is van falen, maar een inherent onderdeel van besluitvorming"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom kan transparante communicatie vertrouwen vergroten?",
+          "promptAr": "لماذا قد تزيد التواصل الشفاف من الثقة؟",
+          "options": [
+            "Omdat resultaten sneller zichtbaar zijn",
+            "Omdat onzekerheid wordt genegeerd",
+            "Omdat aanpassing wordt uitgelegd"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Transparantie vergroot vertrouwen omdat mensen begrijpen dat beleid wordt aangepast op basis van nieuwe inzichten, ook wanneer resultaten niet direct zichtbaar zijn. Evidence uit de tekst: \"Wanneer burgers en medewerkers begrijpen dat beleid wordt aangepast op basis van nieuwe inzichten, neemt het vertrouwen toe.\"",
+          "explanationAr": "النص يوضح أنه عندما يفهم المواطنون والموظفون أن السياسة تُعدل بناءً على رؤى جديدة، تزداد الثقة.",
+          "trapNoteNl": "A en B worden niet genoemd als reden.",
+          "trapNoteAr": "A و B غير مذكورين كسبب.",
+          "evidenceQuote": "Wanneer burgers en medewerkers begrijpen dat beleid wordt aangepast op basis van nieuwe inzichten"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom eindigt de tekst met het belang van leerprocessen?",
+          "promptAr": "لماذا ينهي النص بأهمية عمليات التعلم؟",
+          "options": [
+            "Om besluitvorming te vertragen",
+            "Om te benadrukken dat oplossingen dynamisch zijn",
+            "Om snelle antwoorden af te wijzen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst eindigt met het belang van leerprocessen om te benadrukken dat oplossingen geen vast eindpunt hebben, maar voortdurend moeten worden aangepast aan veranderende omstandigheden. Evidence uit de tekst: \"Oplossingen ontstaan die recht doen aan de werkelijkheid en bijdragen aan duurzame verandering.\"",
+          "explanationAr": "النص يؤكد أن التحدي يكمن في تطوير عمليات تمكن التعلم، مما يجعل الحلول ديناميكية.",
+          "trapNoteNl": "A en C worden niet genoemd als doel.",
+          "trapNoteAr": "A و C غير مذكورين كهدف.",
+          "evidenceQuote": "het ontwikkelen van processen die leren mogelijk maken"
+        }
+      ]
+    }
+  ]
+}

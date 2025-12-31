@@ -1,0 +1,178 @@
+{
+  "practiceId": 14,
+  "texts": [
+    {
+      "textId": 1,
+      "title": "Ethiek zonder handleiding: wie bepaalt wat 'juist' is in het publieke debat?",
+      "body": "In moderne samenlevingen wordt ethiek steeds vaker besproken in het publieke debat, maar zelden bestaat er overeenstemming over wat precies als 'juist' of 'onjuist' moet worden beschouwd. Waar ethische vraagstukken vroeger vooral het domein waren van filosofen, religieuze leiders of juristen, spelen vandaag de dag ook media, burgers, belangengroepen en politici een centrale rol. Deze verbreding van stemmen heeft het debat toegankelijker gemaakt, maar ook complexer en fragmentarischer.\n\nEen belangrijk kenmerk van hedendaagse ethische discussies is dat zij vaak ontstaan naar aanleiding van concrete gebeurtenissen. Denk aan controverses rond privacy, medische beslissingen, vrijheid van meningsuiting of sociale rechtvaardigheid. Zulke onderwerpen roepen sterke emoties op, waardoor morele oordelen soms sneller worden geuit dan doordacht geformuleerd. In een medialandschap dat snelheid en zichtbaarheid beloont, krijgen uitgesproken meningen vaak meer aandacht dan genuanceerde afwegingen.\n\nTegelijkertijd is er geen gedeeld moreel kader waarop iedereen kan terugvallen. In pluralistische samenlevingen leven uiteenlopende waarden en overtuigingen naast elkaar. Wat voor de ene groep vanzelfsprekend juist is, kan door een andere groep als problematisch of zelfs onacceptabel worden gezien. Hierdoor verschuift de vraag van *wat* juist is naar *wie* het recht heeft om dat te bepalen. Die verschuiving maakt ethiek minder een kwestie van regels en meer een proces van onderhandeling.\n\nOverheden proberen soms richting te geven door wetgeving of beleidskaders, maar ook zij opereren binnen ethische grenzen die niet altijd duidelijk zijn. Wetgeving kan gedrag sturen, maar niet elk moreel dilemma laat zich vertalen naar juridische regels. Bovendien kan een beroep op ethiek door de overheid worden ervaren als betuttelend of ideologisch, vooral wanneer burgers het gevoel hebben dat hun waarden onvoldoende worden meegenomen.\n\nWetenschappers en experts spelen eveneens een ambivalente rol. Hun analyses kunnen bijdragen aan een beter begrip van de gevolgen van bepaald handelen, maar zij kunnen niet bepalen welke waarden uiteindelijk doorslaggevend moeten zijn. Wanneer experts toch normatieve uitspraken doen, lopen zij het risico hun gezag te verliezen, omdat hun rol verschuift van analyserend naar beoordelend. Dit roept wantrouwen op, vooral in tijden waarin expertise al onder druk staat.\n\nBurgers zelf zijn steeds actiever in het publieke debat, mede dankzij sociale media. Dit vergroot de zichtbaarheid van ethische conflicten, maar leidt ook tot polarisatie. Algoritmen versterken vaak bestaande overtuigingen, waardoor mensen vooral worden blootgesteld aan gelijkgestemde meningen. In zo'n omgeving wordt ethiek niet zozeer een gezamenlijke zoektocht, maar een strijd om morele dominantie.\n\nToch biedt deze situatie ook kansen. Juist omdat er geen vaste handleiding bestaat, dwingt het publieke debat tot voortdurende reflectie. Ethiek wordt daarmee geen vaststaand eindpunt, maar een dynamisch proces waarin waarden steeds opnieuw tegen elkaar worden afgewogen. Dat proces is ongemakkelijk en soms chaotisch, maar het weerspiegelt wel de realiteit van een diverse samenleving.\n\nDe kernvraag blijft echter open: als niemand het laatste woord heeft, hoe voorkomen we dan dat ethiek verwordt tot willekeur? Het antwoord ligt mogelijk niet in het aanwijzen van één autoriteit, maar in het erkennen van het debat zelf als essentieel onderdeel van een democratische samenleving. Juist door meningsverschillen zichtbaar te maken en serieus te nemen, kan ethiek functioneren als spiegel van maatschappelijke spanningen én als uitnodiging tot gezamenlijke verantwoordelijkheid.",
+      "wordCount": 515,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat wordt in de tekst genoemd als een belangrijke oorzaak van het fragmentarische karakter van hedendaagse ethische debatten?",
+          "options": {
+            "A": "Het gebrek aan wetenschappelijke kennis",
+            "B": "De toename van verschillende stemmen in het debat",
+            "C": "De afname van politieke betrokkenheid"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst benadrukt dat meer betrokken actoren het debat complexer en versnipperd maken.",
+          "evidenceQuote": "Deze verbreding van stemmen heeft het debat toegankelijker gemaakt, maar ook complexer en fragmentarischer."
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan worden afgeleid over de rol van emoties in publieke ethische discussies?",
+          "options": {
+            "A": "Emoties zorgen altijd voor meer betrokkenheid en diepgang",
+            "B": "Emoties maken ethische oordelen vaak minder doordacht",
+            "C": "Emoties spelen nauwelijks een rol in morele afwegingen"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst suggereert dat sterke emoties snelle, minder doordachte oordelen bevorderen.",
+          "evidenceQuote": "Zulke onderwerpen roepen sterke emoties op, waardoor morele oordelen soms sneller worden geuit dan doordacht geformuleerd."
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke formulering komt het dichtst in de buurt van de betekenis van de verschuiving van 'wat' naar 'wie' juist is?",
+          "options": {
+            "A": "Ethiek wordt minder belangrijk dan voorheen",
+            "B": "De focus ligt meer op macht dan op inhoud",
+            "C": "Morele vragen draaien steeds meer om legitimiteit van besluitvorming"
+          },
+          "correctAnswer": "C",
+          "explanation": "De verschuiving gaat over wie het recht heeft morele normen vast te stellen.",
+          "evidenceQuote": "Hierdoor verschuift de vraag van *wat* juist is naar *wie* het recht heeft om dat te bepalen."
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom beschrijft de auteur de rol van experts als 'ambivalent'?",
+          "options": {
+            "A": "Omdat experts vaak tegenstrijdige adviezen geven",
+            "B": "Omdat zij analyseren maar geen waarden kunnen vaststellen",
+            "C": "Omdat hun kennis te theoretisch is voor de praktijk"
+          },
+          "correctAnswer": "B",
+          "explanation": "Experts kunnen gevolgen duiden, maar geen morele keuzes bepalen.",
+          "evidenceQuote": "zij kunnen niet bepalen welke waarden uiteindelijk doorslaggevend moeten zijn"
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale boodschap van de tekst?",
+          "options": {
+            "A": "Ethiek kan alleen functioneren via duidelijke regels",
+            "B": "Het publieke debat heeft ethiek overbodig gemaakt",
+            "C": "Ethiek is een dynamisch proces zonder vaste autoriteit"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst benadrukt ethiek als voortdurende maatschappelijke afweging.",
+          "evidenceQuote": "Ethiek wordt daarmee geen vaststaand eindpunt, maar een dynamisch proces waarin waarden steeds opnieuw tegen elkaar worden afgewogen."
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke oplossing suggereert de auteur impliciet voor het omgaan met ethische meningsverschillen?",
+          "options": {
+            "A": "Het versterken van juridische kaders",
+            "B": "Het uitsluiten van extreme standpunten",
+            "C": "Het serieus nemen van het debat zelf"
+          },
+          "correctAnswer": "C",
+          "explanation": "De auteur ziet het debat als kern van democratische ethiek.",
+          "evidenceQuote": "in het erkennen van het debat zelf als essentieel onderdeel van een democratische samenleving"
+        }
+      ]
+    },
+    {
+      "textId": 2,
+      "title": "Generaties op de werkvloer: bron van conflict of motor van vernieuwing?",
+      "body": "Organisaties worden vandaag de dag geconfronteerd met een ongekende diversiteit aan generaties op de werkvloer. Waar vroeger vaak twee generaties naast elkaar werkten, zijn dat er nu soms vier of zelfs vijf: van werknemers die hun loopbaan begonnen vóór de digitalisering tot jongere medewerkers die zijn opgegroeid met sociale media, flexibiliteit en permanente online bereikbaarheid. Deze situatie roept regelmatig spanningen op, maar biedt tegelijkertijd kansen voor vernieuwing en wederzijds leren. De vraag is daarom niet alleen of generatieverschillen problematisch zijn, maar vooral hoe organisaties ermee omgaan.\n\nConflicten tussen generaties ontstaan vaak door uiteenlopende verwachtingen over werk en organisatiecultuur. Oudere werknemers hechten doorgaans meer waarde aan stabiliteit, hiërarchie en opgebouwde ervaring, terwijl jongere generaties vaker nadruk leggen op autonomie, zingeving en een goede balans tussen werk en privéleven. Deze verschillen worden soms geïnterpreteerd als gebrek aan loyaliteit of inzet, terwijl ze in werkelijkheid voortkomen uit veranderde maatschappelijke omstandigheden. Arbeidsmarktonzekerheid, technologische versnelling en flexibilisering hebben immers geleid tot andere loopbaanstrategieën dan in het verleden gebruikelijk waren.\n\nDaarnaast speelt communicatie een belangrijke rol. Verschillende generaties gebruiken andere communicatiestijlen en -middelen, wat kan leiden tot misverstanden. Waar de ene werknemer een persoonlijk gesprek verkiest, kiest de andere voor snelle digitale communicatie. Wanneer deze voorkeuren niet expliciet worden besproken, ontstaan er snel aannames over onprofessioneel gedrag of gebrek aan betrokkenheid. Dit soort interpretaties versterkt het idee dat generatieverschillen vooral een bron van conflict zijn.\n\nTegelijkertijd laten onderzoeken zien dat leeftijdsdiverse teams juist innovatiever kunnen zijn. Jongere werknemers brengen vaak nieuwe perspectieven en technologische vaardigheden mee, terwijl oudere collega's beschikken over institutionele kennis en ervaring met complexe besluitvorming. Wanneer deze kwaliteiten worden gecombineerd, ontstaat er een bredere blik op problemen en mogelijke oplossingen. Vernieuwing is in dit perspectief geen exclusief kenmerk van één generatie, maar het resultaat van samenwerking tussen verschillende leeftijden.\n\nEen belangrijke voorwaarde voor deze samenwerking is een organisatiecultuur die ruimte biedt aan wederzijds begrip. Dat vraagt om leiderschap dat generatieverschillen niet reduceert tot stereotypen, maar ze beschouwt als dynamisch en contextafhankelijk. Het risico van generatiemanagement is namelijk dat mensen worden vastgezet in vaste categorieën, terwijl individuele verschillen vaak groter zijn dan generatieverschillen. Effectief beleid richt zich daarom minder op leeftijd en meer op vaardigheden, behoeften en ontwikkelingsmogelijkheden.\n\nOok leren speelt een centrale rol. Traditioneel wordt kennisoverdracht gezien als eenrichtingsverkeer van oud naar jong, maar in de huidige praktijk is wederkerigheid steeds belangrijker. Mentorschap kan bijvoorbeeld worden uitgebreid met omgekeerde vormen, waarbij jongere werknemers oudere collega's ondersteunen bij digitale vaardigheden. Dit draagt niet alleen bij aan kennisdeling, maar ook aan onderling respect en erkenning.\n\nToch blijven er spanningen bestaan, zeker in tijden van verandering. Reorganisaties, technologische innovaties of hybride werken leggen verschillen in tempo en aanpassingsvermogen bloot. De uitdaging voor organisaties is om deze verschillen niet te problematiseren, maar te benutten. Dat vereist duidelijke communicatie, realistische verwachtingen en bereidheid om bestaande werkvormen ter discussie te stellen.\n\nGeneraties op de werkvloer vormen daarmee zowel een potentiële bron van conflict als een motor van vernieuwing. Welke van de twee overheerst, hangt minder af van leeftijdsverschillen zelf en meer van de manier waarop organisaties deze verschillen erkennen en structureren. In een arbeidsmarkt die voortdurend verandert, lijkt het vermogen om generaties te verbinden eerder een noodzakelijke competentie dan een bijkomstige luxe.",
+      "wordCount": 533,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat is volgens de tekst een belangrijke oorzaak van spanningen tussen generaties op de werkvloer?",
+          "options": {
+            "A": "Onwil van jongere werknemers om verantwoordelijkheid te nemen",
+            "B": "Verschillende verwachtingen over werk en organisatiecultuur",
+            "C": "Gebrek aan technologische middelen binnen organisaties"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst noemt uiteenlopende verwachtingen als kernoorzaak van spanningen.",
+          "evidenceQuote": "Conflicten tussen generaties ontstaan vaak door uiteenlopende verwachtingen over werk en organisatiecultuur."
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan worden afgeleid over jongere generaties op basis van de tekst?",
+          "options": {
+            "A": "Zij zijn minder loyaal aan organisaties dan oudere generaties",
+            "B": "Zij hebben andere loopbaanstrategieën ontwikkeld door maatschappelijke veranderingen",
+            "C": "Zij zijn vooral gericht op snelle carrièrestappen"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst koppelt hun houding aan veranderde maatschappelijke omstandigheden.",
+          "evidenceQuote": "hebben immers geleid tot andere loopbaanstrategieën"
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke zin drukt het best dezelfde gedachte uit als de passage over leeftijdsdiverse teams?",
+          "options": {
+            "A": "Teams met verschillende leeftijden zijn moeilijker te managen",
+            "B": "Innovatie ontstaat vooral door jong talent",
+            "C": "Vernieuwing komt voort uit samenwerking tussen verschillende ervaringen"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dit herformuleert het idee dat innovatie uit samenwerking ontstaat.",
+          "evidenceQuote": "Wanneer deze kwaliteiten worden gecombineerd, ontstaat er een bredere blik op problemen en mogelijke oplossingen."
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom bespreekt de auteur het risico van generatiemanagement?",
+          "options": {
+            "A": "Om te laten zien dat leeftijdsbeleid overbodig is",
+            "B": "Om te waarschuwen tegen het vastzetten van mensen in stereotypen",
+            "C": "Om aan te tonen dat generatieverschillen overdreven worden"
+          },
+          "correctAnswer": "B",
+          "explanation": "De auteur benadrukt het gevaar van vaste categorieën.",
+          "evidenceQuote": "Het risico van generatiemanagement is namelijk dat mensen worden vastgezet in vaste categorieën"
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale boodschap van de tekst?",
+          "options": {
+            "A": "Generatieverschillen leiden onvermijdelijk tot conflicten",
+            "B": "Leeftijdsdiversiteit vraagt om speciaal HR-beleid",
+            "C": "Generatieverschillen kunnen zowel problemen als kansen opleveren, afhankelijk van de aanpak"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst balanceert tussen conflict en vernieuwing.",
+          "evidenceQuote": "Generaties op de werkvloer vormen daarmee zowel een potentiële bron van conflict als een motor van vernieuwing."
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie kan worden getrokken over succesvolle organisaties?",
+          "options": {
+            "A": "Zij richten zich vooral op jonge werknemers",
+            "B": "Zij negeren generatieverschillen zoveel mogelijk",
+            "C": "Zij zijn in staat om verschillen tussen generaties actief te verbinden"
+          },
+          "correctAnswer": "C",
+          "explanation": "Succes hangt samen met het verbinden van generaties.",
+          "evidenceQuote": "het vermogen om generaties te verbinden eerder een noodzakelijke competentie dan een bijkomstige luxe"
+        }
+      ]
+    }
+  ]
+}
+

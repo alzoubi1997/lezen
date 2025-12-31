@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 2,
+  "titleNl": "Oefening 2",
+  "titleAr": "تمرين 2",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Wanneer efficiëntie de inhoud overschaduwt",
+      "topic": "Organisatie & maatschappij",
+      "level": "C1",
+      "content": "Wanneer efficiëntie de inhoud overschaduwt\n\nEfficiëntie wordt in veel moderne samenlevingen beschouwd als een vanzelfsprekend uitgangspunt. In organisaties, onderwijsinstellingen en overheidsbeleid staat het streven naar snelheid, meetbaarheid en kostenbesparing centraal. Processen worden geoptimaliseerd, taken opgesplitst en prestaties vastgelegd in cijfers. Deze benadering wordt vaak gepresenteerd als noodzakelijk om grip te houden op complexe systemen. Toch groeit de twijfel of efficiëntie, wanneer zij dominant wordt, niet juist ten koste gaat van de inhoud waarvoor zij oorspronkelijk bedoeld was.\n\nEen belangrijk kenmerk van efficiëntiedenken is standaardisering. Werkprocessen worden zo ingericht dat ze vergelijkbaar en controleerbaar zijn. Dit kan overzicht bieden en samenwerking vergemakkelijken. Tegelijkertijd vermindert standaardisering de ruimte voor professionele afwegingen. Werknemers worden geacht procedures te volgen, ook wanneer hun ervaring of expertise suggereert dat een andere aanpak beter zou passen bij de situatie. Hierdoor ontstaat spanning tussen wat formeel juist is en wat inhoudelijk wenselijk lijkt.\n\nDeze spanning is zichtbaar in sectoren waar menselijk contact centraal staat. In de zorg bijvoorbeeld besteden professionals steeds meer tijd aan het registreren van handelingen. Niet omdat dit direct bijdraagt aan betere zorg, maar omdat verantwoording vereist is. In het onderwijs geldt iets vergelijkbaars: leraren moeten leerdoelen aantoonbaar behalen en prestaties systematisch vastleggen. Het gevolg is dat tijd en aandacht verschuiven van interactie naar administratie. Efficiëntie krijgt daarmee voorrang boven inhoud.\n\nDaarnaast beïnvloedt efficiëntie hoe succes wordt gedefinieerd. Wat meetbaar is, krijgt meer waarde dan wat moeilijk in cijfers te vatten is. Kwaliteiten zoals empathie, creativiteit en kritisch denken verdwijnen naar de achtergrond, simpelweg omdat ze niet eenvoudig te kwantificeren zijn. Beslissingen worden genomen op basis van indicatoren en rapportages, terwijl context en nuance minder gewicht krijgen. Op lange termijn kan dit leiden tot een verschraling van professionele culturen.\n\nVoorstanders van efficiëntie benadrukken dat zonder meetbaarheid willekeur en inefficiënt gebruik van middelen dreigen. Zij wijzen erop dat transparantie en controle noodzakelijk zijn om organisaties bestuurbaar te houden. Dit argument is niet zonder grond. Het probleem ontstaat echter wanneer efficiëntie niet langer een middel is, maar een doel op zich wordt. Dan verschuift de aandacht van de vraag wat er bereikt moet worden naar hoe snel en hoe goedkoop dat kan.\n\nOok op maatschappelijk niveau heeft deze verschuiving gevolgen. Beleidsmaatregelen worden steeds vaker beoordeeld op directe resultaten. Complexe vraagstukken zoals ongelijkheid, duurzaamheid of kansengelijkheid laten zich echter niet oplossen binnen korte tijdskaders. Wanneer beleid voornamelijk wordt gestuurd door meetbare korte-termijnsuccessen, bestaat het risico dat structurele oorzaken buiten beeld blijven en problemen zich blijven herhalen.\n\nCritici pleiten daarom niet voor het afwijzen van efficiëntie, maar voor een herwaardering ervan. Efficiëntie zou ondersteunend moeten zijn aan inhoudelijke doelen, niet leidend. Dat vraagt om vertrouwen in professionele expertise en om ruimte voor afweging en reflectie. In plaats van alles te willen meten, zou vaker moeten worden nagedacht over wat werkelijk van waarde is.\n\nDe uitdaging ligt uiteindelijk in balans. Efficiëntie kan bijdragen aan helderheid en organisatie, maar verliest haar betekenis wanneer zij complexiteit negeert. Juist in domeinen waar menselijk oordeel centraal staat, is het vermogen om nuance toe te laten minstens zo belangrijk als snelheid en meetbaarheid.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة المركزية للنص؟",
+          "options": [
+            "Efficiëntie is noodzakelijk om organisaties te laten functioneren",
+            "Efficiëntie kan de inhoud verdringen wanneer zij dominant wordt",
+            "Efficiëntie leidt altijd tot betere controle"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat efficiëntie problematisch wordt wanneer zij dominant wordt en de inhoud verdringt.",
+          "explanationAr": "النص يوضح أن الكفاءة تصبح إشكالية عندما تصبح مهيمنة وتطغى على المحتوى.",
+          "trapNoteNl": "A en C zijn te eenzijdig en doen geen recht aan de kritische toon van de tekst.",
+          "trapNoteAr": "A و C أحاديان ولا يعكسان النبرة النقدية للنص.",
+          "evidenceQuote": "wanneer zij dominant wordt"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom leidt standaardisering volgens de tekst tot spanning?",
+          "promptAr": "لماذا تؤدي المعيارية حسب النص إلى توتر؟",
+          "options": [
+            "Omdat samenwerking moeilijker wordt",
+            "Omdat professionele afwegingen minder ruimte krijgen",
+            "Omdat controle verdwijnt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat standaardisering de ruimte voor professionele afwegingen vermindert.",
+          "explanationAr": "النص يوضح أن المعيارية تقلل من مساحة التقييم المهني.",
+          "trapNoteNl": "A en C worden niet genoemd als oorzaak van spanning.",
+          "trapNoteAr": "A و C غير مذكورين كسبب للتوتر.",
+          "evidenceQuote": "Tegelijkertijd vermindert standaardisering de ruimte voor professionele afwegingen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke sectoren worden genoemd als voorbeeld?",
+          "promptAr": "ما القطاعات المذكورة كمثال؟",
+          "options": [
+            "Zorg en onderwijs",
+            "Industrie en handel",
+            "Media en technologie"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst noemt expliciet de zorg en het onderwijs als voorbeelden.",
+          "explanationAr": "النص يذكر صراحة الرعاية الصحية والتعليم كمثالين.",
+          "trapNoteNl": "B en C worden niet genoemd in de tekst.",
+          "trapNoteAr": "B و C غير مذكورين في النص.",
+          "evidenceQuote": "In de zorg bijvoorbeeld besteden professionals steeds meer tijd aan het registreren van handelingen"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat wordt bedoeld met 'verschraling van professionele culturen'?",
+          "promptAr": "ماذا يعني \"تدهور الثقافات المهنية\"؟",
+          "options": [
+            "Minder financiële middelen",
+            "Minder aandacht voor niet-meetbare kwaliteiten",
+            "Minder personeel"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat kwaliteiten zoals empathie en creativiteit naar de achtergrond verdwijnen.",
+          "explanationAr": "النص يوضح أن صفات مثل التعاطف والإبداع تتراجع للخلفية.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis van verschraling.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى للتدهور.",
+          "evidenceQuote": "Kwaliteiten zoals empathie, creativiteit en kritisch denken verdwijnen naar de achtergrond"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom zijn korte-termijnresultaten problematisch voor beleid?",
+          "promptAr": "لماذا النتائج قصيرة المدى إشكالية للسياسات؟",
+          "options": [
+            "Omdat ze te duur zijn",
+            "Omdat structurele oorzaken buiten beeld blijven",
+            "Omdat ze moeilijk te meten zijn"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat structurele oorzaken buiten beeld kunnen blijven bij focus op korte-termijnresultaten.",
+          "explanationAr": "النص يوضح أن الأسباب البنيوية قد تبقى خارج الصورة عند التركيز على النتائج قصيرة المدى.",
+          "trapNoteNl": "A en C worden niet genoemd als probleem.",
+          "trapNoteAr": "A و C غير مذكورين كمشكلة.",
+          "evidenceQuote": "structurele oorzaken buiten beeld blijven"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom eindigt de tekst met het begrip 'balans'?",
+          "promptAr": "لماذا ينهي النص بمفهوم \"التوازن\"؟",
+          "options": [
+            "Om efficiëntie te relativeren zonder haar af te wijzen",
+            "Om efficiëntie volledig af te wijzen",
+            "Om snelheid centraal te stellen"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De schrijver pleit voor herwaardering en balans, niet voor afwijzing, wat een genuanceerde conclusie is.",
+          "explanationAr": "الكاتب يدعو لإعادة التقييم والتوازن وليس الرفض، مما يشكل استنتاجًا متوازنًا.",
+          "trapNoteNl": "B en C zijn te extreem en komen niet overeen met de slotboodschap.",
+          "trapNoteAr": "B و C متطرفان ولا يتوافقان مع الرسالة الختامية.",
+          "evidenceQuote": "niet voor het afwijzen van efficiëntie, maar voor een herwaardering ervan"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "De grenzen van datagedreven besluitvorming",
+      "topic": "Organisatie & data",
+      "level": "C1",
+      "content": "De grenzen van datagedreven besluitvorming\n\nDatagedreven besluitvorming wordt in veel organisaties gepresenteerd als de meest rationele manier om complexe keuzes te maken. Door gebruik te maken van metingen, statistieken en algoritmen zou besluitvorming objectiever, consistenter en efficiënter worden. In theorie verminderen cijfers persoonlijke voorkeuren en intuïtieve inschattingen. In de praktijk blijkt echter dat data zelden een neutraal startpunt vormt en dat beslissingen die uitsluitend op cijfers zijn gebaseerd belangrijke beperkingen kennen.\n\nEen eerste probleem is dat data nooit losstaat van interpretatie. Welke gegevens worden verzameld, welke indicatoren als relevant worden beschouwd en hoe resultaten worden weergegeven, zijn het resultaat van menselijke keuzes. Deze keuzes weerspiegelen bepaalde aannames over wat belangrijk wordt gevonden. Wanneer die aannames niet expliciet worden gemaakt, ontstaat het risico dat data een schijn van objectiviteit krijgt, terwijl zij in werkelijkheid een versmalde kijk op de werkelijkheid laat zien.\n\nDaarnaast verliest data zonder context een groot deel van haar betekenis. Cijfers tonen patronen, maar verklaren zelden waarom deze patronen ontstaan. Een dalende productiviteit kan wijzen op inefficiënte processen, maar ook op veranderende marktomstandigheden, personeelstekorten of verhoogde werkdruk. Wie uitsluitend vertrouwt op meetbare uitkomsten, loopt het risico verkeerde oorzaken aan te wijzen en daardoor ineffectieve oplossingen te kiezen.\n\nEen ander gevolg van sterke nadruk op data is dat organisaties zich vooral richten op wat meetbaar is. Aspecten die moeilijk in cijfers zijn vast te leggen, zoals vertrouwen, samenwerking en morele overwegingen, verdwijnen naar de achtergrond. Medewerkers passen hun gedrag aan om goed te scoren op indicatoren, wat kan leiden tot strategisch handelen. In zulke situaties verbeteren cijfers, terwijl de kwaliteit van het werk of de dienstverlening nauwelijks toeneemt.\n\nVoorstanders van datagedreven werken benadrukken terecht dat data kan helpen om willekeur te verminderen en transparantie te vergroten. Cijfers kunnen signaleren waar problemen ontstaan en helpen bij het volgen van ontwikkelingen over langere tijd. Problemen ontstaan echter wanneer data wordt gezien als vervanging van menselijk oordeel in plaats van als ondersteuning daarvan. Zonder ruimte voor professionele reflectie wordt besluitvorming gereduceerd tot het volgen van dashboards.\n\nDit vraagt om een bredere benadering van data. In plaats van cijfers als eindpunt te beschouwen, zouden zij het begin moeten zijn van analyse en dialoog. Wat laten de cijfers zien, wat laten zij niet zien en welke belangen spelen een rol bij hun interpretatie? Door data te combineren met ervaring, expertise en kwalitatieve informatie ontstaat een vollediger beeld van complexe situaties.\n\nOp maatschappelijk niveau zijn deze vragen minstens zo relevant. Beleidsbeslissingen worden steeds vaker beoordeeld op korte-termijnresultaten die eenvoudig te meten zijn. Complexe problemen zoals ongelijkheid, duurzaamheid en sociale cohesie laten zich echter niet reduceren tot enkele indicatoren. Wanneer beleid uitsluitend wordt gestuurd door meetbare effecten, bestaat het gevaar dat structurele oorzaken onzichtbaar blijven en dat oplossingen oppervlakkig blijven.\n\nDe uitdaging ligt daarom niet in het verzamelen van steeds meer data, maar in het ontwikkelen van het vermogen om data kritisch te gebruiken. Dat vereist vaardigheden zoals analytisch denken, het herkennen van beperkingen en het omgaan met onzekerheid. Pas wanneer data wordt ingebed in context en menselijk oordeel, kan zij daadwerkelijk bijdragen aan verantwoorde en duurzame besluitvorming.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة المركزية للنص؟",
+          "options": [
+            "Data maakt besluitvorming objectiever",
+            "Data heeft grenzen en vereist context en interpretatie",
+            "Data moet intuïtie vervangen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat data grenzen heeft en dat context en interpretatie nodig zijn.",
+          "explanationAr": "النص يوضح أن البيانات لها حدود وأن السياق والتفسير ضروريان.",
+          "trapNoteNl": "A is te absoluut en wordt tegengesproken. C is te extreem.",
+          "trapNoteAr": "A مطلق جدًا ويُنفى. C متطرف.",
+          "evidenceQuote": "data zelden een neutraal startpunt vormt"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom is data volgens de tekst nooit volledig objectief?",
+          "promptAr": "لماذا البيانات ليست موضوعية تمامًا حسب النص؟",
+          "options": [
+            "Omdat cijfers altijd fout zijn",
+            "Omdat data gebaseerd is op menselijke keuzes",
+            "Omdat data moeilijk te begrijpen is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat welke gegevens worden verzameld en hoe ze worden weergegeven het resultaat zijn van menselijke keuzes.",
+          "explanationAr": "النص يوضح أن اختيار البيانات وطريقة عرضها نتاج خيارات بشرية.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "Welke gegevens worden verzameld, welke indicatoren als relevant worden beschouwd en hoe resultaten worden weergegeven, zijn het resultaat van menselijke keuzes"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is een risico van focussen op meetbare indicatoren?",
+          "promptAr": "ما هو خطر التركيز على المؤشرات القابلة للقياس؟",
+          "options": [
+            "Meer samenwerking",
+            "Strategisch gedrag van medewerkers",
+            "Betere kwaliteit van werk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat medewerkers hun gedrag aanpassen om goed te scoren op indicatoren, wat kan leiden tot strategisch handelen.",
+          "explanationAr": "النص يوضح أن الموظفين يعدلون سلوكهم لتحسين المؤشرات، مما قد يؤدي لسلوك استراتيجي.",
+          "trapNoteNl": "A en C worden niet genoemd als risico.",
+          "trapNoteAr": "A و C غير مذكورين كخطر.",
+          "evidenceQuote": "wat kan leiden tot strategisch handelen"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat wordt bedoeld met 'data als vervanging van menselijk oordeel'?",
+          "promptAr": "ماذا يعني \"البيانات كبديل للحكم البشري\"؟",
+          "options": [
+            "Besluiten nemen zonder overleg",
+            "Besluiten nemen zonder professionele reflectie",
+            "Besluiten nemen met te veel informatie"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat zonder ruimte voor professionele reflectie besluitvorming wordt gereduceerd tot het volgen van dashboards.",
+          "explanationAr": "النص يوضح أن عدم وجود مساحة للتفكير المهني يقلل من اتخاذ القرار لمتابعة لوحات المعلومات.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "Zonder ruimte voor professionele reflectie wordt besluitvorming gereduceerd"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom zijn korte-termijnindicatoren problematisch voor beleid?",
+          "promptAr": "لماذا المؤشرات قصيرة المدى إشكالية للسياسات؟",
+          "options": [
+            "Omdat ze te duur zijn",
+            "Omdat ze structurele oorzaken kunnen verbergen",
+            "Omdat ze moeilijk meetbaar zijn"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat structurele oorzaken onzichtbaar kunnen blijven wanneer beleid uitsluitend wordt gestuurd door meetbare effecten.",
+          "explanationAr": "النص يوضح أن الأسباب البنيوية قد تبقى مخفية عندما تُدار السياسات فقط بالآثار القابلة للقياس.",
+          "trapNoteNl": "A en C worden niet genoemd als probleem.",
+          "trapNoteAr": "A و C غير مذكورين كمشكلة.",
+          "evidenceQuote": "structurele oorzaken onzichtbaar blijven"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom eindigt de tekst met aandacht voor vaardigheden?",
+          "promptAr": "لماذا ينهي النص بالتركيز على المهارات؟",
+          "options": [
+            "Om data af te wijzen",
+            "Om te benadrukken dat kritisch gebruik van data nodig is",
+            "Om analyse te vervangen door ervaring"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat het ontwikkelen van het vermogen om data kritisch te gebruiken nodig is voor verantwoorde besluitvorming.",
+          "explanationAr": "النص يؤكد أن تطوير القدرة على استخدام البيانات بشكل نقدي ضروري لاتخاذ قرارات مسؤولة.",
+          "trapNoteNl": "A en C zijn te extreem en worden niet ondersteund.",
+          "trapNoteAr": "A و C متطرفان ولا يدعمهما النص.",
+          "evidenceQuote": "ontwikkelen van het vermogen om data kritisch te gebruiken"
+        }
+      ]
+    }
+  ]
+}

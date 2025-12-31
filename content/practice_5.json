@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 5,
+  "titleNl": "Oefening 5",
+  "titleAr": "تمرين 5",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "De invloed van sociale media op persoonlijke relaties",
+      "topic": "Sociale media & communicatie",
+      "level": "B2",
+      "content": "De invloed van sociale media op persoonlijke relaties\n\nSociale media hebben de manier waarop mensen met elkaar communiceren fundamenteel veranderd. Waar contact vroeger vooral plaatsvond via telefoon, brieven of persoonlijke ontmoetingen, gebeurt een groot deel van de communicatie nu online. Platforms zoals Facebook, Instagram, WhatsApp en TikTok maken het mogelijk om op elk moment met vrienden, familie en kennissen in contact te blijven, ongeacht waar zij zich bevinden. Deze nieuwe vorm van verbinding heeft zowel voordelen als nadelen voor persoonlijke relaties.\n\nEen belangrijk voordeel is dat sociale media het gemakkelijker maken om contact te onderhouden met mensen die ver weg wonen. Familie en vrienden die in andere steden of landen wonen, kunnen dagelijks updates zien en reageren op elkaars berichten. Dit helpt om relaties levend te houden, zelfs wanneer fysiek contact niet mogelijk is. Ouders kunnen bijvoorbeeld foto's en video's delen van hun kinderen met grootouders die ver weg wonen. Studenten die in het buitenland studeren, kunnen hun ervaringen delen met vrienden thuis. Op deze manier blijven mensen betrokken bij elkaars leven, ondanks de afstand.\n\nToch zijn er ook zorgen over de kwaliteit van deze online relaties. Critici wijzen erop dat online communicatie vaak oppervlakkiger is dan persoonlijke gesprekken. Berichten zijn meestal kort en gericht op het delen van momenten, niet op diepgaande gesprekken. Mensen delen vooral de positieve kanten van hun leven: vakanties, feesten, successen. Moeilijke momenten, twijfels of problemen worden minder vaak gedeeld. Dit kan leiden tot een vertekend beeld van elkaars leven. Mensen kunnen het gevoel krijgen dat anderen een perfecter leven hebben, wat kan leiden tot jaloezie of onzekerheid.\n\nEen ander probleem is dat sociale media kunnen leiden tot minder echte gesprekken. Wanneer mensen elkaar persoonlijk ontmoeten, kijken ze soms meer naar hun telefoon dan naar elkaar. Het is niet ongewoon om in een café of restaurant te zitten waar iedereen op zijn scherm kijkt in plaats van met elkaar te praten. Dit kan de kwaliteit van persoonlijke ontmoetingen verminderen. Mensen zijn fysiek aanwezig, maar mentaal afwezig omdat hun aandacht bij hun telefoon ligt. Dit fenomeen wordt soms 'phubbing' genoemd: het negeren van de persoon naast je ten gunste van je telefoon.\n\nOok de hoeveelheid informatie die mensen online delen, kan problemen veroorzaken. Privacy wordt steeds belangrijker, maar niet iedereen is zich bewust van wat zij delen en wie dit kan zien. Foto's, locaties en persoonlijke details kunnen worden gezien door veel meer mensen dan bedoeld. Dit kan leiden tot misverstanden of zelfs conflicten. Bovendien kan het moeilijk zijn om online berichten terug te nemen. Wat eenmaal online staat, kan snel worden gedeeld en verspreid, zelfs wanneer de oorspronkelijke afzender dit niet meer wil.\n\nDesondanks blijven sociale media populair omdat zij mensen helpen om zich verbonden te voelen. Voor veel mensen, vooral jongeren, zijn deze platforms een belangrijk onderdeel van hun sociale leven. Zij gebruiken sociale media om vriendschappen te onderhouden, nieuwe mensen te ontmoeten en deel uit te maken van gemeenschappen met gedeelde interesses. Het is een manier om erbij te horen en om te zien wat anderen doen. Dit gevoel van verbondenheid kan positief zijn voor het welzijn, vooral voor mensen die zich anders geïsoleerd zouden voelen.\n\nDe uitdaging ligt in het vinden van een balans. Sociale media kunnen waardevol zijn voor het onderhouden van relaties, maar zij kunnen ook echte, diepe gesprekken in de weg staan. Het is belangrijk om bewust te zijn van zowel de voordelen als de nadelen. Mensen kunnen proberen om sociale media te gebruiken als aanvulling op persoonlijke contacten, niet als vervanging. Door bewust tijd te maken voor echte gesprekken en door af en toe de telefoon weg te leggen, kunnen mensen profiteren van de voordelen van sociale media zonder de nadelen te groot te laten worden.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is het hoofdthema van deze tekst?",
+          "promptAr": "ما هو الموضوع الرئيسي لهذا النص؟",
+          "options": [
+            "Sociale media zijn alleen slecht voor relaties",
+            "Sociale media hebben zowel voordelen als nadelen voor persoonlijke relaties",
+            "Sociale media maken communicatie onmogelijk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst bespreekt zowel voordelen als nadelen van sociale media voor relaties.",
+          "explanationAr": "النص يناقش مزايا وعيوب وسائل التواصل الاجتماعي في العلاقات.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze nieuwe vorm van verbinding heeft zowel voordelen als nadelen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is een voordeel van sociale media volgens de tekst?",
+          "promptAr": "ما هي ميزة وسائل التواصل الاجتماعي حسب النص؟",
+          "options": [
+            "Het maakt contact onderhouden met verre vrienden gemakkelijker",
+            "Het voorkomt alle misverstanden",
+            "Het vervangt alle persoonlijke gesprekken"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst noemt dat sociale media contact met verre vrienden en familie gemakkelijker maken.",
+          "explanationAr": "النص يذكر أن وسائل التواصل الاجتماعي تسهل التواصل مع الأصدقاء والعائلة البعيدين.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "sociale media het gemakkelijker maken om contact te onderhouden met mensen die ver weg wonen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kan online communicatie leiden tot een vertekend beeld?",
+          "promptAr": "لماذا يمكن أن تؤدي الاتصالات عبر الإنترنت إلى صورة مشوهة؟",
+          "options": [
+            "Omdat mensen alleen positieve momenten delen",
+            "Omdat berichten altijd waar zijn",
+            "Omdat iedereen hetzelfde deelt"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "Mensen delen vooral positieve kanten, waardoor anderen een perfecter beeld krijgen.",
+          "explanationAr": "الناس يشاركون الجوانب الإيجابية بشكل أساسي، مما يعطي الآخرين صورة أكثر مثالية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Mensen delen vooral de positieve kanten van hun leven: vakanties, feesten, successen"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat betekent 'phubbing' volgens de tekst?",
+          "promptAr": "ماذا تعني 'phubbing' حسب النص؟",
+          "options": [
+            "Het maken van foto's met je telefoon",
+            "Het negeren van de persoon naast je ten gunste van je telefoon",
+            "Het delen van berichten op sociale media"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Phubbing is het negeren van mensen om je heen omdat je naar je telefoon kijkt.",
+          "explanationAr": "Phubbing هو تجاهل الأشخاص من حولك لأنك تنظر إلى هاتفك.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "het negeren van de persoon naast je ten gunste van je telefoon"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat is een risico van te veel informatie online delen?",
+          "promptAr": "ما هو خطر مشاركة الكثير من المعلومات عبر الإنترنت؟",
+          "options": [
+            "Minder vrienden krijgen",
+            "Privacyproblemen en verspreiding van informatie die je niet meer wilt delen",
+            "Geen internetverbinding meer hebben"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Informatie kan worden gezien door meer mensen dan bedoeld en is moeilijk terug te nemen.",
+          "explanationAr": "يمكن أن يرى المعلومات عدد أكبر من الناس مما هو مقصود ومن الصعب استرجاعها.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wat eenmaal online staat, kan snel worden gedeeld en verspreid"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is de boodschap van de tekst aan het einde?",
+          "promptAr": "ما هي رسالة النص في النهاية؟",
+          "options": [
+            "Sociale media moeten volledig worden vermeden",
+            "Het is belangrijk om een balans te vinden tussen online en offline contact",
+            "Persoonlijke gesprekken zijn altijd beter"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst adviseert om sociale media als aanvulling te gebruiken, niet als vervanging.",
+          "explanationAr": "النص ينصح باستخدام وسائل التواصل الاجتماعي كمكمل وليس كبديل.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "sociale media te gebruiken als aanvulling op persoonlijke contacten, niet als vervanging"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "De toekomst van werk in het digitale tijdperk",
+      "topic": "Werk & technologie",
+      "level": "B2",
+      "content": "De toekomst van werk in het digitale tijdperk\n\nDe manier waarop mensen werken verandert snel door nieuwe technologieën. Automatisering, kunstmatige intelligentie en digitale platforms transformeren traditionele banen en creëren nieuwe mogelijkheden. Terwijl sommige mensen zich zorgen maken over banen die verdwijnen, zien anderen kansen voor flexibeler en creatiever werk. De vraag is niet of werk zal veranderen, maar hoe mensen en organisaties zich kunnen aanpassen aan deze nieuwe realiteit.\n\nEen belangrijke ontwikkeling is de opkomst van remote werk. Dankzij videobellen, clouddiensten en digitale samenwerkingstools kunnen veel mensen nu vanuit huis of een andere locatie werken. Dit biedt voordelen zoals meer flexibiliteit, minder reistijd en een betere balans tussen werk en privéleven. Werknemers kunnen hun eigen tijd indelen en werken op momenten dat zij het meest productief zijn. Voor werkgevers betekent dit toegang tot een groter talentenbestand, omdat geografische grenzen minder belangrijk worden.\n\nTegelijkertijd brengt remote werk ook uitdagingen met zich mee. Niet iedereen heeft thuis een geschikte werkplek of de discipline om productief te blijven zonder direct toezicht. Sommige mensen missen het sociale contact met collega's en de informele gesprekken bij de koffieautomaat. Ook kan het moeilijk zijn om werk en privéleven te scheiden wanneer beide in dezelfde ruimte plaatsvinden. Daarom kiezen veel organisaties voor een hybride model: een combinatie van thuiswerken en werken op kantoor.\n\nAutomatisering en kunstmatige intelligentie veranderen ook de aard van veel banen. Taken die repetitief of voorspelbaar zijn, worden steeds vaker door machines uitgevoerd. Dit geldt niet alleen voor fabriekswerk, maar ook voor administratieve taken, data-analyse en zelfs sommige vormen van klantenservice. Chatbots kunnen eenvoudige vragen beantwoorden, software kan documenten verwerken en robots kunnen fysieke taken uitvoeren. Dit betekent dat werknemers zich moeten richten op vaardigheden die machines niet goed kunnen, zoals creativiteit, kritisch denken en emotionele intelligentie.\n\nDeze verschuiving vraagt om een nieuwe benadering van onderwijs en training. Traditionele carrières waarbij iemand jarenlang hetzelfde werk doet, worden zeldzamer. In plaats daarvan moeten mensen bereid zijn om continu te leren en zich aan te passen. Dit betekent niet alleen nieuwe technische vaardigheden leren, maar ook flexibel blijven en openstaan voor verandering. Werkgevers investeren daarom steeds meer in training en ontwikkeling van hun personeel, zodat zij kunnen meegroeien met nieuwe technologieën.\n\nOok de economie van werk verandert. Platformen zoals Uber, Deliveroo en Fiverr maken het mogelijk om werk te vinden zonder traditioneel dienstverband. Mensen kunnen projecten aannemen, diensten aanbieden of producten verkopen via digitale marktplaatsen. Dit geeft meer vrijheid en controle, maar brengt ook onzekerheid met zich mee. Zelfstandigen hebben geen garantie op werk, geen betaald verlof en moeten zelf voor pensioen en verzekeringen zorgen. Dit vraagt om nieuwe vormen van sociale bescherming voor mensen die buiten het traditionele systeem werken.\n\nDe toekomst van werk zal waarschijnlijk een mix zijn van menselijke en technologische vaardigheden. Mensen die kunnen samenwerken met technologie, die flexibel zijn en die blijven leren, zullen het beste gedijen. Organisaties die investeren in hun werknemers en die technologie gebruiken om mensen te ondersteunen in plaats van te vervangen, zullen succesvoller zijn. Het gaat erom de voordelen van technologie te benutten terwijl de menselijke waarden en vaardigheden behouden blijven. Door samen te werken kunnen mensen en machines elkaar versterken en betere resultaten bereiken dan elk afzonderlijk zou kunnen.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is het centrale thema van deze tekst?",
+          "promptAr": "ما هو الموضوع المركزي لهذا النص؟",
+          "options": [
+            "Technologie maakt alle banen overbodig",
+            "Werk verandert door technologie en mensen moeten zich aanpassen",
+            "Remote werk is altijd beter dan kantoorwerk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst gaat over hoe werk verandert en hoe mensen zich kunnen aanpassen aan nieuwe technologieën.",
+          "explanationAr": "النص يتحدث عن كيفية تغير العمل وكيف يمكن للناس التكيف مع التقنيات الجديدة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De vraag is niet of werk zal veranderen, maar hoe mensen en organisaties zich kunnen aanpassen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is een voordeel van remote werk volgens de tekst?",
+          "promptAr": "ما هي ميزة العمل عن بُعد حسب النص؟",
+          "options": [
+            "Meer flexibiliteit en minder reistijd",
+            "Altijd meer salaris",
+            "Geen deadlines meer"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst noemt flexibiliteit, minder reistijd en betere werk-privébalans als voordelen.",
+          "explanationAr": "النص يذكر المرونة ووقت السفر الأقل والتوازن الأفضل بين العمل والحياة كفوائد.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "meer flexibiliteit, minder reistijd en een betere balans tussen werk en privéleven"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kiezen veel organisaties voor een hybride model?",
+          "promptAr": "لماذا تختار العديد من المنظمات نموذجًا هجينًا؟",
+          "options": [
+            "Omdat het goedkoper is",
+            "Omdat het de voordelen van remote werk combineert met de voordelen van kantoorwerk",
+            "Omdat het verplicht is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Hybride werk combineert flexibiliteit met sociale contacten en structuur.",
+          "explanationAr": "العمل الهجين يجمع بين المرونة والاتصالات الاجتماعية والهيكل.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Daarom kiezen veel organisaties voor een hybride model: een combinatie van thuiswerken en werken op kantoor"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de tekst met 'vaardigheden die machines niet goed kunnen'?",
+          "promptAr": "ماذا يقصد النص بـ 'المهارات التي لا تستطيع الآلات القيام بها بشكل جيد'؟",
+          "options": [
+            "Alleen technische vaardigheden",
+            "Creativiteit, kritisch denken en emotionele intelligentie",
+            "Repetitieve taken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Mensen moeten zich richten op menselijke vaardigheden die machines missen.",
+          "explanationAr": "يجب على الناس التركيز على المهارات البشرية التي تفتقدها الآلات.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "vaardigheden die machines niet goed kunnen, zoals creativiteit, kritisch denken en emotionele intelligentie"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat is een nadeel van platformwerk volgens de tekst?",
+          "promptAr": "ما هو عيب العمل على المنصات حسب النص؟",
+          "options": [
+            "Te veel vrijheid",
+            "Onzekerheid over werk, geen betaald verlof en zelf zorgen voor verzekeringen",
+            "Te veel contact met klanten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Platformwerk geeft vrijheid maar brengt onzekerheid en gebrek aan sociale bescherming met zich mee.",
+          "explanationAr": "العمل على المنصات يعطي الحرية لكنه يجلب عدم اليقين ونقص الحماية الاجتماعية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zelfstandigen hebben geen garantie op werk, geen betaald verlof en moeten zelf voor pensioen en verzekeringen zorgen"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is de conclusie van de tekst over de toekomst van werk?",
+          "promptAr": "ما هو استنتاج النص حول مستقبل العمل؟",
+          "options": [
+            "Mensen worden volledig vervangen door machines",
+            "Succesvolle organisaties combineren menselijke vaardigheden met technologie",
+            "Alleen technische vaardigheden zijn belangrijk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst concludeert dat mensen en technologie elkaar moeten versterken voor beste resultaten.",
+          "explanationAr": "يستنتج النص أن الناس والتكنولوجيا يجب أن يعززوا بعضهم البعض للحصول على أفضل النتائج.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Door samen te werken kunnen mensen en machines elkaar versterken en betere resultaten bereiken"
+        }
+      ]
+    }
+  ]
+}

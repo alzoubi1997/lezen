@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 6,
+  "titleNl": "Oefening 6",
+  "titleAr": "تمرين 6",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "De stille invloed van algoritmen op menselijk gedrag",
+      "topic": "Technologie & maatschappij",
+      "level": "B2+",
+      "content": "In de afgelopen tien jaar zijn algoritmen een onzichtbare maar bepalende kracht geworden in het dagelijks leven. Waar zij ooit vooral werden ingezet voor technische optimalisatie, spelen zij tegenwoordig een centrale rol in hoe mensen informatie ontvangen, beslissingen nemen en zelfs hoe zij zichzelf waarnemen. Deze ontwikkeling roept fundamentele vragen op over autonomie, verantwoordelijkheid en de grenzen tussen menselijke keuzevrijheid en geautomatiseerde sturing.\n\nAlgoritmen functioneren in veel gevallen als selectiemechanismen. Ze bepalen welke berichten op sociale media verschijnen, welke producten worden aanbevolen en welke nieuwsartikelen prioriteit krijgen. Hoewel deze processen vaak worden gepresenteerd als neutraal en efficiënt, zijn ze gebaseerd op vooraf ingestelde doelen, zoals het maximaliseren van betrokkenheid of het verlengen van schermtijd. Hierdoor ontstaat een omgeving waarin gebruikers niet zozeer worden geïnformeerd, maar eerder worden geleid in een richting die commercieel of strategisch gunstig is.\n\nEen belangrijk kenmerk van algoritmische systemen is hun vermogen om gedrag te voorspellen. Door grote hoeveelheden data te analyseren, kunnen patronen worden herkend die voor mensen zelf nauwelijks zichtbaar zijn. Dit leidt tot gepersonaliseerde aanbevelingen die verrassend accuraat zijn. Tegelijkertijd schuilt hierin een risico: wanneer systemen steeds beter weten wat iemand waarschijnlijk zal doen, ontstaat de neiging om dat gedrag ook actief te versterken. Zo kan een voorkeur langzaam veranderen in een vast patroon, niet omdat de gebruiker dat bewust kiest, maar omdat alternatieven minder zichtbaar worden.\n\nCritici wijzen erop dat deze vorm van beïnvloeding subtieler is dan traditionele reclame. Er is geen expliciete boodschap die overtuigt, maar een constante herhaling van bepaalde opties die als vanzelfsprekend worden gepresenteerd. Hierdoor vervaagt de grens tussen keuze en suggestie. Gebruikers ervaren vaak een gevoel van controle, terwijl de structuur van hun keuzemogelijkheden al grotendeels is vastgelegd. Dit roept de vraag op in hoeverre autonomie behouden blijft in een sterk geautomatiseerde informatiestroom.\n\nAan de andere kant benadrukken voorstanders dat algoritmen ook duidelijke voordelen bieden. Ze kunnen informatie filteren in een wereld van overvloed, waardoor mensen sneller relevante inhoud vinden. In educatieve contexten kunnen algoritmen leerprocessen ondersteunen door materiaal af te stemmen op het niveau en tempo van de leerling. Ook in de gezondheidszorg worden algoritmische systemen ingezet om diagnoses te ondersteunen en risico's vroegtijdig te signaleren. Het probleem ligt dus niet zozeer in het bestaan van algoritmen, maar in de manier waarop zij worden ontworpen en toegepast.\n\nTransparantie speelt hierbij een cruciale rol. Veel algoritmen opereren als zogenoemde 'black boxes', waarvan de interne werking moeilijk te begrijpen is, zelfs voor experts. Wanneer beslissingen worden genomen op basis van systemen die niet uitlegbaar zijn, ontstaat een democratisch probleem. Burgers kunnen moeilijk verantwoordelijkheid toeschrijven of bezwaar maken tegen uitkomsten waarvan de logica verborgen blijft. Dit geldt bijvoorbeeld bij automatische kredietbeoordelingen of selectieprocedures op de arbeidsmarkt.\n\nDaarnaast is er het vraagstuk van verantwoordelijkheid. Wanneer een algoritme een beslissing beïnvloedt die negatieve gevolgen heeft, wie is dan aansprakelijk? De programmeur, de organisatie die het systeem inzet, of het systeem zelf? In de praktijk wordt verantwoordelijkheid vaak verspreid, wat het lastig maakt om fouten te corrigeren of structurele verbeteringen door te voeren. Dit kan leiden tot een situatie waarin technologische efficiëntie belangrijker wordt dan maatschappelijke rechtvaardigheid.\n\nSteeds vaker wordt daarom gepleit voor ethische kaders en regelgeving. Europese initiatieven proberen richtlijnen vast te leggen voor het gebruik van kunstmatige intelligentie, met aandacht voor mensenrechten, privacy en non-discriminatie. Toch blijft wetgeving achter bij technologische ontwikkelingen. Algoritmen veranderen en leren voortdurend, terwijl regels per definitie trager tot stand komen. Hierdoor ontstaat een spanningsveld tussen innovatie en controle.\n\nUiteindelijk dwingt de opkomst van algoritmen tot hernieuwde reflectie op menselijk handelen. De vraag is niet of algoritmen invloed hebben, maar hoe die invloed wordt vormgegeven en begrensd. Bewustwording bij gebruikers, transparantie bij ontwerpers en verantwoordelijkheid bij organisaties zijn daarbij essentieel. Alleen dan kan technologie dienen als ondersteuning van menselijke autonomie, in plaats van als stille kracht die deze langzaam ondermijnt.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale gedachte van de tekst",
+          "promptAr": "ما هي الفكرة المركزية للنص",
+          "options": [
+            "Algoritmen maken het dagelijks leven efficiënter zonder noemenswaardige nadelen",
+            "Algoritmen beïnvloeden menselijk gedrag op een subtiele manier die vragen oproept over autonomie",
+            "Algoritmen zijn vooral nuttig in technische en medische toepassingen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt vooral de onzichtbare invloed van algoritmen op keuzes en autonomie",
+          "explanationAr": "النص يؤكد بشكل خاص على التأثير الخفي للخوارزميات على الخيارات والاستقلالية",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze ontwikkeling roept fundamentele vragen op over autonomie, verantwoordelijkheid en de grenzen tussen menselijke keuzevrijheid en geautomatiseerde sturing."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Welk doel ligt vaak ten grondslag aan algoritmische selectiemechanismen",
+          "promptAr": "ما هو الهدف الذي غالبًا ما يكمن وراء آليات الاختيار الخوارزمية",
+          "options": [
+            "Het vergroten van objectieve kennis bij gebruikers",
+            "Het stimuleren van sociale interactie tussen gebruikers",
+            "Het maximaliseren van betrokkenheid en schermtijd"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst noemt expliciet commerciële en strategische doelen zoals betrokkenheid",
+          "explanationAr": "النص يذكر صراحة الأهداف التجارية والاستراتيجية مثل المشاركة",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "zoals het maximaliseren van betrokkenheid of het verlengen van schermtijd."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over het effect van gepersonaliseerde aanbevelingen",
+          "promptAr": "ماذا يمكن استنتاجه حول تأثير التوصيات المخصصة",
+          "options": [
+            "Ze vergroten altijd de keuzemogelijkheden van gebruikers",
+            "Ze kunnen bestaande voorkeuren versterken en alternatieven verdringen",
+            "Ze maken menselijk gedrag volledig voorspelbaar"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat herhaling en zichtbaarheid keuzes sturen",
+          "explanationAr": "النص يشير إلى أن التكرار والرؤية يوجهان الخيارات",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zo kan een voorkeur langzaam veranderen in een vast patroon, niet omdat de gebruiker dat bewust kiest, maar omdat alternatieven minder zichtbaar worden."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke zin geeft dezelfde betekenis weer als 'de grens tussen keuze en suggestie vervaagt'",
+          "promptAr": "أي جملة تعبر عن نفس معنى 'الحدود بين الاختيار والاقتراح تتلاشى'",
+          "options": [
+            "Gebruikers krijgen steeds meer opties aangeboden",
+            "Het wordt onduidelijk of beslissingen echt vrijwillig zijn",
+            "Mensen vertrouwen algoritmen meer dan zichzelf"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De oorspronkelijke zin gaat over het verlies van duidelijke keuzevrijheid",
+          "explanationAr": "الجملة الأصلية تتحدث عن فقدان حرية الاختيار الواضحة",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor vervaagt de grens tussen keuze en suggestie."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur zowel voordelen als risico's van algoritmen",
+          "promptAr": "لماذا يناقش المؤلف مزايا ومخاطر الخوارزميات",
+          "options": [
+            "Om algoritmen volledig te verdedigen",
+            "Om een evenwichtig en genuanceerd beeld te schetsen",
+            "Om technologische vooruitgang af te remmen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst wil geen zwart-witbeeld geven maar een afgewogen analyse",
+          "explanationAr": "النص لا يريد تقديم صورة أبيض وأسود بل تحليل متوازن",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het probleem ligt dus niet zozeer in het bestaan van algoritmen, maar in de manier waarop zij worden ontworpen en toegepast."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat is volgens de tekst noodzakelijk om negatieve gevolgen van algoritmen te beperken",
+          "promptAr": "ما هو ضروري حسب النص للحد من العواقب السلبية للخوارزميات",
+          "options": [
+            "Volledige afschaffing van geautomatiseerde systemen",
+            "Meer bewustwording, transparantie en verantwoordelijkheid",
+            "Snellere technologische innovatie"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "In de slotparagraaf worden deze voorwaarden expliciet genoemd",
+          "explanationAr": "في الفقرة الأخيرة يتم ذكر هذه الشروط صراحة",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Bewustwording bij gebruikers, transparantie bij ontwerpers en verantwoordelijkheid bij organisaties zijn daarbij essentieel."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Wanneer preventie botst met individuele verantwoordelijkheid",
+      "topic": "Gezondheid & beleid",
+      "level": "B2+",
+      "content": "In veel westerse samenlevingen is preventie uitgegroeid tot een centraal uitgangspunt van het gezondheidsbeleid. Overheden investeren in campagnes die burgers aanzetten tot gezonder eten, meer bewegen en het vermijden van risicovol gedrag. De onderliggende gedachte is dat vroegtijdig ingrijpen niet alleen menselijk leed voorkomt, maar ook de kosten van de gezondheidszorg beperkt. Toch roept deze preventieve benadering steeds vaker vragen op over de grens tussen collectieve verantwoordelijkheid en individuele keuzevrijheid.\n\nPreventie lijkt op het eerste gezicht een neutraal en rationeel instrument. Wie kan er tegen zijn om ziekten te voorkomen voordat ze ontstaan? In de praktijk blijkt echter dat preventie vaak gepaard gaat met normatieve aannames over wat als 'gezond' of 'verantwoord' gedrag geldt. Deze aannames zijn niet altijd universeel, maar worden beïnvloed door culturele waarden, sociaaleconomische omstandigheden en politieke prioriteiten. Wat voor de ene groep een haalbare leefstijlverandering is, kan voor een andere groep onrealistisch of zelfs belastend zijn.\n\nEen belangrijk spanningsveld ontstaat wanneer preventieve maatregelen verschuiven van informeren naar sturen. Voorlichting biedt burgers kennis en laat de uiteindelijke keuze bij het individu. Sturing daarentegen gebruikt subtiele prikkels, zoals financiële voordelen of beperkingen, om gedrag in een bepaalde richting te duwen. Denk aan hogere belastingen op suikerhoudende dranken of kortingen op sportabonnementen. Hoewel deze maatregelen effectief kunnen zijn, roepen ze de vraag op in hoeverre burgers nog werkelijk vrij kiezen.\n\nCritici wijzen erop dat preventiebeleid het risico in zich draagt om verantwoordelijkheid te individualiseren. Wanneer gezondheid primair wordt gepresenteerd als een resultaat van persoonlijke keuzes, raken structurele factoren zoals arbeidsomstandigheden, woonomgeving en opleidingsniveau op de achtergrond. Hierdoor kan de indruk ontstaan dat mensen die ziek worden, tekortgeschoten zijn in hun eigen verantwoordelijkheid. Deze impliciete morele beoordeling kan leiden tot stigma en sociale uitsluiting, vooral bij chronische aandoeningen die sterk samenhangen met armoede.\n\nAan de andere kant benadrukken voorstanders dat het negeren van individuele verantwoordelijkheid eveneens problematisch is. Zij stellen dat zonder duidelijke verwachtingen ten aanzien van gezond gedrag collectieve systemen onhoudbaar worden. De solidariteit waarop publieke gezondheidszorg is gebaseerd, veronderstelt immers dat burgers zich inspannen om vermijdbare risico's te beperken. Vanuit dit perspectief is preventie geen inperking van vrijheid, maar een noodzakelijke voorwaarde voor een rechtvaardig en betaalbaar zorgstelsel.\n\nDe kern van het debat ligt daarom niet in de vraag of preventie wenselijk is, maar hoe zij wordt vormgegeven. Een effectieve preventiestrategie houdt rekening met sociale ongelijkheid en erkent dat niet iedereen dezelfde uitgangspositie heeft. Dit vraagt om beleid dat verder gaat dan gedragsverandering alleen en ook investeert in leefbare wijken, toegankelijke zorg en begrijpelijke communicatie. Preventie wordt dan geen moreel appel, maar een collectieve inspanning.\n\nBovendien is transparantie essentieel. Burgers moeten begrijpen waarom bepaalde maatregelen worden genomen en welke belangen daarbij een rol spelen. Wanneer preventie wordt ervaren als een opgelegde norm zonder ruimte voor dialoog, neemt het vertrouwen in beleid af. Dat vertrouwen is juist cruciaal om langdurige gedragsverandering te realiseren.\n\nUiteindelijk laat de discussie over preventie zien hoe complex de relatie is tussen individu en samenleving. Gezondheid is zowel een persoonlijke als een collectieve aangelegenheid. Een eenzijdige focus op individuele keuzes miskent maatschappelijke verantwoordelijkheden, terwijl een te dwingende collectieve aanpak persoonlijke autonomie onder druk zet. De uitdaging voor toekomstig beleid is om deze twee perspectieven met elkaar te verbinden, zonder het ene te laten overheersen ten koste van het andere.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijk doel van preventief gezondheidsbeleid?",
+          "promptAr": "ما هو هدف مهم لسياسة الصحة الوقائية حسب النص؟",
+          "options": [
+            "Het volledig afschaffen van curatieve zorg",
+            "Het verminderen van menselijk leed en zorgkosten",
+            "Het vervangen van individuele keuzes door regelgeving"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het doel wordt expliciet genoemd in de inleiding van de tekst.",
+          "explanationAr": "يتم ذكر الهدف صراحة في مقدمة النص.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De onderliggende gedachte is dat vroegtijdig ingrijpen niet alleen menselijk leed voorkomt, maar ook de kosten van de gezondheidszorg beperkt."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over preventiecampagnes en culturele verschillen?",
+          "promptAr": "ماذا يمكن استنتاجه حول حملات الوقاية والاختلافات الثقافية؟",
+          "options": [
+            "Ze zijn overal even effectief",
+            "Ze houden zelden rekening met politieke factoren",
+            "Ze sluiten niet altijd aan bij alle bevolkingsgroepen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst suggereert dit zonder het letterlijk te stellen.",
+          "explanationAr": "النص يشير إلى هذا دون ذكره حرفيًا.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze aannames zijn niet altijd universeel, maar worden beïnvloed door culturele waarden, sociaaleconomische omstandigheden en politieke prioriteiten."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak geeft het idee van 'sturing' het best weer?",
+          "promptAr": "أي عبارة تعبر بشكل أفضل عن فكرة 'التوجيه'؟",
+          "options": [
+            "Burgers krijgen uitsluitend medische informatie",
+            "Gedrag wordt indirect beïnvloed door prikkels",
+            "Gezond gedrag wordt wettelijk verplicht"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het gaat om een herformulering van het beschreven concept.",
+          "explanationAr": "يتعلق الأمر بإعادة صياغة المفهوم الموصوف.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Sturing daarentegen gebruikt subtiele prikkels, zoals financiële voordelen of beperkingen, om gedrag in een bepaalde richting te duwen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom noemt de auteur het risico van stigmatisering?",
+          "promptAr": "لماذا يذكر المؤلف خطر الوصم؟",
+          "options": [
+            "Om aan te tonen dat preventie altijd faalt",
+            "Om te laten zien dat beleid morele gevolgen kan hebben",
+            "Om pleiten voor strengere gezondheidsregels"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Dit voorbeeld ondersteunt de kritiek op individualisering.",
+          "explanationAr": "هذا المثال يدعم النقد على الفردية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze impliciete morele beoordeling kan leiden tot stigma en sociale uitsluiting, vooral bij chronische aandoeningen die sterk samenhangen met armoede."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat zou volgens de auteur het gevolg zijn van een gebrek aan transparantie?",
+          "promptAr": "ما الذي سيكون وفقًا للمؤلف نتيجة نقص الشفافية؟",
+          "options": [
+            "Meer medische innovaties",
+            "Afname van vertrouwen in beleid",
+            "Snellere gedragsverandering"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Dit volgt logisch uit het besproken belang van vertrouwen.",
+          "explanationAr": "هذا يتبع منطقيًا من أهمية الثقة المذكورة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wanneer preventie wordt ervaren als een opgelegde norm zonder ruimte voor dialoog, neemt het vertrouwen in beleid af."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة المركزية للنص؟",
+          "options": [
+            "Preventie moet volledig worden afgeschaft",
+            "Gezondheid is uitsluitend een individuele verantwoordelijkheid",
+            "Preventie vraagt om een balans tussen individuele en collectieve verantwoordelijkheid"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De conclusie vat het hoofdargument samen.",
+          "explanationAr": "الخلاصة تلخص الحجة الرئيسية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Gezondheid is zowel een persoonlijke als een collectieve aangelegenheid."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 8,
+  "titleNl": "Oefening 8",
+  "titleAr": "تمرين 8",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Onderwijs op maat: gelijke kansen of nieuwe vormen van uitsluiting?",
+      "topic": "Onderwijs & maatschappij",
+      "level": "B2+",
+      "content": "De afgelopen jaren is het idee van onderwijs op maat steeds prominenter geworden binnen het Nederlandse onderwijssysteem. Beleidsmakers, schoolbesturen en onderwijsadviseurs presenteren maatwerk als hét antwoord op uiteenlopende leerbehoeften, motivatieproblemen en verschillen in talent. Door leerlingen niet langer te dwingen in uniforme programma's, maar hen individuele leerpaden aan te bieden, zou het onderwijs rechtvaardiger en effectiever worden. Toch roept deze benadering fundamentele vragen op over gelijkheid, toegankelijkheid en de onbedoelde effecten van differentiatie.\n\nIn theorie sluit onderwijs op maat aan bij het ideaal van gelijke kansen. Leerlingen verschillen immers in tempo, achtergrond en leerstijl. Waar het ene kind gebaat is bij extra structuur, heeft het andere juist meer vrijheid nodig. Door deze verschillen serieus te nemen, kan het onderwijs voorkomen dat bepaalde groepen structureel achterblijven. Vooral leerlingen met leerproblemen of een niet-academische thuissituatie zouden profiteren van gerichte ondersteuning en aangepaste leerroutes.\n\nIn de praktijk blijkt maatwerk echter sterk afhankelijk van beschikbare middelen. Scholen met voldoende personeel, kleinere klassen en digitale infrastructuur kunnen individuele begeleiding daadwerkelijk vormgeven. Andere scholen, vaak in sociaal-economisch kwetsbare wijken, beschikken niet over deze luxe. Hierdoor ontstaat een paradoxaal effect: juist daar waar maatwerk het hardst nodig is, ontbreekt de capaciteit om het uit te voeren. Onderwijs op maat dreigt zo ongelijkheid te reproduceren in plaats van te verminderen.\n\nDaarnaast speelt de rol van technologie een steeds grotere rol in gepersonaliseerd onderwijs. Digitale leerplatformen analyseren prestaties en passen het lesmateriaal automatisch aan. Hoewel dit efficiënt klinkt, roept het vragen op over transparantie en sturing. Algoritmen bepalen immers welke leerling extra oefening krijgt en wie versneld mag doorgaan. De criteria waarop deze beslissingen zijn gebaseerd, zijn niet altijd inzichtelijk voor docenten, laat staan voor leerlingen en ouders. Hierdoor verschuift de pedagogische verantwoordelijkheid gedeeltelijk van mens naar systeem.\n\nEen ander punt van zorg is de vroege selectie die maatwerk met zich mee kan brengen. Wanneer leerlingen al op jonge leeftijd verschillende leerpaden volgen, wordt hun toekomstperspectief impliciet vastgelegd. Wat bedoeld is als flexibiliteit, kan in werkelijkheid leiden tot fixatie. Leerlingen die eenmaal in een 'langzamer' traject terechtkomen, blijken moeilijk door te stromen naar uitdagender niveaus, zelfs wanneer hun ontwikkeling daartoe aanleiding geeft. Dit roept de vraag op of onderwijs op maat wel voldoende ruimte laat voor groei en heroriëntatie.\n\nTegelijkertijd is het te simplistisch om maatwerk uitsluitend als problematisch te beschouwen. Veel docenten ervaren juist meer ruimte om aan te sluiten bij hun leerlingen en zien positieve effecten op motivatie en betrokkenheid. Leerlingen voelen zich vaker gezien en gehoord, wat hun zelfvertrouwen versterkt. Deze subjectieve ervaring van erkenning mag niet worden onderschat, zeker in een onderwijssysteem dat lange tijd sterk gericht was op standaardisering en toetsing.\n\nDe kern van het debat draait daarom niet om de vraag óf onderwijs op maat wenselijk is, maar onder welke voorwaarden. Zonder duidelijke kaders kan maatwerk uitmonden in willekeur en fragmentatie. Gelijke kansen vereisen niet dat iedereen hetzelfde krijgt, maar wel dat verschillen niet leiden tot structurele achterstelling. Dit vraagt om landelijke richtlijnen, transparantie in besluitvorming en voortdurende monitoring van de effecten op verschillende leerlinggroepen.\n\nOnderwijs op maat bevindt zich daarmee op een spanningsveld tussen emancipatie en uitsluiting. Het concept belooft rechtvaardigheid, maar kan deze alleen waarmaken wanneer het gepaard gaat met voldoende middelen, professionele autonomie en kritische reflectie. De open vraag blijft of het huidige onderwijssysteem in staat is deze balans te bewaken, of dat maatwerk uiteindelijk vooral de verschillen zichtbaar maakt die het zegt te willen overbruggen.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijke voorwaarde om onderwijs op maat succesvol te laten functioneren?",
+          "promptAr": "ما هو الشرط المهم حسب النص لجعل التعليم المخصص يعمل بنجاح؟",
+          "options": [
+            "Strenge landelijke toetsen",
+            "Voldoende middelen en personeel",
+            "Volledige automatisering van lesprogramma's"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat maatwerk alleen mogelijk is als scholen over voldoende capaciteit beschikken.",
+          "explanationAr": "يؤكد النص أن العمل المخصص ممكن فقط إذا كانت المدارس لديها قدرة كافية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Scholen met voldoende personeel, kleinere klassen en digitale infrastructuur kunnen individuele begeleiding daadwerkelijk vormgeven."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over scholen in sociaal-economisch kwetsbare wijken?",
+          "promptAr": "ماذا يمكن استنتاجه عن المدارس في الأحياء المعرضة اجتماعيًا واقتصاديًا؟",
+          "options": [
+            "Zij passen onderwijs op maat vaker toe",
+            "Zij hebben minder behoefte aan maatwerk",
+            "Zij lopen het risico verder achter te raken"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Door gebrek aan middelen kunnen deze scholen ongelijkheid versterken.",
+          "explanationAr": "بسبب نقص الموارد، يمكن لهذه المدارس أن تعزز عدم المساواة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "juist daar waar maatwerk het hardst nodig is, ontbreekt de capaciteit om het uit te voeren"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak komt het dichtst in de buurt van de betekenis van de term paradoxaal effect in de tekst?",
+          "promptAr": "أي عبارة تقترب أكثر من معنى مصطلح \"التأثير المتناقض\" في النص؟",
+          "options": [
+            "Een onverwacht tegenovergesteld resultaat",
+            "Een tijdelijk neveneffect",
+            "Een technisch probleem"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De term verwijst naar het versterken van ongelijkheid terwijl het doel het tegenovergestelde is.",
+          "explanationAr": "المصطلح يشير إلى تعزيز عدم المساواة بينما الهدف هو العكس.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Onderwijs op maat dreigt zo ongelijkheid te reproduceren in plaats van te verminderen"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur het gebruik van algoritmen in het onderwijs?",
+          "promptAr": "لماذا يناقش المؤلف استخدام الخوارزميات في التعليم؟",
+          "options": [
+            "Om technologische vooruitgang te prijzen",
+            "Om risico's van verminderde transparantie te tonen",
+            "Om docenten overbodig te verklaren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur gebruikt algoritmen als voorbeeld van mogelijke controle- en inzichtsproblemen.",
+          "explanationAr": "يستخدم المؤلف الخوارزميات كمثال على مشاكل التحكم والشفافية المحتملة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De criteria waarop deze beslissingen zijn gebaseerd, zijn niet altijd inzichtelijk"
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة المركزية للنص؟",
+          "options": [
+            "Onderwijs op maat is per definitie onrechtvaardig",
+            "Onderwijs op maat vraagt om strikte afwijzing",
+            "Onderwijs op maat is alleen rechtvaardig onder duidelijke voorwaarden"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt de noodzaak van randvoorwaarden om maatwerk eerlijk te laten werken.",
+          "explanationAr": "يؤكد النص على ضرورة الشروط المسبقة لجعل العمل المخصص يعمل بشكل عادل.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De kern van het debat draait daarom niet om de vraag óf onderwijs op maat wenselijk is, maar onder welke voorwaarden"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan worden getrokken over de toekomst van onderwijs op maat?",
+          "promptAr": "ما الاستنتاج الذي يمكن استخلاصه حول مستقبل التعليم المخصص؟",
+          "options": [
+            "Het zal automatisch leiden tot gelijke kansen",
+            "Het blijft afhankelijk van beleidskeuzes en middelen",
+            "Het zal standaardonderwijs volledig vervangen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst laat zien dat succes afhangt van structurele ondersteuning en keuzes.",
+          "explanationAr": "يظهر النص أن النجاح يعتمد على الدعم الهيكلي والخيارات.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het concept belooft rechtvaardigheid, maar kan deze alleen waarmaken wanneer het gepaard gaat met voldoende middelen"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Klimaatbeleid en draagvlak: hoe ver kan de overheid gaan?",
+      "topic": "Klimaat & politiek",
+      "level": "B2+",
+      "content": "De afgelopen jaren is klimaatbeleid uitgegroeid tot een van de meest beladen politieke thema's in Nederland. Waar aanvankelijk brede steun bestond voor maatregelen om de uitstoot van broeikasgassen te verminderen, is die consensus steeds brozer geworden. Protesten tegen hogere energieprijzen, weerstand tegen stikstofmaatregelen en wantrouwen tegenover langetermijnplannen laten zien dat klimaatbeleid niet alleen een technische of ecologische kwestie is, maar ook een sociaal en politiek vraagstuk. De kern van het debat draait om draagvlak: in hoeverre is de samenleving bereid ingrijpende maatregelen te accepteren, en wat mag de overheid afdwingen in het algemeen belang?\n\nVanuit beleidsmatig perspectief is de noodzaak van klimaatmaatregelen moeilijk te ontkennen. Wetenschappelijke rapporten wijzen al decennia op de risico's van klimaatverandering, variërend van extreme weersomstandigheden tot economische ontwrichting. Regeringen beroepen zich daarom op internationale afspraken en nationale doelstellingen om hun beleid te rechtvaardigen. Tegelijkertijd blijkt uit de praktijk dat abstracte doelen weinig betekenen voor burgers die vooral geconfronteerd worden met concrete gevolgen, zoals stijgende woonlasten, duurdere mobiliteit of beperkingen voor bepaalde beroepen. Het verschil tussen beleidslogica en dagelijkse realiteit vormt een belangrijke bron van spanningen.\n\nEen veelgehoord argument is dat klimaatbeleid eerlijk moet zijn om maatschappelijk draagvlak te behouden. Dit betekent niet alleen dat de lasten evenredig verdeeld worden, maar ook dat mensen het gevoel hebben dat zij gehoord worden. Wanneer maatregelen vooral worden ervaren als opgelegd van bovenaf, ontstaat het beeld van een afstandelijke overheid die onvoldoende rekening houdt met individuele omstandigheden. Dit sentiment wordt versterkt als grote vervuilers relatief buiten schot lijken te blijven, terwijl huishoudens en kleine ondernemers direct de gevolgen ondervinden. In dat geval verschuift het debat van klimaatbescherming naar sociale rechtvaardigheid.\n\nDaar staat tegenover dat overheden niet kunnen wachten tot volledige consensus is bereikt. Klimaatverandering wordt vaak gepresenteerd als een urgent probleem dat snelle en soms onpopulaire beslissingen vereist. Vanuit dit perspectief is stevig ingrijpen gerechtvaardigd, zelfs als dat tijdelijk tot weerstand leidt. Voorstanders van deze benadering wijzen erop dat eerdere grote maatschappelijke transities, zoals de invoering van sociale zekerheid of verkeersveiligheidsregels, aanvankelijk ook op verzet stuitten maar later breed werden geaccepteerd. Volgens hen onderschatten critici het vermogen van samenlevingen om zich aan te passen.\n\nToch is de vergelijking met eerdere beleidsdomeinen niet probleemloos. Klimaatbeleid raakt vrijwel alle aspecten van het dagelijks leven en vraagt langdurige gedragsveranderingen, zonder dat de voordelen direct zichtbaar zijn. Dit maakt het moeilijker om vertrouwen vast te houden. Bovendien speelt onzekerheid een grote rol: burgers weten vaak niet welke maatregelen nog zullen volgen en hoe hun situatie op de lange termijn beïnvloed wordt. Deze onzekerheid kan leiden tot passiviteit of zelfs actieve tegenwerking, wat het effect van beleid ondermijnt.\n\nEen mogelijke uitweg ligt in het combineren van duidelijke kaders met flexibiliteit in uitvoering. De overheid kan scherpe doelen stellen, maar ruimte laten voor lokale en individuele invulling. Daarnaast kan transparante communicatie helpen om begrip te vergroten, vooral wanneer ook de beperkingen en onzekerheden van beleid worden erkend. Draagvlak ontstaat niet alleen door overtuigen, maar ook door het serieus nemen van twijfel en kritiek. De vraag blijft echter of dit voldoende is in een context waarin de tijdsdruk hoog is en de belangen sterk uiteenlopen.\n\nUiteindelijk draait het debat over klimaatbeleid en draagvlak om een fundamentele spanning tussen democratische legitimiteit en bestuurlijke daadkracht. Te veel nadruk op draagvlak kan leiden tot uitstel en halfslachtige maatregelen, terwijl te weinig aandacht ervoor het vertrouwen in de overheid aantast. Hoe ver de overheid kan gaan, is daarom geen vaststaand gegeven, maar het resultaat van een voortdurend onderhandelingsproces tussen beleid, samenleving en tijd.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat wordt in de tekst genoemd als een belangrijke bron van spanningen rond klimaatbeleid?",
+          "promptAr": "ما الذي يُذكر في النص كمصدر مهم للتوترات حول سياسة المناخ؟",
+          "options": [
+            "Het gebrek aan internationale afspraken",
+            "Het verschil tussen beleidsdoelen en dagelijkse gevolgen voor burgers",
+            "Onvoldoende wetenschappelijk bewijs voor klimaatverandering"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt het contrast tussen abstract beleid en concrete gevolgen voor burgers.",
+          "explanationAr": "يؤكد النص على التباين بين السياسة المجردة والعواقب الملموسة للمواطنين.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het verschil tussen beleidslogica en dagelijkse realiteit vormt een belangrijke bron van spanningen."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over het vertrouwen van burgers wanneer beleid als oneerlijk wordt ervaren?",
+          "promptAr": "ماذا يمكن استنتاجه عن ثقة المواطنين عندما يُنظر إلى السياسة على أنها غير عادلة؟",
+          "options": [
+            "Het vertrouwen neemt toe omdat beleid duidelijk is",
+            "Het vertrouwen blijft onveranderd zolang doelen helder zijn",
+            "Het vertrouwen kan afnemen en het debat verschuift naar sociale rechtvaardigheid"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Oneerlijke lastenverdeling leidt tot wantrouwen en een ander soort debat.",
+          "explanationAr": "التوزيع غير العادل للأعباء يؤدي إلى عدم الثقة ونوع مختلف من النقاش.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In dat geval verschuift het debat van klimaatbescherming naar sociale rechtvaardigheid."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met de uitspraak dat de overheid niet kan wachten op volledige consensus?",
+          "promptAr": "ماذا يُقصد بالقول إن الحكومة لا يمكنها الانتظار حتى إجماع كامل؟",
+          "options": [
+            "Dat burgers geen inspraak nodig hebben",
+            "Dat snelle beslissingen soms nodig zijn ondanks weerstand",
+            "Dat klimaatbeleid altijd populair is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat urgentie soms belangrijker wordt geacht dan instemming.",
+          "explanationAr": "يشرح النص أن الاستعجال يُعتبر أحيانًا أكثر أهمية من الموافقة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Vanuit dit perspectief is stevig ingrijpen gerechtvaardigd, zelfs als dat tijdelijk tot weerstand leidt."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom vergelijkt de tekst klimaatbeleid met eerdere maatschappelijke transities?",
+          "promptAr": "لماذا يقارن النص سياسة المناخ بالتحولات المجتمعية السابقة؟",
+          "options": [
+            "Om te laten zien dat weerstand altijd zinloos is",
+            "Om aan te tonen dat aanpassing mogelijk is ondanks aanvankelijk verzet",
+            "Om te bewijzen dat klimaatbeleid uniek is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De vergelijking dient om te suggereren dat acceptatie kan groeien in de tijd.",
+          "explanationAr": "المقارنة تهدف إلى اقتراح أن القبول يمكن أن ينمو بمرور الوقت.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Volgens hen onderschatten critici het vermogen van samenlevingen om zich aan te passen."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan worden getrokken over de rol van communicatie bij klimaatbeleid?",
+          "promptAr": "ما الاستنتاج الذي يمكن استخلاصه حول دور التواصل في سياسة المناخ؟",
+          "options": [
+            "Communicatie is minder belangrijk dan regelgeving",
+            "Communicatie kan bijdragen aan draagvlak, maar lost niet alle problemen op",
+            "Communicatie maakt beleidsdoelen overbodig"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat communicatie helpt, maar geen garantie biedt.",
+          "explanationAr": "يشير النص إلى أن التواصل يساعد، لكنه لا يقدم ضمانًا.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De vraag blijft echter of dit voldoende is in een context waarin de tijdsdruk hoog is"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale gedachte van de tekst?",
+          "promptAr": "ما هي الفكرة المركزية للنص؟",
+          "options": [
+            "Klimaatbeleid faalt door gebrek aan wetenschap",
+            "Draagvlak bepaalt volledig hoe klimaatbeleid eruitziet",
+            "Klimaatbeleid vereist een balans tussen ingrijpen en maatschappelijk draagvlak"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst draait om de spanning tussen daadkracht en legitimiteit.",
+          "explanationAr": "يدور النص حول التوتر بين القوة والشرعية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Uiteindelijk draait het debat over klimaatbeleid en draagvlak om een fundamentele spanning tussen democratische legitimiteit en bestuurlijke daadkracht"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 4,
+  "titleNl": "Oefening 4",
+  "titleAr": "تمرين 4",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Wanneer expertise ondergeschikt wordt aan beleid",
+      "topic": "Beleid & expertise",
+      "level": "C1+",
+      "content": "Wanneer expertise ondergeschikt wordt aan beleid\n\nIn moderne samenlevingen wordt beleid vaak gepresenteerd als rationeel, efficiënt en goed onderbouwd. Beleidsmakers benadrukken graag dat beslissingen worden genomen op basis van onderzoek, statistiek en deskundig advies. Dat beeld wekt vertrouwen: het suggereert dat keuzes niet uit impuls worden gemaakt, maar volgens een doordachte aanpak. Toch ervaren veel experts dat hun kennis in de praktijk geregeld ondergeschikt raakt aan politieke overwegingen. Die spanning tussen expertise en beleid roept vragen op over de rol van deskundigheid in besluitvorming, zeker wanneer beslissingen grote gevolgen hebben voor burgers.\n\nEen eerste oorzaak is de politieke context waarin beleid tot stand komt. Beleidskeuzes moeten niet alleen inhoudelijk verdedigbaar zijn, maar ook maatschappelijk en politiek haalbaar. Dit betekent dat aanbevelingen van experts soms worden aangepast of terzijde geschoven wanneer zij botsen met publieke opinie, verkiezingsbeloften of economische belangen. Expertise wordt dan niet per se afgewezen omdat zij fout is, maar omdat zij politiek lastig ligt. In zulke situaties wordt het gesprek niet gevoerd over \"wat werkt\", maar over \"wat verkoopbaar is\".\n\nTijdsdruk versterkt dit mechanisme. Beleidsprocessen verlopen vaak onder druk om snel resultaten te laten zien, bijvoorbeeld binnen een kabinetsperiode of na een incident dat de media domineert. Grondige analyse, langetermijnonderzoek en scenario-denken passen slecht binnen die dynamiek. Experts die wijzen op onzekerheden, risico's of onbedoelde neveneffecten worden daardoor soms gezien als remmend. Hun voorzichtigheid wordt geïnterpreteerd als besluiteloosheid, terwijl die juist bedoeld is om schade te voorkomen.\n\nOok de manier waarop het publieke debat werkt, beïnvloedt de positie van expertise. In de media krijgen eenvoudige en duidelijke boodschappen meer aandacht dan genuanceerde analyses. Politici worden beloond voor stelligheid en snelheid, terwijl experts geneigd zijn om kanttekeningen te plaatsen en verschillende mogelijkheden af te wegen. Hierdoor ontstaat een asymmetrie: wat simpel klinkt, wint het debat; wat zorgvuldig is, verdwijnt naar de achtergrond. Expertise kan inhoudelijk sterk zijn, maar communicatief zwakker overkomen.\n\nWanneer expertise structureel wordt gemarginaliseerd, heeft dat gevolgen voor de kwaliteit van beleid. Beslissingen die vooral worden gestuurd door korte-termijnoverwegingen kunnen op papier aantrekkelijk lijken, maar in de uitvoering tekortschieten. Relevante kennis over uitvoering, gedragseffecten en context wordt dan onvoldoende meegenomen. Het resultaat is beleid dat later moet worden hersteld, waardoor kosten stijgen en vertrouwen daalt. Bovendien ontstaat het risico dat burgers het gevoel krijgen dat beleid willekeurig is, zeker wanneer maatregelen steeds veranderen.\n\nCritici benadrukken daarom dat expertise niet gelijkstaat aan absolute zekerheid. Deskundigen opereren binnen onzekerheid en werken met waarschijnlijkheden, marges en scenario's. Juist die nuance is essentieel voor verantwoord beleid. Wanneer besluitvorming alleen ruimte laat voor zekerheid, wordt beleid kwetsbaar voor onverwachte effecten en maatschappelijke weerstand. Tegelijkertijd betekent dit niet dat expertise altijd doorslaggevend moet zijn. Democratische besluitvorming vereist immers afweging van waarden, belangen en draagvlak.\n\nWat dan nodig is, is transparantie over hoe en waarom van deskundig advies wordt afgeweken. Als beleidsmakers bewust andere keuzes maken, moeten zij kunnen uitleggen welke afwegingen daarbij een rol speelden. Alleen dan blijft vertrouwen in zowel beleid als expertise behouden. De uitdaging ligt dus in het vinden van een evenwicht waarin expertise serieus wordt genomen zonder de politieke realiteit te negeren. Pas wanneer deskundigheid en beleid elkaar aanvullen, kan besluitvorming zowel legitiem als effectief zijn.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is het centrale thema van de tekst?",
+          "promptAr": "ما هو الموضوع المركزي للنص؟",
+          "options": [
+            "De groeiende macht van experts",
+            "De spanning tussen expertise en politieke besluitvorming",
+            "Het gebrek aan onderzoek in beleid"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst draait om botsing tussen \"wat werkt\" en \"wat politiek haalbaar is\".",
+          "explanationAr": "النص يدور حول التصادم بين \"ما يعمل\" و \"ما هو ممكن سياسيًا\".",
+          "trapNoteNl": "A en C worden niet genoemd als het centrale thema.",
+          "trapNoteAr": "A و C غير مذكورين كموضوع مركزي.",
+          "evidenceQuote": "Die spanning tussen expertise en beleid roept vragen op"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom wordt deskundig advies soms genegeerd?",
+          "promptAr": "لماذا يُتجاهل أحيانًا النصيحة الخبيرة؟",
+          "options": [
+            "Omdat het onjuist is",
+            "Omdat het politiek ongunstig kan zijn",
+            "Omdat het te complex is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Advies botst soms met publieke opinie, beloftes of belangen.",
+          "explanationAr": "النصيحة تتعارض أحيانًا مع الرأي العام أو الوعود أو المصالح.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "wanneer zij botsen met publieke opinie, verkiezingsbeloften of economische belangen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke factor belemmert grondige analyse volgens de tekst?",
+          "promptAr": "ما العامل الذي يعيق التحليل المتعمق حسب النص؟",
+          "options": [
+            "Gebrek aan data",
+            "Tijdsdruk",
+            "Onvoldoende expertise"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt druk om snel resultaten te tonen.",
+          "explanationAr": "النص يذكر الضغط لإظهار النتائج بسرعة.",
+          "trapNoteNl": "A en C worden niet genoemd als belemmering.",
+          "trapNoteAr": "A و C غير مذكورين كعائق.",
+          "evidenceQuote": "Beleidsprocessen verlopen vaak onder druk om snel resultaten te laten zien"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met 'experts als remmend'?",
+          "promptAr": "ماذا يقصد الكاتب بـ \"الخبراء كعائق\"؟",
+          "options": [
+            "Dat experts beleid bewust blokkeren",
+            "Dat nuance wordt gezien als vertraging",
+            "Dat experts tegen democratie zijn"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Voorzichtigheid wordt uitgelegd als besluiteloosheid.",
+          "explanationAr": "الحذر يُفسر على أنه تردد في اتخاذ القرار.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "Hun voorzichtigheid wordt geïnterpreteerd als besluiteloosheid"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Wat is een risico van beleid zonder volledige expertise?",
+          "promptAr": "ما هو خطر السياسة دون خبرة كاملة؟",
+          "options": [
+            "Meer draagvlak",
+            "Minder kosten",
+            "Slechte uitvoering en herstel achteraf"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Beleid lijkt goed op papier maar faalt in uitvoering.",
+          "explanationAr": "السياسة تبدو جيدة على الورق لكنها تفشل في التنفيذ.",
+          "trapNoteNl": "A en B worden niet genoemd als risico.",
+          "trapNoteAr": "A و B غير مذكورين كخطر.",
+          "evidenceQuote": "maar in de uitvoering tekortschieten"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom benadrukt de schrijver transparantie?",
+          "promptAr": "لماذا يؤكد الكاتب على الشفافية؟",
+          "options": [
+            "Om beleid sneller te maken",
+            "Om vertrouwen te behouden",
+            "Om experts altijd gelijk te geven"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Uitleg over afwijken van advies voorkomt vertrouwensverlies.",
+          "explanationAr": "شرح الانحراف عن النصيحة يمنع فقدان الثقة.",
+          "trapNoteNl": "A en C worden niet genoemd als doel.",
+          "trapNoteAr": "A و C غير مذكورين كهدف.",
+          "evidenceQuote": "Alleen dan blijft vertrouwen in zowel beleid als expertise behouden"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "De mythe van keuzevrijheid in een digitale samenleving",
+      "topic": "Digitale samenleving & autonomie",
+      "level": "C1+",
+      "content": "De mythe van keuzevrijheid in een digitale samenleving\n\nIn moderne samenlevingen wordt keuzevrijheid vaak voorgesteld als het bewijs dat mensen werkelijk autonoom zijn. Hoe meer opties iemand heeft, hoe vrijer hij is om zijn leven vorm te geven. Digitale technologieën lijken dit ideaal te versterken. Online platforms bieden een bijna eindeloze hoeveelheid informatie, producten, diensten en meningen. In theorie kan iedereen vergelijken, kiezen en overstappen zonder veel moeite. Toch groeit de kritiek dat deze digitale keuzevrijheid vaker een gevoel is dan een feit. De vraag is niet of er opties bestaan, maar wie bepaalt welke opties zichtbaar worden en hoe de keuze in de praktijk tot stand komt.\n\nEen eerste mechanisme is de manier waarop platforms informatie ordenen. Wat de gebruiker ziet is zelden een neutrale afspiegeling van het aanbod. Het is een selectie die wordt gemaakt door algoritmen. Deze systemen verwerken data over klikgedrag, kijktijd, zoekgeschiedenis, locatie en eerdere aankopen en voorspellen wat waarschijnlijk interesse wekt. Daardoor ontstaat een gepersonaliseerde omgeving die comfortabel aanvoelt, maar tegelijk begrenzend werkt. Alternatieven die niet passen bij het voorspelde profiel verdwijnen naar de achtergrond. Zo ontstaat een smalle corridor van keuzes waarbinnen de gebruiker het gevoel heeft vrij te kiezen, terwijl het brede landschap van mogelijkheden onzichtbaar blijft.\n\nDaarbij komt dat platforms economische doelen hebben. Veel diensten zijn gratis in geld, maar niet gratis in aandacht. Data en aandacht vormen het echte betaalmiddel. Platforms verdienen aan advertenties, abonnementen of commissies en hebben dus belang bij keuzes die winst opleveren. Daarom krijgen bepaalde opties meer zichtbaarheid dan andere. Een aanbieding wordt bovenaan geplaatst, een abonnement wordt extra aantrekkelijk gepresenteerd en een alternatief dat minder winst oplevert wordt verstopt achter meerdere stappen. Voor de gebruiker voelt het als een persoonlijke voorkeur, maar de omgeving is zodanig ingericht dat sommige keuzes eenvoudiger zijn dan andere. Hierdoor verschuift keuzevrijheid van een individuele daad naar een proces dat mede wordt vormgegeven door commerciële prikkels.\n\nEen vierde punt is dat persoonlijke verantwoordelijkheid in het publieke debat vaak wordt overschat. Wanneer iemand online iets kiest, wordt dat gezien als een individuele beslissing. Maar die beslissing is ingebed in een omgeving die gedrag stuurt en die voortdurend leert van de zwakke plekken van menselijke aandacht. Mensen zijn gevoelig voor gemak, sociale bevestiging en herhaling. Als een platform steeds dezelfde soort content toont, gaat die content vertrouwd voelen en krijgt zij meer gewicht. De gebruiker kan dan oprecht denken dat hij onafhankelijk kiest, terwijl de omgeving de voorkeur langzaam heeft gevormd.\n\nToch betekent dit niet dat gebruikers volledig machteloos zijn. Er bestaat wel degelijk ruimte voor autonomie, maar die ruimte vraagt inspanning en kennis. Gebruikers kunnen instellingen aanpassen, cookies beperken, notificaties uitzetten en bewust verschillende bronnen raadplegen. Ze kunnen ook vertraging inbouwen door niet direct op aanbevelingen te klikken, maar eerst het aanbod actief te verkennen. Zulke stappen vergroten de kans op een keuze die werkelijk past bij de eigen doelen, in plaats van bij de doelen van het platform.\n\nDaarnaast ligt er een belangrijke verantwoordelijkheid bij organisaties en beleidsmakers. Transparantie is essentieel. Een gebruiker kan pas vrij kiezen wanneer hij begrijpt waarom hij iets te zien krijgt en welke belangen meespelen. Daarom pleiten critici voor regels die duidelijk maken hoe aanbevelingen tot stand komen en hoe advertenties worden gemarkeerd. Ook kan beleid eisen stellen aan standaardinstellingen, zodat privacyvriendelijke keuzes niet verborgen blijven, maar juist de norm worden. In die benadering wordt keuzevrijheid niet gereduceerd tot een marketingterm, maar behandeld als een democratische voorwaarde.\n\nDe kernvraag is dus niet of digitale keuzevrijheid bestaat, maar onder welke voorwaarden zij betekenisvol wordt. Meer opties betekenen niet automatisch meer vrijheid. Vrijheid ontstaat wanneer mensen inzicht hebben in de structuren die hun keuzes vormgeven en wanneer die structuren eerlijk en controleerbaar zijn. Zonder dat inzicht blijft keuzevrijheid vooral een aantrekkelijk ideaal, terwijl de feitelijke beslissingsruimte kleiner is dan zij lijkt.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom kan personalisatie keuzevrijheid beperken?",
+          "promptAr": "لماذا يمكن أن يحد التخصيص من حرية الاختيار؟",
+          "options": [
+            "Omdat het aanbod kleiner wordt op internet",
+            "Omdat alternatieven die niet passen bij het profiel onzichtbaar worden",
+            "Omdat gebruikers geen voorkeuren hebben"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Personalisatie maakt een smalle corridor van zichtbare opties.",
+          "explanationAr": "التخصيص يخلق ممرًا ضيقًا من الخيارات المرئية.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "Alternatieven die niet passen bij het voorspelde profiel verdwijnen naar de achtergrond"
+        },
+        {
+          "orderIndex": 1,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met het idee dat keuzes \"niet neutraal\" zijn?",
+          "promptAr": "ماذا يقصد الكاتب بفكرة أن الخيارات \"غير محايدة\"؟",
+          "options": [
+            "Keuzes zijn altijd persoonlijk",
+            "Keuzes worden beïnvloed door de omgeving waarin ze plaatsvinden",
+            "Keuzes zijn wettelijk beperkt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst laat zien dat zichtbaarheid en context keuzes sturen.",
+          "explanationAr": "النص يوضح أن الرؤية والسياق يوجهان الخيارات.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "Wat de gebruiker ziet is zelden een neutrale afspiegeling van het aanbod"
+        },
+        {
+          "orderIndex": 2,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de hoofdgedachte van de tekst?",
+          "promptAr": "ما هي الفكرة الرئيسية للنص؟",
+          "options": [
+            "Digitale platforms vergroten keuzevrijheid omdat het aanbod groter is",
+            "Digitale keuzevrijheid wordt gestuurd door filtering, ontwerp en belangen",
+            "Keuzevrijheid is alleen een probleem bij jongeren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst toont dat opties wel bestaan maar dat zichtbaarheid en sturing bepalen wat je kiest.",
+          "explanationAr": "النص يوضح أن الخيارات موجودة لكن الرؤية والتوجيه يحددان ما تختاره.",
+          "trapNoteNl": "A en C worden niet genoemd als hoofdgedachte.",
+          "trapNoteAr": "A و C غير مذكورين كفكرة رئيسية.",
+          "evidenceQuote": "Wat de gebruiker ziet is zelden een neutrale afspiegeling van het aanbod"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de tekst met cognitieve belasting?",
+          "promptAr": "ماذا يقصد النص بالعبء المعرفي؟",
+          "options": [
+            "Het effect van snelle wifi",
+            "De mentale druk door veel prikkels en te veel opties",
+            "Het verschil tussen gratis en betaald"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Te veel opties leidt tot keuzestress en snelle beslissingen.",
+          "explanationAr": "الكثير من الخيارات يؤدي إلى ضغط الاختيار وقرارات سريعة.",
+          "trapNoteNl": "A en C worden niet genoemd als betekenis.",
+          "trapNoteAr": "A و C غير مذكورين كمعنى.",
+          "evidenceQuote": "die voortdurend leert van de zwakke plekken van menselijke aandacht"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom is de persoonlijke verantwoordelijkheid volgens de tekst vaak overschat?",
+          "promptAr": "لماذا غالبًا ما يُبالغ في تقدير المسؤولية الشخصية حسب النص؟",
+          "options": [
+            "Omdat mensen geen keuzes maken",
+            "Omdat de omgeving voorkeuren langzaam vormt via herhaling en bevestiging",
+            "Omdat wetten keuzes verbieden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Keuzes ontstaan binnen een omgeving die gedrag en voorkeur beïnvloedt.",
+          "explanationAr": "الخيارات تنشأ ضمن بيئة تؤثر على السلوك والتفضيل.",
+          "trapNoteNl": "A en C worden niet genoemd als reden.",
+          "trapNoteAr": "A و C غير مذكورين كسبب.",
+          "evidenceQuote": "de omgeving de voorkeur langzaam heeft gevormd"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom noemt de schrijver transparantie en regels aan het einde?",
+          "promptAr": "لماذا يذكر الكاتب الشفافية والقواعد في النهاية؟",
+          "options": [
+            "Om platforms te verbieden",
+            "Om keuzevrijheid betekenisvoller te maken door inzicht en eerlijke standaarden",
+            "Om reclame aantrekkelijker te maken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Vrijheid vraagt inzicht in aanbevelingen en standaardinstellingen.",
+          "explanationAr": "الحرية تتطلب البصيرة في التوصيات والإعدادات الافتراضية.",
+          "trapNoteNl": "A en C worden niet genoemd als doel.",
+          "trapNoteAr": "A و C غير مذكورين كهدف.",
+          "evidenceQuote": "Transparantie is essentieel"
+        }
+      ]
+    }
+  ]
+}

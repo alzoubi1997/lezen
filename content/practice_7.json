@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 7,
+  "titleNl": "Oefening 7",
+  "titleAr": "تمرين 7",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Wonen als recht of als markt: wie betaalt de prijs van schaarste?",
+      "topic": "Wonen & maatschappij",
+      "level": "B2+",
+      "content": "In veel Europese landen wordt wonen formeel erkend als een basisbehoefte, maar in de dagelijkse praktijk functioneert de woningmarkt steeds vaker als een competitieve markt waarin schaarste de prijzen bepaalt. Deze spanning tussen wonen als recht en wonen als marktproduct is geen abstract debat, maar een realiteit die zich uit in stijgende huren, langere wachttijden en toenemende ongelijkheid tussen verschillende groepen bewoners. De vraag wie uiteindelijk de prijs van deze schaarste betaalt, raakt daarmee aan fundamentele keuzes over beleid, verantwoordelijkheid en solidariteit.\n\nDe oorzaken van woningschaarste zijn complex en meervoudig. Enerzijds is er een structureel tekort aan betaalbare woningen, vooral in stedelijke gebieden waar werkgelegenheid, onderwijs en voorzieningen geconcentreerd zijn. Anderzijds hebben demografische ontwikkelingen, zoals kleinere huishoudens en vergrijzing, geleid tot een hogere vraag naar woonruimte per persoon. Tegelijkertijd is de bouwproductie jarenlang achtergebleven door strikte regelgeving, beperkte beschikbare grond en stijgende bouwkosten. Het resultaat is een markt waarin vraag en aanbod structureel uit balans zijn.\n\nIn deze context speelt de rol van investeerders een steeds grotere rol. Woningen worden niet alleen gezien als plekken om te wonen, maar ook als financiële activa die rendement moeten opleveren. Voor particuliere en institutionele beleggers is vastgoed aantrekkelijk vanwege de relatieve stabiliteit en het vooruitzicht op waardestijging. Deze logica versterkt echter de prijsdruk, vooral in populaire steden, waar koopwoningen worden opgekocht om vervolgens tegen hoge huren te worden aangeboden. Voor starters en mensen met een middeninkomen wordt toegang tot de woningmarkt hierdoor steeds moeilijker.\n\nBeleidsmakers proberen deze ontwikkelingen te sturen met uiteenlopende maatregelen. Huurregulering, opkoopbescherming en subsidies voor sociale woningbouw zijn bedoeld om betaalbaarheid te waarborgen. Toch roepen deze instrumenten ook kritiek op. Tegenstanders stellen dat te strenge regulering investeringen afremt en de woningvoorraad op lange termijn juist verkleint. Voorstanders benadrukken daarentegen dat de markt zonder ingrijpen de neiging heeft om kwetsbare groepen uit te sluiten. Het debat draait daarmee niet alleen om economische efficiëntie, maar ook om morele prioriteiten.\n\nDe gevolgen van de huidige woningmarkt raken niet iedereen op dezelfde manier. Mensen met een flexibel arbeidscontract, migranten en jongeren zijn vaak afhankelijk van de vrije huursector, waar prijzen het snelst stijgen. Voor hen betekent wonen een steeds groter deel van het inkomen, wat gevolgen heeft voor financiële zekerheid en levenskeuzes. Huiseigenaren daarentegen profiteren vaak van waardestijgingen, waardoor vermogensverschillen verder toenemen. Wonen fungeert zo als een mechanisme dat bestaande ongelijkheid versterkt.\n\nTegelijkertijd is het te simplistisch om de woningmarkt uitsluitend te benaderen als een tegenstelling tussen markt en recht. In de praktijk bestaat er een hybride systeem waarin publieke en private belangen met elkaar verweven zijn. Overheden zijn afhankelijk van marktpartijen voor de bouw van nieuwe woningen, terwijl marktpartijen opereren binnen kaders die door de overheid worden vastgesteld. De uitdaging ligt in het vinden van een balans waarin zowel voldoende woningen worden gebouwd als de toegankelijkheid voor verschillende inkomensgroepen wordt beschermd.\n\nSommige steden experimenteren met alternatieve modellen, zoals wooncoöperaties en gemeenschappelijk eigendom. Deze initiatieven proberen het speculatieve karakter van wonen te verminderen door bewoners meer zeggenschap te geven over hun woonomgeving. Hoewel dergelijke projecten vaak kleinschalig zijn, laten ze zien dat andere vormen van organisatie mogelijk zijn. De vraag is echter of ze op grote schaal toepasbaar zijn binnen een systeem dat sterk wordt gedreven door marktlogica.\n\nUiteindelijk dwingt de discussie over wonen als recht of als markt tot een bredere reflectie op de rol van de staat en de grenzen van marktwerking. Zolang schaarste blijft bestaan, zal iemand de prijs betalen, financieel of sociaal. De open vraag is niet alleen wie dat is, maar ook of samenlevingen bereid zijn om wonen opnieuw te definiëren als een collectieve verantwoordelijkheid, in plaats van een individuele strijd op een oververhitte markt.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale gedachte van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Woningschaarste is uitsluitend een technisch bouwprobleem",
+            "De woningmarkt moet volledig vrijgelaten worden",
+            "De spanning tussen wonen als recht en als markt heeft brede maatschappelijke gevolgen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De hoofdgedachte verbindt schaarste, marktwerking en sociale gevolgen.",
+          "explanationAr": "الفكرة الرئيسية تربط بين النقص وآلية السوق والعواقب الاجتماعية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze spanning tussen wonen als recht en wonen als marktproduct is geen abstract debat"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat wordt in de tekst genoemd als een belangrijke oorzaak van de huidige woningschaarste?",
+          "promptAr": "",
+          "options": [
+            "Een plotselinge afname van de bevolking",
+            "Een combinatie van hoge vraag en achterblijvende bouwproductie",
+            "Een daling van de vraag naar woningen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft meerdere structurele factoren die samen tot schaarste leiden.",
+          "explanationAr": "يصف النص عدة عوامل هيكلية تؤدي معًا إلى النقص.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het resultaat is een markt waarin vraag en aanbod structureel uit balans zijn."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over de positie van starters op de woningmarkt?",
+          "promptAr": "",
+          "options": [
+            "Zij profiteren van de waardestijging van woningen",
+            "Zij hebben meestal toegang tot sociale huurwoningen",
+            "Zij ondervinden toenemende moeilijkheden om betaalbare woonruimte te vinden"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst suggereert indirect hoe prijsdruk bepaalde groepen raakt.",
+          "explanationAr": "يشير النص بشكل غير مباشر إلى كيفية تأثير ضغط الأسعار على مجموعات معينة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Voor starters en mensen met een middeninkomen wordt toegang tot de woningmarkt hierdoor steeds moeilijker."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke zin geeft het beste dezelfde betekenis weer als de uitspraak dat wonen ongelijkheid versterkt?",
+          "promptAr": "",
+          "options": [
+            "Wonen verkleint de verschillen tussen inkomensgroepen",
+            "De woningmarkt draagt bij aan groeiende vermogensverschillen",
+            "Iedereen wordt gelijk behandeld op de woningmarkt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De juiste optie herformuleert het idee zonder de kern te veranderen.",
+          "explanationAr": "الخيار الصحيح يعيد صياغة الفكرة دون تغيير الجوهر.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wonen fungeert zo als een mechanisme dat bestaande ongelijkheid versterkt."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom noemt de auteur wooncoöperaties en gemeenschappelijk eigendom?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat marktwerking volledig kan worden afgeschaft",
+            "Om een alternatief te tonen dat de dominante marktlogica ter discussie stelt",
+            "Om aan te geven dat deze modellen al grootschalig zijn ingevoerd"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Dit voorbeeld heeft een illustratieve functie binnen het betoog.",
+          "explanationAr": "هذا المثال له وظيفة توضيحية داخل الحجة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze initiatieven proberen het speculatieve karakter van wonen te verminderen"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke open vraag blijft volgens de auteur uiteindelijk bestaan?",
+          "promptAr": "",
+          "options": [
+            "Of er ooit genoeg woningen gebouwd zullen worden",
+            "Of investeren in vastgoed winstgevend blijft",
+            "Of samenlevingen wonen als collectieve verantwoordelijkheid willen zien"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De conclusie wijst op een fundamentele, nog onbeantwoorde kwestie.",
+          "explanationAr": "الخلاصة تشير إلى قضية أساسية لم يتم حلها بعد.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De open vraag is niet alleen wie dat is, maar ook of samenlevingen bereid zijn om wonen opnieuw te definiëren"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Preventieve zorg: investering in gezondheid of onhaalbare belofte?",
+      "topic": "Gezondheid & zorg",
+      "level": "B2+",
+      "content": "Preventieve zorg wordt vaak gepresenteerd als een vanzelfsprekende oplossing voor de toenemende druk op zorgsystemen. Door ziekten te voorkomen in plaats van ze te behandelen, zouden kosten dalen, mensen langer gezond blijven en de kwaliteit van leven verbeteren. Overheden, verzekeraars en gezondheidsorganisaties benadrukken daarom het belang van preventie, variërend van vaccinatieprogramma's tot leefstijlinterventies zoals stoppen met roken en meer bewegen. Toch roept preventieve zorg ook fundamentele vragen op. Is preventie werkelijk een investering die zichzelf terugverdient, of is het een idealistisch concept dat in de praktijk moeilijk uitvoerbaar blijkt?\n\nEen belangrijk argument vóór preventieve zorg is economisch van aard. Chronische aandoeningen zoals diabetes type 2, hart- en vaatziekten en obesitas vormen een groot deel van de zorguitgaven. Aanhangers van preventie stellen dat vroege interventie deze ziekten kan uitstellen of zelfs voorkomen, waardoor dure behandelingen later niet nodig zijn. Vanuit dit perspectief lijkt preventieve zorg niet alleen wenselijk, maar noodzakelijk om de betaalbaarheid van de zorg op lange termijn te garanderen. Deze redenering gaat echter uit van de aanname dat preventieve maatregelen daadwerkelijk leiden tot structurele kostenbesparingen, een veronderstelling die niet altijd wordt bevestigd door empirisch onderzoek.\n\nCritici wijzen erop dat preventieve zorg vaak meer kost dan zij oplevert. Preventie richt zich meestal op grote groepen mensen, van wie slechts een deel daadwerkelijk ziek zou worden. Dat betekent dat middelen worden ingezet voor mensen die mogelijk nooit zorg nodig zouden hebben gehad. Bovendien leven mensen dankzij succesvolle preventie vaak langer, waardoor zij op latere leeftijd alsnog zorg nodig hebben voor andere aandoeningen. De kosten verdwijnen dus niet, maar verschuiven in de tijd. Hierdoor is het financieel rendement van preventie moeilijk vast te stellen en sterk afhankelijk van het type maatregel en de doelgroep.\n\nNaast economische overwegingen spelen ook ethische en maatschappelijke vragen een rol. Preventieve zorg veronderstelt vaak dat individuen verantwoordelijkheid nemen voor hun gezondheid. Campagnes die mensen aansporen tot gezonder gedrag gaan impliciet uit van keuzevrijheid en controle. In werkelijkheid zijn leefstijlkeuzes sterk verbonden met sociaaleconomische omstandigheden. Mensen met een lager inkomen hebben vaker minder toegang tot gezonde voeding, veilige woonomgevingen en tijd voor ontspanning. Preventieve programma's kunnen daardoor onbedoeld bestaande gezondheidsverschillen vergroten, omdat vooral hogeropgeleiden en welvarenden ervan profiteren.\n\nDaarbij komt dat preventieve zorg soms een normatief karakter krijgt. Wanneer gezond gedrag als morele plicht wordt gepresenteerd, ontstaat het risico dat ziekte wordt gezien als persoonlijk falen. Dit kan leiden tot stigmatisering van mensen die niet voldoen aan het ideaalbeeld van de 'gezonde burger'. In plaats van solidariteit kan er dan juist meer sociale druk en uitsluiting ontstaan. De vraag rijst in hoeverre de overheid het recht heeft om zich te mengen in persoonlijke levenssfeer onder het mom van preventie.\n\nToch betekent dit niet dat preventieve zorg per definitie onhaalbaar is. Succesvolle voorbeelden, zoals vaccinatieprogramma's en screening op bepaalde vormen van kanker, laten zien dat preventie wel degelijk effectief kan zijn, mits zij zorgvuldig wordt ontworpen. Dergelijke interventies kenmerken zich door een duidelijke wetenschappelijke onderbouwing, een afgebakende doelgroep en een aantoonbare gezondheidswinst. Het probleem ontstaat vooral wanneer preventie wordt ingezet als breed beleidsinstrument zonder rekening te houden met context, ongelijkheid en onbedoelde effecten.\n\nDe kern van het debat ligt daarom niet in de vraag of preventieve zorg goed of slecht is, maar onder welke voorwaarden zij zinvol kan zijn. Preventie vraagt om lange adem, intersectorale samenwerking en realistische verwachtingen. Zij kan niet los worden gezien van beleid op het gebied van onderwijs, wonen en werk, omdat gezondheid daar nauw mee samenhangt. Zonder deze bredere aanpak dreigt preventieve zorg een belofte te blijven die vooral goed klinkt op papier, maar in de praktijk slechts beperkt effect heeft.\n\nPreventieve zorg bevindt zich dus op het snijvlak van ideaal en realiteit. Zij biedt kansen om gezondheid te verbeteren en zorgsystemen te ontlasten, maar brengt ook risico's met zich mee op het gebied van kosten, rechtvaardigheid en autonomie. De uitdaging voor beleidsmakers is om preventie niet te verheffen tot wondermiddel, maar te benaderen als een zorgvuldig afgewogen investering, waarbij niet alleen wordt gekeken naar financiële opbrengsten, maar ook naar sociale gevolgen en ethische grenzen.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens voorstanders het belangrijkste economische voordeel van preventieve zorg?",
+          "promptAr": "",
+          "options": [
+            "Dat zorguitgaven volledig verdwijnen op lange termijn",
+            "Dat dure behandelingen in een later stadium kunnen worden voorkomen",
+            "Dat preventie alleen nodig is voor risicogroepen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Voorstanders benadrukken dat vroege interventie dure behandelingen kan voorkomen.",
+          "explanationAr": "يؤكد المؤيدون أن التدخل المبكر يمكن أن يمنع العلاجات باهظة الثمن.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Aanhangers van preventie stellen dat vroege interventie deze ziekten kan uitstellen of zelfs voorkomen, waardoor dure behandelingen later niet nodig zijn."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid uit de kritiek dat kosten door preventie 'verschuiven in de tijd'?",
+          "promptAr": "",
+          "options": [
+            "Dat preventie altijd duurder is dan curatieve zorg",
+            "Dat preventie alleen effect heeft bij jongeren",
+            "Dat kostenbesparing door preventie niet vanzelfsprekend is"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst suggereert dat preventie niet automatisch leidt tot lagere totale kosten.",
+          "explanationAr": "يشير النص إلى أن الوقاية لا تؤدي تلقائيًا إلى انخفاض التكاليف الإجمالية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De kosten verdwijnen dus niet, maar verschuiven in de tijd."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak komt het dichtst bij de betekenis van het standpunt over leefstijlkeuzes?",
+          "promptAr": "",
+          "options": [
+            "Gezond gedrag is vooral een individuele voorkeur",
+            "Leefstijl wordt sterk beïnvloed door sociale en economische factoren",
+            "Mensen kiezen bewust voor ongezond leven"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur benadrukt dat keuzes niet losstaan van omstandigheden.",
+          "explanationAr": "يؤكد المؤلف أن الخيارات لا تنفصل عن الظروف.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In werkelijkheid zijn leefstijlkeuzes sterk verbonden met sociaaleconomische omstandigheden."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom noemt de auteur het risico van stigmatisering?",
+          "promptAr": "",
+          "options": [
+            "Om preventieve zorg volledig af te wijzen",
+            "Om te laten zien dat preventie morele druk kan creëren",
+            "Om individuen verantwoordelijk te houden voor ziekte"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het voorbeeld dient om een mogelijk negatief sociaal effect te illustreren.",
+          "explanationAr": "المثال يخدم توضيح تأثير اجتماعي سلبي محتمل.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wanneer gezond gedrag als morele plicht wordt gepresenteerd, ontstaat het risico dat ziekte wordt gezien als persoonlijk falen."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Preventieve zorg is te duur om effectief te zijn",
+            "Preventieve zorg is nuttig, maar geen universele oplossing",
+            "Curatieve zorg moet volledig worden vervangen door preventie"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt zowel de kansen als de beperkingen van preventie.",
+          "explanationAr": "يؤكد النص على كل من الفرص والقيود للوقاية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De kern van het debat ligt daarom niet in de vraag of preventieve zorg goed of slecht is, maar onder welke voorwaarden zij zinvol kan zijn."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan worden getrokken over de rol van de overheid in preventieve zorg?",
+          "promptAr": "",
+          "options": [
+            "De overheid moet zich volledig terugtrekken",
+            "De overheid moet preventie verplicht stellen voor iedereen",
+            "De overheid moet een zorgvuldige en beperkte aanpak hanteren"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst pleit voor nuance en aandacht voor ethische en sociale grenzen.",
+          "explanationAr": "يدعو النص إلى الدقة والاهتمام بالحدود الأخلاقية والاجتماعية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De uitdaging voor beleidsmakers is om preventie niet te verheffen tot wondermiddel, maar te benaderen als een zorgvuldig afgewogen investering"
+        }
+      ]
+    }
+  ]
+}

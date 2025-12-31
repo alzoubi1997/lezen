@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 10,
+  "titleNl": "Oefening 10",
+  "titleAr": "تمرين 10",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Sociale huurwoningen: tijdelijke oplossing of structureel probleem?",
+      "topic": "Wonen & maatschappij",
+      "level": "B2+",
+      "content": "De discussie over sociale huurwoningen staat al jaren centraal in het Nederlandse woondebat. Wat ooit werd gezien als een vangnet voor mensen met een laag inkomen, is uitgegroeid tot een structureel onderdeel van de woningmarkt. Tegelijkertijd neemt de druk op dit systeem toe door bevolkingsgroei, veranderende huishoudens en stijgende bouwkosten. De vraag rijst daarom of sociale huurwoningen nog steeds functioneren als een tijdelijke oplossing voor kwetsbare groepen, of dat zij inmiddels een structureel probleem zijn geworden binnen een vastgelopen woningmarkt.\n\nSociale huurwoningen zijn oorspronkelijk bedoeld om betaalbaar wonen te garanderen voor mensen die niet in staat zijn een woning te kopen of hoge huurprijzen in de vrije sector te betalen. In theorie zou het verblijf in een sociale huurwoning tijdelijk zijn: zodra de financiële situatie van een huurder verbetert, stroomt deze door naar een koopwoning of een duurdere huurwoning. In de praktijk blijkt deze doorstroming echter beperkt. Veel huurders blijven langdurig in dezelfde woning wonen, niet alleen uit financiële noodzaak, maar ook omdat alternatieven ontbreken.\n\nEen belangrijke oorzaak hiervan is de sterke prijsstijging op de koopmarkt. Starters met een middeninkomen komen moeilijk aan een hypotheek, terwijl de vrije huursector vaak onbetaalbaar is. Hierdoor ontstaat een groep die formeel te veel verdient voor sociale huur, maar feitelijk geen reële alternatieven heeft. Deze zogenoemde 'middeninkomens' blokkeren onbedoeld de doorstroming, waardoor wachttijden voor nieuwe huurders oplopen en sociale huur steeds minder tijdelijk wordt.\n\nDaarnaast spelen demografische ontwikkelingen een rol. Het aantal eenpersoonshuishoudens groeit, terwijl veel sociale huurwoningen relatief klein zijn en daardoor aantrekkelijk blijven voor alleenstaanden en ouderen. Tegelijkertijd vergrijst de bevolking, waardoor oudere huurders langer zelfstandig blijven wonen. Hoewel dit vanuit sociaal oogpunt positief kan zijn, leidt het ook tot minder beschikbaarheid voor jongere generaties. Sociale huurwoningen vervullen zo steeds meer een permanente woonfunctie in plaats van een tijdelijke.\n\nOok het beleid van woningcorporaties staat onder druk. Zij hebben de taak betaalbare woningen te bouwen en te onderhouden, maar worden geconfronteerd met stijgende kosten en strengere regelgeving. Investeringen in nieuwbouw blijven achter bij de groeiende vraag, terwijl renovatie van bestaande woningen vaak noodzakelijk is om aan duurzaamheidseisen te voldoen. Hierdoor verschuift de aandacht van uitbreiding naar behoud, wat het structurele tekort verder versterkt.\n\nCritici stellen dat sociale huur door deze ontwikkelingen zijn oorspronkelijke doel voorbijschiet. In plaats van een vangnet voor de meest kwetsbaren, is het systeem een essentieel onderdeel geworden van de gehele woningmarkt. Voorstanders benadrukken echter dat juist deze structurele rol aantoont hoe noodzakelijk sociale huur is in een samenleving met groeiende ongelijkheid. Zonder sociale huur zou een aanzienlijk deel van de bevolking geen stabiele woonplek hebben.\n\nToch roept deze situatie fundamentele vragen op over rechtvaardigheid en efficiëntie. Moet sociale huur strikt worden gereserveerd voor de laagste inkomens, met strengere inkomenscontroles en tijdelijke contracten? Of moet worden erkend dat sociale huur een blijvend onderdeel is van het woonbeleid, waarbij ook middeninkomens een plek hebben? Beide benaderingen kennen risico's: strengere regels kunnen leiden tot onzekerheid en stress bij huurders, terwijl verruiming het tekort verder kan vergroten.\n\nHet debat over sociale huurwoningen raakt daarmee aan een bredere vraag over wonen als recht versus wonen als marktproduct. Zolang betaalbare alternatieven ontbreken, blijft sociale huur voor velen geen tussenstation, maar een eindpunt. Of dit een probleem is, hangt af van de politieke en maatschappelijke keuzes die worden gemaakt. Zonder een samenhangende visie op wonen dreigt sociale huur echter gevangen te blijven tussen tijdelijke oplossing en structureel probleem.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale vraag van de tekst?",
+          "promptAr": "ما هو السؤال المركزي للنص؟",
+          "options": [
+            "Hoe woningcorporaties efficiënter kunnen bouwen",
+            "Of sociale huurwoningen een tijdelijke oplossing of een structureel probleem zijn",
+            "Waarom koopwoningen onbetaalbaar zijn geworden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst draait om de spanning tussen tijdelijk vangnet en structureel onderdeel van de woningmarkt.",
+          "explanationAr": "يدور النص حول التوتر بين شبكة الأمان المؤقتة والمكون الهيكلي لسوق الإسكان.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De vraag rijst daarom of sociale huurwoningen nog steeds functioneren als een tijdelijke oplossing voor kwetsbare groepen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat was het oorspronkelijke doel van sociale huurwoningen volgens de tekst?",
+          "promptAr": "ما كان الهدف الأصلي لمساكن الإيجار الاجتماعي حسب النص؟",
+          "options": [
+            "Het bieden van betaalbaar wonen als vangnet voor mensen met lage inkomens",
+            "Het stimuleren van doorstroming naar de koopmarkt",
+            "Het vervangen van de vrije huursector"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst beschrijft sociale huur als een vangnet voor mensen die geen dure woning kunnen betalen.",
+          "explanationAr": "يصف النص الإيجار الاجتماعي كشبكة أمان للأشخاص الذين لا يستطيعون دفع ثمن السكن باهظ الثمن.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Sociale huurwoningen zijn oorspronkelijk bedoeld om betaalbaar wonen te garanderen voor mensen die niet in staat zijn een woning te kopen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom is de doorstroming vanuit sociale huurwoningen beperkt?",
+          "promptAr": "لماذا انتقال السكن من مساكن الإيجار الاجتماعي محدود؟",
+          "options": [
+            "Omdat huurders geen interesse hebben in andere woonvormen",
+            "Omdat betaalbare alternatieven op de koop- en vrije huurmarkt ontbreken",
+            "Omdat woningcorporaties verhuizingen ontmoedigen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat het ontbreken van betaalbare alternatieven doorstroming belemmert.",
+          "explanationAr": "يشير النص إلى أن عدم وجود بدائل ميسورة التكلفة يعيق الانتقال.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Veel huurders blijven langdurig in dezelfde woning wonen, niet alleen uit financiële noodzaak, maar ook omdat alternatieven ontbreken"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met de term 'middeninkomens' in de tekst?",
+          "promptAr": "ماذا يُقصد بمصطلح \"ذوي الدخل المتوسط\" في النص؟",
+          "options": [
+            "Mensen die bewust kiezen voor sociale huur",
+            "Huishoudens met een laag inkomen en hoge vaste lasten",
+            "Mensen die te veel verdienen voor sociale huur maar geen andere betaalbare opties hebben"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De term verwijst naar een groep die tussen sociale huur en de vrije markt in valt.",
+          "explanationAr": "المصطلح يشير إلى مجموعة تقع بين الإيجار الاجتماعي والسوق الحر.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "een groep die formeel te veel verdient voor sociale huur, maar feitelijk geen reële alternatieven heeft"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur demografische ontwikkelingen zoals vergrijzing?",
+          "promptAr": "لماذا يناقش المؤلف التطورات الديموغرافية مثل الشيخوخة؟",
+          "options": [
+            "Om te laten zien dat structurele factoren de beschikbaarheid van sociale huur beïnvloeden",
+            "Om ouderen verantwoordelijk te stellen voor het woningtekort",
+            "Om de voordelen van kleine woningen te benadrukken"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De demografische ontwikkelingen dienen als verklaring voor het structurele karakter van het probleem.",
+          "explanationAr": "التطورات الديموغرافية تعمل كتفسير للطبيعة الهيكلية للمشكلة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Daarnaast spelen demografische ontwikkelingen een rol"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan uit de tekst worden getrokken?",
+          "promptAr": "ما الاستنتاج الذي يمكن استخلاصه من النص؟",
+          "options": [
+            "Sociale huur zal vanzelf verdwijnen door marktwerking",
+            "Strengere regels lossen het woningtekort volledig op",
+            "Zonder bredere visie op wonen blijft sociale huur tussen twee rollen gevangen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De auteur suggereert dat het probleem voortkomt uit een gebrek aan samenhangend woonbeleid.",
+          "explanationAr": "يشير المؤلف إلى أن المشكلة تنبع من نقص سياسة سكنية متماسكة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zonder een samenhangende visie op wonen dreigt sociale huur echter gevangen te blijven tussen tijdelijke oplossing en structureel probleem"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Mentale gezondheid op de werkvloer: verantwoordelijkheid van wie?",
+      "topic": "Werk & gezondheid",
+      "level": "B2+",
+      "content": "Mentale gezondheid is de afgelopen jaren uitgegroeid tot een centraal thema binnen organisaties, beleidskringen en publieke debatten. Burn-outs, langdurig ziekteverzuim en stressgerelateerde klachten komen steeds vaker voor en worden niet langer gezien als individuele zwaktes, maar als signalen van structurele problemen op de werkvloer. Tegelijkertijd blijft de vraag hardnekkig bestaan wie uiteindelijk verantwoordelijk is voor het voorkomen en aanpakken van deze problemen: de werknemer, de werkgever of de overheid.\n\nTraditioneel werd mentale gezondheid beschouwd als een privézaak. Werknemers moesten leren omgaan met druk, deadlines en verwachtingen, terwijl werkgevers zich vooral richtten op productiviteit en resultaten. In dit perspectief lag de verantwoordelijkheid grotendeels bij het individu, dat geacht werd veerkrachtig, flexibel en zelfsturend te zijn. Deze visie sluit aan bij een bredere maatschappelijke trend waarin autonomie en persoonlijke verantwoordelijkheid centraal staan. Toch botst dit uitgangspunt steeds vaker met de realiteit van moderne arbeidsorganisaties.\n\nDe aard van werk is ingrijpend veranderd. Digitalisering, voortdurende bereikbaarheid en prestatiedruk hebben geleid tot vervaagde grenzen tussen werk en privéleven. Veel werknemers ervaren een constante mentale belasting, zelfs buiten werktijd. Bovendien worden tijdelijke contracten en flexibele arbeidsvormen steeds gebruikelijker, wat onzekerheid en stress kan versterken. In deze context wordt het problematisch om mentale klachten uitsluitend toe te schrijven aan individuele copingstrategieën.\n\nWerkgevers spelen onmiskenbaar een belangrijke rol in het creëren van werkomstandigheden die mentale gezondheid bevorderen of juist ondermijnen. Organisatiecultuur, leiderschapsstijl en werkdruk hebben directe invloed op het welzijn van werknemers. Bedrijven die een hoge mate van competitie stimuleren zonder voldoende ondersteuning te bieden, lopen een verhoogd risico op uitval door psychische klachten. Toch aarzelen veel werkgevers om mentale gezondheid expliciet als hun verantwoordelijkheid te zien, uit angst voor kosten, juridische aansprakelijkheid of verlies aan controle.\n\nDaartegenover staat een groeiende beweging die mentale gezondheid beschouwt als een collectief belang binnen organisaties. Vanuit deze visie is investeren in preventie, open communicatie en ondersteuning geen luxe, maar een noodzakelijke voorwaarde voor duurzame inzetbaarheid. Trainingen voor leidinggevenden, vertrouwenspersonen en flexibele werkafspraken worden genoemd als effectieve maatregelen. Critici wijzen er echter op dat dergelijke initiatieven vaak vrijblijvend blijven en afhankelijk zijn van de goodwill van individuele organisaties.\n\nDe overheid bevindt zich in een complexe positie. Enerzijds stelt zij regels vast rond arbeidsomstandigheden en ziekteverzuim, anderzijds stimuleert zij economische flexibiliteit en concurrentiekracht. Beleidsmaatregelen gericht op mentale gezondheid zijn vaak indirect en gefragmenteerd. Preventie krijgt minder aandacht dan curatieve zorg, terwijl signalen van overbelasting zich juist in een vroeg stadium aandienen. Bovendien bestaat het risico dat overheidsingrijpen wordt gezien als bemoeienis met de interne organisatie van bedrijven.\n\nEen bijkomend probleem is de meetbaarheid van mentale gezondheid. In tegenstelling tot fysieke risico's is psychische belasting moeilijk te objectiveren. Dit maakt het lastig om duidelijke normen vast te stellen en verantwoordelijkheid juridisch af te bakenen. Hierdoor ontstaat een grijs gebied waarin verantwoordelijkheden verschuiven en niemand zich volledig aangesproken voelt. Werknemers kunnen terughoudend zijn om klachten te melden uit angst voor stigmatisering of carrièreschade.\n\nToch groeit het besef dat mentale gezondheid op de werkvloer niet kan worden opgelost door één actor alleen. Het vraagt om een gedeelde verantwoordelijkheid waarin werknemers, werkgevers en overheid elk een duidelijke rol hebben. Werknemers moeten ruimte krijgen om grenzen aan te geven, werkgevers moeten structurele voorwaarden scheppen voor gezond werken en de overheid moet kaders bieden die preventie stimuleren zonder innovatie te blokkeren.\n\nDe kernvraag blijft echter hoe deze verantwoordelijkheden in de praktijk worden verdeeld. Zolang mentale gezondheid vooral wordt besproken in termen van individuele weerbaarheid, blijft de structurele context onderbelicht. Pas wanneer welzijn even serieus wordt genomen als productiviteit, kan er sprake zijn van een duurzame oplossing. De uitdaging ligt niet alleen in het erkennen van het probleem, maar in het herdefiniëren van wat goed werk eigenlijk betekent.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat wordt in de tekst genoemd als een belangrijke verandering in de aard van werk?",
+          "promptAr": "ما الذي يُذكر في النص كتغيير مهم في طبيعة العمل؟",
+          "options": [
+            "De afname van digitale communicatie",
+            "Het vervagen van de grens tussen werk en privé",
+            "De verkorting van werktijden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft dat digitalisering en bereikbaarheid werk en privé laten overlopen.",
+          "explanationAr": "يصف النص أن الرقمنة وإمكانية الوصول تجعل العمل والحياة الخاصة تتداخلان.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Digitalisering, voortdurende bereikbaarheid en prestatiedruk hebben geleid tot vervaagde grenzen tussen werk en privéleven."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over de houding van werkgevers tegenover mentale gezondheid?",
+          "promptAr": "ماذا يمكن استنتاجه حول موقف أصحاب العمل تجاه الصحة العقلية؟",
+          "options": [
+            "Zij erkennen unaniem hun volledige verantwoordelijkheid",
+            "Zij vermijden het onderwerp vooral om praktische en financiële redenen",
+            "Zij vertrouwen volledig op overheidsbeleid"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert terughoudendheid vanwege kosten en aansprakelijkheid.",
+          "explanationAr": "يشير النص إلى التردد بسبب التكاليف والمسؤولية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Toch aarzelen veel werkgevers om mentale gezondheid expliciet als hun verantwoordelijkheid te zien, uit angst voor kosten"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak geeft het beste dezelfde betekenis weer als de visie dat mentale gezondheid een collectief belang is?",
+          "promptAr": "أي عبارة تعبر بشكل أفضل عن نفس معنى الرؤية القائلة بأن الصحة العقلية مصلحة جماعية؟",
+          "options": [
+            "Welzijn is een privézaak van werknemers",
+            "Mentale gezondheid vraagt om gezamenlijke inzet binnen organisaties",
+            "Psychische klachten zijn onvermijdelijk bij modern werk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Collectief belang impliceert gedeelde inzet.",
+          "explanationAr": "المصلحة الجماعية تعني الجهد المشترك.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Daartegenover staat een groeiende beweging die mentale gezondheid beschouwt als een collectief belang binnen organisaties"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur de rol van de overheid als 'complex'?",
+          "promptAr": "لماذا يناقش المؤلف دور الحكومة على أنه \"معقد\"؟",
+          "options": [
+            "Om overheidsbeleid volledig af te wijzen",
+            "Om te laten zien dat regelgeving en economische doelen botsen",
+            "Om de overheid als hoofdverantwoordelijke aan te wijzen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur benadrukt spanningen tussen regulering en flexibiliteit.",
+          "explanationAr": "يؤكد المؤلف التوترات بين التنظيم والمرونة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De overheid bevindt zich in een complexe positie"
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة المركزية للنص؟",
+          "options": [
+            "Mentale gezondheid is vooral een individueel probleem",
+            "Mentale gezondheid op het werk vraagt om gedeelde verantwoordelijkheid",
+            "Overheidsbeleid is onvoldoende effectief"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst pleit voor een gezamenlijke aanpak.",
+          "explanationAr": "يدعو النص إلى نهج مشترك.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het vraagt om een gedeelde verantwoordelijkheid waarin werknemers, werkgevers en overheid elk een duidelijke rol hebben"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan worden getrokken over toekomstige oplossingen?",
+          "promptAr": "ما الاستنتاج الذي يمكن استخلاصه حول الحلول المستقبلية؟",
+          "options": [
+            "Meer nadruk op individuele training is voldoende",
+            "Structurele veranderingen zijn noodzakelijk naast individuele inzet",
+            "Mentale gezondheid zal vanzelf verbeteren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst wijst op het belang van structurele context.",
+          "explanationAr": "يشير النص إلى أهمية السياق الهيكلي.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zolang mentale gezondheid vooral wordt besproken in termen van individuele weerbaarheid, blijft de structurele context onderbelicht"
+        }
+      ]
+    }
+  ]
+}

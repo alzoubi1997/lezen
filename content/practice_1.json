@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 1,
+  "titleNl": "Oefening 1",
+  "titleAr": "تمرين 1",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Waarom multitasken minder efficiënt is dan we denken",
+      "topic": "Productiviteit & werk",
+      "level": "B2",
+      "content": "Waarom multitasken minder efficiënt is dan we denken\n\nVeel mensen zijn ervan overtuigd dat multitasken een nuttige en zelfs noodzakelijke vaardigheid is. Het idee dat je meerdere taken tegelijk kunt uitvoeren en zo tijd bespaart, past goed bij een samenleving waarin snelheid en efficiëntie centraal staan. Toch laten steeds meer onderzoeken zien dat multitasken vaak minder effectief is dan mensen zelf denken, vooral wanneer taken concentratie en denkvermogen vereisen.\n\nMultitasken betekent in de praktijk meestal niet dat iemand twee taken echt tegelijkertijd uitvoert. In plaats daarvan schakelt het brein voortdurend tussen verschillende activiteiten. Denk aan het beantwoorden van e-mails tijdens een online vergadering, het lezen van berichten terwijl men aan een rapport werkt, of het snel openen van een nieuwe tab omdat er \"even iets\" moet worden opgezocht. Elke keer dat iemand wisselt, moet het brein zich opnieuw instellen. Dat kost tijd, maar ook mentale energie, zelfs wanneer men zich daar niet bewust van is.\n\nOnderzoek toont aan dat deze voortdurende afwisseling leidt tot meer fouten. Taken worden oppervlakkiger uitgevoerd en belangrijke details worden sneller gemist. Dit effect is vooral zichtbaar bij complex werk, zoals analyseren, plannen, schrijven of het nemen van beslissingen. De ironie is dat multitasken een gevoel van snelheid kan geven, terwijl het resultaat vaak rommeliger wordt. Mensen moeten daarna corrigeren, teruglezen of opnieuw beginnen, en daarmee verdwijnt de \"winst\" die ze dachten te hebben.\n\nToch blijven veel mensen multitasken. Een belangrijke verklaring is de illusie van efficiëntie: wie meerdere dingen tegelijk doet, voelt zich actief en nuttig. Daarnaast spelen digitale technologieën een grote rol. Meldingen, sociale media en chatberichten werken als kleine prikkels die steeds om aandacht vragen. Het brein raakt gewend aan snelle beloningen: een bericht lezen voelt directer dan rustig een lastig hoofdstuk afmaken. Daardoor wordt het moeilijker om langere tijd bij één taak te blijven, zelfs als je weet dat dat eigenlijk beter is.\n\nOok de werkomgeving versterkt dit gedrag. In sommige organisaties wordt bereikbaarheid gezien als professionaliteit. Werknemers krijgen het signaal dat ze snel moeten reageren, zelfs als dat betekent dat ze hun aandacht verspreiden. Vergaderingen worden gecombineerd met mail, en mail wordt gecombineerd met chat. Het gevolg kan zijn dat mensen aan het eind van de dag moe zijn, maar toch het gevoel hebben weinig afgerond te hebben. Dat zorgt voor stress en kan de motivatie op de lange termijn ondermijnen.\n\nDat betekent niet dat elke vorm van multitasken per definitie slecht is. Bij eenvoudige of automatische handelingen, zoals luisteren naar muziek tijdens het opruimen of wandelen terwijl je nadenkt, werkt het prima. Problemen ontstaan vooral wanneer meerdere taken tegelijk aandacht, taal en beslissingen vragen. Dan is het brein simpelweg niet gebouwd om alles even goed te verwerken.\n\nExperts adviseren daarom om bewuster met aandacht om te gaan. Een praktische aanpak is \"batchen\": berichten op vaste momenten checken in plaats van continu. Meldingen uitzetten helpt om onnodige onderbrekingen te vermijden. Daarnaast kan het helpen om een taak in kleine stukken te verdelen en korte pauzes te plannen. Zo wordt concentratie minder zwaar en blijft het haalbaar om dieper te werken. Wie zich richt op één taak tegelijk, blijkt vaak sneller én met betere resultaten te werken.\n\nSamenvattend laat onderzoek zien dat multitasken zelden de voordelen oplevert die mensen ervan verwachten. In plaats van meer te doen in minder tijd, kost het vaak extra energie en aandacht. Door aandacht als een waardevolle hulpbron te behandelen, verbeteren zowel de kwaliteit van het werk als het welzijn",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat betekent multitasken volgens de tekst meestal?",
+          "promptAr": "ماذا يعني تعدد المهام حسب النص عادة؟",
+          "options": [
+            "Twee taken perfect tegelijk uitvoeren",
+            "Snel wisselen tussen verschillende taken",
+            "Meerdere taken plannen voor later"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat multitasken meestal betekent dat iemand snel wisselt tussen verschillende activiteiten, niet dat taken perfect tegelijk worden uitgevoerd.",
+          "explanationAr": "النص يوضح أن تعدد المهام يعني عادة التبديل السريع بين الأنشطة المختلفة، وليس تنفيذ المهام بشكل مثالي في نفس الوقت.",
+          "trapNoteNl": "A is onjuist; taken worden niet perfect tegelijk uitgevoerd. C wordt niet genoemd.",
+          "trapNoteAr": "A غير صحيح؛ المهام لا تُنفذ بشكل مثالي في نفس الوقت. C غير مذكور.",
+          "evidenceQuote": "schakelt het brein voortdurend tussen verschillende activiteiten"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is een gevolg van vaak wisselen tussen taken?",
+          "promptAr": "ما نتيجة التبديل المتكرر بين المهام؟",
+          "options": [
+            "Meer creativiteit",
+            "Minder fouten",
+            "Minder concentratie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst stelt dat het wisselen tussen taken energie kost en de concentratie vermindert.",
+          "explanationAr": "النص يذكر أن التبديل بين المهام يستهلك الطاقة ويقلل التركيز.",
+          "trapNoteNl": "A en B zijn het tegenovergestelde van wat de tekst zegt.",
+          "trapNoteAr": "A و B عكس ما يقوله النص.",
+          "evidenceQuote": "Dat kost tijd, maar ook mentale energie"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom blijven mensen multitasken ondanks de nadelen?",
+          "promptAr": "لماذا يستمر الناس في تعدد المهام رغم العيوب؟",
+          "options": [
+            "Omdat het altijd verplicht is",
+            "Omdat het een gevoel van productiviteit geeft",
+            "Omdat het door onderzoek wordt aangeraden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt de illusie van efficiëntie: mensen hebben het gevoel actief en nuttig te zijn wanneer ze multitasken.",
+          "explanationAr": "النص يذكر وهم الكفاءة: الناس يشعرون بأنهم نشطون ومفيدون عند تعدد المهام.",
+          "trapNoteNl": "A en C worden niet genoemd in de tekst.",
+          "trapNoteAr": "A و C غير مذكورين في النص.",
+          "evidenceQuote": "de illusie van efficiëntie"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met 'digitale technologieën spelen een grote rol'?",
+          "promptAr": "ماذا يعني أن \"التقنيات الرقمية تلعب دورًا كبيرًا\"؟",
+          "options": [
+            "Technologie maakt werken onmogelijk",
+            "Technologie helpt bij plannen",
+            "Technologie zorgt voor constante afleiding"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst legt uit dat smartphones, meldingen en sociale media zorgen voor constante afleiding.",
+          "explanationAr": "النص يوضح أن الهواتف الذكية والإشعارات ووسائل التواصل الاجتماعي تسبب إلهاء مستمر.",
+          "trapNoteNl": "A en B worden niet genoemd als gevolg van digitale technologieën.",
+          "trapNoteAr": "A و B غير مذكورين كنتيجة للتقنيات الرقمية.",
+          "evidenceQuote": "Meldingen, sociale media en chatberichten werken als kleine prikkels die steeds om aandacht vragen"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wanneer kan multitasken volgens de tekst wél goed werken?",
+          "promptAr": "متى يمكن أن يعمل تعدد المهام بشكل جيد حسب النص؟",
+          "options": [
+            "Bij complexe taken",
+            "Bij eenvoudige handelingen",
+            "Tijdens vergaderingen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat multitasken kan werken bij eenvoudige of automatische handelingen.",
+          "explanationAr": "النص يذكر أن تعدد المهام يمكن أن يعمل مع الأعمال البسيطة أو التلقائية.",
+          "trapNoteNl": "A en C worden juist genoemd als situaties waar multitasken problematisch is.",
+          "trapNoteAr": "A و C يُذكران كمواقف يكون فيها تعدد المهام إشكاليًا.",
+          "evidenceQuote": "Bij eenvoudige of automatische handelingen"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de belangrijkste boodschap van de tekst?",
+          "promptAr": "ما هي الرسالة الرئيسية للنص؟",
+          "options": [
+            "Multitasken is altijd slecht",
+            "Multitasken bespaart veel tijd",
+            "Bewust omgaan met aandacht leidt tot beter werk"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt dat bewust omgaan met aandacht en focussen op één taak leidt tot betere resultaten.",
+          "explanationAr": "النص يؤكد أن التعامل الواعي مع الانتباه والتركيز على مهمة واحدة يؤدي إلى نتائج أفضل.",
+          "trapNoteNl": "A is te absoluut; de tekst nuanceert. B wordt juist tegengesproken.",
+          "trapNoteAr": "A مطلق جدًا؛ النص متوازن. B يُنفى صراحة.",
+          "evidenceQuote": "Door aandacht als een waardevolle hulpbron te behandelen"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Thuiswerken: vrijheid of vervaagde grenzen?",
+      "topic": "Werk & balans",
+      "level": "B2",
+      "content": "Thuiswerken: vrijheid of vervaagde grenzen?\n\nSinds de coronapandemie is thuiswerken voor veel mensen normaal geworden. Wat begon als een noodoplossing, groeide uit tot een vaste werkvorm. Werkgevers ontdekten dat werk ook op afstand kon doorgaan, terwijl werknemers het gemak van minder reistijd en meer flexibiliteit waardeerden. Toch roept thuiswerken vragen op over productiviteit, welzijn en de grens tussen werk en privé. Waar sommigen het ervaren als een verbetering van hun leven, zien anderen vooral nieuwe druk en onzekerheid.\n\nEen duidelijk voordeel van thuiswerken is autonomie. Werknemers kunnen hun dag vaak zelf indelen en hun werkomgeving aanpassen aan persoonlijke voorkeuren. Voor sommigen betekent dit meer rust en concentratie, vooral wanneer het kantoor druk en onrustig is. Ook het wegvallen van woon-werkverkeer levert tijdwinst op. Die extra tijd kan worden besteed aan werk, gezin of ontspanning. Bovendien geeft thuiswerken mensen met zorgtaken soms meer mogelijkheden om werk en privé beter te combineren.\n\nTegelijkertijd blijkt dat dezelfde flexibiliteit ook een valkuil kan zijn. Zonder vaste begin- en eindtijden vervaagt de grens tussen werk en vrije tijd. Veel thuiswerkers voelen de neiging om langer door te werken of sneller \"nog even\" een taak af te ronden. Daardoor ontstaat het gevoel altijd bereikbaar te moeten zijn. Sommige werknemers gaan bijvoorbeeld direct na het avondeten opnieuw hun laptop openen, omdat het werk letterlijk binnen handbereik ligt. Op de lange termijn kan dit leiden tot vermoeidheid, stress en het idee dat er nooit echt rust is.\n\nOok sociale aspecten spelen een rol. Informele gesprekken bij de koffieautomaat verdwijnen grotendeels, waardoor contact met collega's formeler wordt. Nieuwe medewerkers hebben het soms lastig om hun plek te vinden binnen een team dat vooral digitaal samenwerkt. Een korte vraag stellen voelt online vaak zwaarder dan in het echt. Hoewel online vergaderingen efficiënt kunnen zijn, vervangen ze niet altijd het spontane overleg dat bijdraagt aan onderling vertrouwen. Misverstanden ontstaan sneller wanneer communicatie vooral via chat of korte calls verloopt.\n\nDaarnaast zijn er praktische verschillen tussen thuiswerkplekken. Niet iedereen heeft een aparte werkruimte, een goede stoel of een stabiele internetverbinding. Mensen die aan de keukentafel werken, kunnen sneller afgeleid raken. Anderen ervaren juist stilte en focus. Dit betekent dat thuiswerken niet voor iedereen hetzelfde effect heeft. De omstandigheden bepalen mede of iemand productief kan zijn en zich goed voelt.\n\nVoor leidinggevenden vraagt thuiswerken om een andere manier van sturen. Waar aanwezigheid vroeger zichtbaar was, moeten prestaties nu anders worden beoordeeld. Dat vraagt om duidelijke afspraken en vertrouwen. Micromanagement werkt vaak averechts en kan het gevoel van autonomie ondermijnen. Tegelijk verwachten werknemers heldere verwachtingen, zodat ze weten wanneer werk \"af\" is en wanneer ze kunnen stoppen. Een belangrijk punt is dus communicatie: wat is prioriteit, wat kan wachten en welke momenten zijn bedoeld voor overleg?\n\nOrganisaties zoeken daarom naar hybride vormen. Een combinatie van thuiswerken en kantoorwerk moet het beste van beide werelden bieden. Toch blijkt dat maatwerk nodig is. Wat voor de ene functie goed werkt, kan voor een andere juist problematisch zijn. Bovendien verschillen persoonlijke voorkeuren: sommige mensen bloeien op bij flexibiliteit, anderen hebben behoefte aan structuur en sociale energie op kantoor. Hybride werken vraagt ook om afspraken, zodat teams niet uiteenvallen in losse individuen.\n\nThuiswerken is dus geen simpele keuze tussen vrijheid en controle. Het succes hangt af van duidelijke grenzen, goede communicatie en wederzijds vertrouwen. Wanneer die voorwaarden ontbreken, kan flexibiliteit omslaan in druk. Maar wanneer ze aanwezig zijn, biedt thuiswerken kansen voor een gezondere balans tussen werk en leven, zonder dat productiviteit en samenwerking verdwijnen.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat was de oorspronkelijke reden dat thuiswerken werd ingevoerd?",
+          "promptAr": "ما كان السبب الأصلي لإدخال العمل من المنزل؟",
+          "options": [
+            "Om kosten te besparen",
+            "Als noodoplossing tijdens de coronapandemie",
+            "Om werknemers meer vrijheid te geven"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat thuiswerken begon als een noodoplossing tijdens de coronapandemie.",
+          "explanationAr": "النص يذكر أن العمل من المنزل بدأ كحل طارئ أثناء جائحة كورونا.",
+          "trapNoteNl": "A en C worden niet genoemd als oorspronkelijke reden.",
+          "trapNoteAr": "A و C لم يُذكرا كسبب أصلي.",
+          "evidenceQuote": "Wat begon als een noodoplossing"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Welk voordeel van thuiswerken wordt in de tekst genoemd?",
+          "promptAr": "ما فائدة العمل من المنزل المذكورة في النص؟",
+          "options": [
+            "Meer autonomie over de werkdag",
+            "Hogere salarissen",
+            "Minder verantwoordelijkheden"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst noemt autonomie als een duidelijk voordeel van thuiswerken.",
+          "explanationAr": "النص يذكر الاستقلالية كفائدة واضحة للعمل من المنزل.",
+          "trapNoteNl": "B en C worden niet genoemd als voordelen.",
+          "trapNoteAr": "B و C غير مذكورين كفوائد.",
+          "evidenceQuote": "Een duidelijk voordeel van thuiswerken is autonomie"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kan flexibiliteit bij thuiswerken problematisch worden?",
+          "promptAr": "لماذا قد تصبح المرونة في العمل من المنزل إشكالية؟",
+          "options": [
+            "Omdat werknemers minder taken krijgen",
+            "Omdat grenzen tussen werk en vrije tijd vervagen",
+            "Omdat vergaderingen langer duren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat flexibiliteit kan leiden tot vervaging van grenzen tussen werk en vrije tijd.",
+          "explanationAr": "النص يوضح أن المرونة قد تؤدي إلى ضبابية الحدود بين العمل والوقت الخاص.",
+          "trapNoteNl": "A en C worden niet genoemd als problemen.",
+          "trapNoteAr": "A و C غير مذكورين كمشاكل.",
+          "evidenceQuote": "vervaagt de grens tussen werk en vrije tijd"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is een sociaal gevolg van thuiswerken volgens de tekst?",
+          "promptAr": "ما هي النتيجة الاجتماعية للعمل من المنزل حسب النص؟",
+          "options": [
+            "Meer informele gesprekken",
+            "Minder contact met leidinggevenden",
+            "Minder spontane interactie tussen collega's"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst stelt dat informele gesprekken bij de koffieautomaat grotendeels verdwijnen.",
+          "explanationAr": "النص يذكر أن المحادثات غير الرسمية عند آلة القهوة تختفي إلى حد كبير.",
+          "trapNoteNl": "A is het tegenovergestelde. B wordt niet expliciet genoemd.",
+          "trapNoteAr": "A عكس ما يقوله النص. B غير مذكور صراحة.",
+          "evidenceQuote": "Informele gesprekken bij de koffieautomaat verdwijnen"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de schrijver zowel voordelen als nadelen van thuiswerken?",
+          "promptAr": "لماذا يناقش الكاتب كلًا من فوائد وعيوب العمل من المنزل؟",
+          "options": [
+            "Om thuiswerken af te raden",
+            "Om te laten zien dat het een complex vraagstuk is",
+            "Om werkgevers te overtuigen alles digitaal te doen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat thuiswerken geen simpele keuze is en dat het complexe vraagstukken oproept.",
+          "explanationAr": "النص يؤكد أن العمل من المنزل ليس خيارًا بسيطًا وأنه يثير قضايا معقدة.",
+          "trapNoteNl": "A en C zijn te eenzijdig en komen niet overeen met de toon van de tekst.",
+          "trapNoteAr": "A و C أحاديان ولا يتوافقان مع نبرة النص.",
+          "evidenceQuote": "Thuiswerken is dus geen simpele keuze tussen vrijheid en controle"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is volgens de tekst nodig om thuiswerken te laten slagen?",
+          "promptAr": "ما هو المطلوب حسب النص لنجاح العمل من المنزل؟",
+          "options": [
+            "Strikte controle",
+            "Duidelijke grenzen en vertrouwen",
+            "Volledige vrijheid zonder afspraken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat succes afhangt van duidelijke grenzen, goede communicatie en wederzijds vertrouwen.",
+          "explanationAr": "النص يؤكد أن النجاح يعتمد على حدود واضحة وتواصل جيد وثقة متبادلة.",
+          "trapNoteNl": "A en C zijn te extreem en worden niet bepleit.",
+          "trapNoteAr": "A و C متطرفان ولا يُدعمان.",
+          "evidenceQuote": "duidelijke grenzen, goede communicatie en wederzijds vertrouwen"
+        }
+      ]
+    }
+  ]
+}

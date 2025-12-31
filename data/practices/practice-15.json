@@ -1,0 +1,178 @@
+{
+  "practiceId": 15,
+  "texts": [
+    {
+      "textId": 1,
+      "title": "De kloof tussen stad en regio: beleidskeuzes met ongelijke gevolgen",
+      "body": "In veel landen wordt beleid ontworpen vanuit een nationaal perspectief, met als doel efficiëntie, economische groei en bestuurlijke eenvoud. In de praktijk blijken deze beleidskeuzes echter niet overal dezelfde effecten te hebben. Met name de kloof tussen stedelijke gebieden en regio's buiten de grote steden laat zien hoe maatregelen die op papier neutraal lijken, in werkelijkheid ongelijk kunnen uitpakken. De spanning tussen stad en regio is daarmee niet alleen een geografisch vraagstuk, maar ook een sociaal en politiek probleem.\n\nSteden profiteren vaak als eerste van investeringen in infrastructuur, onderwijs en innovatie. Dit is deels logisch: een hoge bevolkingsdichtheid maakt het rendabel om te investeren in openbaar vervoer, universiteiten en culturele instellingen. Tegelijkertijd leidt deze concentratie van middelen ertoe dat regio's buiten de stedelijke centra minder aantrekkelijk worden voor zowel bedrijven als hoogopgeleide werknemers. Het gevolg is een vicieuze cirkel: minder voorzieningen leiden tot vertrek, en vertrek rechtvaardigt opnieuw minder investeringen.\n\nBeleidsmakers verdedigen deze keuzes vaak met het argument dat groei in steden uiteindelijk ook de regio ten goede komt. Economische welvaart zou zich vanzelf verspreiden, bijvoorbeeld via werkgelegenheid of hogere belastinginkomsten. In de praktijk blijkt dit zogenoemde 'trickle-down'-effect echter beperkt. Veel regionale gebieden ervaren vooral de nadelen van stedelijke groei, zoals stijgende huizenprijzen in nabijgelegen steden, terwijl zij zelf kampen met krimp, vergrijzing en afnemende voorzieningen.\n\nEen belangrijk voorbeeld is het woningbeleid. Terwijl steden te maken hebben met woningtekorten en hoge huren, zien sommige regio's juist leegstand en dalende woningwaarden. Beleidsmaatregelen die zijn gericht op het afremmen van stedelijke woningprijzen, zoals strengere bouwregels of investeringen in binnenstedelijke verdichting, lossen de regionale problematiek nauwelijks op. Sterker nog, ze kunnen de verschillen vergroten doordat regio's minder aandacht krijgen in het nationale debat over wonen.\n\nOok op het gebied van bereikbaarheid spelen ongelijkheden een grote rol. Investeringen in spoor en openbaar vervoer richten zich vaak op drukke verbindingen tussen grote steden. Voor inwoners van regio's betekent dit langere reistijden en een grotere afhankelijkheid van de auto. Dit beperkt niet alleen hun toegang tot werk en onderwijs, maar heeft ook gevolgen voor duurzaamheid en sociale mobiliteit. Beleidskeuzes die mobiliteit centraal stellen, blijken dus sterk plaatsgebonden effecten te hebben.\n\nToch is het te eenvoudig om de tegenstelling tussen stad en regio te presenteren als een strijd tussen winnaars en verliezers. Steden kampen met hun eigen problemen, zoals overbelasting van voorzieningen en sociale segregatie. Bovendien zijn stad en regio economisch en sociaal met elkaar verbonden. Veel stedelijke werknemers wonen buiten de stad, terwijl regionale bedrijven afhankelijk zijn van stedelijke markten en kennisnetwerken. De vraag is daarom niet of beleid de stad of de regio moet bevoordelen, maar hoe recht kan worden gedaan aan hun onderlinge afhankelijkheid.\n\nSteeds vaker klinkt de roep om maatwerk in beleid. In plaats van uniforme oplossingen zou beleid rekening moeten houden met lokale contexten en behoeften. Dit vraagt om meer ruimte voor regionale overheden en een herwaardering van lokale kennis. Tegelijkertijd roept dit nieuwe vragen op over rechtvaardigheid: wanneer is verschil in behandeling terecht, en wanneer leidt het juist tot nieuwe ongelijkheden?\n\nDe kloof tussen stad en regio laat zien dat beleidskeuzes nooit neutraal zijn. Ze weerspiegelen impliciete aannames over groei, efficiëntie en waarde. Door deze aannames expliciet te maken en te toetsen aan de ervaringen van zowel stedelijke als regionale inwoners, kan beleid bijdragen aan een meer evenwichtige ontwikkeling. De uitdaging ligt niet in het verkleinen van verschillen per se, maar in het voorkomen dat verschillen structureel worden vertaald naar ongelijke kansen.",
+      "wordCount": 571,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat is volgens de tekst een belangrijke reden dat steden vaker profiteren van investeringen dan regio's?",
+          "options": {
+            "A": "Steden hebben meer politieke invloed dan regio's",
+            "B": "De hoge bevolkingsdichtheid maakt investeringen rendabeler",
+            "C": "Regio's weigeren vaak mee te werken aan nationale plannen"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst stelt dat investeringen logisch zijn vanwege de bevolkingsdichtheid in steden.",
+          "evidenceQuote": "een hoge bevolkingsdichtheid maakt het rendabel om te investeren in openbaar vervoer, universiteiten en culturele instellingen."
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan worden afgeleid over het 'trickle-down'-effect volgens de auteur?",
+          "options": {
+            "A": "Het werkt vooral op de lange termijn",
+            "B": "Het wordt overschat in beleidsdiscussies",
+            "C": "Het is succesvol in de meeste regio's"
+          },
+          "correctAnswer": "B",
+          "explanation": "De auteur suggereert dat het effect in de praktijk beperkt is.",
+          "evidenceQuote": "In de praktijk blijkt dit zogenoemde 'trickle-down'-effect echter beperkt."
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke uitspraak geeft het probleem rond woningbeleid het best weer?",
+          "options": {
+            "A": "Eén woningbeleid heeft overal dezelfde gevolgen",
+            "B": "Woningbeleid richt zich vooral op regionale leegstand",
+            "C": "Beleidsmaatregelen voor steden lossen regionale problemen niet op"
+          },
+          "correctAnswer": "C",
+          "explanation": "Dit vat samen dat stedelijk gericht beleid weinig helpt voor regio's.",
+          "evidenceQuote": "lossen de regionale problematiek nauwelijks op"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom bespreekt de auteur de bereikbaarheid van regio's?",
+          "options": {
+            "A": "Om milieuproblemen te benadrukken",
+            "B": "Om een concreet voorbeeld van ongelijkheid te geven",
+            "C": "Om stedelijke investeringen te bekritiseren"
+          },
+          "correctAnswer": "B",
+          "explanation": "Bereikbaarheid dient als illustratie van plaatsgebonden effecten van beleid.",
+          "evidenceQuote": "Ook op het gebied van bereikbaarheid spelen ongelijkheden een grote rol."
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de hoofdgedachte van de tekst?",
+          "options": {
+            "A": "Steden krijgen te veel aandacht ten koste van regio's",
+            "B": "Beleidskeuzes hebben verschillende en soms ongelijke effecten op stad en regio",
+            "C": "Regionale problemen zijn vooral demografisch van aard"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst analyseert hoe ogenschijnlijk neutraal beleid ongelijk uitpakt.",
+          "evidenceQuote": "maatregelen die op papier neutraal lijken, in werkelijkheid ongelijk kunnen uitpakken."
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie kan worden getrokken over toekomstig beleid volgens de auteur?",
+          "options": {
+            "A": "Uniform beleid is efficiënter dan maatwerk",
+            "B": "Lokale verschillen moeten worden genegeerd om gelijkheid te waarborgen",
+            "C": "Beleidsmakers moeten explicieter omgaan met onderliggende aannames"
+          },
+          "correctAnswer": "C",
+          "explanation": "De auteur pleit voor het expliciet maken en toetsen van aannames.",
+          "evidenceQuote": "Door deze aannames expliciet te maken en te toetsen aan de ervaringen van zowel stedelijke als regionale inwoners"
+        }
+      ]
+    },
+    {
+      "textId": 2,
+      "title": "Solidariteit onder spanning: hoe houdbaar is het collectieve systeem?",
+      "body": "Solidariteit vormt al decennialang een kernprincipe van de Nederlandse verzorgingsstaat. Het idee dat burgers gezamenlijk risico's dragen en elkaar ondersteunen bij ziekte werkloosheid of ouderdom heeft geleid tot een uitgebreid stelsel van sociale zekerheid. Toch staat dit collectieve systeem steeds vaker onder druk. Demografische veranderingen economische onzekerheid en veranderende maatschappelijke verwachtingen roepen de vraag op in hoeverre solidariteit nog vanzelfsprekend is.\n\nEen belangrijke factor is de vergrijzing. Naarmate het aandeel ouderen toeneemt groeit de druk op pensioenen en zorgvoorzieningen terwijl het aantal werkenden dat bijdraagt relatief afneemt. Dit spanningsveld leidt tot discussies over intergenerationele rechtvaardigheid. Jongere generaties vragen zich af of zij in de toekomst nog dezelfde bescherming zullen genieten als waarvoor zij nu betalen. Tegelijkertijd voelen ouderen zich soms neergezet als kostenpost in plaats van als volwaardige deelnemers aan het collectief.\n\nDaarnaast speelt arbeidsmarktflexibilisering een rol. Steeds meer mensen werken als zelfstandige of met tijdelijke contracten waardoor zij minder bijdragen aan collectieve regelingen of daar slechts beperkt toegang toe hebben. Het gevolg is een groeiende groep die zich onvoldoende vertegenwoordigd voelt binnen het systeem. Solidariteit veronderstelt wederkerigheid maar wanneer deelname ongelijk wordt verdeeld ontstaat twijfel over de legitimiteit van het geheel.\n\nOok culturele en sociale diversiteit beïnvloeden het draagvlak. In een samenleving waarin burgers uiteenlopende leefstijlen en waarden hebben is het lastiger om consensus te bereiken over wat men gezamenlijk wil financieren. Discussies over zorgkosten sociale uitkeringen of toeslagen laten zien dat solidariteit steeds vaker wordt gekoppeld aan voorwaarden zoals tegenprestatie of 'eigen verantwoordelijkheid'. Hierdoor verschuift solidariteit van een onvoorwaardelijk principe naar een selectief instrument.\n\nTegelijkertijd wordt het collectieve systeem geconfronteerd met stijgende kosten. Technologische ontwikkelingen in de zorg bieden nieuwe mogelijkheden maar verhogen ook de uitgaven. Beleidsmakers zoeken daarom naar manieren om solidariteit betaalbaar te houden bijvoorbeeld door eigen bijdragen te verhogen of aanspraken te beperken. Zulke maatregelen kunnen echter het vertrouwen van burgers ondermijnen wanneer zij het gevoel krijgen dat bescherming wordt afgebouwd.\n\nCritici stellen dat het systeem te complex en ondoorzichtig is geworden. Burgers weten vaak niet meer waarvoor zij betalen en welke rechten daar tegenover staan. Deze afstand vergroot het risico dat solidariteit wordt gezien als een abstract begrip in plaats van een gedeelde verantwoordelijkheid. Transparantie en begrijpelijke communicatie zijn daarom essentieel om betrokkenheid te behouden.\n\nAan de andere kant benadrukken voorstanders dat collectieve solidariteit juist in tijden van onzekerheid onmisbaar is. Individuele oplossingen bieden zelden bescherming tegen structurele risico's zoals economische crises of pandemieën. Het collectieve systeem fungeert dan als vangnet dat sociale stabiliteit waarborgt. Volgens deze visie is de uitdaging niet om solidariteit af te bouwen maar om haar opnieuw vorm te geven zodat zij aansluit bij hedendaagse realiteiten.\n\nDe toekomst van het collectieve systeem hangt uiteindelijk af van de bereidheid van burgers om zich met elkaar te blijven identificeren. Solidariteit vraagt om vertrouwen dat bijdragen eerlijk worden verdeeld en dat iedereen naar vermogen deelneemt. Zonder dat vertrouwen dreigt het systeem te fragmenteren in individuele regelingen wat de sociale samenhang kan verzwakken. De vraag is dan niet alleen of solidariteit houdbaar is maar ook welke vorm zij moet aannemen om relevant te blijven in een veranderende samenleving.",
+      "wordCount": 514,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat wordt in de tekst genoemd als een direct gevolg van arbeidsmarktflexibilisering?",
+          "options": {
+            "A": "Een toename van collectieve bijdragen",
+            "B": "Een groeiende groep met beperkte toegang tot regelingen",
+            "C": "Meer stabiliteit binnen het sociale systeem"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst stelt dat flexibele werkvormen leiden tot minder deelname aan collectieve regelingen.",
+          "evidenceQuote": "waardoor zij minder bijdragen aan collectieve regelingen of daar slechts beperkt toegang toe hebben"
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan men afleiden over het gevoel van jongeren ten opzichte van solidariteit?",
+          "options": {
+            "A": "Zij ervaren solidariteit vooral als vanzelfsprekend",
+            "B": "Zij maken zich zorgen over toekomstige bescherming",
+            "C": "Zij voelen zich niet betrokken bij het systeem"
+          },
+          "correctAnswer": "B",
+          "explanation": "Jongeren twijfelen of zij later dezelfde voordelen zullen ontvangen als waarvoor zij nu betalen.",
+          "evidenceQuote": "Jongere generaties vragen zich af of zij in de toekomst nog dezelfde bescherming zullen genieten"
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke omschrijving komt het meest overeen met het idee van 'selectieve solidariteit' in de tekst?",
+          "options": {
+            "A": "Solidariteit die afhankelijk wordt van voorwaarden",
+            "B": "Solidariteit die volledig wordt afgeschaft",
+            "C": "Solidariteit die alleen door de overheid wordt bepaald"
+          },
+          "correctAnswer": "A",
+          "explanation": "De tekst beschrijft solidariteit die gekoppeld wordt aan tegenprestaties en verantwoordelijkheid.",
+          "evidenceQuote": "solidariteit steeds vaker wordt gekoppeld aan voorwaarden"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom bespreekt de auteur de complexiteit van het systeem?",
+          "options": {
+            "A": "Om beleidsmakers te bekritiseren",
+            "B": "Om te verklaren waarom kosten stijgen",
+            "C": "Om te laten zien hoe betrokkenheid kan afnemen"
+          },
+          "correctAnswer": "C",
+          "explanation": "De complexiteit vergroot de afstand tussen burgers en het systeem.",
+          "evidenceQuote": "Deze afstand vergroot het risico dat solidariteit wordt gezien als een abstract begrip"
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale vraag van de tekst?",
+          "options": {
+            "A": "Hoe kunnen kosten in de zorg worden verlaagd",
+            "B": "Of collectieve solidariteit nog houdbaar is",
+            "C": "Waarom individuele oplossingen beter werken"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst onderzoekt de houdbaarheid van solidariteit binnen het collectieve systeem.",
+          "evidenceQuote": "De vraag is dan niet alleen of solidariteit houdbaar is"
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie suggereert de auteur over de toekomst van solidariteit?",
+          "options": {
+            "A": "Solidariteit zal verdwijnen door individualisering",
+            "B": "Solidariteit moet worden aangepast aan nieuwe omstandigheden",
+            "C": "Solidariteit kan alleen bestaan bij volledige gelijkheid"
+          },
+          "correctAnswer": "B",
+          "explanation": "De auteur pleit voor hernieuwde vormgeving van solidariteit.",
+          "evidenceQuote": "de uitdaging niet om solidariteit af te bouwen maar om haar opnieuw vorm te geven"
+        }
+      ]
+    }
+  ]
+}
+

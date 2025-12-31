@@ -1,0 +1,178 @@
+{
+  "practiceId": 16,
+  "texts": [
+    {
+      "textId": 1,
+      "title": "Publieke ruimte onder druk: van ontmoetingsplek naar doorvoerzone",
+      "body": "De publieke ruimte heeft traditioneel een centrale rol gespeeld in het sociale leven van steden en dorpen. Pleinen, parken en straten fungeerden als plekken waar mensen elkaar spontaan ontmoetten, ideeën uitwisselden en zich onderdeel voelden van een groter geheel. In deze zin was de publieke ruimte meer dan een fysieke omgeving; zij vormde een sociaal weefsel dat bijdroeg aan vertrouwen, informele contacten en gedeelde normen. De laatste decennia staat deze functie echter steeds meer onder druk. Publieke ruimte wordt vaker ontworpen en gebruikt als een doorgangszone, gericht op efficiëntie, veiligheid en economische doorstroming, in plaats van op ontmoeting en verblijf.\n\nEen belangrijke oorzaak van deze verschuiving is de toegenomen nadruk op mobiliteit. Steden worden ingericht om verkeer zo soepel mogelijk te laten verlopen, waarbij voetgangersgebieden plaatsmaken voor fietsroutes, ov-knooppunten en logistieke corridors. Hoewel deze ontwikkelingen bijdragen aan bereikbaarheid en duurzaamheid, hebben ze ook een keerzijde. Wanneer de ruimte primair wordt gezien als middel om van A naar B te komen, blijft er minder aandacht over voor zitgelegenheden, groen of plekken waar mensen zonder duidelijke bestemming kunnen verblijven. Hierdoor verandert het karakter van de stad van een leefomgeving in een functioneel systeem.\n\nDaarnaast speelt veiligheid een steeds grotere rol in het ontwerp van publieke ruimte. Cameratoezicht, duidelijke looplijnen en het verwijderen van objecten die als 'onoverzichtelijk' worden beschouwd, moeten risico's beperken. Deze maatregelen zijn vaak ingegeven door legitieme zorgen, maar ze hebben ook invloed op wie zich welkom voelt. Groepen die langer in de publieke ruimte verblijven, zoals jongeren of daklozen, worden soms expliciet of impliciet ontmoedigd. De ruimte wordt daardoor selectiever en minder open, wat haaks staat op het idee van publieke toegankelijkheid.\n\nOok economische belangen oefenen druk uit. Publieke ruimte wordt steeds vaker gekoppeld aan consumptie. Terrassen, evenementen en commerciële activiteiten geven levendigheid, maar veranderen de logica van gebruik. Wie niet consumeert, voelt zich sneller ongewenst. Hierdoor verschuift de grens tussen publieke en private ruimte, waarbij delen van de stad wel openbaar lijken, maar in de praktijk gestuurd worden door commerciële regels en verwachtingen.\n\nDe digitalisering van het sociale leven versterkt deze ontwikkelingen. Veel interacties die vroeger plaatsvonden in de publieke ruimte, verplaatsen zich naar online omgevingen. Dit vermindert de noodzaak om fysiek samen te komen en maakt het eenvoudiger om publieke ruimte te reduceren tot een doorgangsfunctie. Tegelijkertijd groeit de behoefte aan betekenisvolle ontmoetingen juist in een tijd waarin sociale verbanden minder vanzelfsprekend zijn.\n\nCritici wijzen erop dat het verlies van ontmoetingsplekken gevolgen heeft voor sociale cohesie en democratische betrokkenheid. Publieke ruimte biedt immers de mogelijkheid om geconfronteerd te worden met verschil, met andere perspectieven en leefstijlen. Wanneer deze confrontatie verdwijnt, neemt de kans toe dat groepen langs elkaar heen leven. De stad wordt dan wel efficiënter, maar ook fragmentarischer.\n\nToch is deze ontwikkeling niet onomkeerbaar. Steeds vaker ontstaan initiatieven die de publieke ruimte opnieuw willen activeren als ontmoetingsplek. Tijdelijke ingrepen, zoals buurtinitiatieven, gedeelde tuinen of autoluwe zones, laten zien dat andere keuzes mogelijk zijn. Deze projecten benadrukken dat publieke ruimte niet alleen een technische, maar vooral een maatschappelijke kwestie is. De centrale vraag blijft dan ook of we publieke ruimte blijven beschouwen als een neutrale doorvoerzone, of als een essentieel onderdeel van het collectieve leven dat bewust bescherming en investering vereist.",
+      "wordCount": 534,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat is volgens de tekst een belangrijke reden dat publieke ruimte vaker als doorgangszone wordt ingericht?",
+          "options": {
+            "A": "De toename van digitale communicatie",
+            "B": "De nadruk op mobiliteit en bereikbaarheid",
+            "C": "De afname van stedelijke bevolking"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst noemt mobiliteit expliciet als oorzaak van de verschuiving.",
+          "evidenceQuote": "Een belangrijke oorzaak van deze verschuiving is de toegenomen nadruk op mobiliteit."
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Wat kan worden afgeleid over de impact van veiligheidsmaatregelen op publieke ruimte?",
+          "options": {
+            "A": "Ze maken publieke ruimte voor iedereen toegankelijker",
+            "B": "Ze hebben geen invloed op het gebruik van de ruimte",
+            "C": "Ze kunnen bepaalde groepen uitsluiten"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst suggereert dat veiligheidsmaatregelen niet voor iedereen hetzelfde effect hebben.",
+          "evidenceQuote": "Groepen die langer in de publieke ruimte verblijven, zoals jongeren of daklozen, worden soms expliciet of impliciet ontmoedigd."
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke uitspraak geeft het best weer wat wordt bedoeld met de 'verschuiving tussen publieke en private ruimte'?",
+          "options": {
+            "A": "Publieke ruimte verdwijnt volledig uit steden",
+            "B": "Openbare plekken worden deels gestuurd door commerciële regels",
+            "C": "Bedrijven nemen het beheer van steden over"
+          },
+          "correctAnswer": "B",
+          "explanation": "Dit herformuleert de beschrijving van commerciële invloed.",
+          "evidenceQuote": "delen van de stad wel openbaar lijken, maar in de praktijk gestuurd worden door commerciële regels"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom bespreekt de auteur digitalisering in relatie tot publieke ruimte?",
+          "options": {
+            "A": "Om technologie als hoofdoorzaak aan te wijzen",
+            "B": "Om te laten zien dat fysieke ontmoeting overbodig is",
+            "C": "Om te verklaren waarom de functie van publieke ruimte verandert"
+          },
+          "correctAnswer": "C",
+          "explanation": "Digitalisering wordt genoemd als versterkende factor van bestaande trends.",
+          "evidenceQuote": "De digitalisering van het sociale leven versterkt deze ontwikkelingen."
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale boodschap van de tekst?",
+          "options": {
+            "A": "Publieke ruimte wordt gevaarlijker",
+            "B": "Publieke ruimte verliest haar ontmoetingsfunctie door verschillende maatschappelijke keuzes",
+            "C": "Steden moeten volledig autovrij worden"
+          },
+          "correctAnswer": "B",
+          "explanation": "Dit vat de verschillende argumenten samen.",
+          "evidenceQuote": "Publieke ruimte wordt vaker ontworpen en gebruikt als een doorgangszone"
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie trekt de auteur over de toekomst van publieke ruimte?",
+          "options": {
+            "A": "Verandering is onmogelijk",
+            "B": "Alleen economische groei kan publieke ruimte redden",
+            "C": "Andere keuzes kunnen de ontmoetingsfunctie herstellen"
+          },
+          "correctAnswer": "C",
+          "explanation": "De auteur benadrukt dat alternatieven bestaan.",
+          "evidenceQuote": "Toch is deze ontwikkeling niet onomkeerbaar."
+        }
+      ]
+    },
+    {
+      "textId": 2,
+      "title": "Vertrouwen in instituties: ontstaat dat door transparantie of door resultaten?",
+      "body": "Vertrouwen in publieke instituties wordt vaak genoemd als een onmisbare voorwaarde voor een goed functionerende democratische rechtsstaat. Zonder vertrouwen accepteren burgers besluiten minder snel, nemen zij minder deel aan collectieve processen en groeit de afstand tussen overheid en samenleving. Toch bestaat er geen eenduidigheid over de vraag waar dat vertrouwen precies vandaan komt. Sommigen benadrukken het belang van transparantie: openheid over processen, keuzes en fouten zou burgers het gevoel geven serieus genomen te worden. Anderen stellen juist dat vertrouwen vooral voortkomt uit zichtbare resultaten, ongeacht hoe complex of ondoorzichtig de besluitvorming is geweest.\n\nVoorstanders van transparantie gaan ervan uit dat burgers in staat zijn beleid te begrijpen, mits het goed wordt uitgelegd. Door documenten openbaar te maken, vergaderingen toegankelijk te houden en besluitvorming stap voor stap toe te lichten, zouden instituties hun legitimiteit versterken. Transparantie wordt daarbij gezien als een vorm van respect: de overheid laat zien niets te verbergen te hebben en erkent het recht van burgers om te weten hoe macht wordt uitgeoefend. In theorie zou dit leiden tot meer begrip, en daarmee tot meer vertrouwen.\n\nIn de praktijk blijkt deze aanname echter minder vanzelfsprekend. Beleidsprocessen zijn vaak technisch, juridisch complex en sterk afhankelijk van afwegingen tussen concurrerende belangen. Wanneer zulke processen volledig zichtbaar worden, kan dat juist leiden tot verwarring of wantrouwen. Burgers zien dan hoe besluiten tot stand komen via compromissen, politieke ruil en onzekerheden. Wat bedoeld is als openheid kan zo worden geïnterpreteerd als besluiteloosheid of gebrek aan richting. Transparantie vergroot in dat geval wel de informatie, maar niet per se het vertrouwen.\n\nDaartegenover staat het argument dat resultaten doorslaggevend zijn. Burgers beoordelen instituties vooral op wat zij concreet merken in hun dagelijks leven: functionerende zorg, veilige straten, betaalbaar wonen en betrouwbare dienstverlening. Wanneer deze uitkomsten positief zijn, is er vaak minder behoefte aan inzicht in de achterliggende processen. Succesvolle uitvoering kan zo vertrouwen genereren, zelfs wanneer de besluitvorming zelf grotendeels buiten beeld blijft. Vanuit dit perspectief is vertrouwen eerder een gevolg van effectiviteit dan van openheid.\n\nOok deze benadering kent echter beperkingen. Resultaten zijn zelden voor iedereen positief. Beleidskeuzes hebben winnaars en verliezers, en wat als een goed resultaat wordt gezien, verschilt per groep. Bovendien kunnen korte-termijnsuccessen het zicht ontnemen op structurele problemen. Een overheid die zich uitsluitend richt op meetbare uitkomsten loopt het risico vertrouwen te verwarren met tevredenheid. Zodra omstandigheden veranderen en resultaten tegenvallen, kan het opgebouwde vertrouwen snel verdwijnen.\n\nSteeds vaker klinkt daarom de oproep om transparantie en resultaten niet als tegenpolen te beschouwen, maar als elkaar aanvullende voorwaarden. Transparantie zonder tastbare verbetering blijft leeg, terwijl resultaten zonder uitleg kwetsbaar zijn voor scepsis en wantrouwen. Burgers blijken vooral behoefte te hebben aan begrijpelijke transparantie: geen volledige openheid over elk detail, maar inzicht in de kern van afwegingen en de redenen achter keuzes. Tegelijkertijd verwachten zij dat beleid daadwerkelijk effect heeft en aansluit bij maatschappelijke realiteit.\n\nHet vertrouwen in instituties ontstaat daarmee niet uit één enkele factor, maar uit een voortdurende wisselwerking tussen handelen en verantwoorden. Wanneer instituties laten zien dat zij leren van fouten, resultaten bijstellen en hun keuzes kunnen uitleggen zonder zich te verschuilen achter complexiteit, ontstaat ruimte voor duurzaam vertrouwen. Dat vertrouwen is dan geen vanzelfsprekend bezit, maar een proces dat telkens opnieuw bevestigd moet worden.",
+      "wordCount": 537,
+      "questions": [
+        {
+          "id": 1,
+          "type": "INFO",
+          "question": "Wat is volgens de tekst een belangrijk argument van voorstanders van transparantie?",
+          "options": {
+            "A": "Dat transparantie altijd leidt tot betere beleidsresultaten",
+            "B": "Dat transparantie burgers laat zien hoe macht wordt uitgeoefend",
+            "C": "Dat transparantie politieke conflicten voorkomt"
+          },
+          "correctAnswer": "B",
+          "explanation": "De tekst stelt dat transparantie wordt gezien als een vorm van respect richting burgers.",
+          "evidenceQuote": "Transparantie wordt daarbij gezien als een vorm van respect: de overheid laat zien niets te verbergen te hebben"
+        },
+        {
+          "id": 2,
+          "type": "INFERENCE",
+          "question": "Waarom kan volledige openheid volgens de tekst juist wantrouwen versterken?",
+          "options": {
+            "A": "Omdat burgers geen interesse hebben in beleid",
+            "B": "Omdat openheid leidt tot meer politieke conflicten",
+            "C": "Omdat complexe processen als zwak of chaotisch kunnen overkomen"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst suggereert dat zicht op complexe compromissen besluitvorming negatief kan doen lijken.",
+          "evidenceQuote": "Wat bedoeld is als openheid kan zo worden geïnterpreteerd als besluiteloosheid of gebrek aan richting."
+        },
+        {
+          "id": 3,
+          "type": "PARAPHRASE",
+          "question": "Welke uitspraak geeft het idee van 'resultaten boven processen' het best weer?",
+          "options": {
+            "A": "Zichtbare effecten zijn belangrijker dan inzicht in besluitvorming",
+            "B": "Resultaten zijn alleen belangrijk op de korte termijn",
+            "C": "Processen zijn irrelevant zolang beleid bestaat"
+          },
+          "correctAnswer": "A",
+          "explanation": "Deze optie herformuleert het idee dat burgers vooral letten op merkbare effecten.",
+          "evidenceQuote": "Burgers beoordelen instituties vooral op wat zij concreet merken in hun dagelijks leven"
+        },
+        {
+          "id": 4,
+          "type": "INTENT",
+          "question": "Waarom wijst de auteur op de beperkingen van een focus op resultaten?",
+          "options": {
+            "A": "Om transparantie volledig te bekritiseren",
+            "B": "Om te laten zien dat resultaten geen stabiele basis voor vertrouwen zijn",
+            "C": "Om meetbaarheid van beleid af te wijzen"
+          },
+          "correctAnswer": "B",
+          "explanation": "De auteur wil laten zien dat resultaten niet voor iedereen hetzelfde betekenen.",
+          "evidenceQuote": "Beleidskeuzes hebben winnaars en verliezers, en wat als een goed resultaat wordt gezien, verschilt per groep."
+        },
+        {
+          "id": 5,
+          "type": "MAIN_IDEA",
+          "question": "Wat is de centrale boodschap van de tekst?",
+          "options": {
+            "A": "Transparantie is belangrijker dan resultaten",
+            "B": "Resultaten zijn belangrijker dan transparantie",
+            "C": "Vertrouwen vraagt om zowel transparantie als resultaten"
+          },
+          "correctAnswer": "C",
+          "explanation": "De tekst betoogt dat vertrouwen ontstaat uit de combinatie van uitleg en effectiviteit.",
+          "evidenceQuote": "Steeds vaker klinkt daarom de oproep om transparantie en resultaten niet als tegenpolen te beschouwen"
+        },
+        {
+          "id": 6,
+          "type": "INFERENCE",
+          "question": "Welke conclusie kan worden getrokken over vertrouwen in instituties?",
+          "options": {
+            "A": "Vertrouwen is dynamisch en moet steeds opnieuw worden verdiend",
+            "B": "Vertrouwen ontstaat vanzelf bij goed beleid",
+            "C": "Vertrouwen hangt vooral af van communicatie"
+          },
+          "correctAnswer": "A",
+          "explanation": "De tekst beschrijft vertrouwen als iets dat voortdurend onderhouden moet worden.",
+          "evidenceQuote": "Dat vertrouwen is dan geen vanzelfsprekend bezit, maar een proces dat telkens opnieuw bevestigd moet worden."
+        }
+      ]
+    }
+  ]
+}
+

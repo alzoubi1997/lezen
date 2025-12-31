@@ -1,0 +1,723 @@
+{
+  "kind": "EXAM",
+  "number": 1,
+  "titleNl": "Examen 1",
+  "titleAr": "الامتحان 1",
+  "totalTimeSec": 6000,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Gun jezelf een coach, maar niet blind",
+      "topic": "Werk & persoonlijke ontwikkeling",
+      "level": "B2",
+      "content": "Gun jezelf een coach, maar niet blind\n\nBedrijven geven elk jaar miljoenen uit aan coaching. Ook particulieren boeken steeds vaker een traject, al is het soms vooral omdat \"het hoort\" in een wereld waarin je altijd moet groeien. Coaching kan nuttig zijn, maar het kan ook een dure manier zijn om onzekerheid te maskeren. De vraag is dus niet of coaching werkt, maar wanneer en voor wie.\n\nCoaching is geen therapie en ook geen onderwijs. Een coach leert je niet per se iets nieuws; hij helpt je vooral om te kijken naar wat je al doet en denkt. Dat klinkt vaag, maar juist die spiegel kan effect hebben. Mensen veranderen vaak pas wanneer ze hun eigen patronen hardop horen. Wie bijvoorbeeld steeds \"ja\" zegt tegen extra werk, ontdekt in gesprekken hoe sterk de drang naar erkenning is. Het inzicht is simpel, de toepassing lastiger.\n\nTegelijk zit er een risico in de populariteit. De coachmarkt is nauwelijks beschermd. Iedereen kan zich coach noemen, met of zonder opleiding. Daardoor krijg je grote verschillen in kwaliteit. Sommige coaches werken met duidelijke doelen, afspraken en evaluaties. Andere leunen vooral op persoonlijke charme en inspirerende slogans. Dat voelt prettig, maar het is niet automatisch effectief.\n\nDe groei van online coaching maakt het nog ingewikkelder. Via video kun je snel starten, maar je ziet minder context: hoe iemand binnenkomt, hoe hij reageert op stilte, hoe hij zich gedraagt tussen collega's. Bovendien is het voor de coachee verleidelijk om sessies als \"afspraak in de agenda\" te zien, in plaats van als oefenmoment. En er speelt privacy: wie betaalt, wil soms inzage.\n\nNog een valkuil: coaching kan een individuele oplossing worden voor een structureel probleem. Als een team structureel te weinig mensen heeft, helpt een coach niet om \"beter te plannen\". Dan is de echte vraag waarom het werk steeds blijft liggen en wie daarvoor verantwoordelijk is. In organisaties wordt coaching soms ingezet als pleister, omdat het goedkoper lijkt dan echte veranderingen.\n\nWanneer is coaching wel zinvol? Vooral wanneer iemand al bereid is om te oefenen. Een coach is geen magier. Wie geen tijd maakt om dingen anders te doen, haalt weinig uit gesprekken. Een goed traject heeft daarom kleine experimenten en duidelijke afspraken. Coaching is dus geen modewoord dat iedereen nodig heeft, maar een hulpmiddel dat alleen werkt als het bewust wordt ingezet.",
+      "minWordCount": 350,
+      "maxWordCount": 450,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat wil de schrijver met deze tekst bereiken?",
+          "promptAr": "شو هدف الكاتب من هذا النص؟",
+          "options": [
+            "Lezers overtuigen om een coach te nemen.",
+            "Lezers aanzetten tot kritisch nadenken over coaching.",
+            "Lezers waarschuwen om coaching te vermijden."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De toon is kritisch en reflectief, niet promotioneel of afwijzend.",
+          "explanationAr": "نبرة النص نقدية وتفكيرية، وليست دعائية ولا رافضة.",
+          "trapNoteNl": "A en C zijn te eenzijdig.",
+          "trapNoteAr": "A و C تفسيرات أحادية.",
+          "evidenceQuote": "Coaching kan nuttig zijn, maar het kan ook een dure manier zijn om onzekerheid te maskeren."
+        },
+        {
+          "orderIndex": 1,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de hoofdboodschap van de tekst?",
+          "promptAr": "ما هي الفكرة الرئيسية في النص؟",
+          "options": [
+            "Coaching werkt altijd, zolang het populair blijft.",
+            "Coaching kan nuttig zijn, maar alleen als je het kritisch en doelgericht gebruikt.",
+            "Coaching is vooral een tijdelijke trend zonder echte waarde."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De schrijver benadrukt dat coaching kan helpen, maar alleen wanneer het bewust, kritisch en met duidelijke doelen wordt ingezet.",
+          "explanationAr": "الكاتب يوضح أن الكوتشينغ ممكن يكون مفيد، لكن فقط إذا استُخدم بوعي وبهدف واضح.",
+          "trapNoteNl": "A en C zijn te absoluut. De tekst nuanceert juist.",
+          "trapNoteAr": "الخياران A و C متطرفان، بينما النص يطرح موقفًا متوازنًا.",
+          "evidenceQuote": "De vraag is dus niet of coaching werkt, maar wanneer en voor wie."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom verschillen coaches sterk in kwaliteit?",
+          "promptAr": "ليش جودة الكوتشز تختلف بشكل كبير؟",
+          "options": [
+            "Omdat coaching altijd online gebeurt.",
+            "Omdat de coachmarkt nauwelijks beschermd is.",
+            "Omdat coaches vaak te weinig ervaring hebben."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst zegt expliciet dat iedereen zich coach kan noemen, wat leidt tot kwaliteitsverschillen.",
+          "explanationAr": "النص يذكر أن أي شخص يمكنه أن يسمي نفسه كوتش، وهذا يؤدي لاختلاف الجودة.",
+          "trapNoteNl": "A en C worden niet als hoofdreden genoemd.",
+          "trapNoteAr": "A و C لم يذكرهما النص كسبب أساسي.",
+          "evidenceQuote": "Iedereen kan zich coach noemen, met of zonder opleiding."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom noemt de schrijver coaching soms een 'pleister'?",
+          "promptAr": "ليش الكاتب بيشبّه الكوتشينغ أحيانًا باللصقة؟",
+          "options": [
+            "Omdat het individuele oplossingen biedt voor structurele problemen.",
+            "Omdat coaching snel pijn wegneemt.",
+            "Omdat coaches vaak geen echte oplossingen geven."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De schrijver legt uit dat coaching soms wordt ingezet om diepere organisatorische problemen te verhullen.",
+          "explanationAr": "الكاتب يوضح أن الكوتشينغ أحيانًا يُستخدم لتغطية مشاكل بنيوية بدل حلها.",
+          "trapNoteNl": "B en C klinken logisch, maar worden zo niet genoemd.",
+          "trapNoteAr": "B و C مغريين لكن النص لا يقول ذلك صراحة.",
+          "evidenceQuote": "In organisaties wordt coaching soms ingezet als pleister"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Wanneer is coaching volgens de tekst het minst effectief?",
+          "promptAr": "متى يكون الكوتشينغ أقل فاعلية حسب النص؟",
+          "options": [
+            "Als iemand niet bereid is om te oefenen en gedrag te veranderen.",
+            "Als coaching online wordt gegeven.",
+            "Als de coach geen opleiding heeft."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst benadrukt dat coaching alleen werkt als iemand actief wil oefenen en veranderen.",
+          "explanationAr": "النص يؤكد أن الكوتشينغ لا ينجح إلا إذا كان الشخص مستعدًا للتطبيق والتغيير.",
+          "trapNoteNl": "B en C spelen een rol, maar zijn niet doorslaggevend volgens de tekst.",
+          "trapNoteAr": "B و C عوامل ثانوية وليست حاسمة.",
+          "evidenceQuote": "Wie geen tijd maakt om dingen anders te doen, haalt weinig uit gesprekken."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "De kracht en de grenzen van het placebo-effect",
+      "topic": "Gezondheid & psychologie",
+      "level": "B2",
+      "content": "Het placebo-effect wordt vaak beschreven als het bewijs dat de geest het lichaam kan beïnvloeden. Mensen voelen zich beter nadat ze een pil hebben geslikt die geen werkzame stof bevat. Lange tijd werd dit effect gezien als een storende factor in onderzoek, iets dat moest worden weggefilterd. Tegenwoordig kijken wetenschappers er anders naar: het placebo-effect zelf is een interessant verschijnsel dat veel zegt over verwachtingen, vertrouwen en context.\n\nIn klinische studies krijgen deelnemers vaak óf een echt medicijn óf een placebo. Opvallend is dat een deel van de mensen in de placebogroep toch verbetering ervaart. Dat betekent niet dat het lichaam wordt genezen door gedachten alleen. Wat meestal verandert, is de beleving van klachten zoals pijn, misselijkheid of vermoeidheid. De symptomen worden minder intens ervaren, waardoor mensen beter functioneren in het dagelijks leven.\n\nVerwachtingen spelen hierbij een grote rol. Als een patiënt gelooft dat een behandeling zal helpen, activeert dat bepaalde processen in de hersenen. Zo kan het brein zelf stoffen aanmaken die pijn remmen. Ook de manier waarop een arts iets uitlegt, maakt verschil. Een overtuigende uitleg en een duidelijke structuur geven patiënten het gevoel dat ze serieus genomen worden. Dat vertrouwen werkt versterkend.\n\nToch zijn er duidelijke grenzen. Het placebo-effect kan geen gebroken bot herstellen en ook geen bacteriële infectie genezen. Het effect werkt vooral bij klachten waarbij beleving een rol speelt. Daarom is het belangrijk dat onderzoekers en artsen geen valse hoop creëren. Wanneer verwachtingen te hoog zijn, kan teleurstelling juist een negatief effect hebben, het zogenoemde nocebo-effect.\n\nInteressant is dat placebo's soms zelfs werken als patiënten weten dat ze een placebo krijgen. In zulke gevallen spreken onderzoekers van een open-label placebo. De verklaring is dat het ritueel van zorg, aandacht en regelmaat op zichzelf al invloed heeft. Het laat zien dat medische behandeling meer is dan alleen de werkzame stof in een pil.\n\nIn de praktijk roept dit vragen op. Mag een arts bewust het placebo-effect benutten? De meeste ethische richtlijnen zijn duidelijk: misleiding is niet toegestaan. Transparantie blijft essentieel. Artsen kunnen wel aandacht besteden aan context, communicatie en vertrouwen, zonder onwaarheden te vertellen. Zo kan het placebo-effect op een eerlijke manier worden meegenomen.\n\nHet placebo-effect is dus geen wondermiddel, maar ook geen illusie. Het herinnert ons eraan dat gezondheid niet alleen biologisch is, maar ook psychologisch en sociaal. Wie dat begrijpt, ziet medische zorg als een samenspel tussen lichaam, geest en omgeving.",
+      "minWordCount": 350,
+      "maxWordCount": 450,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom werd het placebo-effect vroeger als een probleem gezien in onderzoek?",
+          "promptAr": "ليش كان يُنظر لتأثير البلاسيبو سابقًا كمشكلة في الأبحاث؟",
+          "options": [
+            "Omdat het moeilijk te meten was in laboratoria.",
+            "Omdat het resultaten kon verstoren en daarom moest worden weggefilterd.",
+            "Omdat het als onethisch werd beschouwd."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst zegt dat het placebo-effect lange tijd werd gezien als een storende factor die uit onderzoek moest worden verwijderd.",
+          "explanationAr": "النص يذكر أن تأثير البلاسيبو كان يُعتبر عاملًا مُشوِّشًا يجب استبعاده من الأبحاث.",
+          "trapNoteNl": "A en C worden niet genoemd als hoofdreden.",
+          "trapNoteAr": "A و C لم يُذكرا كسبب أساسي.",
+          "evidenceQuote": "Lange tijd werd dit effect gezien als een storende factor in onderzoek"
+        },
+        {
+          "orderIndex": 1,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is het centrale idee van de tekst?",
+          "promptAr": "ما هي الفكرة الأساسية للنص؟",
+          "options": [
+            "Het placebo-effect geneest ziekten zonder medische behandeling.",
+            "Het placebo-effect laat zien hoe verwachtingen en context de ervaring van klachten beïnvloeden.",
+            "Het placebo-effect bewijst dat medicijnen vaak overbodig zijn."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat het placebo-effect vooral invloed heeft op hoe klachten worden ervaren, niet op het genezen van ziekten.",
+          "explanationAr": "النص يوضح أن تأثير البلاسيبو يؤثر على إحساس الأعراض وتجربتها، وليس على شفاء المرض نفسه.",
+          "trapNoteNl": "A en C zijn te extreem en worden niet ondersteund door de tekst.",
+          "trapNoteAr": "A و C مبالغ فيهما ولا يدعمهما النص.",
+          "evidenceQuote": "Wat meestal verandert, is de beleving van klachten zoals pijn, misselijkheid of vermoeidheid."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom voelen sommige mensen zich beter na het innemen van een placebo?",
+          "promptAr": "ليش بعض الناس يشعرون بتحسن بعد تناول دواء وهمي؟",
+          "options": [
+            "Omdat het lichaam volledig geneest zonder werkzame stoffen.",
+            "Omdat verwachtingen processen in de hersenen activeren die klachten verminderen.",
+            "Omdat placebo's altijd hetzelfde effect hebben als echte medicijnen."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat verwachtingen hersenprocessen kunnen activeren die bijvoorbeeld pijn remmen.",
+          "explanationAr": "النص يوضح أن التوقعات يمكن أن تنشّط عمليات في الدماغ تقلل من الإحساس بالألم.",
+          "trapNoteNl": "A en C zijn te absoluut en worden expliciet ontkend.",
+          "trapNoteAr": "A و C تفسيرات مطلقة والنص ينفيها.",
+          "evidenceQuote": "Als een patiënt gelooft dat een behandeling zal helpen, activeert dat bepaalde processen in de hersenen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "NEGATION",
+          "difficulty": 4,
+          "promptNl": "Welke bewering over het placebo-effect wordt door de tekst tegengesproken?",
+          "promptAr": "أي عبارة عن تأثير البلاسيبو ينفيها النص؟",
+          "options": [
+            "Het placebo-effect kan een gebroken bot genezen.",
+            "Het placebo-effect kan invloed hebben op pijnbeleving.",
+            "Het placebo-effect hangt samen met verwachtingen."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst stelt duidelijk dat het placebo-effect geen lichamelijke schade zoals een botbreuk kan herstellen.",
+          "explanationAr": "النص يؤكد بوضوح أن البلاسيبو لا يمكنه شفاء كسر في العظم.",
+          "trapNoteNl": "B en C worden juist bevestigd door de tekst.",
+          "trapNoteAr": "B و C مثبتتان في النص.",
+          "evidenceQuote": "Het placebo-effect kan geen gebroken bot herstellen"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom waarschuwt de schrijver voor te hoge verwachtingen?",
+          "promptAr": "ليش الكاتب يحذّر من رفع التوقعات بشكل مبالغ فيه؟",
+          "options": [
+            "Omdat hoge verwachtingen altijd tot genezing leiden.",
+            "Omdat teleurstelling klachten kan verergeren via het nocebo-effect.",
+            "Omdat patiënten dan minder vertrouwen krijgen in artsen."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt het nocebo-effect: te hoge verwachtingen kunnen bij teleurstelling juist een negatief effect hebben.",
+          "explanationAr": "النص يذكر تأثير النوسيبو، حيث يمكن أن تؤدي التوقعات العالية إلى نتائج سلبية عند الإحباط.",
+          "trapNoteNl": "A is onjuist en C wordt niet expliciet genoemd.",
+          "trapNoteAr": "A غير صحيحة و C لم تُذكر صراحة.",
+          "evidenceQuote": "Wanneer verwachtingen te hoog zijn, kan teleurstelling juist een negatief effect hebben"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met een open-label placebo?",
+          "promptAr": "ما المقصود بالبلاسيبو المفتوح؟",
+          "options": [
+            "Een placebo dat sterker werkt dan een echt medicijn.",
+            "Een placebo waarvan patiënten weten dat het geen werkzame stof bevat.",
+            "Een placebo dat alleen in laboratoria wordt gebruikt."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft open-label placebo's als placebo's waarvan patiënten weten dat ze een placebo krijgen.",
+          "explanationAr": "النص يشرح أن البلاسيبو المفتوح هو دواء وهمي يعرف المريض أنه وهمي.",
+          "trapNoteNl": "A en C komen niet overeen met de definitie in de tekst.",
+          "trapNoteAr": "A و C لا يتوافقان مع تعريف النص.",
+          "evidenceQuote": "Interessant is dat placebo's soms zelfs werken als patiënten weten dat ze een placebo krijgen."
+        },
+        {
+          "orderIndex": 6,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de schrijver de ethische kant van het placebo-effect?",
+          "promptAr": "ليش الكاتب يناقش الجانب الأخلاقي لتأثير البلاسيبو؟",
+          "options": [
+            "Om te pleiten voor het gebruik van misleiding in de zorg.",
+            "Om te laten zien dat transparantie belangrijk blijft bij het benutten van het effect.",
+            "Om aan te tonen dat placebo's onethisch zijn."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De schrijver benadrukt dat misleiding niet is toegestaan en dat transparantie essentieel blijft.",
+          "explanationAr": "الكاتب يوضح أن الخداع غير مقبول وأن الشفافية تبقى ضرورية.",
+          "trapNoteNl": "A en C zijn te extreem en worden expliciet afgewezen.",
+          "trapNoteAr": "A و C تفسيرات متطرفة ويرفضها النص.",
+          "evidenceQuote": "misleiding is niet toegestaan. Transparantie blijft essentieel"
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "De taal van de universiteit: wie hoort erbij?",
+      "topic": "Onderwijs & inclusie",
+      "level": "B2",
+      "content": "Universiteiten in Nederland willen internationaal zijn. Dat klinkt logisch: wetenschap stopt niet bij landsgrenzen en studenten profiteren van uitwisseling. Toch levert die internationale ambitie een discussie op die veel minder over reizen gaat dan over taal. Steeds meer opleidingen gebruiken Engels, en dat verandert niet alleen collegezalen, maar ook de positie van studenten die juist in het Nederlands willen studeren.\n\nVoorstanders zeggen dat Engels de kwaliteit verhoogt. Gastdocenten kunnen makkelijker meedoen, literatuur is vaak al Engelstalig en buitenlandse studenten maken een groep diverser. Wie later in een internationaal bedrijf wil werken, heeft bovendien baat bij academisch Engels. Volgens deze redenering is Engels geen luxe, maar voorbereiding op de werkelijkheid.\n\nTegenstanders wijzen op iets anders: taal is meer dan een middel. In het Nederlands kun je voorzichtiger formuleren, sneller nuance aanbrengen en makkelijker vragen stellen. Dat is belangrijk, vooral in eerstejaarscolleges waar studenten nog moeten leren hoe je academisch denkt. Wanneer de taal een extra drempel wordt, nemen sommige studenten minder actief deel. Niet omdat ze dommer zijn, maar omdat ze meer tijd nodig hebben om dezelfde inhoud te verwerken.\n\nDaarbij speelt toegankelijkheid. Studenten uit gezinnen zonder academische traditie hebben vaak al een achterstand: ze kennen de codes van de universiteit niet vanzelf. Als de opleiding dan ook nog in een andere taal is, stapelen drempels zich op. Docenten merken soms dat discussies oppervlakkiger worden. Studenten kiezen veiligere zinnen en vermijden ingewikkelde begrippen. Het niveau lijkt dan hoger, maar de uitwisseling wordt armer.\n\nUniversiteiten proberen een middenweg te vinden. Sommige opleidingen bieden een Nederlandse en een Engelse track. Andere kiezen voor 'English unless': colleges in het Engels, maar begeleiding en toetsen deels in het Nederlands. Dat klinkt flexibel, maar in de praktijk is het lastig. Studenten weten niet altijd wat ze mogen verwachten en docenten moeten dubbel materiaal maken. Bovendien ontstaat een sociale scheiding: wie Engels sterk vindt, kiest sneller de Engelstalige route, terwijl anderen zich laten leiden door angst om fouten te maken.\n\nDe vraag is daarom niet alleen welke taal efficiënter is, maar wie er profiteert en wie er afhaakt. Internationalisering kan verrijken, maar alleen als universiteiten eerlijk kijken naar de kosten. Taalbeleid is geen marketing, maar een keuze met gevolgen voor gelijke kansen. Wie inclusie serieus neemt, moet niet alleen vragen hoeveel internationale studenten welkom zijn, maar ook hoeveel Nederlandse studenten zich nog thuis voelen in hun eigen opleiding.",
+      "minWordCount": 280,
+      "maxWordCount": 450,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens voorstanders een voordeel van Engelstalig onderwijs?",
+          "promptAr": "ما هو أحد فوائد التعليم بالإنجليزية حسب المؤيدين؟",
+          "options": [
+            "Studenten hoeven minder te lezen omdat de literatuur eenvoudiger wordt.",
+            "Gastdocenten en internationale samenwerking worden makkelijker.",
+            "Nederlandse studenten krijgen automatisch hogere cijfers."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt dat gastdocenten makkelijker meedoen en dat samenwerking internationaler wordt.",
+          "explanationAr": "النص يذكر أن مشاركة الأساتذة الضيوف والتعاون الدولي يصبح أسهل.",
+          "trapNoteNl": "A en C worden niet genoemd en zijn onrealistisch.",
+          "trapNoteAr": "A و C غير مذكورتين وغير منطقية.",
+          "evidenceQuote": "Gastdocenten kunnen makkelijker meedoen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kern van de kritiek van tegenstanders op Engelstalige opleidingen?",
+          "promptAr": "ما جوهر انتقاد المعارضين للتعليم بالإنجليزية؟",
+          "options": [
+            "Engels maakt wetenschap onmogelijk in Nederland.",
+            "Engels kan deelname, nuance en gelijke kansen onder druk zetten.",
+            "Engels is alleen een probleem voor buitenlandse studenten."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat taal invloed heeft op nuance, vragen stellen, deelname en toegankelijkheid.",
+          "explanationAr": "النص يركز على أن اللغة تؤثر على المشاركة والقدرة على التعبير الدقيق وتكافؤ الفرص.",
+          "trapNoteNl": "A is overdreven en niet de boodschap. C klopt niet; het gaat juist ook om Nederlandse studenten.",
+          "trapNoteAr": "A مبالغ فيه و C غير صحيح لأن النص يتحدث عن الهولنديين أيضًا.",
+          "evidenceQuote": "Tegenstanders wijzen op iets anders: taal is meer dan een middel."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom doen sommige studenten minder actief mee als colleges in het Engels zijn?",
+          "promptAr": "لماذا يشارك بعض الطلاب بشكل أقل عندما تكون المحاضرات بالإنجليزية؟",
+          "options": [
+            "Omdat ze de inhoud sneller begrijpen en minder hoeven te vragen.",
+            "Omdat de taal een extra drempel wordt en verwerking meer tijd kost.",
+            "Omdat docenten minder streng beoordelen in het Engels."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst zegt dat studenten meer tijd nodig hebben om dezelfde inhoud te verwerken wanneer de taal een extra drempel is.",
+          "explanationAr": "النص يوضح أن اللغة تصبح عائقًا إضافيًا وتحتاج المعالجة وقتًا أطول، فيقل التفاعل.",
+          "trapNoteNl": "A is het tegenovergestelde van wat er staat. C wordt niet genoemd.",
+          "trapNoteAr": "A عكس كلام النص و C لم تُذكر.",
+          "evidenceQuote": "omdat ze meer tijd nodig hebben om dezelfde inhoud te verwerken"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met 'drempels stapelen zich op'?",
+          "promptAr": "ماذا يقصد الكاتب بعبارة: \"تتراكم العوائق\"؟",
+          "options": [
+            "Er komen meerdere moeilijkheden tegelijk bij, waardoor studeren zwaarder wordt.",
+            "Problemen verdwijnen vanzelf als je langer studeert.",
+            "Alleen docenten ervaren meer druk door internationalisering."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De schrijver bedoelt dat studenten al een achterstand kunnen hebben, en dat een extra taal die situatie verergert.",
+          "explanationAr": "المقصود أن بعض الطلاب لديهم أصلًا صعوبات، وإضافة لغة ثانية تزيد العبء وتضاعف العوائق.",
+          "trapNoteNl": "B is onjuist; problemen verdwijnen niet 'vanzelf'. C is te beperkt: het gaat juist om studenten.",
+          "trapNoteAr": "B غير صحيح و C ضيق جدًا لأن الكلام عن الطلاب أساسًا.",
+          "evidenceQuote": "Als de opleiding dan ook nog in een andere taal is, stapelen drempels zich op."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom kan een dubbele track (Nederlands én Engels) volgens de tekst toch problemen geven?",
+          "promptAr": "لماذا قد تسبب المسارات المزدوجة (هولندي/إنجليزي) مشاكل رغم أنها تبدو حلًا وسطًا؟",
+          "options": [
+            "Omdat studenten dan minder vakken kunnen volgen.",
+            "Omdat verwachtingen onduidelijk worden en er sociale scheiding kan ontstaan.",
+            "Omdat universiteiten dan geen internationale studenten meer mogen aannemen."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt dat het in de praktijk lastig is: verwachtingen zijn niet duidelijk, docenten maken dubbel materiaal en er ontstaat sociale scheiding.",
+          "explanationAr": "النص يذكر أن التطبيق صعب: التوقعات غير واضحة، العمل يتضاعف، وقد ينشأ فصل اجتماعي بين الطلاب.",
+          "trapNoteNl": "A wordt niet genoemd. C is onjuist en staat nergens.",
+          "trapNoteAr": "A لم تُذكر و C غير موجودة بالنص.",
+          "evidenceQuote": "Bovendien ontstaat een sociale scheiding"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom eindigt de schrijver met de vraag wie zich nog 'thuis voelt' in de opleiding?",
+          "promptAr": "لماذا ينهي الكاتب بسؤال: من ما زال يشعر أنه \"في بيته\" داخل التخصص؟",
+          "options": [
+            "Om te benadrukken dat taalbeleid gevolgen heeft voor inclusie en gelijke kansen.",
+            "Om te bewijzen dat Engels altijd beter is dan Nederlands.",
+            "Om studenten aan te moedigen om allemaal de Engelstalige route te kiezen."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De slotzin benadrukt het hoofdstandpunt: beleid gaat niet alleen om efficiëntie, maar ook om wie wordt buitengesloten of afhaakt.",
+          "explanationAr": "الخاتمة تؤكد الفكرة: القرار اللغوي ليس كفاءة فقط، بل له أثر على الشمول وتكافؤ الفرص ومن قد ينسحب.",
+          "trapNoteNl": "B en C zijn het tegenovergestelde van de boodschap; de tekst is kritisch en genuanceerd.",
+          "trapNoteAr": "B و C عكس رسالة النص لأنه نقدي ومتوازن.",
+          "evidenceQuote": "Taalbeleid is geen marketing, maar een keuze met gevolgen voor gelijke kansen."
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Selectie en aanstelling: wie past er echt?",
+      "topic": "Werk & organisatie",
+      "level": "B2",
+      "content": "Veel organisaties investeren tijd en geld in selectieprocedures. Vacatures worden zorgvuldig geformuleerd, gesprekken gepland en testen afgenomen. Toch blijkt in de praktijk dat een goede selectie geen garantie is voor succes. Medewerkers vertrekken soms al na een jaar, of functioneren anders dan verwacht. Dat roept de vraag op hoe organisaties bepalen wie er echt past.\n\nTraditioneel ligt de nadruk op diploma's en ervaring. Die zijn zichtbaar en makkelijk te vergelijken. Een cv vertelt waar iemand heeft gewerkt en wat hij formeel kan. Maar het zegt weinig over hoe iemand samenwerkt, omgaat met tegenslag of reageert op veranderingen. Juist die aspecten blijken in veel functies doorslaggevend te zijn.\n\nDaarom kijken steeds meer werkgevers naar competenties en gedrag. In gesprekken worden situaties geschetst: hoe pakte iemand een conflict aan, of hoe reageerde hij op tijdsdruk? Zulke vragen geven meer inzicht dan een lijst met vaardigheden. Toch blijft interpretatie subjectief. Wat de ene recruiter ziet als assertief, kan een ander ervaren als dominant.\n\nOok testen spelen een grotere rol. Persoonlijkheidsvragenlijsten en capaciteitentests beloven objectiviteit. Maar critici wijzen erop dat tests altijd binnen een context worden gemaakt. Ze meten gedrag in een kunstmatige situatie en kunnen culturele of sociale verschillen versterken. Bovendien bestaat het risico dat kandidaten zich aanpassen aan wat zij denken dat gewenst is.\n\nDe aanstelling zelf is vaak het sluitstuk van het proces, maar juist daar gaat het soms mis. Nieuwe medewerkers krijgen een contract en worden direct verwacht mee te draaien. Inwerkprogramma's zijn beperkt, feedback komt laat en verwachtingen blijven onuitgesproken. Wanneer problemen ontstaan, wordt snel geconcludeerd dat de selectie fout was, terwijl de begeleiding tekortschiet.\n\nEen zorgvuldige selectie is dus meer dan kiezen wie het beste cv heeft. Het vraagt om reflectie: welke kwaliteiten zijn echt nodig en welke cultuur wil de organisatie uitstralen? Pas wanneer selectie en begeleiding samen worden gezien, neemt de kans toe dat iemand niet alleen wordt aangenomen, maar ook blijft.",
+      "minWordCount": 280,
+      "maxWordCount": 450,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Waar ligt traditioneel de nadruk bij selectieprocedures?",
+          "promptAr": "أين يكون التركيز التقليدي في إجراءات التوظيف؟",
+          "options": [
+            "Op diploma's en werkervaring.",
+            "Op langdurige inwerkprogramma's.",
+            "Op persoonlijke voorkeuren van collega's."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst zegt dat diploma's en ervaring zichtbaar en makkelijk te vergelijken zijn.",
+          "explanationAr": "النص يذكر أن الشهادات والخبرة هي الأكثر وضوحًا وسهولة في المقارنة.",
+          "trapNoteNl": "B en C worden niet als traditioneel uitgangspunt genoemd.",
+          "trapNoteAr": "B و C لم يُذكرا كنهج تقليدي.",
+          "evidenceQuote": "Traditioneel ligt de nadruk op diploma's en ervaring."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom zeggen cv's volgens de tekst weinig over functioneren?",
+          "promptAr": "لماذا السيرة الذاتية لا تعكس الأداء الحقيقي حسب النص؟",
+          "options": [
+            "Omdat cv's vaak onvolledig zijn.",
+            "Omdat ze weinig zeggen over samenwerking en omgaan met veranderingen.",
+            "Omdat werkgevers ze zelden lezen."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat een cv weinig vertelt over gedrag en samenwerking.",
+          "explanationAr": "النص يوضح أن السيرة الذاتية لا تُظهر كيفية التعاون أو التعامل مع التغيرات.",
+          "trapNoteNl": "A en C worden niet genoemd.",
+          "trapNoteAr": "A و C غير مذكورتين.",
+          "evidenceQuote": "Maar het zegt weinig over hoe iemand samenwerkt"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met dat interpretatie subjectief blijft?",
+          "promptAr": "ماذا يقصد الكاتب بأن التفسير يبقى ذاتيًا؟",
+          "options": [
+            "Dat recruiters altijd dezelfde mening hebben.",
+            "Dat gedrag verschillend kan worden beoordeeld door verschillende mensen.",
+            "Dat testen altijd foutieve resultaten geven."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De schrijver legt uit dat hetzelfde gedrag anders kan worden geïnterpreteerd.",
+          "explanationAr": "الكاتب يوضح أن السلوك نفسه يمكن أن يُفهم بطرق مختلفة.",
+          "trapNoteNl": "A is onjuist en C is te absoluut.",
+          "trapNoteAr": "A غير صحيح و C مبالغ فيه.",
+          "evidenceQuote": "Wat de ene recruiter ziet als assertief, kan een ander ervaren als dominant."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom kunnen testen volgens critici problematisch zijn?",
+          "promptAr": "لماذا قد تكون الاختبارات مشكلة حسب المنتقدين؟",
+          "options": [
+            "Omdat ze gedrag meten buiten de werksituatie en verschillen kunnen versterken.",
+            "Omdat kandidaten weigeren eraan mee te doen.",
+            "Omdat ze te weinig informatie opleveren."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst noemt dat tests gedrag meten in een kunstmatige context en verschillen kunnen versterken.",
+          "explanationAr": "النص يذكر أن الاختبارات تقيس السلوك في وضع مصطنع وقد تعزز الفروق.",
+          "trapNoteNl": "B en C worden niet genoemd als kernprobleem.",
+          "trapNoteAr": "B و C ليسا المشكلة الأساسية حسب النص.",
+          "evidenceQuote": "Ze meten gedrag in een kunstmatige situatie"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom benadrukt de schrijver het belang van begeleiding na aanstelling?",
+          "promptAr": "لماذا يشدد الكاتب على أهمية المتابعة بعد التوظيف؟",
+          "options": [
+            "Om te laten zien dat mislukking altijd aan de selectie ligt.",
+            "Om duidelijk te maken dat selectie en begeleiding samen bepalen of iemand blijft.",
+            "Om te pleiten voor kortere contracten."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De schrijver wil laten zien dat problemen niet alleen door selectie komen, maar ook door gebrekkige begeleiding.",
+          "explanationAr": "الكاتب يوضح أن بقاء الموظف لا يعتمد على التوظيف فقط بل أيضًا على الدعم والمتابعة.",
+          "trapNoteNl": "A en C worden niet bepleit in de tekst.",
+          "trapNoteAr": "A و C غير مطروحتين في النص.",
+          "evidenceQuote": "Pas wanneer selectie en begeleiding samen worden gezien"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de belangrijkste boodschap van de tekst?",
+          "promptAr": "ما الرسالة الأساسية للنص؟",
+          "options": [
+            "Selectie is zinloos zonder testen.",
+            "Een goede selectie vraagt meer dan alleen kijken naar cv's.",
+            "Begeleiding is belangrijker dan selectie."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat selectie breder moet worden bekeken dan alleen formele criteria.",
+          "explanationAr": "النص يؤكد أن التوظيف لا يجب أن يعتمد فقط على المعايير الشكلية.",
+          "trapNoteNl": "A en C zijn te eenzijdig en doen geen recht aan de nuance.",
+          "trapNoteAr": "A و C مبسّطان أكثر من اللازم.",
+          "evidenceQuote": "Een zorgvuldige selectie is dus meer dan kiezen wie het beste cv heeft."
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "title": "Maak het verschil, maar verwacht geen applaus",
+      "topic": "Maatschappij & vrijwilligerswerk",
+      "level": "B2",
+      "content": "Vrijwilligerswerk wordt vaak gepresenteerd als iets dat iedereen zou moeten doen. Campagnes benadrukken hoe waardevol het is voor de samenleving én hoe goed het voelt om iets terug te geven. Toch blijkt in de praktijk dat vrijwilligerswerk niet altijd de erkenning krijgt die het verdient. Veel vrijwilligers doen hun werk buiten het zicht van het publiek, zonder applaus of complimenten.\n\nVoor organisaties is vrijwilligerswerk onmisbaar. Zonder vrijwilligers zouden sportverenigingen sluiten, buurtactiviteiten verdwijnen en zorginitiatieven vastlopen. Tegelijk is het werven en behouden van vrijwilligers lastig. Mensen hebben volle agenda's en vrijwilligerswerk moet passen naast werk, gezin en sociale verplichtingen. Wanneer verwachtingen onduidelijk zijn, haken vrijwilligers snel af.\n\nDaarom proberen organisaties steeds professioneler te werken. Vrijwilligers krijgen trainingen, vaste aanspreekpunten en soms zelfs contracten. Dat klinkt als vooruitgang, maar roept ook vragen op. Hoe vrijwillig is vrijwilligerswerk nog als er steeds meer eisen worden gesteld? Sommige mensen voelen druk om te presteren, terwijl ze juist kwamen om iets bij te dragen op hun eigen manier.\n\nEen ander punt is motivatie. Niet iedereen doet vrijwilligerswerk om dezelfde reden. Voor de één is het idealisme, voor de ander sociale contacten of werkervaring. Problemen ontstaan wanneer organisaties aannemen dat motivatie vanzelfsprekend is. Als taken niet aansluiten bij wat iemand zoekt, verdwijnt het enthousiasme snel. Vrijwilligers vertrekken dan stilletjes, zonder conflict maar ook zonder opvolger.\n\nOpvallend is dat waardering vaak klein kan zijn. Vrijwilligers geven aan dat een simpel bedankje, duidelijke communicatie of inspraak in beslissingen al verschil maakt. Het gaat minder om geld en meer om serieus genomen worden. Wanneer vrijwilligers zich onderdeel voelen van een gemeenschap, blijven ze langer betrokken.\n\nVrijwilligerswerk draait dus niet om heldendom, maar om continuïteit. Het vraagt om realistische verwachtingen, wederzijds respect en aandacht voor motivatie. Wie vrijwilligers ziet als goedkope arbeidskrachten, loopt het risico ze te verliezen. Wie ze ziet als partners, investeert niet alleen in projecten, maar ook in mensen.",
+      "minWordCount": 280,
+      "maxWordCount": 450,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Waarom is vrijwilligerswerk volgens de tekst belangrijk voor organisaties?",
+          "promptAr": "لماذا العمل التطوعي مهم للمنظمات حسب النص؟",
+          "options": [
+            "Omdat het altijd goedkoper is dan betaald werk.",
+            "Omdat veel activiteiten zonder vrijwilligers niet zouden bestaan.",
+            "Omdat vrijwilligers meer tijd hebben dan werknemers."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst zegt dat zonder vrijwilligers sportverenigingen en buurtactiviteiten zouden verdwijnen.",
+          "explanationAr": "النص يذكر أن كثيرًا من الأنشطة ستختفي بدون المتطوعين.",
+          "trapNoteNl": "A en C worden niet genoemd of zijn te algemeen.",
+          "trapNoteAr": "A و C غير مذكورتين أو مبالغ فيهما.",
+          "evidenceQuote": "Zonder vrijwilligers zouden sportverenigingen sluiten"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom haken vrijwilligers soms snel af?",
+          "promptAr": "لماذا ينسحب المتطوعون أحيانًا بسرعة؟",
+          "options": [
+            "Omdat ze geen salaris krijgen.",
+            "Omdat verwachtingen onduidelijk zijn en moeilijk te combineren.",
+            "Omdat vrijwilligerswerk te weinig verantwoordelijkheid biedt."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat vrijwilligers afhaken als verwachtingen niet duidelijk zijn en moeilijk passen in hun leven.",
+          "explanationAr": "النص يوضح أن المتطوعين ينسحبون عندما تكون التوقعات غير واضحة أو يصعب التوفيق بينها.",
+          "trapNoteNl": "A en C worden niet als hoofdreden genoemd.",
+          "trapNoteAr": "A و C ليسا السبب الرئيسي حسب النص.",
+          "evidenceQuote": "Wanneer verwachtingen onduidelijk zijn, haken vrijwilligers snel af."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelt de schrijver met de vraag: 'Hoe vrijwillig is vrijwilligerswerk nog?'",
+          "promptAr": "ماذا يقصد الكاتب بسؤال: إلى أي مدى ما زال العمل التطوعي تطوعيًا؟",
+          "options": [
+            "Dat vrijwilligerswerk steeds meer op betaald werk begint te lijken.",
+            "Dat vrijwilligers te weinig vrijheid hebben om te kiezen.",
+            "Dat vrijwilligerswerk wettelijk verplicht wordt."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De schrijver bedoelt dat toenemende eisen en professionalisering het gevoel van vrijwilligheid kunnen verminderen.",
+          "explanationAr": "المقصود أن كثرة المتطلبات قد تجعل العمل التطوعي يشبه العمل المدفوع.",
+          "trapNoteNl": "B is te beperkt en C wordt niet genoemd.",
+          "trapNoteAr": "B تفسير ضيق و C غير مذكور.",
+          "evidenceQuote": "Hoe vrijwillig is vrijwilligerswerk nog als er steeds meer eisen worden gesteld?"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom vertrekken vrijwilligers soms zonder conflict?",
+          "promptAr": "لماذا يغادر المتطوعون أحيانًا بدون نزاع؟",
+          "options": [
+            "Omdat ze geen tijd hebben om hun onvrede te uiten.",
+            "Omdat hun motivatie niet aansluit bij de taken die ze krijgen.",
+            "Omdat organisaties hen actief wegsturen."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt uit dat enthousiasme verdwijnt als taken niet aansluiten bij motivatie.",
+          "explanationAr": "النص يوضح أن الحماس يختفي عندما لا تتوافق المهام مع دوافع المتطوع.",
+          "trapNoteNl": "A en C worden niet genoemd als oorzaak.",
+          "trapNoteAr": "A و C غير مذكورتين.",
+          "evidenceQuote": "Als taken niet aansluiten bij wat iemand zoekt, verdwijnt het enthousiasme snel."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 5,
+          "promptNl": "Waarom benadrukt de schrijver dat vrijwilligers geen 'helden' hoeven te zijn?",
+          "promptAr": "لماذا يؤكد الكاتب أن المتطوعين ليسوا بحاجة لأن يكونوا أبطالًا؟",
+          "options": [
+            "Om duidelijk te maken dat vrijwilligerswerk niet om status gaat maar om continuïteit.",
+            "Om vrijwilligers te ontmoedigen om door te gaan.",
+            "Om te pleiten voor meer financiële beloning."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De schrijver wil laten zien dat vrijwilligerswerk draait om langdurige betrokkenheid, niet om applaus.",
+          "explanationAr": "الكاتب يوضح أن العمل التطوعي يقوم على الاستمرارية وليس على البحث عن المديح.",
+          "trapNoteNl": "B en C zijn het tegenovergestelde van de boodschap.",
+          "trapNoteAr": "B و C عكس رسالة النص.",
+          "evidenceQuote": "Vrijwilligerswerk draait dus niet om heldendom, maar om continuïteit."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "ما الفكرة الأساسية للنص؟",
+          "options": [
+            "Vrijwilligerswerk moet altijd professioneel georganiseerd worden.",
+            "Vrijwilligerswerk vraagt om waardering, realistische verwachtingen en respect.",
+            "Vrijwilligerswerk is vooral bedoeld voor mensen met veel vrije tijd."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt het belang van waardering, duidelijke verwachtingen en motivatie.",
+          "explanationAr": "النص يؤكد على أهمية التقدير والتوقعات الواقعية والاحترام.",
+          "trapNoteNl": "A en C zijn te eenzijdig en doen geen recht aan de nuance.",
+          "trapNoteAr": "A و C مبسّطان ولا يعكسان الفكرة الأساسية.",
+          "evidenceQuote": "Het vraagt om realistische verwachtingen, wederzijds respect en aandacht voor motivatie."
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Examenreglement: wat mag wel en wat niet?",
+      "topic": "Reglement & procedures",
+      "level": "B2",
+      "content": "Dit examenreglement is van toepassing op alle kandidaten die deelnemen aan het taalexamen. Door deel te nemen aan het examen verklaart de kandidaat zich akkoord met de onderstaande regels. Het doel van dit reglement is om het examen eerlijk, veilig en vergelijkbaar te laten verlopen voor iedereen.\n\nKandidaten dienen zich minimaal vijftien minuten voor aanvang te melden. Een geldig identiteitsbewijs is verplicht. Zonder identiteitsbewijs kan deelname worden geweigerd. Persoonlijke bezittingen zoals tassen, jassen en mobiele telefoons moeten buiten de examenzaal worden achtergelaten, tenzij anders aangegeven door de toezichthouder.\n\nTijdens het examen is het gebruik van elektronische hulpmiddelen niet toegestaan. Dit geldt ook voor smartwatches en draadloze oordopjes. Alleen materialen die expliciet zijn toegestaan, mogen worden gebruikt. Overtreding van deze regel kan leiden tot onmiddellijke uitsluiting en ongeldigverklaring van het examen.\n\nKandidaten die te laat arriveren, mogen in principe niet meer deelnemen. In uitzonderlijke gevallen kan de examencommissie besluiten een kandidaat alsnog toe te laten, bijvoorbeeld bij aantoonbare overmacht. De verloren tijd wordt echter niet gecompenseerd.\n\nBij technische problemen of onduidelijkheden dient de kandidaat direct de toezichthouder te informeren. Klachten die pas na afloop worden gemeld, worden in principe niet in behandeling genomen. De examencommissie beoordeelt of het probleem invloed heeft gehad op het resultaat.\n\nNa afloop van het examen worden de resultaten binnen de vastgestelde termijn bekendgemaakt. Tegen de uitslag kan bezwaar worden ingediend volgens de geldende bezwaarprocedure. Deelname aan het examen impliceert dat de kandidaat kennis heeft genomen van deze regels en de mogelijke consequenties bij overtreding.",
+      "minWordCount": 220,
+      "maxWordCount": 280,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is het doel van dit examenreglement?",
+          "promptAr": "ما هدف نظام الامتحان هذا؟",
+          "options": [
+            "Kandidaten ontmoedigen om deel te nemen.",
+            "Zorgen voor een eerlijk en vergelijkbaar examenverloop.",
+            "Meer controle geven aan kandidaten."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "In de inleiding staat dat het doel is het examen eerlijk en vergelijkbaar te laten verlopen.",
+          "explanationAr": "المقدمة توضح أن الهدف هو ضمان امتحان عادل ومتساوٍ.",
+          "trapNoteNl": "A en C worden niet ondersteund door de tekst.",
+          "trapNoteAr": "A و C لا يدعمهما النص.",
+          "evidenceQuote": "om het examen eerlijk, veilig en vergelijkbaar te laten verlopen"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat moet een kandidaat meenemen om aan het examen deel te nemen?",
+          "promptAr": "ماذا يجب على الممتحَن إحضاره للمشاركة في الامتحان؟",
+          "options": [
+            "Een mobiel telefoon.",
+            "Een geldig identiteitsbewijs.",
+            "Eigen studiemateriaal."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "In de tekst staat dat een geldig identiteitsbewijs verplicht is.",
+          "explanationAr": "النص يذكر أن إثبات الهوية ساري المفعول إلزامي.",
+          "trapNoteNl": "A en C zijn expliciet niet toegestaan.",
+          "trapNoteAr": "A و C غير مسموحين حسب التعليمات.",
+          "evidenceQuote": "Een geldig identiteitsbewijs is verplicht."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat gebeurt er als een kandidaat elektronische hulpmiddelen gebruikt?",
+          "promptAr": "ماذا يحدث إذا استخدم الممتحَن أجهزة إلكترونية؟",
+          "options": [
+            "Hij krijgt een waarschuwing.",
+            "Het examen kan ongeldig worden verklaard.",
+            "Hij mag het examen later opnieuw maken."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat overtreding kan leiden tot uitsluiting en ongeldigverklaring.",
+          "explanationAr": "النص يوضح أن المخالفة قد تؤدي إلى إلغاء الامتحان.",
+          "trapNoteNl": "A en C worden niet genoemd.",
+          "trapNoteAr": "A و C غير مذكورتين.",
+          "evidenceQuote": "kan leiden tot onmiddellijke uitsluiting en ongeldigverklaring"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat betekent dat verloren tijd niet wordt gecompenseerd?",
+          "promptAr": "ماذا يعني أن الوقت الضائع لا يتم تعويضه؟",
+          "options": [
+            "De kandidaat krijgt een lager cijfer.",
+            "De kandidaat krijgt geen extra examentijd.",
+            "Het examen wordt automatisch ongeldig."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst zegt dat gemiste tijd niet wordt ingehaald.",
+          "explanationAr": "النص يوضح أن الوقت المفقود لا يُضاف لاحقًا.",
+          "trapNoteNl": "A en C worden niet genoemd.",
+          "trapNoteAr": "A و C غير مذكورتين.",
+          "evidenceQuote": "De verloren tijd wordt echter niet gecompenseerd."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wanneer kan een te late kandidaat toch worden toegelaten?",
+          "promptAr": "متى يمكن قبول الممتحَن المتأخر؟",
+          "options": [
+            "Als hij belooft sneller te werken.",
+            "Als er sprake is van aantoonbare overmacht.",
+            "Als hij extra betaalt."
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Alleen bij aantoonbare overmacht kan een uitzondering worden gemaakt.",
+          "explanationAr": "يمكن القبول فقط في حالة وجود قوة قاهرة مثبتة.",
+          "trapNoteNl": "A en C zijn niet genoemd en onrealistisch.",
+          "trapNoteAr": "A و C غير مذكورتين وغير منطقية.",
+          "evidenceQuote": "bij aantoonbare overmacht"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 5,
+          "promptNl": "Waarom moeten problemen direct worden gemeld?",
+          "promptAr": "لماذا يجب الإبلاغ عن المشاكل فورًا؟",
+          "options": [
+            "Omdat klachten achteraf meestal niet meer worden behandeld.",
+            "Omdat de kandidaat dan sneller klaar is.",
+            "Omdat toezichthouders anders worden gestraft."
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst zegt dat klachten die pas na afloop worden gemeld meestal niet in behandeling worden genomen.",
+          "explanationAr": "النص يذكر أن الشكاوى بعد انتهاء الامتحان غالبًا لا تُنظر.",
+          "trapNoteNl": "B en C zijn niet logisch volgens de tekst.",
+          "trapNoteAr": "B و C غير منطقية حسب النص.",
+          "evidenceQuote": "Klachten die pas na afloop worden gemeld, worden in principe niet in behandeling genomen."
+        }
+      ]
+    }
+  ]
+}

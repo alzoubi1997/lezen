@@ -1,0 +1,723 @@
+{
+  "kind": "EXAM",
+  "number": 2,
+  "titleNl": "Examen 2",
+  "titleAr": "الامتحان 2",
+  "totalTimeSec": 6000,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Tijd als ongelijkheid: wie kan het zich veroorloven om te wachten?",
+      "topic": "",
+      "level": "B2+",
+      "content": "Tijd wordt vaak voorgesteld als een neutrale en voor iedereen gelijke hulpbron. Iedereen heeft immers vierentwintig uur per dag tot zijn beschikking. Toch verhult deze ogenschijnlijke gelijkheid een fundamentele ongelijkheid. De manier waarop tijd ervaren, gebruikt en verdeeld wordt, hangt sterk samen met sociaaleconomische positie, macht en toegang tot middelen. Wie kan wachten, beschikt vaak over meer dan alleen geduld; wachten blijkt een vorm van privilege te zijn.\n\nIn veel maatschappelijke processen speelt wachten een centrale rol. Denk aan wachttijden in de zorg, bij overheidsinstanties of op de woningmarkt. Voor sommige mensen is wachten een tijdelijke hinder, voor anderen een structurele belemmering. Wie over financiële reserves beschikt, kan een periode zonder inkomen overbruggen, private alternatieven zoeken of juridische procedures afwachten. Voor mensen zonder deze buffers kan dezelfde wachttijd leiden tot stress, gezondheidsproblemen of sociale uitsluiting. Tijd functioneert hier niet als een neutrale factor, maar als een mechanisme dat bestaande ongelijkheden verdiept.\n\nDe socioloog Pierre Bourdieu wees er al op dat macht zich niet alleen uit in geld of status, maar ook in controle over tempo. Wie bepaalt wanneer iets gebeurt, oefent invloed uit. In bureaucratische systemen ligt dit tempo vaak vast bij instituties, niet bij burgers. Formulieren, procedures en besluitvorming volgen een intern ritme dat weinig rekening houdt met individuele omstandigheden. Burgers worden geacht zich aan te passen, ook als de gevolgen daarvan ingrijpend zijn. Het vermogen om deze vertragingen te verdragen, is ongelijk verdeeld.\n\nEen duidelijk voorbeeld is de arbeidsmarkt. Flexibele contracten, tijdelijke aanstellingen en onzeker perspectief dwingen veel werknemers tot een constante beschikbaarheid. Zij moeten snel reageren, zich aanpassen en kansen grijpen zodra die zich voordoen. Tegelijkertijd kunnen werkgevers, investeerders of beleidsmakers zich langdurige afwegingen veroorloven. Deze asymmetrie creëert een situatie waarin de ene groep wordt opgejaagd door tijdsdruk, terwijl de andere juist profiteert van uitstel en reflectie.\n\nOok in het dagelijks leven manifesteert tijdsongelijkheid zich subtiel. Het plannen van afspraken, het volgen van opleidingen of het zorgen voor gezondheid vereist tijd die niet voor iedereen beschikbaar is. Mensen met meerdere banen, zorgtaken of onregelmatige werktijden ervaren tijd als schaars en gefragmenteerd. Voor hen is wachten geen abstract begrip, maar een directe kostenpost. Elke extra maand vertraging kan betekenen dat kansen verdwijnen of problemen zich opstapelen.\n\nTegelijkertijd wordt wachten in beleidscontexten vaak gepresenteerd als onvermijdelijk of zelfs redelijk. Procedures zouden zorgvuldigheid garanderen en gelijke behandeling waarborgen. Hoewel dit argument begrijpelijk is, maskeert het dat gelijke procedures niet automatisch tot gelijke uitkomsten leiden. Wanneer beleid geen rekening houdt met verschillen in draagkracht, vergroot het onbedoeld de kloof tussen groepen. Tijd wordt dan een selectiemechanisme: wie het lang genoeg volhoudt, blijft over.\n\nDe vraag is daarom niet alleen hoe lang processen duren, maar voor wie die duur acceptabel is. Beleidsmakers richten zich vaak op gemiddelde wachttijden, terwijl de spreiding en impact ervan onderbelicht blijven. Een wachttijd van zes maanden kan voor de ene burger beheersbaar zijn, maar voor de ander desastreus. Zonder aandacht voor deze verschillen blijft tijd een blinde vlek in het debat over gelijkheid.\n\nHet erkennen van tijd als ongelijk verdeelde factor vraagt om een andere manier van denken over rechtvaardigheid. Dat betekent niet dat alle processen onmiddellijk moeten verlopen, maar wel dat de gevolgen van wachten expliciet worden meegewogen. Versnelling voor kwetsbare groepen, betere communicatie en realistische termijnen kunnen bijdragen aan een eerlijker omgang met tijd. Uiteindelijk is de kernvraag niet of wachten soms nodig is, maar wie de prijs betaalt voor dat wachten.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst het belangrijkste verschil in de manier waarop mensen wachten ervaren?",
+          "promptAr": "",
+          "options": [
+            "Wachten is voor iedereen even vervelend, maar emotioneel verschillend",
+            "Wachten heeft voor sommige mensen beperkte gevolgen en voor anderen structurele impact",
+            "Wachten wordt vooral bepaald door persoonlijke eigenschappen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat wachttijd voor sommige groepen leidt tot structurele problemen.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Voor sommige mensen is wachten een tijdelijke hinder, voor anderen een structurele belemmering."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kan wachten worden gezien als een vorm van privilege?",
+          "promptAr": "",
+          "options": [
+            "Omdat wachten altijd vrijwillig is",
+            "Omdat alleen mensen met geduld kunnen wachten",
+            "Omdat wachten makkelijker is met financiële en sociale buffers"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst suggereert dat toegang tot middelen bepaalt hoe zwaar wachten weegt.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Wie over financiële reserves beschikt, kan een periode zonder inkomen overbruggen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Waarom noemt de auteur het voorbeeld van flexibele contracten op de arbeidsmarkt?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat flexibiliteit altijd negatief is",
+            "Om aan te tonen dat werkgevers geen risico lopen",
+            "Om tijdsdruk en machtsongelijkheid te illustreren"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Het voorbeeld dient om de asymmetrie in tijdscontrole te verduidelijken.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Deze asymmetrie creëert een situatie waarin de ene groep wordt opgejaagd door tijdsdruk"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de auteur met de uitspraak dat tijd een \"selectiemechanisme\" wordt?",
+          "promptAr": "",
+          "options": [
+            "Tijd zorgt ervoor dat procedures sneller verlopen",
+            "Tijd filtert wie het systeem kan volhouden",
+            "Tijd bevordert gelijke kansen voor iedereen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur bedoelt dat alleen wie langdurig kan wachten, uiteindelijk overblijft.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Tijd wordt dan een selectiemechanisme: wie het lang genoeg volhoudt, blijft over."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Welke conclusie trekt de auteur over beleid en wachttijden?",
+          "promptAr": "",
+          "options": [
+            "Wachttijden zijn onvermijdelijk en daarom acceptabel",
+            "Gelijke procedures leiden altijd tot rechtvaardige uitkomsten",
+            "Beleid moet rekening houden met verschillen in draagkracht"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst pleit voor aandacht voor ongelijkheid in de impact van wachten.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Wanneer beleid geen rekening houdt met verschillen in draagkracht, vergroot het onbedoeld de kloof"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Vrijwilligerswerk onder druk: betrokkenheid of verborgen verplichting?",
+      "topic": "",
+      "level": "B2+",
+      "content": "Vrijwilligerswerk wordt vaak gepresenteerd als het toonbeeld van maatschappelijke betrokkenheid. Burgers zetten zich onbetaald in voor sportverenigingen, zorginstellingen, buurtinitiatieven of culturele organisaties, en doen dat volgens het dominante beeld uit vrije wil en met intrinsieke motivatie. Tegelijkertijd is vrijwilligerswerk in toenemende mate verweven geraakt met beleid, verwachtingen en impliciete verplichtingen. Hierdoor rijst de vraag of vrijwilligerswerk nog wel uitsluitend gebaseerd is op vrijwillige betrokkenheid, of dat het steeds vaker de kenmerken krijgt van een verborgen verplichting.\n\nDe groeiende aandacht voor vrijwilligerswerk hangt samen met bredere maatschappelijke ontwikkelingen. Overheden trekken zich op verschillende terreinen terug, bijvoorbeeld in de zorg, het welzijnswerk en het onderhoud van publieke voorzieningen. In deze context wordt vaker een beroep gedaan op burgers om 'een steentje bij te dragen'. Vrijwilligerswerk fungeert daarbij als een relatief goedkope manier om maatschappelijke taken op te vangen die anders door professionals zouden worden uitgevoerd. Hoewel dit bijdraagt aan sociale samenhang, verschuift het evenwicht tussen vrijwillige inzet en structurele verantwoordelijkheid.\n\nDeze verschuiving blijft zelden zonder gevolgen. In beleidsdocumenten en publieke communicatie wordt vrijwilligerswerk steeds vaker gepresenteerd als iets dat 'bij goed burgerschap hoort'. Wie participeert, toont betrokkenheid; wie dat niet doet, loopt het risico als passief of zelfs asociaal te worden gezien. De morele lading die zo aan vrijwilligerswerk wordt gegeven, kan de vrijwilligheid ervan onder druk zetten. De keuze om niet mee te doen is formeel toegestaan, maar sociaal gezien steeds lastiger te rechtvaardigen.\n\nVoor sommige groepen wordt deze druk concreter. Werkzoekenden worden bijvoorbeeld aangemoedigd om vrijwilligerswerk te doen om hun kansen op de arbeidsmarkt te vergroten. In theorie is dit een vrijblijvende suggestie, maar in de praktijk kan het uitblijven van dergelijke inzet worden uitgelegd als een gebrek aan motivatie. Ook studenten ervaren soms impliciete verwachtingen: vrijwilligerservaring geldt als pluspunt op het cv, waardoor 'vrijwillig' werk een strategische noodzaak wordt. De grens tussen vrije keuze en instrumentele verplichting vervaagt daarmee.\n\nDaarnaast is er sprake van ongelijkheid in wie zich vrijwilligerswerk kan veroorloven. Vrijwilligerswerk kost tijd, energie en soms geld. Mensen met onzekere contracten, zorgtaken of financiële stress hebben minder ruimte om zich structureel onbetaald in te zetten. Toch worden juist zij regelmatig aangesproken op hun maatschappelijke verantwoordelijkheid. Het ideaal van de altijd beschikbare vrijwilliger sluit onvoldoende aan bij de realiteit van mensen met beperkte middelen, waardoor vrijwilligerswerk onbedoeld kan bijdragen aan sociale uitsluiting.\n\nOok organisaties die afhankelijk zijn van vrijwilligers merken de keerzijde van de toenemende druk. Waar vrijwilligerswerk ooit werd gedragen door persoonlijke motivatie, zien sommige organisaties nu een afname in betrokkenheid en continuïteit. Vrijwilligers die zich verplicht voelen, zijn minder geneigd zich langdurig te binden. Dit kan leiden tot hogere uitval en een verschraling van de kwaliteit van het werk, wat de oorspronkelijke doelstellingen juist ondermijnt.\n\nTegenover deze kritische geluiden staat het argument dat vrijwilligerswerk nog steeds waardevolle functies vervult. Het kan mensen verbinden, vaardigheden ontwikkelen en het gevoel geven bij te dragen aan iets dat groter is dan het individu. Bovendien ervaren veel vrijwilligers hun inzet niet als verplicht, maar als zinvol en verrijkend. Het probleem zit dan ook niet in vrijwilligerswerk zelf, maar in de manier waarop het wordt ingezet en gewaardeerd binnen het maatschappelijke systeem.\n\nDe kernvraag is daarom hoe vrijwilligerswerk kan worden ondersteund zonder het karakter van vrijwilligheid te verliezen. Dat vraagt om duidelijke grenzen tussen professionele taken en vrijwillige inzet, en om erkenning van het feit dat niet iedereen in gelijke mate kan participeren. Zolang vrijwilligerswerk wordt gepresenteerd als morele norm in plaats van als vrije keuze, blijft het risico bestaan dat betrokkenheid omslaat in druk. De toekomst van vrijwilligerswerk hangt daarmee af van de bereidheid om vrijwilligheid niet alleen te benoemen, maar ook daadwerkelijk te beschermen.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een belangrijke reden voor de groeiende aandacht voor vrijwilligerswerk?",
+          "promptAr": "",
+          "options": [
+            "De toename van individuele vrijetijdsbesteding",
+            "De terugtrekkende rol van de overheid op sociale terreinen",
+            "De afname van professionele organisaties"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst koppelt de groei van vrijwilligerswerk aan het terugtrekken van de overheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Overheden trekken zich op verschillende terreinen terug, bijvoorbeeld in de zorg, het welzijnswerk en het onderhoud van publieke voorzieningen."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid uit de morele lading die aan vrijwilligerswerk wordt gegeven?",
+          "promptAr": "",
+          "options": [
+            "Dat vrijwilligerswerk wettelijk verplicht dreigt te worden",
+            "Dat sociale druk de keuzevrijheid kan beperken",
+            "Dat vrijwilligerswerk altijd positief wordt ervaren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat morele verwachtingen de vrijwilligheid onder druk zetten.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "De morele lading die zo aan vrijwilligerswerk wordt gegeven, kan de vrijwilligheid ervan onder druk zetten."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Welke formulering geeft het best dezelfde betekenis weer als de beschrijving van vrijwilligerswerk voor werkzoekenden?",
+          "promptAr": "",
+          "options": [
+            "Vrijwilligerswerk vervangt betaalde arbeid",
+            "Vrijwilligerswerk wordt een impliciete voorwaarde om serieus genomen te worden",
+            "Vrijwilligerswerk biedt altijd directe werkzekerheid"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat 'vrijblijvende' suggesties in de praktijk druk kunnen opleveren.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "In theorie is dit een vrijblijvende suggestie, maar in de praktijk kan het uitblijven van dergelijke inzet worden uitgelegd als een gebrek aan motivatie."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Waarom bespreekt de auteur ongelijkheid in beschikbare tijd en middelen?",
+          "promptAr": "",
+          "options": [
+            "Om vrijwilligerswerk volledig af te wijzen",
+            "Om te laten zien dat niet iedereen even makkelijk kan participeren",
+            "Om vrijwilligers te bekritiseren die zich wel inzetten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het voorbeeld dient om structurele ongelijkheid zichtbaar te maken.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Vrijwilligerswerk kost tijd, energie en soms geld."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Welk probleem ervaren organisaties die afhankelijk zijn van vrijwilligers volgens de tekst?",
+          "promptAr": "",
+          "options": [
+            "Een tekort aan financiële middelen",
+            "Een afname in betrokkenheid en continuïteit",
+            "Een overschot aan gemotiveerde vrijwilligers"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst noemt hogere uitval en verminderde binding.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "zien sommige organisaties nu een afname in betrokkenheid en continuïteit"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is een mogelijk gevolg van vrijwilligerswerk dat als verplicht wordt ervaren?",
+          "promptAr": "",
+          "options": [
+            "Een verbetering van de kwaliteit van het werk",
+            "Langdurige en stabiele inzet",
+            "Snellere uitval van vrijwilligers"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Verplichte inzet leidt tot minder duurzame betrokkenheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Vrijwilligers die zich verplicht voelen, zijn minder geneigd zich langdurig te binden."
+        },
+        {
+          "orderIndex": 6,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat is de centrale conclusie van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Vrijwilligerswerk moet volledig worden vervangen door professionals",
+            "Vrijwilligerswerk is alleen waardevol als het vrijblijvend blijft",
+            "Vrijwilligerswerk werkt beter wanneer het wettelijk wordt vastgelegd"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur benadrukt het belang van het beschermen van vrijwilligheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "De toekomst van vrijwilligerswerk hangt daarmee af van de bereidheid om vrijwilligheid niet alleen te benoemen, maar ook daadwerkelijk te beschermen."
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "Publieke excuses: moreel gebaar of politiek instrument?",
+      "topic": "",
+      "level": "B2+",
+      "content": "In de afgelopen decennia zijn publieke excuses uitgegroeid tot een vast onderdeel van het politieke en maatschappelijke landschap. Overheden, instellingen en soms ook individuele bestuurders bieden excuses aan voor historisch onrecht, beleidsfouten of maatschappelijke schade. Waar excuses ooit werden gezien als een uitzonderlijke morele daad, lijken zij tegenwoordig bijna een beleidsinstrument te zijn geworden. Deze ontwikkeling roept de vraag op of publieke excuses vooral bedoeld zijn als oprechte erkenning van verantwoordelijkheid, of dat zij steeds vaker functioneren als strategisch middel om vertrouwen te herstellen of kritiek te neutraliseren.\n\nVoorstanders van publieke excuses benadrukken hun symbolische waarde. Excuses kunnen erkenning geven aan groepen die zich langdurig genegeerd of benadeeld voelen. Door expliciet schuld te erkennen, ontstaat ruimte voor dialoog en mogelijk herstel. In deze visie zijn excuses niet slechts woorden, maar een eerste stap in een breder proces van verzoening en rechtvaardigheid. Het publieke karakter versterkt dit effect, omdat het onrecht niet langer wordt ontkend of gebagatelliseerd, maar expliciet wordt benoemd.\n\nTegelijkertijd is er groeiende kritiek op de manier waarop excuses worden ingezet. Critici stellen dat publieke excuses vaak losstaan van concrete beleidsveranderingen of materiële compensatie. Wanneer erkenning niet gepaard gaat met zichtbare consequenties, kan zij leeg of zelfs cynisch overkomen. In zulke gevallen lijken excuses vooral bedoeld om maatschappelijke onrust te temperen, zonder dat machtsverhoudingen of structurele problemen daadwerkelijk worden aangepakt. De morele lading van het excuus verliest dan aan geloofwaardigheid.\n\nEen bijkomend probleem is dat publieke excuses vrijwel altijd plaatsvinden binnen een politiek krachtenveld. De timing ervan is zelden toevallig. Excuses worden vaak aangeboden op momenten van verhoogde maatschappelijke druk, bijvoorbeeld na mediaberichtgeving, protesten of juridische procedures. Hierdoor ontstaat het vermoeden dat het excuus minder voortkomt uit moreel inzicht en meer uit strategische overwegingen. Het risico bestaat dat excuses worden ingezet als communicatiemiddel, bedoeld om het imago van een organisatie of overheid te herstellen.\n\nDaarnaast is de vraag relevant wie het recht heeft om excuses aan te bieden. Bestuurders spreken vaak namens instellingen of zelfs hele samenlevingen, terwijl zij persoonlijk niet verantwoordelijk zijn voor het oorspronkelijke onrecht. Voor sommige betrokkenen voelt dit problematisch: zij ervaren het excuus als afstandelijk of onvoldoende persoonlijk. Tegelijkertijd kan het ontbreken van excuses juist worden opgevat als ontkenning van collectieve verantwoordelijkheid. Dit spanningsveld maakt het moeilijk om te bepalen wat een 'juist' excuus is.\n\nOok speelt de ontvanger van het excuus een cruciale rol. Niet alle groepen ervaren publieke excuses op dezelfde manier. Waar de ene groep erkenning en opluchting voelt, kan een andere groep het excuus zien als symbolisch theater zonder betekenis. Bovendien bestaat het risico dat excuses nieuwe verdeeldheid creëren, bijvoorbeeld wanneer delen van de samenleving zich niet aangesproken voelen door het erkende onrecht, of wanneer zij vinden dat het verleden te veel gewicht krijgt in het heden.\n\nToch kan niet worden ontkend dat publieke excuses maatschappelijke processen in beweging kunnen zetten. Zij kunnen leiden tot hernieuwde aandacht voor vergeten geschiedenissen en tot een bredere discussie over verantwoordelijkheid en solidariteit. De effectiviteit van excuses lijkt daarbij sterk afhankelijk van de context: de geloofwaardigheid van de afzender, de helderheid van de erkenning en de bereidheid om woorden te verbinden aan daden.\n\nPublieke excuses bevinden zich daarmee op het snijvlak van moraal en politiek. Zij kunnen fungeren als oprechte erkenning van geleden onrecht, maar ook als instrument om politieke schade te beperken. De kernvraag is niet zozeer of excuses 'goed' of 'slecht' zijn, maar onder welke voorwaarden zij betekenisvol worden. Zonder opvolging blijven zij kwetsbaar voor wantrouwen; met concrete consequenties kunnen zij bijdragen aan herstel van vertrouwen en legitimiteit.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een belangrijke reden waarom publieke excuses tegenwoordig vaker voorkomen?",
+          "promptAr": "",
+          "options": [
+            "Omdat ze wettelijk verplicht zijn",
+            "Omdat ze deel zijn geworden van het politieke instrumentarium",
+            "Omdat burgers hier expliciet om vragen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat excuses zijn uitgegroeid tot een vast politiek middel.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "lijken zij tegenwoordig bijna een beleidsinstrument te zijn geworden."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan het effect zijn wanneer excuses niet gepaard gaan met beleidsveranderingen?",
+          "promptAr": "",
+          "options": [
+            "Ze versterken automatisch het vertrouwen",
+            "Ze kunnen als leeg of cynisch worden ervaren",
+            "Ze leiden tot juridische consequenties"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Zonder concrete gevolgen verliezen excuses hun geloofwaardigheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Wanneer erkenning niet gepaard gaat met zichtbare consequenties, kan zij leeg of zelfs cynisch overkomen."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met het idee dat excuses plaatsvinden binnen een \"politiek krachtenveld\"?",
+          "promptAr": "",
+          "options": [
+            "Dat excuses altijd juridisch afdwingbaar zijn",
+            "Dat ze vaak strategisch en getimed worden ingezet",
+            "Dat ze alleen door politici mogen worden uitgesproken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft excuses als onderdeel van politieke strategie.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "De timing ervan is zelden toevallig."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Waarom benoemt de auteur het probleem van wie het recht heeft om excuses aan te bieden?",
+          "promptAr": "",
+          "options": [
+            "Om aan te tonen dat excuses meestal overbodig zijn",
+            "Om de complexiteit van collectieve verantwoordelijkheid te laten zien",
+            "Om te pleiten voor persoonlijke excuses in alle gevallen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het punt illustreert het spanningsveld rond representatie en verantwoordelijkheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Dit spanningsveld maakt het moeilijk om te bepalen wat een 'juist' excuus is."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Publieke excuses zijn meestal ineffectief",
+            "Publieke excuses zijn noodzakelijk voor democratie",
+            "De betekenis van publieke excuses hangt af van context en opvolging"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De auteur benadrukt voorwaarden waaronder excuses betekenisvol zijn.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "De effectiviteit van excuses lijkt daarbij sterk afhankelijk van de context:"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Welke conclusie kan worden getrokken over publieke excuses volgens de auteur?",
+          "promptAr": "",
+          "options": [
+            "Ze lossen structurele problemen zelfstandig op",
+            "Ze zijn per definitie moreel of strategisch",
+            "Ze bewegen zich tussen morele intentie en politieke strategie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst positioneert excuses expliciet tussen moraal en politiek.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Publieke excuses bevinden zich daarmee op het snijvlak van moraal en politiek."
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Standaardisering in de zorg: efficiëntie versus menselijke maat",
+      "topic": "",
+      "level": "B2+",
+      "content": "De afgelopen decennia is de zorgsector in toenemende mate gestandaardiseerd. Richtlijnen, protocollen, meetbare kwaliteitsindicatoren en vaste behandeltrajecten vormen inmiddels de ruggengraat van veel zorginstellingen. Deze ontwikkeling is niet toevallig: zij vloeit voort uit de wens om zorg efficiënter, transparanter en beter controleerbaar te maken. Tegelijkertijd roept deze standaardisering fundamentele vragen op over de plaats van de menselijke maat binnen de zorg. Want hoe ver kan uniformiteit gaan zonder dat de individuele patiënt uit beeld raakt?\n\nStandaardisering wordt vaak gepresenteerd als een noodzakelijk antwoord op groeiende zorgkosten en personeelstekorten. Door processen te uniformeren, kan zorg sneller en goedkoper worden geleverd, terwijl de kans op fouten afneemt. Zorgverleners hoeven minder beslissingen opnieuw te overwegen, omdat bewezen behandelmethoden al zijn vastgelegd in protocollen. Vanuit beleidsmatig perspectief is dit aantrekkelijk: prestaties worden meetbaar, instellingen vergelijkbaar en verantwoordelijkheden duidelijker. Bovendien vergroot standaardisering de juridische zekerheid, omdat zorgverleners kunnen aantonen dat zij volgens vastgestelde normen hebben gehandeld.\n\nToch is zorg per definitie geen volledig voorspelbaar proces. Patiënten verschillen niet alleen in medische kenmerken, maar ook in achtergrond, verwachtingen, draagkracht en waarden. Een standaardbehandeling kan medisch gezien correct zijn, maar toch onvoldoende aansluiten bij de leefwereld van de patiënt. Juist hier ontstaat spanning tussen efficiëntie en menselijkheid. Wanneer protocollen leidend worden, bestaat het risico dat zorgverleners minder ruimte ervaren om af te wijken op basis van professionele intuïtie of persoonlijke observatie.\n\nDeze spanning wordt versterkt door de manier waarop zorgkwaliteit wordt beoordeeld. Indicatoren zoals doorlooptijden, behandelresultaten en patiënttevredenheidsscores sturen het handelen van instellingen. Wat meetbaar is, krijgt prioriteit; wat moeilijk te kwantificeren is, verdwijnt naar de achtergrond. Zaken als empathie, vertrouwen en relationele continuïteit laten zich echter niet eenvoudig vangen in cijfers. Daardoor ontstaat een impliciete verschuiving: zorg wordt steeds vaker benaderd als een technisch proces in plaats van als een relationele praktijk.\n\nVoor zorgprofessionals heeft deze ontwikkeling ingrijpende gevolgen. Enerzijds bieden protocollen houvast en verminderen zij onzekerheid, vooral in complexe of risicovolle situaties. Anderzijds ervaren veel zorgverleners een verlies aan autonomie. Beslissingen die voorheen voortkwamen uit ervaring en persoonlijk oordeel, worden nu vooraf bepaald door richtlijnen. Dit kan leiden tot morele spanning, vooral wanneer een zorgverlener voelt dat de standaardoplossing niet het beste is voor de individuele patiënt, maar afwijken administratief of organisatorisch wordt ontmoedigd.\n\nOok voor patiënten heeft standaardisering een dubbel effect. Sommige patiënten profiteren van duidelijkheid en voorspelbaarheid: zij weten wat hen te wachten staat en voelen zich veilig binnen vaste kaders. Andere patiënten ervaren juist afstandelijkheid. Zij voelen zich gereduceerd tot een dossier of een diagnose, waarbij hun persoonlijke verhaal onvoldoende ruimte krijgt. Dit kan het vertrouwen in zorgverleners ondermijnen, zelfs wanneer de medische uitkomst objectief positief is.\n\nDe kern van het debat draait dan ook niet om de vraag of standaardisering goed of slecht is, maar om de manier waarop zij wordt toegepast. Volledige afwijzing is onrealistisch en onwenselijk; zonder richtlijnen zou zorg onoverzichtelijk en ongelijk worden. Tegelijkertijd is kritiek noodzakelijk wanneer standaardisering doorslaat en de professionele ruimte uitholt. Steeds vaker klinkt daarom de roep om 'verantwoorde standaardisering': protocollen die richting geven, maar geen keurslijf vormen.\n\nIn dit model behouden zorgverleners de mogelijkheid om gemotiveerd af te wijken, mits zij hun keuzes kunnen onderbouwen. Dit vraagt om vertrouwen in professionele deskundigheid en om systemen die flexibiliteit niet bestraffen, maar ondersteunen. Daarnaast vergt het een herwaardering van niet-meetbare aspecten van zorg, zoals aandacht, tijd en relatie. Pas wanneer efficiëntie en menselijke maat niet als tegenpolen worden gezien, maar als wederzijds afhankelijk, kan de zorgsector werkelijk toekomstbestendig worden.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een belangrijke reden voor de toename van standaardisering in de zorg?",
+          "promptAr": "",
+          "options": [
+            "De wens om patiënten meer keuzevrijheid te geven",
+            "De behoefte aan efficiëntere en beter controleerbare zorg",
+            "De toegenomen invloed van patiëntenorganisaties"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt kostenbeheersing, efficiëntie en controle als drijfveren.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Deze ontwikkeling is niet toevallig: zij vloeit voort uit de wens om zorg efficiënter, transparanter en beter controleerbaar te maken."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over de relatie tussen meetbaarheid en zorgkwaliteit?",
+          "promptAr": "",
+          "options": [
+            "Wat meetbaar is, weerspiegelt altijd de echte kwaliteit van zorg",
+            "Meetbaarheid beïnvloedt welke aspecten van zorg prioriteit krijgen",
+            "Meetbare indicatoren maken empathie overbodig"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat meetbaarheid bepaalt wat aandacht krijgt.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Wat meetbaar is, krijgt prioriteit; wat moeilijk te kwantificeren is, verdwijnt naar de achtergrond."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak geeft het beste dezelfde betekenis weer als het idee dat zorg een 'relationele praktijk' is?",
+          "promptAr": "",
+          "options": [
+            "Zorg draait uitsluitend om medische handelingen",
+            "Zorg bestaat vooral uit technische processen",
+            "Zorg omvat ook menselijke interactie en vertrouwen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Relationele praktijk verwijst naar menselijke interactie.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "zorg wordt steeds vaker benaderd als een technisch proces in plaats van als een relationele praktijk."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Waarom bespreekt de auteur de gevolgen voor zorgprofessionals uitgebreid?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat protocollen altijd schadelijk zijn",
+            "Om de spanning tussen autonomie en standaardisering te illustreren",
+            "Om beleidsmakers te bekritiseren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het voorbeeld van professionals dient om de centrale spanning te verduidelijken.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Dit kan leiden tot morele spanning, vooral wanneer een zorgverlener voelt dat de standaardoplossing niet het beste is"
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is de hoofdgedachte van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Standaardisering moet volledig worden afgeschaft",
+            "Efficiëntie is belangrijker dan menselijke zorg",
+            "Standaardisering vraagt om een balans met professionele en menselijke ruimte"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst pleit voor een evenwichtige benadering.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "De kern van het debat draait dan ook niet om de vraag of standaardisering goed of slecht is, maar om de manier waarop zij wordt toegepast."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de auteur nodig om de zorg toekomstbestendig te maken?",
+          "promptAr": "",
+          "options": [
+            "Meer controle en strengere protocollen",
+            "Minder aandacht voor kosten",
+            "Het combineren van efficiëntie met aandacht voor de menselijke maat"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De conclusie benadrukt wederzijdse afhankelijkheid van beide elementen.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "efficiëntie en menselijke maat niet als tegenpolen worden gezien, maar als wederzijds afhankelijk"
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "title": "Toegankelijkheid van rechtspraak: recht voor iedereen of alleen op papier?",
+      "topic": "",
+      "level": "B2+",
+      "content": "Toegang tot rechtspraak wordt in democratische rechtsstaten vaak gepresenteerd als een vanzelfsprekend recht. In wetten, grondwetten en internationale verdragen is vastgelegd dat iedere burger zijn zaak kan voorleggen aan een onafhankelijke rechter. Toch groeit de twijfel of dit recht in de praktijk voor iedereen even bereikbaar is. Steeds vaker klinkt de vraag of rechtspraak daadwerkelijk toegankelijk is, of vooral formeel bestaat voor wie over voldoende middelen, kennis en tijd beschikt.\n\nEen belangrijke drempel ligt bij de kosten. Griffierechten, advocaatkosten en bijkomende administratieve lasten zijn de afgelopen jaren gestegen. Voor burgers met een laag of middeninkomen vormt dit een serieuze belemmering om juridische stappen te zetten. Hoewel gesubsidieerde rechtsbijstand bedoeld is om deze ongelijkheid te verkleinen, blijkt het systeem in de praktijk complex en beperkt. Niet elke zaak komt in aanmerking, en de eigen bijdrage kan alsnog een obstakel zijn. Hierdoor ontstaat een situatie waarin mensen wel formeel recht hebben op rechtspraak, maar feitelijk afzien van procederen.\n\nNaast financiële drempels speelt ook kennis een cruciale rol. Het rechtssysteem is ingewikkeld en vraagt om juridische vaardigheden die niet gelijk verdeeld zijn. Begrippen, procedures en termijnen zijn voor veel burgers moeilijk te begrijpen. Zonder professionele begeleiding is het risico groot dat fouten worden gemaakt, met verstrekkende gevolgen. Dit leidt tot een ongelijke positie tussen burgers die juridisch vaardig zijn en degenen die dat niet zijn, waardoor toegang tot rechtspraak indirect afhankelijk wordt van opleidingsniveau en sociale achtergrond.\n\nDigitalisering wordt vaak gepresenteerd als een oplossing om rechtspraak toegankelijker te maken. Online portals, digitale formulieren en videorechtszittingen zouden procedures versnellen en vereenvoudigen. Tegelijkertijd brengt deze ontwikkeling nieuwe uitsluitingsmechanismen met zich mee. Niet iedereen beschikt over digitale vaardigheden of betrouwbare toegang tot internet. Voor ouderen, laaggeletterden en sommige migranten kan digitalisering juist een extra barrière vormen. Wat bedoeld is als efficiëntieverbetering, kan zo onbedoeld leiden tot verdere ongelijkheid.\n\nOok de duur van procedures beïnvloedt de toegankelijkheid van rechtspraak. Langlopende zaken vragen niet alleen geduld, maar ook emotionele en financiële veerkracht. Voor burgers in kwetsbare posities kan een jarenlange juridische strijd onhoudbaar zijn. In dergelijke gevallen wordt de mogelijkheid om naar de rechter te stappen theoretisch behouden, maar praktisch onaantrekkelijk. De tijdsfactor werkt dan in het voordeel van partijen met meer middelen en organisatorische kracht.\n\nCritici wijzen erop dat deze ontwikkelingen het vertrouwen in de rechtsstaat ondermijnen. Wanneer burgers ervaren dat recht halen vooral weggelegd is voor wie het zich kan veroorloven, ontstaat het beeld van een tweedelig systeem. Dat tast niet alleen individuele rechtvaardigheid aan, maar ook de legitimiteit van juridische instituties. Rechtspraak verliest dan haar functie als neutrale scheidsrechter en wordt gezien als een instrument dat ongelijkheid bevestigt in plaats van corrigeert.\n\nTegelijkertijd is het te eenvoudig om te stellen dat rechtspraak alleen nog \"op papier\" bestaat. Er worden inspanningen geleverd om toegankelijkheid te verbeteren, bijvoorbeeld door laagdrempelige geschilbeslechting, juridische loketten en vereenvoudigde procedures. Deze initiatieven laten zien dat bewustzijn van het probleem aanwezig is. De vraag blijft echter of dergelijke maatregelen structureel genoeg zijn om diepgewortelde ongelijkheden te compenseren.\n\nDe discussie over toegankelijkheid van rechtspraak raakt daarmee aan een fundamentele spanning binnen de rechtsstaat. Formele gelijkheid garandeert nog geen feitelijke gelijkheid. Zolang kosten, kennis, digitalisering en tijd een ongelijke impact hebben op verschillende groepen, blijft de vraag gerechtvaardigd of rechtspraak werkelijk voor iedereen bereikbaar is, of slechts voor degenen die de juiste voorwaarden kunnen vervullen.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat wordt in de tekst genoemd als een belangrijke financiële drempel voor toegang tot rechtspraak?",
+          "promptAr": "",
+          "options": [
+            "De lengte van juridische procedures",
+            "De stijgende kosten van griffierechten en advocaten",
+            "Het gebrek aan rechters"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benoemt expliciet stijgende griffierechten en advocaatkosten als belemmering.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Griffierechten, advocaatkosten en bijkomende administratieve lasten zijn de afgelopen jaren gestegen."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over de rol van gesubsidieerde rechtsbijstand?",
+          "promptAr": "",
+          "options": [
+            "Zij maakt rechtspraak voor iedereen volledig toegankelijk",
+            "Zij verkleint ongelijkheid, maar lost het probleem niet volledig op",
+            "Zij wordt nauwelijks gebruikt door burgers"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst laat zien dat het systeem helpt, maar beperkingen kent.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Hoewel gesubsidieerde rechtsbijstand bedoeld is om deze ongelijkheid te verkleinen, blijkt het systeem in de praktijk complex en beperkt."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak komt inhoudelijk het dichtst bij de tekst?",
+          "promptAr": "",
+          "options": [
+            "Juridische kennis is gelijk verdeeld onder burgers",
+            "Onvoldoende begrip van procedures kan toegang tot rechtspraak beperken",
+            "Digitale rechtspraak is altijd eenvoudiger voor iedereen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat gebrek aan juridische kennis een barrière vormt.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Het rechtssysteem is ingewikkeld en vraagt om juridische vaardigheden die niet gelijk verdeeld zijn."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Waarom bespreekt de auteur de digitalisering van de rechtspraak?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat technologie alle problemen oplost",
+            "Om een voorbeeld te geven van zowel kansen als nieuwe risico's",
+            "Om digitalisering af te wijzen als negatieve ontwikkeling"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Digitalisering wordt gepresenteerd als zowel oplossing als mogelijke bron van uitsluiting.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Tegelijkertijd brengt deze ontwikkeling nieuwe uitsluitingsmechanismen met zich mee."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Welke conclusie kan worden getrokken over het vertrouwen in de rechtsstaat?",
+          "promptAr": "",
+          "options": [
+            "Het vertrouwen neemt toe door digitalisering",
+            "Ongelijke toegang kan het vertrouwen ondermijnen",
+            "Burgers hebben geen verwachtingen meer van rechtspraak"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst legt een verband tussen ongelijkheid en verminderd vertrouwen.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Wanneer burgers ervaren dat recht halen vooral weggelegd is voor wie het zich kan veroorloven, ontstaat het beeld van een tweedelig systeem."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Rechtspraak functioneert optimaal in moderne democratieën",
+            "Toegang tot rechtspraak is formeel geregeld, maar praktisch ongelijk verdeeld",
+            "Digitalisering is de grootste bedreiging voor de rechtsstaat"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst draait om het verschil tussen formeel recht en feitelijke toegankelijkheid.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Formele gelijkheid garandeert nog geen feitelijke gelijkheid."
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Statistiek als waarheid: wat cijfers wel en niet zeggen",
+      "topic": "",
+      "level": "B2+",
+      "content": "In het publieke debat nemen cijfers een steeds centralere plaats in. Politieke keuzes worden onderbouwd met statistieken, beleidsrapporten openen met grafieken en ook in de media geldt een getal vaak als sluitend bewijs. Statistiek lijkt daarmee te functioneren als een objectieve weergave van de werkelijkheid. Toch is die veronderstelling problematisch. Cijfers zijn geen neutrale feiten die vanzelf spreken, maar producten van keuzes: wat wordt gemeten, hoe wordt gemeten en met welk doel. Wie statistiek zonder context presenteert, loopt het risico een schijn van waarheid te creëren die de complexiteit van de werkelijkheid verdoezelt.\n\nStatistische gegevens ontstaan altijd binnen een afgebakend kader. Al bij het formuleren van de onderzoeksvraag wordt bepaald welke aspecten van de werkelijkheid relevant worden geacht en welke buiten beeld blijven. Wanneer bijvoorbeeld werkloosheid wordt gemeten, speelt de definitie een cruciale rol. Worden alleen mensen zonder baan meegeteld die actief solliciteren, of ook degenen die ontmoedigd zijn en tijdelijk gestopt zijn met zoeken? Een kleine wijziging in definitie kan grote gevolgen hebben voor het uiteindelijke cijfer, terwijl de onderliggende maatschappelijke situatie nauwelijks verandert.\n\nDaarnaast beïnvloeden meetmethoden de uitkomst. Enquêtes zijn afhankelijk van de vragen die gesteld worden en de manier waarop respondenten deze interpreteren. Administratieve gegevens zijn weer gebonden aan registratiesystemen die niet primair zijn ontworpen voor onderzoek, maar voor praktische doeleinden. Hierdoor ontstaat een vorm van selectiviteit: wat niet geregistreerd wordt, bestaat statistisch gezien niet. Dit betekent niet dat cijfers onbetrouwbaar zijn, maar wel dat zij altijd een vereenvoudiging vormen van een veel rijkere werkelijkheid.\n\nEen ander probleem is de neiging om statistiek te gebruiken als bevestiging van vooraf ingenomen standpunten. In politieke discussies worden cijfers vaak selectief aangehaald. Een stijging kan worden benadrukt, terwijl een daling op een ander terrein ongenoemd blijft. Ook vergelijkingen in de tijd of tussen landen kunnen misleidend zijn wanneer contextuele factoren niet worden meegenomen. Economische groei zegt bijvoorbeeld weinig zonder informatie over inkomensverdeling, koopkracht en sociale zekerheid. Toch worden dergelijke cijfers regelmatig gepresenteerd als eenduidige indicatoren van succes of falen.\n\nMedia spelen hierin een belangrijke rol. In de drang naar helderheid en snelheid worden complexe statistische analyses vaak teruggebracht tot simpele conclusies. Grafieken en percentages geven een indruk van precisie, maar laten zelden zien welke aannames eraan ten grondslag liggen. Bovendien ontbreekt vaak uitleg over onzekerheidsmarges of foutenmarges, waardoor kleine verschillen groter lijken dan ze in werkelijkheid zijn. Het publiek krijgt zo het idee dat cijfers absolute waarheden zijn, terwijl ze in feite probabilistische uitspraken doen.\n\nTegelijkertijd groeit het wantrouwen tegenover cijfers. Wanneer statistieken niet overeenkomen met persoonlijke ervaringen, ontstaat het gevoel dat 'de cijfers liegen'. Dit spanningsveld is zichtbaar bij thema's als criminaliteit, zorg of migratie. Mensen baseren hun oordeel op wat zij in hun directe omgeving waarnemen, terwijl statistieken een geaggregeerd beeld geven. Beide perspectieven hebben hun waarde, maar botsen wanneer cijfers worden gebruikt om individuele ervaringen te ontkennen of te bagatelliseren.\n\nDe kern van het probleem ligt dus niet in statistiek zelf, maar in de manier waarop zij wordt ingezet. Cijfers kunnen inzicht bieden, patronen zichtbaar maken en beleid evalueren, mits zij worden gepresenteerd met transparantie over aannames en beperkingen. Dit vraagt om statistische geletterdheid: het vermogen om cijfers kritisch te lezen en te begrijpen wat zij wel en niet zeggen. Zonder die vaardigheid bestaat het risico dat statistiek verandert van hulpmiddel in machtsinstrument.\n\nIn een democratische samenleving is het daarom essentieel dat cijfers niet als eindpunt van het debat worden gezien, maar als startpunt. Statistiek kan vragen oproepen en richting geven aan discussie, maar kan nooit de normatieve afweging vervangen die bij maatschappelijke keuzes hoort. Pas wanneer cijfers worden ingebed in context, interpretatie en open debat, kunnen zij bijdragen aan begrip in plaats van verwarring.",
+      "minWordCount": 550,
+      "maxWordCount": 800,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een fundamenteel kenmerk van statistische gegevens?",
+          "promptAr": "",
+          "options": [
+            "Ze geven altijd een volledig beeld van de werkelijkheid",
+            "Ze zijn het resultaat van keuzes en afbakening",
+            "Ze zijn onafhankelijk van definities en methoden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat cijfers ontstaan door keuzes in wat en hoe men meet.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Cijfers zijn geen neutrale feiten die vanzelf spreken, maar producten van keuzes"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid uit het voorbeeld van werkloosheidsmetingen?",
+          "promptAr": "",
+          "options": [
+            "Werkloosheid is eenvoudig objectief vast te stellen",
+            "Kleine definitorische verschillen kunnen grote effecten hebben",
+            "Administratieve data zijn altijd betrouwbaarder dan enquêtes"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst laat zien dat definities sterk bepalen hoe cijfers uitvallen.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Een kleine wijziging in definitie kan grote gevolgen hebben voor het uiteindelijke cijfer"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak vat het probleem van mediapresentatie van cijfers het best samen?",
+          "promptAr": "",
+          "options": [
+            "Media weigeren cijfers te gebruiken in hun berichtgeving",
+            "Media tonen cijfers meestal zonder enige visuele ondersteuning",
+            "Media vereenvoudigen statistiek waardoor aannames verborgen blijven"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst beschrijft hoe complexiteit vaak verloren gaat in simpele conclusies.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "complexe statistische analyses vaak teruggebracht tot simpele conclusies"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 3,
+          "promptNl": "Waarom benoemt de auteur het wantrouwen van burgers tegenover cijfers?",
+          "promptAr": "",
+          "options": [
+            "Om aan te tonen dat statistiek overbodig is",
+            "Om te laten zien dat persoonlijke ervaring altijd betrouwbaarder is",
+            "Om het spanningsveld tussen cijfers en beleving te verklaren"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Het voorbeeld dient om de botsing tussen statistiek en ervaring te illustreren.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Dit spanningsveld is zichtbaar bij thema's als criminaliteit, zorg of migratie"
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 3,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Statistiek moet worden vervangen door kwalitatief onderzoek",
+            "Cijfers zijn nutteloos in maatschappelijke discussies",
+            "Statistiek vereist context en kritische interpretatie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst betoogt dat cijfers waardevol zijn, maar nooit op zichzelf staan.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "Cijfers kunnen inzicht bieden, patronen zichtbaar maken en beleid evalueren, mits zij worden gepresenteerd met transparantie over aannames en beperkingen"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Welke rol zou statistiek volgens de auteur idealiter moeten spelen in een democratie?",
+          "promptAr": "",
+          "options": [
+            "Als doorslaggevend argument dat discussie beëindigt",
+            "Als startpunt voor maatschappelijk debat",
+            "Als vervanging van normatieve afwegingen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur pleit voor statistiek als basis voor gesprek, niet als eindpunt.",
+          "explanationAr": "",
+          "trapNoteNl": null,
+          "trapNoteAr": null,
+          "evidenceQuote": "cijfers niet als eindpunt van het debat worden gezien, maar als startpunt"
+        }
+      ]
+    }
+  ]
+}

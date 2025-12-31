@@ -1,0 +1,166 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  handle    String   @unique
+  pinHash   String
+  locale    String   @default("nl")
+  createdAt DateTime @default(now())
+
+  sessions         Session[]
+  attempts         Attempt[]
+  modelCompletions ModelCompletion[]
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  tokenHash String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([tokenHash])
+  @@index([expiresAt])
+  @@map("sessions")
+}
+
+model Model {
+  id          String   @id @default(cuid())
+  kind        String   // "EXAM" or "PRACTICE"
+  number      Int
+  titleNl     String
+  titleAr     String
+  totalTimeSec Int
+  createdAt   DateTime @default(now())
+
+  texts   Text[]
+  attempts Attempt[]
+  completions ModelCompletion[]
+
+  @@unique([kind, number])
+  @@map("models")
+}
+
+model Text {
+  id        String   @id @default(cuid())
+  modelId   String
+  orderIndex Int
+  title     String
+  topic     String
+  level     String
+  wordCount Int
+  content   String
+
+  model     Model      @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  questions Question[]
+
+  @@index([modelId, orderIndex])
+  @@map("texts")
+}
+
+model Question {
+  id            String   @id @default(cuid())
+  textId        String
+  orderIndex    Int
+  type          String   // INFO, MAIN_IDEA, INFERENCE, TONE, INTENT, PARAPHRASE, NEGATION
+  difficulty    Int      // 1-5
+  promptNl     String
+  promptAr     String
+  optionsJson   String   // JSON array of 3 options
+  correctIndex  Int      // 0-2
+  explanationNl String
+  explanationAr String
+  trapNoteNl    String?
+  trapNoteAr    String?
+  evidenceQuote String?  // Exact excerpt from text for evidence
+  evidenceStart Int?     // Character position start (computed from evidenceQuote)
+  evidenceEnd    Int?     // Character position end (computed from evidenceQuote)
+
+  text           Text             @relation(fields: [textId], references: [id], onDelete: Cascade)
+  questionAttempts QuestionAttempt[]
+
+  @@index([textId, orderIndex])
+  @@map("questions")
+}
+
+model Attempt {
+  id             String   @id @default(cuid())
+  userId         String
+  modelId        String
+  mode           String   // "EXAM" or "PRACTICE"
+  startedAt      DateTime @default(now())
+  finishedAt     DateTime?
+  totalQuestions Int
+  correctCount   Int      @default(0)
+  scorePercent   Float    @default(0)
+  totalTimeSec   Int      @default(0)
+
+  user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  model           Model            @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  questionAttempts QuestionAttempt[]
+
+  @@index([userId])
+  @@index([modelId])
+  @@index([userId, finishedAt]) // Composite index for dashboard queries
+  @@map("attempts")
+}
+
+model QuestionAttempt {
+  id            String  @id @default(cuid())
+  attemptId     String
+  questionId    String
+  chosenIndex   Int?    // 0-2 or null
+  isCorrect     Boolean @default(false)
+  timeSpentSec  Int     @default(0)
+  flagged       Boolean @default(false)
+  confidence    Int?    // 0-100
+  wrongReasonTag String? // SYNONYM_MISS, NEGATION_MISS, MAIN_IDEA, INFERENCE_JUMP, TIME_PRESSURE, CARELESS
+
+  attempt  Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+  @@map("question_attempts")
+}
+
+model ModelCompletion {
+  id      String   @id @default(cuid())
+  userId  String
+  modelId String
+  done    Boolean  @default(false)
+  doneAt  DateTime?
+
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  model Model @relation(fields: [modelId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, modelId])
+  @@index([userId])
+  @@index([userId, done]) // Composite index for faster done status queries
+  @@map("model_completions")
+}
+
+model Visit {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  ipAddress String?
+  userAgent String?
+
+  @@index([createdAt])
+  @@map("visits")
+}
+

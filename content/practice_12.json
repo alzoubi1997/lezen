@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 12,
+  "titleNl": "Oefening 12",
+  "titleAr": "ØªÙ…Ø±ÙŠÙ† 12",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Cultuur als bindmiddel: wanneer verschillen juist verbinding creëren",
+      "topic": "Cultuur & maatschappij",
+      "level": "B2+",
+      "content": "Cultuur wordt vaak voorgesteld als een bron van tegenstelling. Verschillen in taal gewoonten en waarden zouden leiden tot misverstanden sociale afstand en zelfs conflicten. In politieke en maatschappelijke debatten verschijnt cultuur daardoor regelmatig als probleem dat beheerst of aangepast moet worden. Tegelijkertijd groeit het besef dat cultuur ook een verbindende kracht kan zijn juist omdat zij verschillen zichtbaar maakt en bespreekbaar houdt. In plaats van een obstakel kan culturele diversiteit functioneren als een bindmiddel dat groepen met elkaar in contact brengt en wederzijds begrip bevordert.\n\nEen belangrijk uitgangspunt hierbij is dat cultuur geen vaststaand pakket aan kenmerken is maar een dynamisch proces. Mensen nemen elementen over passen ze aan en geven er nieuwe betekenissen aan afhankelijk van context en interactie. Wanneer cultuur wordt gezien als iets statisch ontstaat snel het idee dat verschillen onoverbrugbaar zijn. Wordt cultuur daarentegen benaderd als iets dat voortdurend in beweging is dan ontstaat ruimte voor ontmoeting. Verschillen worden dan niet opgevat als grenzen maar als aanknopingspunten voor gesprek en samenwerking.\n\nIn stedelijke omgevingen is deze dynamiek duidelijk zichtbaar. Buurten met bewoners van uiteenlopende achtergronden blijken niet automatisch minder samenhang te kennen dan homogene wijken. Integendeel onderzoek laat zien dat gedeelde praktijken zoals buurtinitiatieven sportverenigingen en culturele evenementen nieuwe vormen van verbondenheid kunnen creëren. De nadruk ligt daarbij niet op het wegwerken van verschillen maar op het gezamenlijk vormgeven van een leefomgeving waarin meerdere perspectieven een plaats krijgen. Juist het erkennen van diversiteit kan leiden tot sterkere sociale netwerken.\n\nToch verloopt dit proces niet vanzelf. Culturele verschillen kunnen pas verbindend werken wanneer er voldoende ruimte is voor gelijkwaardigheid. Als bepaalde groepen structureel minder invloed hebben of zich niet gehoord voelen kan diversiteit juist spanningen versterken. Verbinding ontstaat dus niet door verschillen simpelweg te vieren maar door ze serieus te nemen binnen eerlijke machtsverhoudingen. Dat vraagt om actief beleid en om instituties die openstaan voor verschillende stemmen zonder deze te reduceren tot symbolische vertegenwoordiging.\n\nOnderwijs speelt hierin een cruciale rol. Scholen fungeren als ontmoetingsplaatsen waar jongeren leren omgaan met uiteenlopende perspectieven. Wanneer culturele verschillen worden benaderd als leerbron in plaats van als probleem ontwikkelen leerlingen vaardigheden zoals empathie kritisch denken en reflectie. Dit draagt niet alleen bij aan sociale cohesie maar ook aan persoonlijke ontwikkeling. Tegelijkertijd blijkt uit de praktijk dat scholen worstelen met de vraag hoe zij recht kunnen doen aan diversiteit zonder leerlingen vast te zetten in culturele categorieën.\n\nOok op nationaal niveau roept cultuur vragen op over identiteit en verbondenheid. Beleidsmakers zoeken vaak naar een gemeenschappelijk verhaal dat burgers met elkaar verbindt. Het risico hiervan is dat complexiteit wordt teruggebracht tot een eenduidig beeld waarin niet iedereen zich herkent. Alternatieve benaderingen benadrukken juist meervoudige loyaliteiten waarbij mensen zich tegelijkertijd kunnen verbinden met lokale nationale en internationale gemeenschappen. In dat perspectief vormt cultuur geen scheidslijn maar een netwerk van overlappende betekenissen.\n\nDe gedachte dat verschillen kunnen verbinden vereist een verschuiving in denken. Het vraagt om het loslaten van het idee dat samenhang alleen mogelijk is via uniformiteit. Verbinding ontstaat niet ondanks verschillen maar dankzij de manier waarop samenlevingen leren omgaan met diversiteit. Dit proces blijft echter kwetsbaar. Het succes ervan hangt af van bereidheid tot dialoog van institutionele ondersteuning en van de erkenning dat cultuur nooit volledig vast te leggen is. Juist in die openheid schuilt haar verbindende potentieel.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de hoofdgedachte van de tekst",
+          "promptAr": "",
+          "options": [
+            "Cultuur veroorzaakt vooral maatschappelijke conflicten",
+            "Gedeelde identiteit is noodzakelijk voor samenhang",
+            "Culturele verschillen kunnen verbinding creëren"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst betoogt dat verschillen onder voorwaarden verbindend kunnen werken.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "kan culturele diversiteit functioneren als een bindmiddel"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat wordt in de tekst bedoeld met cultuur als een dynamisch proces",
+          "promptAr": "",
+          "options": [
+            "Cultuur bestaat uit onveranderlijke tradities",
+            "Cultuur ontwikkelt zich voortdurend door menselijk handelen",
+            "Cultuur verdwijnt wanneer groepen mengen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat cultuur verandert door interactie en context.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Mensen nemen elementen over passen ze aan en geven er nieuwe betekenissen aan afhankelijk van context en interactie."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak komt het dichtst bij de visie van de auteur",
+          "promptAr": "",
+          "options": [
+            "Verschillen kunnen worden gebruikt om samenwerking te stimuleren",
+            "Verschillen moeten worden verminderd om conflicten te voorkomen",
+            "Verschillen zijn onvermijdelijk maar onbelangrijk"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De auteur benadrukt dat verschillen kansen bieden voor verbinding.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Verschillen worden dan niet opgevat als grenzen maar als aanknopingspunten voor gesprek en samenwerking."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over culturele diversiteit in stedelijke buurten",
+          "promptAr": "",
+          "options": [
+            "Diversiteit leidt meestal tot sociale isolatie",
+            "Homogene buurten zijn altijd hechter",
+            "Diversiteit kan bijdragen aan verbondenheid"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Diversiteit kan samenhang versterken wanneer bewoners samenwerken.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Juist het erkennen van diversiteit kan leiden tot sterkere sociale netwerken."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom benadrukt de auteur het belang van gelijkwaardigheid",
+          "promptAr": "",
+          "options": [
+            "Om culturele verschillen te negeren",
+            "Om te voorkomen dat diversiteit tot uitsluiting leidt",
+            "Om beleid eenvoudiger te maken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Zonder gelijkwaardigheid kunnen verschillen spanningen veroorzaken.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Als bepaalde groepen structureel minder invloed hebben of zich niet gehoord voelen kan diversiteit juist spanningen versterken."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat suggereert de auteur over pogingen om één nationaal cultureel verhaal te creëren",
+          "promptAr": "",
+          "options": [
+            "Ze kunnen onbedoeld uitsluiting veroorzaken",
+            "Ze versterken altijd nationale eenheid",
+            "Ze maken cultuur beter begrijpelijk"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "Een enkel verhaal kan mensen uitsluiten die zich er niet in herkennen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het risico hiervan is dat complexiteit wordt teruggebracht tot een eenduidig beeld waarin niet iedereen zich herkent."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Regels en rechtvaardigheid: waarom gelijke behandeling ongelijk kan uitpakken",
+      "topic": "Recht & maatschappij",
+      "level": "B2+",
+      "content": "In moderne rechtsstaten geldt gelijke behandeling als een fundamenteel uitgangspunt. Burgers verwachten dat regels voor iedereen hetzelfde zijn en dat de overheid geen onderscheid maakt op basis van persoonlijke kenmerken. Dit principe wordt vaak gezien als synoniem voor rechtvaardigheid. Toch groeit in maatschappelijke en juridische debatten de twijfel of formele gelijkheid daadwerkelijk leidt tot eerlijke uitkomsten. Steeds vaker blijkt dat identieke regels, toegepast op uiteenlopende levenssituaties, juist ongelijkheid kunnen versterken in plaats van verminderen.\n\nGelijke behandeling gaat uit van het idee dat iedereen in vergelijkbare omstandigheden verkeert. In de praktijk is dat zelden het geval. Mensen verschillen in gezondheid, opleidingsniveau, financiële positie en sociale ondersteuning. Wanneer beleid deze verschillen negeert, ontstaat het risico dat kwetsbare groepen structureel benadeeld worden. Een regel die voor de gemiddelde burger haalbaar is, kan voor anderen een bijna onoverkomelijke drempel vormen. Zo kan een vaste eigen bijdrage in de zorg voor sommige mensen verwaarloosbaar zijn, terwijl zij voor anderen leidt tot het uitstellen of vermijden van noodzakelijke zorg.\n\nHet spanningsveld tussen regels en rechtvaardigheid komt ook duidelijk naar voren in het sociale zekerheidsstelsel. Regels zijn hier vaak strikt geformuleerd om misbruik te voorkomen en transparantie te waarborgen. Tegelijkertijd kan deze strengheid leiden tot situaties waarin mensen die buiten hun schuld fouten maken, zwaar worden gesanctioneerd. De regel wordt correct toegepast, maar het resultaat voelt disproportioneel. Dit roept de vraag op of rechtvaardigheid uitsluitend kan worden afgemeten aan regelconsistentie, of dat ook de gevolgen moeten worden meegewogen.\n\nCritici van maatwerk benadrukken dat uitzonderingen het systeem onoverzichtelijk maken en de rechtszekerheid aantasten. Burgers moeten kunnen voorspellen waar zij aan toe zijn, en ambtenaren hebben duidelijke kaders nodig om willekeur te voorkomen. Vanuit dit perspectief is gelijke behandeling een beschermingsmechanisme tegen subjectieve beslissingen. Toch laat onderzoek zien dat rigide toepassing van regels het vertrouwen in de overheid juist kan ondermijnen, vooral wanneer burgers het gevoel hebben dat hun specifieke situatie niet wordt gezien.\n\nEen groeiend aantal beleidsmakers pleit daarom voor het combineren van gelijkheid met evenredigheid. Dit betekent niet dat regels worden losgelaten, maar dat er ruimte is om context mee te wegen. Rechtvaardigheid wordt dan niet alleen gedefinieerd als het volgen van dezelfde procedure, maar als het bereiken van een redelijke uitkomst. Deze benadering vraagt echter om professionele afwegingen en moreel oordeelsvermogen, wat hogere eisen stelt aan uitvoerende instanties.\n\nHet debat over gelijke behandeling raakt aan een fundamentele vraag: dient het recht vooral de regel, of de mens achter de regel? In theorie sluiten deze twee elkaar niet uit, maar in de praktijk blijkt het vinden van balans complex. Te veel flexibiliteit kan leiden tot ongelijkheid en onzekerheid, terwijl te veel uniformiteit kan resulteren in onmenselijke uitkomsten. Rechtvaardigheid lijkt daarmee geen vast gegeven, maar een voortdurend proces van afwegen en herijken.\n\nUiteindelijk maakt dit duidelijk dat gelijke behandeling geen garantie is voor gelijke kansen of eerlijke resultaten. Zonder aandacht voor context en gevolgen kan een goedbedoeld principe zijn doel voorbijschieten. De uitdaging voor beleid en rechtspraak ligt daarom niet in het kiezen tussen regels of rechtvaardigheid, maar in het ontwikkelen van systemen die beide met elkaar verbinden.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijk probleem van strikte gelijke behandeling?",
+          "promptAr": "",
+          "options": [
+            "Dat regels te moeilijk te handhaven zijn",
+            "Dat verschillen tussen burgers worden genegeerd",
+            "Dat burgers geen vertrouwen meer hebben in wetten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Strikte gelijkheid houdt geen rekening met uiteenlopende omstandigheden.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Mensen verschillen in gezondheid, opleidingsniveau, financiële positie en sociale ondersteuning."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over vaste eigen bijdragen in de zorg?",
+          "promptAr": "",
+          "options": [
+            "Ze zijn noodzakelijk om kosten te beheersen",
+            "Ze treffen vooral de gemiddelde burger",
+            "Ze kunnen ongelijkheid versterken"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Dezelfde bijdrage heeft verschillende gevolgen voor verschillende groepen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "terwijl zij voor anderen leidt tot het uitstellen of vermijden van noodzakelijke zorg."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat betekent het woord *disproportioneel* in deze context het meest?",
+          "promptAr": "",
+          "options": [
+            "Onwettig",
+            "Niet in verhouding",
+            "Onverwacht"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De sanctie staat niet in verhouding tot de fout.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "maar het resultaat voelt disproportioneel."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom benoemt de auteur kritiek op maatwerk?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat maatwerk onmogelijk is",
+            "Om beide kanten van het debat te tonen",
+            "Om strikte regels te verdedigen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur wil de complexiteit van het vraagstuk laten zien.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Critici van maatwerk benadrukken dat uitzonderingen het systeem onoverzichtelijk maken en de rechtszekerheid aantasten."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Regels moeten altijd strikt worden toegepast",
+            "Gelijke behandeling leidt vanzelf tot rechtvaardigheid",
+            "Gelijke regels kunnen onrechtvaardige uitkomsten hebben"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst betoogt dat gelijkheid niet automatisch rechtvaardig is.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Uiteindelijk maakt dit duidelijk dat gelijke behandeling geen garantie is voor gelijke kansen of eerlijke resultaten."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke uitdaging blijft volgens de auteur bestaan voor beleid en rechtspraak?",
+          "promptAr": "",
+          "options": [
+            "Het afschaffen van uniforme regels",
+            "Het vinden van balans tussen regels en menselijkheid",
+            "Het vergroten van controle en handhaving"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst eindigt met het belang van verbinding tussen regels en rechtvaardigheid.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "in het ontwikkelen van systemen die beide met elkaar verbinden"
+        }
+      ]
+    }
+  ]
+}

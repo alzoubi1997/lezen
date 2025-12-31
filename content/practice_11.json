@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 11,
+  "titleNl": "Oefening 11",
+  "titleAr": "تمرين 11",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Levenslang leren: noodzaak in theorie, haalbaarheid in praktijk",
+      "topic": "Onderwijs & werk",
+      "level": "B2+",
+      "content": "Levenslang leren wordt vaak gepresenteerd als het vanzelfsprekende antwoord op een snel veranderende arbeidsmarkt. Beleidsmakers, werkgevers en onderwijsinstellingen benadrukken dat voortdurende scholing noodzakelijk is om economisch competitief te blijven en individuen duurzaam inzetbaar te houden. In theorie lijkt dit uitgangspunt nauwelijks betwistbaar. Technologische innovatie, globalisering en demografische veranderingen zorgen ervoor dat kennis veroudert en beroepen verdwijnen of ingrijpend veranderen. Toch blijkt de praktische uitvoering van levenslang leren complexer dan de beleidsretoriek suggereert.\n\nEen belangrijk argument vóór levenslang leren is dat het werknemers weerbaarder maakt tegen baanverlies. Door nieuwe vaardigheden te ontwikkelen, zouden zij zich sneller kunnen aanpassen aan veranderende eisen. In beleidsdocumenten wordt dit vaak gekoppeld aan het idee van individuele verantwoordelijkheid: wie blijft leren, blijft relevant. Deze benadering veronderstelt echter dat iedereen in gelijke mate toegang heeft tot opleidingsmogelijkheden en over voldoende tijd, financiële middelen en motivatie beschikt om zich te blijven ontwikkelen.\n\nIn de praktijk is die gelijkheid ver te zoeken. Hoogopgeleiden nemen aantoonbaar vaker deel aan bij- en nascholing dan laagopgeleiden. Dit verschil heeft meerdere oorzaken. Werkgevers investeren eerder in werknemers van wie zij verwachten dat de opbrengst van scholing hoog zal zijn. Daarnaast ervaren mensen met een lagere opleiding vaker drempels, zoals onzekerheid over hun leervermogen of negatieve ervaringen met het onderwijs uit het verleden. Hierdoor dreigt levenslang leren bestaande ongelijkheden niet te verkleinen, maar juist te versterken.\n\nOok de rol van werkgevers is ambivalent. Enerzijds erkennen veel organisaties het belang van scholing, anderzijds staat dit belang regelmatig onder druk van korte-termijndoelstellingen. Opleidingen kosten geld en tijd, terwijl de baten vaak pas op langere termijn zichtbaar worden. Bovendien bestaat het risico dat werknemers na scholing vertrekken naar een andere werkgever, waardoor de investering verloren lijkt. Dit leidt ertoe dat scholing soms wordt gezien als een individueel project, waarvoor werknemers in hun eigen tijd en vaak met eigen middelen verantwoordelijk zijn.\n\nDaarnaast speelt de vraag hoe levenslang leren georganiseerd moet worden. Het bestaande onderwijssysteem is traditioneel gericht op jongeren en voltijdstudenten. Volwassenen die naast werk en gezin willen leren, hebben behoefte aan flexibele trajecten, erkenning van eerder verworven competenties en praktijkgerichte programma's. Hoewel er initiatieven bestaan om hieraan tegemoet te komen, blijft het aanbod versnipperd en voor veel mensen onoverzichtelijk.\n\nEen ander knelpunt is de veronderstelling dat leren altijd leidt tot betere arbeidsmarktkansen. Niet elke opleiding resulteert in directe inzetbaarheid of een hogere positie. In sommige sectoren is de vraag naar arbeid structureel beperkt, ongeacht het opleidingsniveau. Hierdoor kan scholing verwachtingen wekken die niet worden waargemaakt, wat leidt tot teleurstelling en scepsis over het nut van bijscholing.\n\nToch betekent dit niet dat levenslang leren een loos concept is. Integendeel, de noodzaak om kennis en vaardigheden te blijven ontwikkelen is reëel. De uitdaging ligt in het creëren van voorwaarden waaronder levenslang leren daadwerkelijk toegankelijk en zinvol wordt voor een brede groep mensen. Dit vraagt om een herverdeling van verantwoordelijkheden tussen overheid, werkgevers en individuen. De overheid kan randvoorwaarden scheppen via financiële ondersteuning en duidelijke structuren, terwijl werkgevers scholing moeten integreren in hun personeelsbeleid. Tegelijkertijd blijft inzet van individuen onmisbaar.\n\nDe centrale vraag is daarom niet óf levenslang leren nodig is, maar onder welke omstandigheden het meer kan zijn dan een theoretisch ideaal. Zolang structurele ongelijkheden, beperkte tijd en economische onzekerheid onvoldoende worden meegenomen, dreigt levenslang leren een privilege te blijven voor degenen die het al relatief goed hebben.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijk argument dat beleidsmakers gebruiken om levenslang leren te promoten?",
+          "promptAr": "ما هو الحجة المهمة التي يستخدمها صانعو السياسات لتعزيز التعلم مدى الحياة حسب النص؟",
+          "options": [
+            "Het vermindert de rol van werkgevers in scholing",
+            "Het maakt werknemers beter bestand tegen veranderingen op de arbeidsmarkt",
+            "Het zorgt automatisch voor gelijke kansen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat levenslang leren werknemers weerbaarder zou maken tegen baanverlies.",
+          "explanationAr": "يؤكد النص أن التعلم مدى الحياة يجعل العمال أكثر مقاومة لفقدان الوظائف.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Een belangrijk argument vóór levenslang leren is dat het werknemers weerbaarder maakt tegen baanverlies"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid uit de verschillen in scholingsdeelname tussen hoog- en laagopgeleiden?",
+          "promptAr": "ماذا يمكن استنتاجه من الاختلافات في مشاركة التدريب بين المتعلمين تعليماً عالياً ومنخفضاً؟",
+          "options": [
+            "Dat laagopgeleiden minder behoefte hebben aan scholing",
+            "Dat het huidige beleid ongelijkheid kan vergroten",
+            "Dat werkgevers geen rol spelen in scholingskeuzes"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De beschreven verschillen wijzen erop dat levenslang leren bestaande ongelijkheden kan versterken.",
+          "explanationAr": "الاختلافات الموصوفة تشير إلى أن التعلم مدى الحياة يمكن أن يعزز عدم المساواة الموجودة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor dreigt levenslang leren bestaande ongelijkheden niet te verkleinen, maar juist te versterken"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met de uitspraak dat scholing soms als een 'individueel project' wordt gezien?",
+          "promptAr": "ماذا يُقصد بالقول إن التدريب يُنظر إليه أحيانًا كـ \"مشروع فردي\"؟",
+          "options": [
+            "Dat scholing volledig door de overheid wordt georganiseerd",
+            "Dat werknemers zelf verantwoordelijk worden voor tijd en kosten",
+            "Dat scholing altijd leidt tot promotie"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft dat werknemers vaak zelf tijd en middelen moeten investeren.",
+          "explanationAr": "يصف النص أن العمال غالبًا ما يجب أن يستثمروا الوقت والموارد بأنفسهم.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "scholing soms wordt gezien als een individueel project, waarvoor werknemers in hun eigen tijd en vaak met eigen middelen verantwoordelijk zijn"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom benoemt de auteur de beperkingen van het bestaande onderwijssysteem voor volwassenen?",
+          "promptAr": "لماذا يذكر المؤلف قيود نظام التعليم الحالي للبالغين؟",
+          "options": [
+            "Om aan te tonen dat onderwijs overbodig is",
+            "Om te laten zien dat flexibiliteit cruciaal is voor levenslang leren",
+            "Om jongeren te ontmoedigen verder te studeren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur gebruikt dit voorbeeld om het belang van flexibele leertrajecten te benadrukken.",
+          "explanationAr": "يستخدم المؤلف هذا المثال للتأكيد على أهمية مسارات التعلم المرنة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Volwassenen die naast werk en gezin willen leren, hebben behoefte aan flexibele trajecten"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie trekt de auteur over de toekomst van levenslang leren?",
+          "promptAr": "ما الاستنتاج الذي يستخلصه المؤلف حول مستقبل التعلم مدى الحياة؟",
+          "options": [
+            "Dat het vanzelf succesvol zal worden",
+            "Dat het alleen werkt als verantwoordelijkheden eerlijker worden verdeeld",
+            "Dat het beter afgeschaft kan worden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur stelt dat overheid, werkgevers en individuen gezamenlijk voorwaarden moeten creëren.",
+          "explanationAr": "يؤكد المؤلف أن الحكومة وأصحاب العمل والأفراد يجب أن يخلقوا الشروط معًا.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Dit vraagt om een herverdeling van verantwoordelijkheden tussen overheid, werkgevers en individuen"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "ما هي الرسالة الأساسية للنص؟",
+          "options": [
+            "Levenslang leren is vooral een individuele keuze",
+            "Levenslang leren is noodzakelijk, maar moeilijk uitvoerbaar zonder structurele veranderingen",
+            "Levenslang leren heeft weinig effect op de arbeidsmarkt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt zowel de noodzaak als de praktische obstakels van levenslang leren.",
+          "explanationAr": "يؤكد النص على كل من الضرورة والعقبات العملية للتعلم مدى الحياة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De centrale vraag is daarom niet óf levenslang leren nodig is, maar onder welke omstandigheden het meer kan zijn dan een theoretisch ideaal"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Participatiebeleid: wie wordt gehoord en wie blijft buiten beeld?",
+      "topic": "Politiek & maatschappij",
+      "level": "B2+",
+      "content": "Participatiebeleid is in veel Europese landen uitgegroeid tot een centraal instrument binnen het overheidsbestuur. Beleidsmakers benadrukken steeds vaker het belang van inspraak, betrokkenheid en gedeelde verantwoordelijkheid. Burgers worden uitgenodigd om mee te denken over wijkontwikkeling, zorgvoorzieningen, onderwijs en klimaatmaatregelen. Op papier lijkt participatiebeleid een antwoord op het groeiende wantrouwen tussen burger en overheid. Toch rijst de vraag of deze vorm van betrokkenheid daadwerkelijk representatief is of dat zij vooral de stem versterkt van groepen die toch al gehoord worden.\n\nEen belangrijk uitgangspunt van participatiebeleid is dat beleid beter wordt wanneer het aansluit bij de ervaringen van burgers. Door mensen actief te betrekken bij besluitvorming zou niet alleen de kwaliteit van het beleid toenemen, maar ook het draagvlak. In de praktijk blijkt echter dat participatie vaak plaatsvindt binnen strak afgebakende kaders. De onderwerpen liggen meestal al vast en de ruimte voor fundamentele kritiek is beperkt. Burgers mogen meedenken over de uitvoering, maar zelden over de richting van het beleid zelf. Hierdoor ontstaat het risico dat participatie wordt gereduceerd tot een symbolische handeling.\n\nDaarnaast speelt toegankelijkheid een cruciale rol. Deelname aan participatietrajecten vereist tijd, taalvaardigheid en vertrouwen in instituties. Deze voorwaarden zijn niet voor iedereen vanzelfsprekend. Hoogopgeleide burgers met flexibele werktijden en ervaring in overlegstructuren weten de weg naar inspraakavonden, online platforms en adviesraden beter te vinden dan mensen met onregelmatige banen of beperkte taalvaardigheid. Daardoor ontstaat een scheef beeld van 'de burger', waarin bepaalde perspectieven structureel ondervertegenwoordigd blijven.\n\nEen ander probleem is de manier waarop participatie wordt georganiseerd. Veel trajecten maken gebruik van digitale middelen, zoals online enquêtes of inspraakportalen. Hoewel deze middelen efficiënt lijken, sluiten ze groepen uit die minder digitaal vaardig zijn. Ouderen, laaggeletterden en mensen zonder stabiele internettoegang lopen het risico buiten beeld te raken. De veronderstelling dat digitalisering participatie vanzelf democratischer maakt, blijkt daarmee te simplistisch.\n\nBovendien kan participatiebeleid leiden tot frustratie wanneer verwachtingen niet worden waargemaakt. Burgers die tijd en energie investeren in overleg, maar vervolgens weinig terugzien van hun inbreng, voelen zich niet serieus genomen. Dit kan het wantrouwen tegenover de overheid juist versterken. Transparantie over wat wel en niet mogelijk is, ontbreekt echter vaak. Beleidsdocumenten spreken over 'samen beslissen', terwijl de feitelijke beslissingsmacht bij bestuurders blijft liggen.\n\nToch betekent dit niet dat participatiebeleid per definitie mislukt is. Onderzoek laat zien dat zorgvuldig vormgegeven participatie wel degelijk kan bijdragen aan inclusiever beleid. Wanneer overheden actief investeren in het bereiken van stille groepen, bijvoorbeeld via lokale netwerken, sleutelfiguren of laagdrempelige bijeenkomsten, wordt het bereik vergroot. Ook het erkennen van verschillende vormen van kennis, zoals ervaringskennis, kan de kwaliteit van besluitvorming verbeteren.\n\nEen fundamentele vraag blijft echter wie verantwoordelijkheid draagt voor inclusieve participatie. Wordt verwacht dat burgers zelf initiatief nemen, of ligt de plicht bij de overheid om voorwaarden te scheppen? In veel beleidsstukken wordt participatie gepresenteerd als een wederzijdse inspanning, maar in de praktijk verschuift de verantwoordelijkheid vaak naar de burger. Wie niet participeert, wordt al snel gezien als ongeïnteresseerd, terwijl structurele belemmeringen buiten beschouwing blijven.\n\nDaarmee raakt participatiebeleid aan een bredere discussie over democratie en gelijkheid. Als inspraak vooral toegankelijk is voor een selecte groep, bestaat het risico dat ongelijkheid wordt gereproduceerd onder het mom van betrokkenheid. De uitdaging ligt niet alleen in het organiseren van meer participatie, maar vooral in het kritisch evalueren van wie daadwerkelijk wordt gehoord. Pas wanneer participatiebeleid ook ruimte maakt voor ongemakkelijke stemmen en uiteenlopende ervaringen, kan het bijdragen aan een meer inclusieve samenleving.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijk doel van participatiebeleid?",
+          "promptAr": "ما هو الهدف المهم لسياسة المشاركة حسب النص؟",
+          "options": [
+            "Het versnellen van beleidsprocessen",
+            "Het vergroten van de kwaliteit en het draagvlak van beleid",
+            "Het verminderen van overheidskosten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benoemt expliciet dat participatie bedoeld is om beleid te verbeteren en draagvlak te vergroten.",
+          "explanationAr": "يذكر النص صراحة أن المشاركة تهدف إلى تحسين السياسة وزيادة الدعم.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Door mensen actief te betrekken bij besluitvorming zou niet alleen de kwaliteit van het beleid toenemen, maar ook het draagvlak"
+        },
+        {
+          "orderIndex": 1,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke uitspraak geeft het best dezelfde betekenis weer als 'participatie wordt gereduceerd tot een symbolische handeling'?",
+          "promptAr": "أي عبارة تعبر بشكل أفضل عن نفس معنى \"المشاركة تُختزل إلى فعل رمزي\"؟",
+          "options": [
+            "Participatie leidt tot snellere besluitvorming",
+            "Participatie heeft vooral een schijnfunctie",
+            "Participatie vraagt te veel inspanning van burgers"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "'Symbolische handeling' verwijst naar inspraak zonder echte invloed.",
+          "explanationAr": "\"الفعل الرمزي\" يشير إلى الاستشارة دون تأثير حقيقي.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor ontstaat het risico dat participatie wordt gereduceerd tot een symbolische handeling"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over burgers die niet deelnemen aan participatietrajecten?",
+          "promptAr": "ماذا يمكن استنتاجه عن المواطنين الذين لا يشاركون في مسارات المشاركة؟",
+          "options": [
+            "Zij hebben meestal geen interesse in politiek",
+            "Zij worden bewust uitgesloten door de overheid",
+            "Hun afwezigheid kan samenhangen met structurele belemmeringen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst suggereert dat niet-deelname vaak het gevolg is van praktische en sociale drempels.",
+          "explanationAr": "يشير النص إلى أن عدم المشاركة غالبًا ما يكون نتيجة للعوائق العملية والاجتماعية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze voorwaarden zijn niet voor iedereen vanzelfsprekend"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur digitalisering van participatie?",
+          "promptAr": "لماذا يناقش المؤلف رقمنة المشاركة؟",
+          "options": [
+            "Om technologische innovatie te promoten",
+            "Om aan te tonen dat efficiëntie belangrijker is dan inclusie",
+            "Om te laten zien dat digitalisering ook uitsluiting kan veroorzaken"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Digitalisering wordt gebruikt als voorbeeld van onbedoelde uitsluiting.",
+          "explanationAr": "تُستخدم الرقمنة كمثال على الاستبعاد غير المقصود.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hoewel deze middelen efficiënt lijken, sluiten ze groepen uit die minder digitaal vaardig zijn"
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "ما هي الرسالة الأساسية للنص؟",
+          "options": [
+            "Participatiebeleid mislukt altijd in de praktijk",
+            "Participatiebeleid vraagt kritische aandacht voor wie wordt gehoord",
+            "Digitale middelen zijn ongeschikt voor burgerparticipatie"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst draait om de vraag naar representativiteit en inclusie.",
+          "explanationAr": "يدور النص حول مسألة التمثيلية والشمول.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De uitdaging ligt niet alleen in het organiseren van meer participatie, maar vooral in het kritisch evalueren van wie daadwerkelijk wordt gehoord"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie past het best bij de redenering van de auteur?",
+          "promptAr": "أي استنتاج يناسب بشكل أفضل منطق المؤلف؟",
+          "options": [
+            "Meer participatie leidt automatisch tot meer gelijkheid",
+            "Zonder inclusieve aanpak kan participatie ongelijkheid versterken",
+            "Minder participatie voorkomt frustratie bij burgers"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur waarschuwt dat participatie zonder inclusie ongelijkheid kan reproduceren.",
+          "explanationAr": "يحذر المؤلف من أن المشاركة دون الشمول يمكن أن تعيد إنتاج عدم المساواة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "bestaat het risico dat ongelijkheid wordt gereproduceerd onder het mom van betrokkenheid"
+        }
+      ]
+    }
+  ]
+}

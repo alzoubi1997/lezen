@@ -1,0 +1,247 @@
+{
+  "kind": "PRACTICE",
+  "number": 9,
+  "titleNl": "Oefening 9",
+  "titleAr": "تمرين 9",
+  "totalTimeSec": 1800,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Armoedebeleid zonder armoede te begrijpen",
+      "topic": "Armoede & beleid",
+      "level": "B2+",
+      "content": "Armoede wordt in beleidsdocumenten vaak gepresenteerd als een meetbaar probleem dat met de juiste instrumenten kan worden opgelost. Indicatoren zoals inkomensgrenzen, koopkrachtplaatjes en participatiecijfers geven de indruk dat armoede vooral een technisch vraagstuk is. Toch blijkt in de praktijk dat veel armoedebeleid slechts beperkt effect heeft. Dat komt niet zozeer doordat er te weinig middelen worden ingezet, maar doordat de onderliggende aannames over armoede vaak te simplistisch zijn. Wie armoede uitsluitend benadert als een tekort aan geld, loopt het risico structurele oorzaken en sociale dynamieken over het hoofd te zien.\n\nIn veel landen is armoedebeleid sterk gericht op activering. Mensen met een laag inkomen worden gestimuleerd of verplicht om te werken, scholing te volgen of aan trajecten deel te nemen die hun 'afstand tot de arbeidsmarkt' zouden verkleinen. Deze aanpak veronderstelt dat werk de meest duurzame uitweg uit armoede is. Hoewel die redenering logisch klinkt, gaat zij voorbij aan de realiteit dat werk niet automatisch financiële zekerheid biedt. Flexibele contracten, lage lonen en onvoorspelbare werktijden zorgen ervoor dat een groeiende groep werkenden toch in armoede leeft. Het beleid erkent dit probleem vaak wel in woorden, maar vertaalt het onvoldoende naar structurele maatregelen.\n\nDaarnaast wordt armoede regelmatig benaderd vanuit een individueel perspectief. Beleidsmakers spreken over gebrek aan vaardigheden, motivatie of financiële discipline. Trainingen in budgetbeheer en zelfredzaamheid zijn dan ook populaire beleidsinstrumenten. Zulke interventies kunnen op individueel niveau nuttig zijn, maar zij verschuiven de verantwoordelijkheid impliciet naar de persoon in armoede. Daarmee wordt gesuggereerd dat armoede vooral het gevolg is van persoonlijke keuzes, terwijl factoren zoals woningmarkt, zorgkosten en regionale ongelijkheid grotendeels buiten beeld blijven.\n\nEen ander probleem is dat armoedebeleid vaak wordt ontworpen zonder directe inbreng van mensen die zelf met armoede te maken hebben. Hun ervaringen worden weliswaar soms opgehaald via enquêtes of focusgroepen, maar zelden structureel geïntegreerd in beleidsvorming. Hierdoor ontstaat een kloof tussen beleidslogica en leefwereld. Regelingen zijn complex, aanvraagprocedures tijdrovend en voorwaarden ondoorzichtig. Voor mensen die al onder hoge mentale druk staan, vormt dit een extra drempel. Het gevolg is dat juist de groepen die het beleid zou moeten bereiken, er geen gebruik van maken.\n\nBovendien houdt armoedebeleid onvoldoende rekening met de cumulatieve effecten van schaarste. Onderzoek toont aan dat langdurige financiële onzekerheid leidt tot chronische stress, wat het vermogen om plannen te maken en rationele beslissingen te nemen aantast. Toch gaan veel beleidsmaatregelen uit van het idee dat mensen voortdurend strategische keuzes kunnen maken. Deze mismatch tussen beleid en psychologische realiteit ondermijnt de effectiviteit van interventies en kan zelfs leiden tot sancties wanneer mensen niet voldoen aan gestelde eisen.\n\nTegenover deze beperkingen staat een groeiende groep wetenschappers en beleidsadviseurs die pleiten voor een bredere benadering van armoede. Zij benadrukken het belang van structurele hervormingen, zoals betaalbare huisvesting, toegankelijke zorg en stabiele arbeidsvoorwaarden. In plaats van controle en verplichting zou vertrouwen centraal moeten staan. Experimenten met onvoorwaardelijke inkomensondersteuning laten zien dat mensen daardoor juist meer ruimte krijgen om hun situatie duurzaam te verbeteren.\n\nToch stuit deze benadering op weerstand. Beleidsmakers vrezen dat minder voorwaarden leiden tot misbruik of afname van arbeidsparticipatie. Die zorgen zijn diep verankerd in politieke en maatschappelijke opvattingen over verantwoordelijkheid en rechtvaardigheid. Het debat over armoedebeleid gaat daarom niet alleen over effectiviteit, maar ook over waarden: wie achten we verantwoordelijk voor armoede, en hoeveel solidariteit zijn we bereid te organiseren?\n\nZolang armoedebeleid vooral wordt vormgegeven vanuit abstracte modellen en politieke aannames, blijft het risico bestaan dat het symptoombestrijding blijft. Begrip van armoede vraagt om meer dan cijfers en regels; het vereist aandacht voor de complexe werkelijkheid waarin mensen leven. Pas wanneer beleid deze complexiteit serieus neemt, kan het bijdragen aan daadwerkelijke vermindering van armoede.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat is volgens de tekst een belangrijke reden waarom veel armoedebeleid beperkt effect heeft?",
+          "promptAr": "ما هو السبب المهم حسب النص لكون سياسة الفقر لها تأثير محدود؟",
+          "options": [
+            "Er worden te weinig financiële middelen ingezet",
+            "Armoede wordt te technisch en te simplistisch benaderd",
+            "Mensen weigeren gebruik te maken van bestaande regelingen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benoemt expliciet een fundamenteel probleem in de aannames achter beleid.",
+          "explanationAr": "يذكر النص صراحة مشكلة أساسية في الافتراضات وراء السياسة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Dat komt niet zozeer doordat er te weinig middelen worden ingezet, maar doordat de onderliggende aannames over armoede vaak te simplistisch zijn"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid uit de kritiek op activeringsbeleid?",
+          "promptAr": "ماذا يمكن استنتاجه من النقد على سياسة التنشيط؟",
+          "options": [
+            "Werkloosheid is de belangrijkste oorzaak van armoede",
+            "Arbeidsparticipatie garandeert geen bescherming tegen armoede",
+            "Scholingstrajecten zijn meestal ineffectief"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Je moet een conclusie trekken uit meerdere zinnen over werk en onzekerheid.",
+          "explanationAr": "يجب استخلاص استنتاج من عدة جمل حول العمل وعدم اليقين.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hoewel die redenering logisch klinkt, gaat zij voorbij aan de realiteit dat werk niet automatisch financiële zekerheid biedt"
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke optie verwoordt het best de kritiek op individuele interventies zoals budgettrainingen?",
+          "promptAr": "أي خيار يعبر بشكل أفضل عن النقد على التدخلات الفردية مثل تدريبات الميزانية؟",
+          "options": [
+            "Ze zijn nutteloos en moeten worden afgeschaft",
+            "Ze kunnen helpen, maar negeren structurele oorzaken van armoede",
+            "Ze zijn alleen effectief voor hoogopgeleiden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het gaat om een herformulering van een kernpunt uit de tekst.",
+          "explanationAr": "يتعلق الأمر بإعادة صياغة نقطة أساسية من النص.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zulke interventies kunnen op individueel niveau nuttig zijn, maar zij verschuiven de verantwoordelijkheid impliciet naar de persoon in armoede"
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom benoemt de auteur de complexiteit van aanvraagprocedures?",
+          "promptAr": "لماذا يذكر المؤلف تعقيد إجراءات الطلب؟",
+          "options": [
+            "Om te laten zien dat beleid juridisch correct is",
+            "Om aan te tonen dat uitvoeringsinstanties te weinig personeel hebben",
+            "Om te illustreren waarom beleid vaak niet aansluit bij de leefwereld"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De functie van dit voorbeeld moet worden herkend.",
+          "explanationAr": "يجب التعرف على وظيفة هذا المثال.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor ontstaat een kloof tussen beleidslogica en leefwereld"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke houding ten opzichte van beleid bepleit de auteur impliciet?",
+          "promptAr": "ما الموقف الذي يدعو إليه المؤلف ضمنيًا تجاه السياسة؟",
+          "options": [
+            "Meer controle en strengere voorwaarden",
+            "Minder politieke discussie over armoede",
+            "Meer vertrouwen en structurele hervormingen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Je moet de normatieve ondertoon van de tekst afleiden.",
+          "explanationAr": "يجب استنتاج النبرة المعيارية للنص.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In plaats van controle en verplichting zou vertrouwen centraal moeten staan"
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de hoofdgedachte van deze tekst?",
+          "promptAr": "ما هي الفكرة الرئيسية لهذا النص؟",
+          "options": [
+            "Armoede kan alleen met meer geld worden opgelost",
+            "Huidig armoedebeleid schiet tekort doordat het armoede te eng benadert",
+            "Individuele verantwoordelijkheid is de sleutel tot armoedebestrijding"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Deze vraag toetst of je de hoofdlijn van de tekst begrijpt.",
+          "explanationAr": "هذا السؤال يختبر ما إذا كنت تفهم الخط الرئيسي للنص.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Begrip van armoede vraagt om meer dan cijfers en regels; het vereist aandacht voor de complexe werkelijkheid waarin mensen leven"
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "De burger als klant van de overheid: efficiëntie ten koste van vertrouwen?",
+      "topic": "Overheid & maatschappij",
+      "level": "B2+",
+      "content": "De afgelopen decennia heeft de overheid steeds vaker taal en methoden overgenomen uit het bedrijfsleven. Burgers worden aangesproken als klanten, overheidsdiensten worden beoordeeld op efficiëntie, doorlooptijden en kostenbesparing, en digitale loketten moeten de dienstverlening sneller en eenvoudiger maken. Op het eerste gezicht lijkt deze ontwikkeling logisch. Een overheid die efficiënt werkt, verspilt minder publieke middelen en kan meer mensen bedienen met dezelfde capaciteit. Toch roept deze benadering fundamentele vragen op over de aard van de relatie tussen burger en staat. Is de burger werkelijk te vergelijken met een klant, of gaat deze vergelijking voorbij aan essentiële waarden zoals vertrouwen, rechtvaardigheid en gelijkheid?\n\nHet idee van de burger als klant veronderstelt keuzevrijheid en wederkerigheid. In de markt kan een klant overstappen naar een andere aanbieder wanneer de service tegenvalt. Bij de overheid ontbreekt deze mogelijkheid vrijwel volledig. Belastingen zijn verplicht, basisvoorzieningen zijn vaak monopolistisch georganiseerd en besluiten van de overheid hebben directe gevolgen voor het leven van burgers, ongeacht hun tevredenheid. Hierdoor ontstaat een asymmetrische relatie waarin de burger wel wordt aangesproken op gedrag en verplichtingen, maar beperkte invloed heeft op de voorwaarden waaronder diensten worden geleverd.\n\nDigitalisering heeft deze spanning versterkt. Online portalen, automatische beslissystemen en gestandaardiseerde procedures maken het mogelijk om grote aantallen aanvragen snel te verwerken. Tegelijkertijd verdwijnen persoonlijke contactmomenten, waarin nuance en context een rol kunnen spelen. Voor burgers die digitaal vaardig zijn en binnen de standaardcategorieën vallen, kan dit systeem efficiënt en zelfs prettig werken. Voor anderen leidt het tot frustratie, onbegrip en een gevoel van machteloosheid. Wanneer een geautomatiseerd systeem een aanvraag afwijst, is het vaak onduidelijk wie verantwoordelijk is en hoe bezwaar effectief kan worden gemaakt.\n\nDaarnaast verschuift de focus door het klantdenken van inhoud naar meetbaarheid. Efficiëntie wordt zichtbaar in cijfers: aantallen afgehandelde dossiers, gemiddelde wachttijden en kosten per aanvraag. Minder zichtbaar zijn de sociale gevolgen van beslissingen, zoals stress, onzekerheid of langdurige procedures die het vertrouwen in de overheid aantasten. Juist dit vertrouwen vormt echter de basis van een goed functionerende democratische rechtsstaat. Burgers moeten erop kunnen rekenen dat de overheid niet alleen snel, maar ook zorgvuldig en rechtvaardig handelt.\n\nCritici wijzen erop dat het klantmodel leidt tot een instrumentele benadering van burgers. Problemen worden gereduceerd tot administratieve kwesties, terwijl achter elke aanvraag een mens met een complexe situatie schuilgaat. Beleidsmakers erkennen dit spanningsveld vaak wel, maar zien zich geconfronteerd met politieke druk om kosten te beheersen en prestaties meetbaar te maken. Hierdoor ontstaat een beleid dat efficiënt oogt, maar in de praktijk kan bijdragen aan vervreemding tussen burger en overheid.\n\nToch betekent dit niet dat efficiëntie per definitie onverenigbaar is met vertrouwen. De vraag is eerder hoe efficiëntie wordt gedefinieerd. Een systeem dat op korte termijn kosten bespaart, maar op lange termijn leidt tot meer bezwaarprocedures, rechtszaken en maatschappelijke onrust, kan moeilijk als efficiënt worden beschouwd. Sommige gemeenten experimenteren daarom met hybride modellen, waarin digitale systemen worden gecombineerd met laagdrempelig persoonlijk contact. Deze benadering erkent dat niet elke burger dezelfde ondersteuning nodig heeft.\n\nDe kern van het debat ligt in de rolopvatting van de overheid. Ziet zij zichzelf primair als dienstverlener, of als hoeder van publieke waarden? In het eerste geval ligt de nadruk op snelheid en tevredenheid, in het tweede op rechtszekerheid en inclusie. De uitdaging is om deze perspectieven niet als tegenpolen te behandelen, maar als elementen die elkaar kunnen versterken. Dat vraagt om beleid dat ruimte laat voor maatwerk, zonder terug te vallen in willekeur.\n\nUiteindelijk is de vraag niet of de burger een klant ís, maar welke gevolgen het heeft om hem zo te behandelen. Efficiëntie kan bijdragen aan toegankelijkheid, maar wanneer zij losraakt van menselijke maat en verantwoordelijkheid, ondermijnt zij het vertrouwen dat zij juist zou moeten ondersteunen. De manier waarop de overheid deze balans vormgeeft, zal bepalend zijn voor de legitimiteit van haar handelen in de komende jaren.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 2,
+          "promptNl": "Wat wordt bedoeld met het idee van de burger als klant?",
+          "promptAr": "ماذا يُقصد بفكرة المواطن كعميل؟",
+          "options": [
+            "Dat burgers vrij kunnen kiezen tussen verschillende overheden",
+            "Dat overheidsdiensten worden ingericht volgens principes uit het bedrijfsleven",
+            "Dat burgers meer rechten krijgen dan plichten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft dit als het toepassen van marktlogica op overheidsdiensten.",
+          "explanationAr": "يصف النص هذا كتطبيق منطق السوق على الخدمات الحكومية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Burgers worden aangesproken als klanten, overheidsdiensten worden beoordeeld op efficiëntie, doorlooptijden en kostenbesparing"
+        },
+        {
+          "orderIndex": 1,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale vraag van de tekst?",
+          "promptAr": "ما هو السؤال المركزي للنص؟",
+          "options": [
+            "Hoe digitalisering de overheid goedkoper maakt",
+            "Of het klantdenken de relatie tussen burger en overheid schaadt",
+            "Waarom burgers ontevreden zijn over overheidsdiensten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst draait om de spanning tussen efficiëntie en vertrouwen.",
+          "explanationAr": "يدور النص حول التوتر بين الكفاءة والثقة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Is de burger werkelijk te vergelijken met een klant, of gaat deze vergelijking voorbij aan essentiële waarden zoals vertrouwen"
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom is de relatie tussen burger en overheid volgens de tekst asymmetrisch?",
+          "promptAr": "لماذا العلاقة بين المواطن والحكومة غير متكافئة حسب النص؟",
+          "options": [
+            "Omdat burgers geen digitale vaardigheden hebben",
+            "Omdat burgers niet kunnen overstappen naar een andere overheid",
+            "Omdat de overheid te weinig personeel heeft"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De burger heeft verplichtingen maar nauwelijks alternatieven of onderhandelingsruimte.",
+          "explanationAr": "المواطن لديه التزامات لكنه بالكاد لديه بدائل أو مساحة للتفاوض.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor ontstaat een asymmetrische relatie waarin de burger wel wordt aangesproken op gedrag en verplichtingen, maar beperkte invloed heeft"
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Welke herformulering past het best bij de kritiek op digitalisering?",
+          "promptAr": "أي إعادة صياغة تناسب بشكل أفضل النقد على الرقمنة؟",
+          "options": [
+            "Digitalisering maakt overheidsdiensten volledig transparant",
+            "Digitale systemen negeren vaak individuele omstandigheden",
+            "Online loketten zijn vooral bedoeld voor jongeren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De kern is dat standaardisering nuance en persoonlijk contact vermindert.",
+          "explanationAr": "الجوهر هو أن التوحيد القياسي يقلل من الفروق الدقيقة والاتصال الشخصي.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Tegelijkertijd verdwijnen persoonlijke contactmomenten, waarin nuance en context een rol kunnen spelen"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur meetbaarheid en cijfers expliciet?",
+          "promptAr": "لماذا يناقش المؤلف القابلية للقياس والأرقام صراحة؟",
+          "options": [
+            "Om aan te tonen dat cijfers altijd misleidend zijn",
+            "Om het belang van statistiek in beleid te benadrukken",
+            "Om de beperkingen van een eenzijdige focus op efficiëntie te tonen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Om te laten zien dat meetbare efficiëntie niet alle gevolgen zichtbaar maakt.",
+          "explanationAr": "لإظهار أن الكفاءة القابلة للقياس لا تجعل جميع العواقب مرئية.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Minder zichtbaar zijn de sociale gevolgen van beslissingen, zoals stress, onzekerheid of langdurige procedures"
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke conclusie kan uit de tekst worden getrokken over efficiëntie?",
+          "promptAr": "ما الاستنتاج الذي يمكن استخلاصه من النص حول الكفاءة؟",
+          "options": [
+            "Efficiëntie is minder belangrijk dan vertrouwen",
+            "Efficiëntie en vertrouwen sluiten elkaar uit",
+            "Efficiëntie moet breder worden opgevat dan alleen kosten en snelheid"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Efficiëntie is alleen waardevol als zij ook rechtvaardigheid en vertrouwen ondersteunt.",
+          "explanationAr": "الكفاءة قيمة فقط إذا كانت تدعم أيضًا العدالة والثقة.",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Efficiëntie kan bijdragen aan toegankelijkheid, maar wanneer zij losraakt van menselijke maat en verantwoordelijkheid, ondermijnt zij het vertrouwen"
+        }
+      ]
+    }
+  ]
+}

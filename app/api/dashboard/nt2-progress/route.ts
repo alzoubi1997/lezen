@@ -37,9 +37,20 @@ export async function GET() {
       },
     })
 
+    // Debug logging
+    console.log(`[NT2 Progress] Total attempts fetched: ${allAttempts.length}`)
+    const attemptsByKind = allAttempts.reduce((acc, a) => {
+      const kind = a.model?.kind || 'UNKNOWN'
+      acc[kind] = (acc[kind] || 0) + 1
+      return acc
+    }, {} as Record<string, number>)
+    console.log(`[NT2 Progress] Attempts by kind:`, attemptsByKind)
+
     // Separate exams and practices
-    const examAttempts = allAttempts.filter(a => a.model.kind === 'EXAM')
-    const practiceAttempts = allAttempts.filter(a => a.model.kind === 'PRACTICE')
+    const examAttempts = allAttempts.filter(a => a.model?.kind === 'EXAM')
+    const practiceAttempts = allAttempts.filter(a => a.model?.kind === 'PRACTICE')
+    
+    console.log(`[NT2 Progress] Exam attempts: ${examAttempts.length}, Practice attempts: ${practiceAttempts.length}`)
 
     // Filter out duplicates: same practice number should only be counted once
     // (unless we want to allow repeats - for now, we'll use the latest attempt per practice)
@@ -183,6 +194,11 @@ export async function GET() {
       modelTitle: attempt.modelTitle,
       modelNumber: attempt.modelNumber,
     }))
+
+    // Debug logging for response
+    console.log(`[NT2 Progress] Response: blocks=${blocks.length}, incompleteBlock=${incompleteBlockFormatted.length}, totalAttempts=${allAttemptMetrics.length}`)
+    console.log(`[NT2 Progress] Practice attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'PRACTICE').length}`)
+    console.log(`[NT2 Progress] Exam attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'EXAM').length}`)
 
     return NextResponse.json({
       attempts: allAttemptMetrics,

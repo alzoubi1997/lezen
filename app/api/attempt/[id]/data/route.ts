@@ -15,10 +15,20 @@ export async function GET(
   }
 
   try {
+    // First get attempt to check auth and get modelId
     const attempt = await prisma.attempt.findUnique({
       where: { id: params.id },
       include: {
-        model: true,
+        model: {
+          select: {
+            id: true,
+            titleNl: true,
+            titleAr: true,
+            kind: true,
+            number: true,
+            totalTimeSec: true,
+          },
+        },
       },
     })
 
@@ -29,6 +39,7 @@ export async function GET(
       )
     }
 
+    // Now fetch texts in parallel with question attempts
     const texts = await prisma.text.findMany({
       where: { modelId: attempt.modelId },
       orderBy: { orderIndex: 'asc' },
@@ -37,7 +48,8 @@ export async function GET(
           orderBy: { orderIndex: 'asc' },
           include: {
             questionAttempts: {
-              where: { attemptId: attempt.id },
+              where: { attemptId: params.id },
+              take: 1, // Only need one attempt per question
             },
           },
         },

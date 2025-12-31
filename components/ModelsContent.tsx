@@ -108,8 +108,14 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
     }
   }
 
+  const [startingModelId, setStartingModelId] = useState<string | null>(null)
+
   const startModel = async (modelId: string, mode: 'EXAM' | 'PRACTICE') => {
+    if (startingModelId) return // Prevent double-click
+    
     try {
+      setStartingModelId(modelId)
+      // Start API call immediately
       const res = await fetch('/api/attempt/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -118,11 +124,14 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
       const data = await res.json()
       if (data.attemptId) {
         const url = `/attempt/${data.attemptId}`
+        // Prefetch and navigate immediately
         router.prefetch(url)
-        router.push(url)
+        router.push(url, { scroll: false })
       }
     } catch (err) {
       console.error('Failed to start attempt:', err)
+    } finally {
+      setStartingModelId(null)
     }
   }
 
@@ -319,10 +328,15 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
                     </button>
                     <button
                       onClick={() => startModel(model.id, activeTab)}
-                      className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-primary-600 to-purple-600 px-4 py-2.5 font-bold text-white shadow-md transition-all hover:shadow-lg hover:scale-105"
+                      disabled={startingModelId === model.id}
+                      className="flex-1 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-primary-600 to-purple-600 px-4 py-2.5 font-bold text-white shadow-md transition-all hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                     >
-                      <Play className="h-5 w-5" />
-                      {t('models.start')}
+                      {startingModelId === model.id ? (
+                        <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
+                      ) : (
+                        <Play className="h-5 w-5" />
+                      )}
+                      {startingModelId === model.id ? (locale === 'ar' ? 'جاري التحميل...' : 'Loading...') : t('models.start')}
                     </button>
                   </>
                 )}

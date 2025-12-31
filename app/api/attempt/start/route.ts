@@ -16,16 +16,23 @@ export async function POST(request: NextRequest) {
     const body = await request.json()
     const { modelId, mode } = startAttemptSchema.parse(body)
 
-    const model = await prisma.model.findUnique({
-      where: { id: modelId },
-      include: {
-        texts: {
-          include: {
-            questions: true,
+    // Optimize: Only fetch what we need - count questions directly in database
+    const [model, questionCount] = await Promise.all([
+      prisma.model.findUnique({
+        where: { id: modelId },
+        select: {
+          id: true,
+          titleNl: true,
+        },
+      }),
+      prisma.question.count({
+        where: {
+          text: {
+            modelId: modelId,
           },
         },
-      },
-    })
+      }),
+    ])
 
     if (!model) {
       return NextResponse.json(
@@ -34,10 +41,7 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    const totalQuestions = model.texts.reduce(
-      (sum, text) => sum + text.questions.length,
-      0
-    )
+    const totalQuestions = questionCount
 
     const attempt = await prisma.attempt.create({
       data: {

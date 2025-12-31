@@ -40,6 +40,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
   const [prefix, setPrefix] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  const [errorDetails, setErrorDetails] = useState('')
+  const [showDetails, setShowDetails] = useState(false)
   const [createdHandle, setCreatedHandle] = useState('')
   const [mounted, setMounted] = useState(false)
 
@@ -82,25 +84,39 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
       if (!res.ok) {
         let errorMessage = 'Er is iets misgegaan'
-        let errorDetails = ''
+        let details = ''
+        let statusCode = res.status
+        
         try {
           const data = await res.json()
           errorMessage = data.error || errorMessage
-          // Include additional details if available (for debugging)
-          if (data.details && process.env.NODE_ENV === 'development') {
-            errorDetails = ` (${data.details})`
+          details = data.details || data.message || ''
+          
+          // Add status code info
+          if (statusCode === 503) {
+            details = 'Database verbinding probleem. ' + (details || 'Controleer DATABASE_URL in Vercel.')
+          } else if (statusCode === 400) {
+            details = 'Validatie fout. ' + (details || 'Controleer de ingevoerde gegevens.')
+          } else if (statusCode === 409) {
+            details = details || 'Dit profiel ID bestaat al.'
           }
         } catch (parseError) {
           // If JSON parsing fails, use status text
           errorMessage = res.statusText || errorMessage
+          details = `HTTP ${statusCode}: ${res.statusText}`
           console.error('Failed to parse error response:', parseError)
         }
+        
         console.error('Create profile failed:', {
-          status: res.status,
+          status: statusCode,
           statusText: res.statusText,
           error: errorMessage,
+          details: details,
         })
-        setError(errorMessage + errorDetails)
+        
+        setError(errorMessage)
+        setErrorDetails(details)
+        setShowDetails(false) // User can click to show details
         setLoading(false)
         return
       }
@@ -132,25 +148,39 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
       if (!res.ok) {
         let errorMessage = t('auth.invalidCredentials')
-        let errorDetails = ''
+        let details = ''
+        let statusCode = res.status
+        
         try {
           const data = await res.json()
           errorMessage = data.error || errorMessage
-          // Include additional details if available (for debugging)
-          if (data.details && process.env.NODE_ENV === 'development') {
-            errorDetails = ` (${data.details})`
+          details = data.details || data.message || ''
+          
+          // Add status code info
+          if (statusCode === 503) {
+            details = 'Database verbinding probleem. ' + (details || 'Controleer DATABASE_URL in Vercel.')
+          } else if (statusCode === 400) {
+            details = 'Validatie fout. ' + (details || 'Controleer de ingevoerde gegevens.')
+          } else if (statusCode === 401) {
+            details = details || 'Ongeldig Profiel ID of PIN.'
           }
         } catch (parseError) {
           // If JSON parsing fails, use status text
           errorMessage = res.statusText || errorMessage
+          details = `HTTP ${statusCode}: ${res.statusText}`
           console.error('Failed to parse error response:', parseError)
         }
+        
         console.error('Login failed:', {
-          status: res.status,
+          status: statusCode,
           statusText: res.statusText,
           error: errorMessage,
+          details: details,
         })
-        setError(errorMessage + errorDetails)
+        
+        setError(errorMessage)
+        setErrorDetails(details)
+        setShowDetails(false) // User can click to show details
         setLoading(false)
         return
       }
@@ -225,6 +255,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
             onClick={() => {
               setMode('create')
               setError('')
+              setErrorDetails('')
+              setShowDetails(false)
             }}
             className={`flex-1 rounded px-4 py-2 ${
               mode === 'create'
@@ -238,6 +270,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
             onClick={() => {
               setMode('login')
               setError('')
+              setErrorDetails('')
+              setShowDetails(false)
             }}
             className={`flex-1 rounded px-4 py-2 ${
               mode === 'login'
@@ -251,7 +285,23 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
         {error && (
           <div className="mb-4 rounded bg-red-50 p-3 text-sm text-red-700">
-            {error}
+            <div className="font-medium">{error}</div>
+            {errorDetails && (
+              <div className="mt-2">
+                <button
+                  type="button"
+                  onClick={() => setShowDetails(!showDetails)}
+                  className="text-xs text-red-600 underline hover:text-red-800"
+                >
+                  {showDetails ? 'Verberg details' : 'Toon details'}
+                </button>
+                {showDetails && (
+                  <div className="mt-2 rounded bg-red-100 p-2 text-xs text-red-800">
+                    {errorDetails}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         )}
 

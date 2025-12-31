@@ -159,7 +159,11 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json(
-      { error: 'Er is iets misgegaan' },
+      { 
+        error: 'Er is iets misgegaan',
+        details: error.message || 'Onbekende fout opgetreden',
+        code: error.code || 'UNKNOWN_ERROR'
+      },
       { status: 500 }
     )
   }

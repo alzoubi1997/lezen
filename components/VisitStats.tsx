@@ -62,11 +62,7 @@ export default function VisitStats() {
           </div>
         </div>
         <div className="animate-pulse relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="bg-white/90 rounded-xl p-5 border-2 border-emerald-200/60 shadow-lg">
-              <div className="h-4 w-32 bg-gray-300 rounded mb-3"></div>
-              <div className="h-10 w-24 bg-gray-300 rounded"></div>
-            </div>
+          <div className="grid grid-cols-1 gap-5">
             <div className="bg-white/90 rounded-xl p-5 border-2 border-blue-200/60 shadow-lg">
               <div className="h-4 w-32 bg-gray-300 rounded mb-3"></div>
               <div className="h-10 w-24 bg-gray-300 rounded"></div>
@@ -90,21 +86,7 @@ export default function VisitStats() {
           <div className={`mt-1 h-1.5 w-20 rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 ${locale === 'ar' ? 'ml-auto' : ''}`}></div>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 relative z-10">
-        <div className="group relative bg-white/90 rounded-xl p-5 border-2 border-emerald-200/60 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 overflow-hidden">
-          <div className="absolute -top-5 -right-5 w-24 h-24 bg-gradient-to-br from-emerald-200/30 to-transparent rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500 -z-0"></div>
-          <div className={`flex items-center gap-2 mb-3 relative z-10 ${locale === 'ar' ? 'flex-row-reverse' : ''}`}>
-            <div className="rounded-lg bg-gradient-to-br from-emerald-200 via-green-300 to-emerald-300 p-1.5 shadow-md group-hover:shadow-lg group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
-              <TrendingUp className="h-4 w-4 text-emerald-700 group-hover:text-emerald-800 transition-colors" />
-            </div>
-            <span className={`text-sm font-bold text-gray-800 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{t('home.last30Days')}</span>
-          </div>
-          <p className={`text-4xl font-extrabold bg-gradient-to-r from-emerald-600 via-green-600 to-emerald-600 bg-clip-text text-transparent mb-1 group-hover:scale-105 transition-transform duration-300 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
-            {visitsLast30Days.toLocaleString()}
-          </p>
-          <p className={`text-xs font-bold text-gray-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{t('home.visits')}</p>
-          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-emerald-500 via-green-500 to-emerald-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-        </div>
+      <div className="grid grid-cols-1 gap-5 relative z-10">
         <div className="group relative bg-white/90 rounded-xl p-5 border-2 border-blue-200/60 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 overflow-hidden">
           <div className="absolute -top-5 -right-5 w-24 h-24 bg-gradient-to-br from-blue-200/30 via-indigo-200/20 to-transparent rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500 -z-0"></div>
           <div className={`flex items-center gap-2 mb-3 relative z-10 ${locale === 'ar' ? 'flex-row-reverse' : ''}`}>

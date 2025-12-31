@@ -85,7 +85,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
       setCreatedHandle(data.handle)
       setLoading(false)
     } catch (err) {
-      setError('Er is iets misgegaan')
+      console.error('Create profile fetch error:', err)
+      setError('Er is iets misgegaan. Controleer de console voor details.')
       setLoading(false)
     }
   }
@@ -114,7 +115,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
       onClose()
       window.location.href = '/'
     } catch (err) {
-      setError('Er is iets misgegaan')
+      console.error('Login fetch error:', err)
+      setError('Er is iets misgegaan. Controleer de console voor details.')
       setLoading(false)
     }
   }

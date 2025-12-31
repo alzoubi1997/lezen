@@ -1,7 +1,16 @@
 import { z } from 'zod'
 
 export const createProfileSchema = z.object({
-  prefix: z.string().min(2).max(10).optional(),
+  prefix: z.preprocess(
+    (val) => {
+      if (typeof val === 'string') {
+        const trimmed = val.trim()
+        return trimmed.length >= 2 ? trimmed : undefined
+      }
+      return val
+    },
+    z.string().min(2).max(10).optional()
+  ),
   pin: z.string().length(4).regex(/^\d{4}$/, 'PIN must be 4 digits'),
 })
 

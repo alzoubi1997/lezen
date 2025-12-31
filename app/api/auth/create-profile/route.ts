@@ -40,10 +40,28 @@ export async function POST(request: NextRequest) {
 
     return response
   } catch (error: any) {
+    console.error('Create profile error:', error)
+    
     if (error.name === 'ZodError') {
       return NextResponse.json(
         { error: 'Ongeldige gegevens' },
         { status: 400 }
+      )
+    }
+
+    // Handle Prisma unique constraint errors (duplicate handle)
+    if (error.code === 'P2002') {
+      return NextResponse.json(
+        { error: 'Dit profiel ID bestaat al. Probeer een ander prefix.' },
+        { status: 409 }
+      )
+    }
+
+    // Handle database connection errors
+    if (error.code === 'P1001' || error.message?.includes('Can\'t reach database')) {
+      return NextResponse.json(
+        { error: 'Database verbinding mislukt. Controleer de database instellingen.' },
+        { status: 503 }
       )
     }
 

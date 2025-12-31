@@ -46,10 +46,20 @@ export async function POST(request: NextRequest) {
 
     return response
   } catch (error: any) {
+    console.error('Login error:', error)
+    
     if (error.name === 'ZodError') {
       return NextResponse.json(
         { error: 'Ongeldige gegevens' },
         { status: 400 }
+      )
+    }
+
+    // Handle database connection errors
+    if (error.code === 'P1001' || error.message?.includes('Can\'t reach database')) {
+      return NextResponse.json(
+        { error: 'Database verbinding mislukt. Controleer de database instellingen.' },
+        { status: 503 }
       )
     }
 

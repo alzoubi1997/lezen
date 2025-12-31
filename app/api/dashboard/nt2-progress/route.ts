@@ -221,28 +221,32 @@ export async function GET() {
     // Track which attempt IDs are already in incompleteBlock
     const incompleteBlockAttemptIds = new Set(incompleteBlock.map(a => a.id))
     
+    // Track which attempt IDs are in blocks (to exclude them from incompleteBlock)
+    const attemptIdsInBlocks = new Set<string>()
+    blocks.forEach(block => {
+      block.attemptIds.forEach(id => attemptIdsInBlocks.add(id))
+    })
+    
     // Calculate metrics for all practice attempts (including duplicates) for display
     for (const attempt of allPracticeAttemptsForDisplay) {
       const practiceNum = attempt.model?.number
-      // Only add if this practice number is not already in a block
+      // Only add if this attempt is not already in a block
       // AND this attempt is not already in incompleteBlock
-      if (practiceNum === undefined || !practiceNumbersInBlocks.has(practiceNum)) {
-        if (!incompleteBlockAttemptIds.has(attempt.id)) {
-          const metrics = calculateAttemptMetrics(
-            {
-              id: attempt.id,
-              finishedAt: attempt.finishedAt,
-              totalQuestions: attempt.totalQuestions,
-              correctCount: attempt.correctCount,
-              modelKind: attempt.model.kind,
-              modelNumber: attempt.model.number,
-              modelTitle: attempt.model.titleNl,
-            },
-            null // Don't track previous for display purposes
-          )
-          incompleteBlock.push(metrics)
-          incompleteBlockAttemptIds.add(attempt.id)
-        }
+      if (!attemptIdsInBlocks.has(attempt.id) && !incompleteBlockAttemptIds.has(attempt.id)) {
+        const metrics = calculateAttemptMetrics(
+          {
+            id: attempt.id,
+            finishedAt: attempt.finishedAt,
+            totalQuestions: attempt.totalQuestions,
+            correctCount: attempt.correctCount,
+            modelKind: attempt.model.kind,
+            modelNumber: attempt.model.number,
+            modelTitle: attempt.model.titleNl,
+          },
+          null // Don't track previous for display purposes
+        )
+        incompleteBlock.push(metrics)
+        incompleteBlockAttemptIds.add(attempt.id)
       }
     }
     

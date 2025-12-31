@@ -159,34 +159,34 @@ export default function NT2ProgressDashboard() {
                    borderLeft: `4px solid ${data.latestBlock.passFail36 ? '#10b981' : '#ef4444'}`,
                  }}>
               {/* Header */}
-              <div className={`px-6 py-5 border-b border-gray-200/60 ${
+              <div className={`px-4 sm:px-6 py-3 sm:py-5 border-b border-gray-200/60 ${
                 data.latestBlock.passFail36
                   ? 'bg-gradient-to-br from-emerald-50/80 via-green-50/50 to-emerald-50/80'
                   : 'bg-gradient-to-br from-rose-50/80 via-red-50/50 to-rose-50/80'
               }`}>
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
                   {locale === 'ar' ? (
                     <>
-                      <div className="text-left">
-                        <span className="text-lg font-bold text-gray-900">
-                          Blok {data.latestBlock.blockIndex + 1}
+                      <div className="text-right w-full sm:w-auto">
+                        <span className="text-base sm:text-lg font-bold text-gray-900" dir="rtl">
+                          {t('dashboard.latestExamEquivalent')}
                         </span>
                       </div>
-                      <div className="text-right">
-                        <span className="text-lg font-bold text-gray-900" dir="rtl">
-                          {t('dashboard.latestExamEquivalent')}
+                      <div className="text-left w-full sm:w-auto">
+                        <span className="text-base sm:text-lg font-bold text-gray-900">
+                          Blok {data.latestBlock.blockIndex + 1}
                         </span>
                       </div>
                     </>
                   ) : (
                     <>
-                      <div className="text-left">
-                        <span className="text-lg font-bold text-gray-900">
+                      <div className="text-left w-full sm:w-auto">
+                        <span className="text-base sm:text-lg font-bold text-gray-900">
                           {t('dashboard.latestExamEquivalent')}
                         </span>
                       </div>
-                      <div className="text-right">
-                        <span className="text-lg font-bold text-gray-900">
+                      <div className="text-right w-full sm:w-auto">
+                        <span className="text-base sm:text-lg font-bold text-gray-900">
                           Blok {data.latestBlock.blockIndex + 1}
                         </span>
                       </div>
@@ -195,48 +195,48 @@ export default function NT2ProgressDashboard() {
                 </div>
               </div>
 
-          <div className="p-4 bg-gradient-to-b from-white to-gray-50/50" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+          <div className="p-3 sm:p-4 bg-gradient-to-b from-white to-gray-50/50" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
             {/* Main Stats Row */}
-            <div className={`mb-4 grid gap-3 grid-cols-4 ${locale === 'ar' ? 'justify-items-end' : 'justify-items-start'}`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-              <div className="w-full rounded-xl bg-gradient-to-br from-slate-50 to-white p-4 shadow-md border-l-4 border-slate-500 hover:shadow-lg transition-all" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-2 text-xs font-semibold uppercase tracking-wide text-slate-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            <div className={`mb-3 sm:mb-4 grid gap-2 sm:gap-3 grid-cols-2 md:grid-cols-4 ${locale === 'ar' ? 'justify-items-end' : 'justify-items-start'}`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+              <div className="w-full rounded-lg sm:rounded-xl bg-gradient-to-br from-slate-50 to-white p-3 sm:p-4 shadow-md border-l-4 border-slate-500 hover:shadow-lg transition-all" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                <p className={`mb-1.5 sm:mb-2 text-xs font-semibold uppercase tracking-wide text-slate-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.blockDate')}
                 </p>
-                <p className={`text-lg font-bold text-slate-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{formatDate(data.latestBlock.blockDate)}</p>
+                <p className={`text-base sm:text-lg font-bold text-slate-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{formatDate(data.latestBlock.blockDate)}</p>
               </div>
-              <div className={`w-full rounded-xl bg-gradient-to-br p-4 shadow-md border-l-4 hover:shadow-lg transition-all ${
+              <div className={`w-full rounded-lg sm:rounded-xl bg-gradient-to-br p-3 sm:p-4 shadow-md border-l-4 hover:shadow-lg transition-all ${
                 data.latestBlock.passFail36 
                   ? 'from-green-50 to-white border-green-500' 
                   : 'from-red-50 to-white border-red-500'
               }`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-2 text-xs font-semibold uppercase tracking-wide ${
+                <p className={`mb-1.5 sm:mb-2 text-xs font-semibold uppercase tracking-wide ${
                   data.latestBlock.passFail36 ? 'text-green-700' : 'text-red-700'
                 } ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.groupScore')}
                 </p>
                 <p
-                  className={`text-2xl font-bold ${
+                  className={`text-xl sm:text-2xl font-bold ${
                     data.latestBlock.passFail36 ? 'text-green-600' : 'text-red-600'
                   } ${locale === 'ar' ? 'text-right' : 'text-left'}`}
                 >
                   {formatPercent(data.latestBlock.yourPercent36)}%
                 </p>
               </div>
-              <div className={`w-full rounded-xl bg-gradient-to-br p-4 shadow-md border-l-4 hover:shadow-lg transition-all ${
+              <div className={`w-full rounded-lg sm:rounded-xl bg-gradient-to-br p-3 sm:p-4 shadow-md border-l-4 hover:shadow-lg transition-all ${
                 data.latestBlock.passFail36 
                   ? 'from-green-50 to-white border-green-500' 
                   : 'from-red-50 to-white border-red-500'
               }`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-2 text-xs font-semibold uppercase tracking-wide ${
+                <p className={`mb-1.5 sm:mb-2 text-xs font-semibold uppercase tracking-wide ${
                   data.latestBlock.passFail36 ? 'text-green-700' : 'text-red-700'
                 } ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.pass')}/{t('dashboard.fail')}
                 </p>
-                <div className={`flex items-center gap-2 w-full ${locale === 'ar' ? 'justify-end' : 'justify-start'}`}>
+                <div className={`flex items-center gap-1.5 sm:gap-2 w-full ${locale === 'ar' ? 'justify-end' : 'justify-start'}`}>
                   {locale === 'ar' ? (
                     <>
                       <p
-                        className={`text-lg font-bold ${
+                        className={`text-sm sm:text-lg font-bold ${
                           data.latestBlock.passFail36 ? 'text-green-600' : 'text-red-600'
                         }`}
                       >
@@ -245,28 +245,28 @@ export default function NT2ProgressDashboard() {
                           : t('dashboard.gezakt')}
                       </p>
                       {data.latestBlock.passFail36 ? (
-                        <div className="rounded-full bg-green-500 p-1.5 shadow-sm">
-                          <CheckCircle2 className="h-5 w-5 text-white shrink-0" />
+                        <div className="rounded-full bg-green-500 p-1 sm:p-1.5 shadow-sm">
+                          <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-white shrink-0" />
                         </div>
                       ) : (
-                        <div className="rounded-full bg-red-500 p-1.5 shadow-sm">
-                          <XCircle className="h-5 w-5 text-white shrink-0" />
+                        <div className="rounded-full bg-red-500 p-1 sm:p-1.5 shadow-sm">
+                          <XCircle className="h-4 w-4 sm:h-5 sm:w-5 text-white shrink-0" />
                         </div>
                       )}
                     </>
                   ) : (
                     <>
                       {data.latestBlock.passFail36 ? (
-                        <div className="rounded-full bg-green-500 p-1.5 shadow-sm">
-                          <CheckCircle2 className="h-5 w-5 text-white" />
+                        <div className="rounded-full bg-green-500 p-1 sm:p-1.5 shadow-sm">
+                          <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                         </div>
                       ) : (
-                        <div className="rounded-full bg-red-500 p-1.5 shadow-sm">
-                          <XCircle className="h-5 w-5 text-white" />
+                        <div className="rounded-full bg-red-500 p-1 sm:p-1.5 shadow-sm">
+                          <XCircle className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
                         </div>
                       )}
                       <p
-                        className={`text-lg font-bold ${
+                        className={`text-sm sm:text-lg font-bold ${
                           data.latestBlock.passFail36 ? 'text-green-600' : 'text-red-600'
                         }`}
                       >
@@ -278,55 +278,55 @@ export default function NT2ProgressDashboard() {
                   )}
                 </div>
               </div>
-              <div className="w-full rounded-xl bg-gradient-to-br from-blue-50 to-white p-4 shadow-md border-l-4 border-blue-500 hover:shadow-lg transition-all" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-2 text-xs font-semibold uppercase tracking-wide text-blue-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              <div className="w-full rounded-lg sm:rounded-xl bg-gradient-to-br from-blue-50 to-white p-3 sm:p-4 shadow-md border-l-4 border-blue-500 hover:shadow-lg transition-all" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                <p className={`mb-1.5 sm:mb-2 text-xs font-semibold uppercase tracking-wide text-blue-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.requiredToPass')}
                 </p>
-                <p className={`text-xl font-bold text-blue-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>63.89%</p>
-                <p className={`text-xs font-medium text-blue-600 mt-1 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                <p className={`text-lg sm:text-xl font-bold text-blue-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>63.89%</p>
+                <p className={`text-xs font-medium text-blue-600 mt-0.5 sm:mt-1 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.requiredCorrect')} 23/36
                 </p>
               </div>
             </div>
 
             {/* Detailed Stats */}
-            <div className="mb-4 grid gap-3 md:grid-cols-3" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-              <div className="rounded-lg border-l-4 border-green-500 bg-gradient-to-br from-green-50 to-white p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-1.5 text-xs font-semibold uppercase tracking-wide text-green-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            <div className="mb-3 sm:mb-4 grid gap-2 sm:gap-3 grid-cols-1 sm:grid-cols-3" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+              <div className="rounded-lg border-l-4 border-green-500 bg-gradient-to-br from-green-50 to-white p-3 sm:p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                <p className={`mb-1 sm:mb-1.5 text-xs font-semibold uppercase tracking-wide text-green-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.correct')}
                 </p>
-                <p className={`text-2xl font-bold text-green-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                <p className={`text-xl sm:text-2xl font-bold text-green-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {data.latestBlock.correct36}/36
                 </p>
               </div>
-              <div className="rounded-lg border-l-4 border-red-500 bg-gradient-to-br from-red-50 to-white p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-1.5 text-xs font-semibold uppercase tracking-wide text-red-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              <div className="rounded-lg border-l-4 border-red-500 bg-gradient-to-br from-red-50 to-white p-3 sm:p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                <p className={`mb-1 sm:mb-1.5 text-xs font-semibold uppercase tracking-wide text-red-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.wrong')}
                 </p>
-                <p className={`text-2xl font-bold text-red-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                <p className={`text-xl sm:text-2xl font-bold text-red-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {36 - data.latestBlock.correct36}
                 </p>
               </div>
-              <div className="rounded-lg border-l-4 border-blue-500 bg-gradient-to-br from-blue-50 to-white p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
-                <p className={`mb-1.5 text-xs font-semibold uppercase tracking-wide text-blue-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              <div className="rounded-lg border-l-4 border-blue-500 bg-gradient-to-br from-blue-50 to-white p-3 sm:p-4 shadow-md hover:shadow-lg transition-shadow" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                <p className={`mb-1 sm:mb-1.5 text-xs font-semibold uppercase tracking-wide text-blue-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   {t('dashboard.requiredToPass')}
                 </p>
-                <p className={`text-2xl font-bold text-blue-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                <p className={`text-xl sm:text-2xl font-bold text-blue-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                   23/36
                 </p>
               </div>
             </div>
 
             {/* Practice Names in Block */}
-            <div className="mb-4 rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-5 shadow-md">
-              <p className={`mb-3 text-xs font-semibold uppercase tracking-wide text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            <div className="mb-3 sm:mb-4 rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-3 sm:p-5 shadow-md">
+              <p className={`mb-2 sm:mb-3 text-xs font-semibold uppercase tracking-wide text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                 {t('dashboard.practicesInBlock')}:
               </p>
               <div className="flex flex-wrap gap-2">
                 {data.latestBlock.practiceNames.map((name, idx) => (
                   <span
                     key={idx}
-                    className="rounded-full bg-gradient-to-r from-slate-600 to-slate-700 px-4 py-1.5 text-sm font-semibold text-white shadow-md hover:from-slate-700 hover:to-slate-800 transition-all"
+                    className="rounded-full bg-gradient-to-r from-slate-600 to-slate-700 px-3 sm:px-4 py-1 sm:py-1.5 text-xs sm:text-sm font-semibold text-white shadow-md hover:from-slate-700 hover:to-slate-800 transition-all"
                   >
                     {name}
                   </span>
@@ -335,35 +335,35 @@ export default function NT2ProgressDashboard() {
             </div>
 
             {/* Attempts in this block */}
-            <div className="rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-5 shadow-md">
-              <p className={`mb-4 text-sm font-semibold text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            <div className="rounded-xl border-l-4 border-slate-500 bg-gradient-to-br from-slate-50 to-white p-3 sm:p-5 shadow-md">
+              <p className={`mb-3 sm:mb-4 text-xs sm:text-sm font-semibold text-slate-700 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                 {t('dashboard.attemptsInBlock')}:
               </p>
-              <div className="space-y-3">
+              <div className="space-y-2 sm:space-y-3">
                 {data.latestBlock.attempts.map((attempt, idx) => (
                   <div
                     key={attempt.id}
-                    className={`flex items-center ${locale === 'ar' ? 'flex-row-reverse' : ''} justify-between rounded-xl border-l-4 border-slate-300 bg-white px-4 py-3 shadow-sm hover:shadow-md transition-all hover:border-slate-400`}
+                    className={`flex flex-col sm:flex-row items-start sm:items-center ${locale === 'ar' ? 'sm:flex-row-reverse' : ''} gap-2 sm:gap-0 sm:justify-between rounded-xl border-l-4 border-slate-300 bg-white px-3 sm:px-4 py-2 sm:py-3 shadow-sm hover:shadow-md transition-all hover:border-slate-400`}
                   >
-                    <div className={`flex items-center gap-3 ${locale === 'ar' ? 'flex-row-reverse' : ''}`}>
-                      <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-slate-500 to-slate-600 text-white font-bold shadow-md">
+                    <div className={`flex items-center gap-2 sm:gap-3 w-full sm:w-auto ${locale === 'ar' ? 'flex-row-reverse' : ''}`}>
+                      <div className="flex h-8 w-8 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-gradient-to-br from-slate-500 to-slate-600 text-white font-bold shadow-md flex-shrink-0">
                         {idx + 1}
                       </div>
-                      <div className={locale === 'ar' ? 'text-right' : 'text-left'}>
-                        <p className="text-sm font-semibold text-gray-800">
+                      <div className={`flex-1 min-w-0 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+                        <p className="text-xs sm:text-sm font-semibold text-gray-800 truncate">
                           {attempt.modelTitle}
                         </p>
                         <p className="text-xs text-gray-500 mt-0.5">
                           {formatDate(attempt.date)}
                         </p>
-                        <p className="text-sm font-medium text-gray-700 mt-1">
+                        <p className="text-xs sm:text-sm font-medium text-gray-700 mt-1">
                           {attempt.correctAnswers}/12 {t('dashboard.correct')}
                         </p>
                       </div>
                     </div>
-                    <div className={locale === 'ar' ? 'text-left' : 'text-right'}>
+                    <div className={`flex-shrink-0 ${locale === 'ar' ? 'text-left' : 'text-right'}`}>
                       <p
-                        className={`text-lg font-bold ${
+                        className={`text-base sm:text-lg font-bold ${
                           attempt.passFailAttempt ? 'text-emerald-600' : 'text-rose-600'
                         }`}
                       >
@@ -383,8 +383,8 @@ export default function NT2ProgressDashboard() {
 
           {/* Previous Blocks - Compact View */}
           {data.blocks.length > 1 && (
-            <div className="space-y-4">
-              <h3 className={`text-lg font-semibold text-gray-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+            <div className="space-y-3 sm:space-y-4 mt-4 sm:mt-6">
+              <h3 className={`text-base sm:text-lg font-semibold text-gray-900 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                 {t('dashboard.previousBlocks')}
               </h3>
               {data.blocks
@@ -403,13 +403,13 @@ export default function NT2ProgressDashboard() {
                       {/* Clickable Header */}
                       <button
                         onClick={() => toggleBlock(block.blockIndex)}
-                        className={`w-full px-6 py-5 ${
+                        className={`w-full px-4 sm:px-6 py-3 sm:py-5 ${
                           block.passFail36
                             ? 'bg-gradient-to-br from-emerald-50 via-green-50 to-emerald-50'
                             : 'bg-gradient-to-br from-rose-50 via-red-50 to-rose-50'
                         } cursor-pointer transition-all hover:opacity-95`}
                       >
-                        <div className="flex items-center justify-between">
+                        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0">
                           {locale === 'ar' ? (
                             <>
                               <div className="text-left">
@@ -420,13 +420,13 @@ export default function NT2ProgressDashboard() {
                                   {formatDate(block.blockDate)}
                                 </p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 w-full sm:w-auto">
                                 <div className="text-right">
                                   <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
                                     {t('results.score')}
                                   </p>
                                   <p
-                                    className={`text-3xl font-bold ${
+                                    className={`text-2xl sm:text-3xl font-bold ${
                                       block.passFail36 ? 'text-emerald-600' : 'text-rose-600'
                                     }`}
                                   >
@@ -435,7 +435,7 @@ export default function NT2ProgressDashboard() {
                                 </div>
                                 <div className="flex items-center gap-2 flex-row-reverse">
                                   <p
-                                    className={`text-base font-semibold ${
+                                    className={`text-sm sm:text-base font-semibold ${
                                       block.passFail36 ? 'text-emerald-600' : 'text-rose-600'
                                     }`}
                                   >
@@ -444,16 +444,16 @@ export default function NT2ProgressDashboard() {
                                       : t('dashboard.gezakt')}
                                   </p>
                                   {block.passFail36 ? (
-                                    <CheckCircle2 className="h-6 w-6 text-emerald-600 shrink-0" />
+                                    <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-emerald-600 shrink-0" />
                                   ) : (
-                                    <XCircle className="h-6 w-6 text-rose-600 shrink-0" />
+                                    <XCircle className="h-5 w-5 sm:h-6 sm:w-6 text-rose-600 shrink-0" />
                                   )}
                                 </div>
-                                <div className="mr-2">
+                                <div className="mr-0 sm:mr-2 ml-auto sm:ml-0">
                                   {isExpanded ? (
-                                    <ChevronUp className="h-5 w-5 text-gray-600" />
+                                    <ChevronUp className="h-4 w-4 sm:h-5 sm:w-5 text-gray-600" />
                                   ) : (
-                                    <ChevronDown className="h-5 w-5 text-gray-600" />
+                                    <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5 text-gray-600" />
                                   )}
                                 </div>
                               </div>
@@ -468,13 +468,13 @@ export default function NT2ProgressDashboard() {
                                   {formatDate(block.blockDate)}
                                 </p>
                               </div>
-                              <div className="flex items-center gap-4">
+                              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 w-full sm:w-auto">
                                 <div className="text-right">
                                   <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">
                                     {t('results.score')}
                                   </p>
                                   <p
-                                    className={`text-3xl font-bold ${
+                                    className={`text-2xl sm:text-3xl font-bold ${
                                       block.passFail36 ? 'text-emerald-600' : 'text-rose-600'
                                     }`}
                                   >
@@ -483,12 +483,12 @@ export default function NT2ProgressDashboard() {
                                 </div>
                                 <div className="flex items-center gap-2">
                                   {block.passFail36 ? (
-                                    <CheckCircle2 className="h-6 w-6 text-emerald-600" />
+                                    <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6 text-emerald-600" />
                                   ) : (
-                                    <XCircle className="h-6 w-6 text-rose-600" />
+                                    <XCircle className="h-5 w-5 sm:h-6 sm:w-6 text-rose-600" />
                                   )}
                                   <p
-                                    className={`text-base font-semibold ${
+                                    className={`text-sm sm:text-base font-semibold ${
                                       block.passFail36 ? 'text-emerald-600' : 'text-rose-600'
                                     }`}
                                   >
@@ -497,11 +497,11 @@ export default function NT2ProgressDashboard() {
                                       : t('dashboard.gezakt')}
                                   </p>
                                 </div>
-                                <div className="ml-2">
+                                <div className="ml-auto sm:ml-2">
                                   {isExpanded ? (
-                                    <ChevronUp className="h-5 w-5 text-gray-600" />
+                                    <ChevronUp className="h-4 w-4 sm:h-5 sm:w-5 text-gray-600" />
                                   ) : (
-                                    <ChevronDown className="h-5 w-5 text-gray-600" />
+                                    <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5 text-gray-600" />
                                   )}
                                 </div>
                               </div>
@@ -512,9 +512,9 @@ export default function NT2ProgressDashboard() {
 
                       {/* Collapsible Content */}
                       {isExpanded && (
-                        <div className="p-4 bg-gradient-to-b from-white to-gray-50/50 border-t border-gray-200/60" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                        <div className="p-3 sm:p-4 bg-gradient-to-b from-white to-gray-50/50 border-t border-gray-200/60" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
                           {/* Main Stats Row */}
-                          <div className={`mb-4 grid gap-3 grid-cols-4 ${locale === 'ar' ? 'justify-items-end' : 'justify-items-start'}`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
+                          <div className={`mb-3 sm:mb-4 grid gap-2 sm:gap-3 grid-cols-2 md:grid-cols-4 ${locale === 'ar' ? 'justify-items-end' : 'justify-items-start'}`} style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
                             <div className="w-full rounded-xl bg-gradient-to-br from-slate-50 to-white p-4 shadow-md border-l-4 border-slate-500 hover:shadow-lg transition-all" style={locale === 'ar' ? { direction: 'rtl' } : { direction: 'ltr' }}>
                               <p className={`mb-2 text-xs font-semibold uppercase tracking-wide text-slate-600 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
                                 {t('dashboard.blockDate')}

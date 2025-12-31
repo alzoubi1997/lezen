@@ -227,8 +227,6 @@ export async function generateFullPDF(
 
   coverPage.drawText(`Score: ${review.scorePercent.toFixed(1)}%`, {
     x: isRTL ? width - 200 : 50,
-    y: coverTitleY - 20,
-    x: isRTL ? width - 200 : 50,
     y: height - 200,
     size: 18,
     font: font,
@@ -1208,8 +1206,6 @@ export async function generateQuestionsOnlyPDF(
 
   const titleText = locale === 'ar' ? 'الأسئلة فقط' : 'Vragen alleen'
   coverPage.drawText(titleText, {
-    x: isRTL ? width - 200 : 50,
-    y: coverTitleY - 20,
     x: isRTL ? width - 200 : 50,
     y: height - 200,
     size: 18,

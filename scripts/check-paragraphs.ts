@@ -10,14 +10,14 @@ const text = pack.texts[1]
 
 console.log(`Text: "${text.title}"\n`)
 console.log('Paragraphs:\n')
-const paragraphs = text.content.split(/\n\s*\n/).map(p => p.trim()).filter(p => p.length > 0)
-paragraphs.forEach((para, idx) => {
+const paragraphs = text.content.split(/\n\s*\n/).map((p: string) => p.trim()).filter((p: string) => p.length > 0)
+paragraphs.forEach((para: string, idx: number) => {
   console.log(`Paragraph ${idx}: ${para.substring(0, 100)}...`)
 })
 
 console.log('\n\nQuestions and their paragraph locations:\n')
-text.questions.forEach((q, idx) => {
-  const paraIndex = paragraphs.findIndex(p => p.includes(q.evidenceQuote))
+text.questions.forEach((q: any, idx: number) => {
+  const paraIndex = paragraphs.findIndex((p: string) => p.includes(q.evidenceQuote))
   console.log(`Question ${q.orderIndex} (displayed as ${q.orderIndex + 1}): "${q.promptNl.substring(0, 50)}..."`)
   console.log(`  EvidenceQuote: "${q.evidenceQuote.substring(0, 60)}..."`)
   console.log(`  Paragraph: ${paraIndex}`)

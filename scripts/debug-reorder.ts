@@ -13,14 +13,14 @@ console.log(`Text: "${text.title}"\n`)
 // Split paragraphs
 const paragraphs = text.content
   .split(/\n\s*\n/)
-  .map((p) => p.trim())
-  .filter((p) => p.length > 0)
+  .map((p: string) => p.trim())
+  .filter((p: string) => p.length > 0)
 
 console.log(`Total paragraphs: ${paragraphs.length}\n`)
 
 // Map questions to paragraphs
-const questionParaMap = text.questions.map((q) => {
-  const paraIndex = paragraphs.findIndex((p) => p.includes(q.evidenceQuote))
+const questionParaMap = text.questions.map((q: any) => {
+  const paraIndex = paragraphs.findIndex((p: string) => p.includes(q.evidenceQuote))
   return {
     orderIndex: q.orderIndex,
     prompt: q.promptNl.substring(0, 50),
@@ -30,7 +30,7 @@ const questionParaMap = text.questions.map((q) => {
 })
 
 console.log('Current question order and paragraph locations:')
-questionParaMap.forEach((q) => {
+questionParaMap.forEach((q: any) => {
   console.log(
     `  Question ${q.orderIndex + 1} (orderIndex ${q.orderIndex}): Paragraph ${q.paraIndex}`
   )

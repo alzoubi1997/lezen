@@ -52,18 +52,27 @@ export async function GET() {
     
     console.log(`[NT2 Progress] Exam attempts: ${examAttempts.length}, Practice attempts: ${practiceAttempts.length}`)
 
-    // Filter out duplicates: same practice number should only be counted once
-    // (unless we want to allow repeats - for now, we'll use the latest attempt per practice)
+    // For block creation: use only unique practices (one per practice number)
+    // But for display: show all attempts in incompleteBlock
+    // This allows users to see all their attempts while only counting unique practices for blocks
     const seenPractices = new Map<number, number>() // practice number -> index of latest attempt
     const uniquePracticeAttempts: typeof practiceAttempts = []
+    const allPracticeAttemptsForDisplay: typeof practiceAttempts = []
     
-    console.log(`[NT2 Progress] Processing ${practiceAttempts.length} practice attempts for deduplication`)
+    console.log(`[NT2 Progress] Processing ${practiceAttempts.length} practice attempts`)
     
-    for (let i = practiceAttempts.length - 1; i >= 0; i--) {
-      const attempt = practiceAttempts[i]
+    // Sort by date first
+    const sortedPracticeAttempts = [...practiceAttempts].sort((a, b) => {
+      if (!a.finishedAt || !b.finishedAt) return 0
+      return a.finishedAt.getTime() - b.finishedAt.getTime()
+    })
+    
+    // For block creation: keep only unique practices (latest attempt per practice)
+    for (let i = sortedPracticeAttempts.length - 1; i >= 0; i--) {
+      const attempt = sortedPracticeAttempts[i]
       const practiceNum = attempt.model?.number
       if (practiceNum === undefined || practiceNum === null) {
-        console.warn(`[NT2 Progress] Practice attempt ${attempt.id} has no model.number, skipping deduplication`)
+        console.warn(`[NT2 Progress] Practice attempt ${attempt.id} has no model.number`)
         uniquePracticeAttempts.unshift(attempt) // Include it anyway
         continue
       }
@@ -71,17 +80,14 @@ export async function GET() {
         seenPractices.set(practiceNum, i)
         uniquePracticeAttempts.unshift(attempt) // Add to front to maintain chronological order
       } else {
-        console.log(`[NT2 Progress] Duplicate practice ${practiceNum} found, using latest attempt`)
+        console.log(`[NT2 Progress] Duplicate practice ${practiceNum} found, using latest attempt for block creation`)
       }
     }
     
-    console.log(`[NT2 Progress] After deduplication: ${uniquePracticeAttempts.length} unique practice attempts`)
+    // For display: keep all attempts (including duplicates)
+    allPracticeAttemptsForDisplay.push(...sortedPracticeAttempts)
     
-    // Sort by date again after deduplication
-    uniquePracticeAttempts.sort((a, b) => {
-      if (!a.finishedAt || !b.finishedAt) return 0
-      return a.finishedAt.getTime() - b.finishedAt.getTime()
-    })
+    console.log(`[NT2 Progress] Unique practices for blocks: ${uniquePracticeAttempts.length}, All attempts for display: ${allPracticeAttemptsForDisplay.length}`)
 
     // Exams are already unique (each exam attempt counts)
     const uniqueExamAttempts = examAttempts
@@ -148,8 +154,11 @@ export async function GET() {
     console.log(`[NT2 Progress] Sorted attempts: ${allSortedAttempts.length} total (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
     console.log(`[NT2 Progress] Practice metrics: ${practiceMetrics.map(m => `${m.modelTitle} (${m.modelNumber})`).join(', ')}`)
 
-    // Track practices that haven't been grouped yet
+    // Track practices that haven't been grouped yet (for block creation)
     let practiceBuffer: AttemptMetrics[] = []
+    
+    // Track which practice numbers are already in blocks
+    const practiceNumbersInBlocks = new Set<number>()
 
     console.log(`[NT2 Progress] Processing ${allSortedAttempts.length} sorted attempts (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
 
@@ -160,6 +169,12 @@ export async function GET() {
           console.log(`[NT2 Progress] Creating practice block from buffer before exam`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
+          // Mark these practice numbers as used in blocks
+          practiceBuffer.forEach(p => {
+            if (p.modelNumber !== undefined) {
+              practiceNumbersInBlocks.add(p.modelNumber)
+            }
+          })
           prevBlock = block
           practiceBuffer = []
         } else if (practiceBuffer.length > 0) {
@@ -183,6 +198,12 @@ export async function GET() {
           console.log(`[NT2 Progress] Creating practice block from 3 practices: ${practiceBuffer.map(a => a.modelTitle).join(', ')}`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
+          // Mark these practice numbers as used in blocks
+          practiceBuffer.forEach(p => {
+            if (p.modelNumber !== undefined) {
+              practiceNumbersInBlocks.add(p.modelNumber)
+            }
+          })
           prevBlock = block
           practiceBuffer = []
         }
@@ -194,6 +215,38 @@ export async function GET() {
       console.log(`[NT2 Progress] Saving ${practiceBuffer.length} remaining incomplete practices`)
       incompleteBlock.push(...practiceBuffer)
     }
+
+    // Now add all practice attempts (including duplicates) that are not in blocks to incompleteBlock
+    // This allows users to see all their attempts even if they're duplicates
+    // Track which attempt IDs are already in incompleteBlock
+    const incompleteBlockAttemptIds = new Set(incompleteBlock.map(a => a.id))
+    
+    // Calculate metrics for all practice attempts (including duplicates) for display
+    for (const attempt of allPracticeAttemptsForDisplay) {
+      const practiceNum = attempt.model?.number
+      // Only add if this practice number is not already in a block
+      // AND this attempt is not already in incompleteBlock
+      if (practiceNum === undefined || !practiceNumbersInBlocks.has(practiceNum)) {
+        if (!incompleteBlockAttemptIds.has(attempt.id)) {
+          const metrics = calculateAttemptMetrics(
+            {
+              id: attempt.id,
+              finishedAt: attempt.finishedAt,
+              totalQuestions: attempt.totalQuestions,
+              correctCount: attempt.correctCount,
+              modelKind: attempt.model.kind,
+              modelNumber: attempt.model.number,
+              modelTitle: attempt.model.titleNl,
+            },
+            null // Don't track previous for display purposes
+          )
+          incompleteBlock.push(metrics)
+          incompleteBlockAttemptIds.add(attempt.id)
+        }
+      }
+    }
+    
+    console.log(`[NT2 Progress] Incomplete block now contains ${incompleteBlock.length} attempts (including duplicates)`)
 
     console.log(`[NT2 Progress] Final: ${blocks.length} blocks, ${incompleteBlock.length} incomplete practices`)
 

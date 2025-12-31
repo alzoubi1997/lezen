@@ -20,28 +20,40 @@ export default function NT2ProgressDashboard() {
   const [data, setData] = useState<NT2ProgressData | null>(null)
   const [loading, setLoading] = useState(true)
   const [expandedBlocks, setExpandedBlocks] = useState<Set<number>>(new Set())
+  const fetchingRef = useRef<Promise<void> | null>(null)
 
   useEffect(() => {
     fetchData()
   }, [])
 
   const fetchData = async () => {
-    try {
-      const res = await fetch('/api/dashboard/nt2-progress', {
-        cache: 'no-store',
-      })
-      if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`)
-      }
-      const data = await res.json()
-      console.log('[NT2 Progress] Fetched data:', data)
-      setData(data)
-    } catch (err) {
-      console.error('Failed to fetch NT2 progress:', err)
-      setData(null)
-    } finally {
-      setLoading(false)
+    // Request deduplication: if already fetching, return existing promise
+    if (fetchingRef.current) {
+      return fetchingRef.current
     }
+
+    const promise = (async () => {
+      try {
+        const res = await fetch('/api/dashboard/nt2-progress', {
+          cache: 'default', // Allow browser caching
+          next: { revalidate: 10 }, // Revalidate every 10 seconds
+        })
+        if (!res.ok) {
+          throw new Error(`HTTP error! status: ${res.status}`)
+        }
+        const data = await res.json()
+        setData(data)
+      } catch (err) {
+        console.error('Failed to fetch NT2 progress:', err)
+        setData(null)
+      } finally {
+        setLoading(false)
+        fetchingRef.current = null
+      }
+    })()
+
+    fetchingRef.current = promise
+    return promise
   }
 
   if (loading) {

@@ -11,7 +11,9 @@ import {
   type OverallStats,
 } from '@/lib/nt2-scoring'
 
+// Allow caching for better performance
 export const dynamic = 'force-dynamic'
+export const revalidate = 10 // Revalidate every 10 seconds
 
 export async function GET() {
   const user = await getCurrentUser()
@@ -37,20 +39,9 @@ export async function GET() {
       },
     })
 
-    // Debug logging
-    console.log(`[NT2 Progress] Total attempts fetched: ${allAttempts.length}`)
-    const attemptsByKind = allAttempts.reduce((acc, a) => {
-      const kind = a.model?.kind || 'UNKNOWN'
-      acc[kind] = (acc[kind] || 0) + 1
-      return acc
-    }, {} as Record<string, number>)
-    console.log(`[NT2 Progress] Attempts by kind:`, attemptsByKind)
-
     // Separate exams and practices
     const examAttempts = allAttempts.filter(a => a.model?.kind === 'EXAM')
     const practiceAttempts = allAttempts.filter(a => a.model?.kind === 'PRACTICE')
-    
-    console.log(`[NT2 Progress] Exam attempts: ${examAttempts.length}, Practice attempts: ${practiceAttempts.length}`)
 
     // For block creation: use only unique practices (one per practice number)
     // But for display: show all attempts in incompleteBlock
@@ -58,8 +49,6 @@ export async function GET() {
     const seenPractices = new Map<number, number>() // practice number -> index of latest attempt
     const uniquePracticeAttempts: typeof practiceAttempts = []
     const allPracticeAttemptsForDisplay: typeof practiceAttempts = []
-    
-    console.log(`[NT2 Progress] Processing ${practiceAttempts.length} practice attempts`)
     
     // Sort by date first
     const sortedPracticeAttempts = [...practiceAttempts].sort((a, b) => {
@@ -72,22 +61,17 @@ export async function GET() {
       const attempt = sortedPracticeAttempts[i]
       const practiceNum = attempt.model?.number
       if (practiceNum === undefined || practiceNum === null) {
-        console.warn(`[NT2 Progress] Practice attempt ${attempt.id} has no model.number`)
         uniquePracticeAttempts.unshift(attempt) // Include it anyway
         continue
       }
       if (!seenPractices.has(practiceNum)) {
         seenPractices.set(practiceNum, i)
         uniquePracticeAttempts.unshift(attempt) // Add to front to maintain chronological order
-      } else {
-        console.log(`[NT2 Progress] Duplicate practice ${practiceNum} found, using latest attempt for block creation`)
       }
     }
     
     // For display: keep all attempts (including duplicates)
     allPracticeAttemptsForDisplay.push(...sortedPracticeAttempts)
-    
-    console.log(`[NT2 Progress] Unique practices for blocks: ${uniquePracticeAttempts.length}, All attempts for display: ${allPracticeAttemptsForDisplay.length}`)
 
     // Exams are already unique (each exam attempt counts)
     const uniqueExamAttempts = examAttempts
@@ -151,22 +135,16 @@ export async function GET() {
       a.date.getTime() - b.date.getTime()
     )
 
-    console.log(`[NT2 Progress] Sorted attempts: ${allSortedAttempts.length} total (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
-    console.log(`[NT2 Progress] Practice metrics: ${practiceMetrics.map(m => `${m.modelTitle} (${m.modelNumber})`).join(', ')}`)
-
     // Track practices that haven't been grouped yet (for block creation)
     let practiceBuffer: AttemptMetrics[] = []
     
     // Track which practice numbers are already in blocks
     const practiceNumbersInBlocks = new Set<number>()
 
-    console.log(`[NT2 Progress] Processing ${allSortedAttempts.length} sorted attempts (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
-
     for (const attempt of allSortedAttempts) {
       if (attempt.modelKind === 'EXAM') {
         // First, try to complete any pending practice block
         if (practiceBuffer.length === 3) {
-          console.log(`[NT2 Progress] Creating practice block from buffer before exam`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
           // Mark these practice numbers as used in blocks
@@ -179,7 +157,6 @@ export async function GET() {
           practiceBuffer = []
         } else if (practiceBuffer.length > 0) {
           // Save incomplete practice block
-          console.log(`[NT2 Progress] Saving ${practiceBuffer.length} incomplete practices before exam`)
           incompleteBlock.push(...practiceBuffer)
           practiceBuffer = []
         }
@@ -191,11 +168,9 @@ export async function GET() {
       } else {
         // It's a practice - add to buffer
         practiceBuffer.push(attempt)
-        console.log(`[NT2 Progress] Added practice to buffer: ${attempt.modelTitle} (buffer size: ${practiceBuffer.length})`)
         
         // If we have 3 practices, create a block
         if (practiceBuffer.length === 3) {
-          console.log(`[NT2 Progress] Creating practice block from 3 practices: ${practiceBuffer.map(a => a.modelTitle).join(', ')}`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
           // Mark these practice numbers as used in blocks
@@ -212,7 +187,6 @@ export async function GET() {
 
     // Handle any remaining practices in buffer
     if (practiceBuffer.length > 0) {
-      console.log(`[NT2 Progress] Saving ${practiceBuffer.length} remaining incomplete practices`)
       incompleteBlock.push(...practiceBuffer)
     }
 
@@ -249,8 +223,6 @@ export async function GET() {
         incompleteBlockAttemptIds.add(attempt.id)
       }
     }
-    
-    console.log(`[NT2 Progress] Incomplete block now contains ${incompleteBlock.length} attempts (including duplicates)`)
 
     // CRITICAL: Check if incompleteBlock has exactly 3 unique practices - if so, create a block!
     // This ensures that if user has 3 different practices, they form a complete block
@@ -272,14 +244,11 @@ export async function GET() {
       }
     }
 
-    console.log(`[NT2 Progress] Unique practices in incompleteBlock: ${uniquePracticesInIncomplete.size}`)
-
     // If we have exactly 3 unique practices, create a block from them!
     if (uniquePracticesInIncomplete.size === 3) {
       const threePractices = Array.from(uniquePracticesInIncomplete.values()).sort((a, b) => 
         a.date.getTime() - b.date.getTime()
       )
-      console.log(`[NT2 Progress] ✨ Found 3 unique practices in incompleteBlock, creating block: ${threePractices.map(p => p.modelTitle).join(', ')}`)
       const block = calculateBlock36Metrics(threePractices, prevBlock)
       blocks.push(block)
       prevBlock = block
@@ -290,10 +259,7 @@ export async function GET() {
         const practiceNum = attempt.modelNumber
         return practiceNum === undefined || !practiceNumbersToRemove.has(practiceNum)
       })
-      console.log(`[NT2 Progress] Removed practices from incompleteBlock, now has ${incompleteBlock.length} attempts`)
     }
-
-    console.log(`[NT2 Progress] Final: ${blocks.length} blocks, ${incompleteBlock.length} incomplete practices`)
 
     // Layer 3: Calculate overall stats (simplified)
     // Only use complete blocks for average
@@ -316,25 +282,21 @@ export async function GET() {
       modelNumber: attempt.modelNumber,
     }))
 
-    // Debug logging for response
-    console.log(`[NT2 Progress] Response: blocks=${blocks.length}, incompleteBlock=${incompleteBlockFormatted.length}, totalAttempts=${allAttemptMetrics.length}`)
-    console.log(`[NT2 Progress] Practice attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'PRACTICE').length}`)
-    console.log(`[NT2 Progress] Exam attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'EXAM').length}`)
-    if (blocks.length > 0) {
-      console.log(`[NT2 Progress] Latest block: index=${latestBlock?.blockIndex}, date=${latestBlock?.blockDate}, score=${latestBlock?.yourPercent36}%, practices=${latestBlock?.practiceNames.join(', ')}`)
-    }
-    if (incompleteBlockFormatted.length > 0) {
-      console.log(`[NT2 Progress] Incomplete block practices: ${incompleteBlockFormatted.map(a => a.modelTitle).join(', ')}`)
-    }
-
-    return NextResponse.json({
-      attempts: allAttemptMetrics,
-      blocks,
-      latestBlock,
-      avgCompletedBlocks,
-      incompleteBlock: incompleteBlockFormatted,
-      totalAttempts: allAttemptMetrics.length,
-    })
+    return NextResponse.json(
+      {
+        attempts: allAttemptMetrics,
+        blocks,
+        latestBlock,
+        avgCompletedBlocks,
+        incompleteBlock: incompleteBlockFormatted,
+        totalAttempts: allAttemptMetrics.length,
+      },
+      {
+        headers: {
+          'Cache-Control': 'private, s-maxage=10, stale-while-revalidate=30',
+        },
+      }
+    )
   } catch (error) {
     console.error('Error fetching NT2 progress:', error)
     return NextResponse.json(

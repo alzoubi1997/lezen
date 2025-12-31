@@ -27,11 +27,18 @@ export default function NT2ProgressDashboard() {
 
   const fetchData = async () => {
     try {
-      const res = await fetch('/api/dashboard/nt2-progress')
+      const res = await fetch('/api/dashboard/nt2-progress', {
+        cache: 'no-store',
+      })
+      if (!res.ok) {
+        throw new Error(`HTTP error! status: ${res.status}`)
+      }
       const data = await res.json()
+      console.log('[NT2 Progress] Fetched data:', data)
       setData(data)
     } catch (err) {
       console.error('Failed to fetch NT2 progress:', err)
+      setData(null)
     } finally {
       setLoading(false)
     }
@@ -45,7 +52,18 @@ export default function NT2ProgressDashboard() {
     )
   }
 
-  if (!data || (data.attempts.length === 0 && (!data.incompleteBlock || data.incompleteBlock.length === 0))) {
+  if (!data) {
+    return (
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="text-center">
+          <p className="text-red-600 mb-2">{t('common.error') || 'Error loading data'}</p>
+          <p className="text-gray-600">{t('dashboard.noAttempts')}</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (data.attempts.length === 0 && (!data.incompleteBlock || data.incompleteBlock.length === 0)) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <p>{t('dashboard.noAttempts')}</p>

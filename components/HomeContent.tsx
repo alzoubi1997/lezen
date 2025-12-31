@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl'
 import { useRouter } from 'next/navigation'
 import { useState } from 'react'
-import { BookOpen, FileText, BarChart3 } from 'lucide-react'
+import { BookOpen, FileText, BarChart3, Share2, Check } from 'lucide-react'
 import VisitStats from './VisitStats'
 
 export default function HomeContent() {
@@ -11,6 +11,41 @@ export default function HomeContent() {
   const locale = useLocale() as 'nl' | 'ar'
   const router = useRouter()
   const [isTouched, setIsTouched] = useState(false)
+  const [shareSuccess, setShareSuccess] = useState(false)
+
+  const handleShare = async () => {
+    const shareData = {
+      title: t('home.shareTitle'),
+      text: t('home.shareText'),
+      url: window.location.href,
+    }
+
+    try {
+      // Check if Web Share API is supported
+      if (navigator.share && navigator.canShare && navigator.canShare(shareData)) {
+        await navigator.share(shareData)
+        setShareSuccess(true)
+        setTimeout(() => setShareSuccess(false), 2000)
+      } else {
+        // Fallback: Copy to clipboard
+        await navigator.clipboard.writeText(window.location.href)
+        setShareSuccess(true)
+        setTimeout(() => setShareSuccess(false), 2000)
+      }
+    } catch (error) {
+      // User cancelled or error occurred
+      if ((error as Error).name !== 'AbortError') {
+        // If not user cancellation, try fallback
+        try {
+          await navigator.clipboard.writeText(window.location.href)
+          setShareSuccess(true)
+          setTimeout(() => setShareSuccess(false), 2000)
+        } catch (clipboardError) {
+          console.error('Failed to share or copy:', clipboardError)
+        }
+      }
+    }
+  }
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -123,6 +158,28 @@ export default function HomeContent() {
           <span className="text-xl font-bold bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent">
             {t('home.dashboard')}
           </span>
+        </button>
+      </div>
+
+      <div className="mb-8">
+        <button
+          onClick={handleShare}
+          className="group relative w-full flex items-center justify-center gap-4 rounded-2xl border-2 border-pink-200/60 bg-gradient-to-br from-white via-pink-50/30 to-purple-50/30 px-8 py-6 shadow-lg transition-all hover:border-pink-400 hover:shadow-xl hover:scale-[1.01] overflow-hidden"
+        >
+          <div className="absolute -top-10 -right-10 w-48 h-48 bg-gradient-to-br from-pink-300/40 via-purple-300/30 to-transparent rounded-full blur-3xl group-hover:scale-150 transition-transform duration-500 -z-0"></div>
+          <div className="absolute -bottom-5 -left-5 w-32 h-32 bg-gradient-to-tr from-pink-200/30 to-transparent rounded-full blur-2xl group-hover:scale-125 transition-transform duration-500 -z-0"></div>
+          <div className={`rounded-2xl bg-gradient-to-br from-pink-100 to-purple-100 p-3 shadow-md group-hover:shadow-lg transition-all duration-300 ${shareSuccess ? 'scale-110 rotate-12' : 'group-hover:scale-110 group-hover:rotate-3'}`}>
+            {shareSuccess ? (
+              <Check className="h-7 w-7 text-green-600 transition-all duration-300" />
+            ) : (
+              <Share2 className="h-7 w-7 text-pink-600 group-hover:text-pink-700 transition-colors" />
+            )}
+          </div>
+          <span className={`text-xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent transition-all duration-300 ${shareSuccess ? 'scale-105' : ''}`}>
+            {shareSuccess ? t('home.shareSuccess') : t('home.share')}
+          </span>
+          <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-pink-600/0 via-purple-600/0 to-pink-600/0 group-hover:from-pink-600/12 group-hover:via-purple-600/12 group-hover:to-pink-600/12 transition-all duration-300 -z-0"></div>
+          <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
         </button>
       </div>
 

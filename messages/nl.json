@@ -42,7 +42,11 @@
     "last30Days": "Laatste 30 dagen",
     "totalSinceLaunch": "Totaal sinds lancering",
     "visits": "bezoeken",
-    "aiNotice": "Alle teksten op dit platform zijn met behulp van kunstmatige intelligentie gegenereerd en zorgvuldig afgestemd op het niveau van het officiële NT2-examen."
+    "aiNotice": "Alle teksten op dit platform zijn met behulp van kunstmatige intelligentie gegenereerd en zorgvuldig afgestemd op het niveau van het officiële NT2-examen.",
+    "share": "Delen",
+    "shareSuccess": "Gedeeld!",
+    "shareTitle": "NT2 Lezen Training",
+    "shareText": "Check deze geweldige NT2 leestraining platform uit!"
   },
   "models": {
     "title": "Modellen",

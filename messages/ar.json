@@ -42,7 +42,11 @@
     "last30Days": "آخر 30 يوم",
     "totalSinceLaunch": "الإجمالي منذ الإطلاق",
     "visits": "زيارة",
-    "aiNotice": "جميع النصوص على هذه المنصة تم إنشاؤها بمساعدة الذكاء الاصطناعي وتم ضبطها بعناية على مستوى <span style='white-space: nowrap; display: inline-block;'>امتحان <span dir='ltr' style='display: inline;'>NT2</span> الرسمي</span>."
+    "aiNotice": "جميع النصوص على هذه المنصة تم إنشاؤها بمساعدة الذكاء الاصطناعي وتم ضبطها بعناية على مستوى <span style='white-space: nowrap; display: inline-block;'>امتحان <span dir='ltr' style='display: inline;'>NT2</span> الرسمي</span>.",
+    "share": "مشاركة",
+    "shareSuccess": "تم المشاركة!",
+    "shareTitle": "تدريب القراءة NT2",
+    "shareText": "تحقق من منصة تدريب القراءة الرائعة NT2 هذه!"
   },
   "models": {
     "title": "النماذج",

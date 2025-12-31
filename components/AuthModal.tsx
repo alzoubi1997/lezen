@@ -82,14 +82,25 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
       if (!res.ok) {
         let errorMessage = 'Er is iets misgegaan'
+        let errorDetails = ''
         try {
           const data = await res.json()
           errorMessage = data.error || errorMessage
+          // Include additional details if available (for debugging)
+          if (data.details && process.env.NODE_ENV === 'development') {
+            errorDetails = ` (${data.details})`
+          }
         } catch (parseError) {
           // If JSON parsing fails, use status text
           errorMessage = res.statusText || errorMessage
+          console.error('Failed to parse error response:', parseError)
         }
-        setError(errorMessage)
+        console.error('Create profile failed:', {
+          status: res.status,
+          statusText: res.statusText,
+          error: errorMessage,
+        })
+        setError(errorMessage + errorDetails)
         setLoading(false)
         return
       }
@@ -121,14 +132,25 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
 
       if (!res.ok) {
         let errorMessage = t('auth.invalidCredentials')
+        let errorDetails = ''
         try {
           const data = await res.json()
           errorMessage = data.error || errorMessage
+          // Include additional details if available (for debugging)
+          if (data.details && process.env.NODE_ENV === 'development') {
+            errorDetails = ` (${data.details})`
+          }
         } catch (parseError) {
           // If JSON parsing fails, use status text
           errorMessage = res.statusText || errorMessage
+          console.error('Failed to parse error response:', parseError)
         }
-        setError(errorMessage)
+        console.error('Login failed:', {
+          status: res.status,
+          statusText: res.statusText,
+          error: errorMessage,
+        })
+        setError(errorMessage + errorDetails)
         setLoading(false)
         return
       }

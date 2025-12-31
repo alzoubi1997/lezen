@@ -1,16 +1,22 @@
 import { z } from 'zod'
 
 export const createProfileSchema = z.object({
-  prefix: z.preprocess(
-    (val) => {
-      if (typeof val === 'string') {
-        const trimmed = val.trim()
-        return trimmed.length >= 2 ? trimmed : undefined
+  prefix: z
+    .union([z.string(), z.undefined(), z.null()])
+    .transform((val) => {
+      // Handle empty strings, null, or undefined
+      if (!val || typeof val !== 'string') {
+        return undefined
       }
-      return val
-    },
-    z.string().min(2).max(10).optional()
-  ),
+      const trimmed = val.trim()
+      // Return undefined if less than 2 characters, otherwise return trimmed string
+      return trimmed.length >= 2 ? trimmed : undefined
+    })
+    .refine(
+      (val) => val === undefined || (typeof val === 'string' && val.length >= 2 && val.length <= 10),
+      { message: 'Prefix must be between 2 and 10 characters if provided' }
+    )
+    .optional(),
   pin: z.string().length(4).regex(/^\d{4}$/, 'PIN must be 4 digits'),
 })
 

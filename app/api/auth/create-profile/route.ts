@@ -7,24 +7,105 @@ import { createProfileSchema } from '@/lib/validations'
 export const dynamic = 'force-dynamic'
 
 export async function POST(request: NextRequest) {
-  try {
-    const body = await request.json()
-    const { prefix, pin } = createProfileSchema.parse(body)
-
-    const handle = generateHandle(prefix)
-    const pinHash = await hashPin(pin)
-
-    const user = await prisma.user.create({
-      data: {
-        handle,
-        pinHash,
-        locale: 'nl',
+  const startTime = Date.now()
+  console.log('[CREATE-PROFILE] Request received')
+  
+  // Check DATABASE_URL
+  if (!process.env.DATABASE_URL) {
+    console.error('[CREATE-PROFILE] DATABASE_URL is not set')
+    return NextResponse.json(
+      { 
+        error: 'Database configuration error. Please contact support.',
+        details: 'DATABASE_URL environment variable is missing'
       },
+      { status: 503 }
+    )
+  }
+  
+  try {
+    // Log request body
+    const body = await request.json()
+    console.log('[CREATE-PROFILE] Request body:', {
+      prefix: body.prefix,
+      prefixType: typeof body.prefix,
+      prefixLength: body.prefix?.length,
+      pin: '***', // Don't log actual PIN
+      pinLength: body.pin?.length,
     })
+    
+    // Validate input
+    console.log('[CREATE-PROFILE] Validating input...')
+    let validatedData
+    try {
+      validatedData = createProfileSchema.parse(body)
+      console.log('[CREATE-PROFILE] Validation passed:', {
+        prefix: validatedData.prefix,
+        prefixType: typeof validatedData.prefix,
+        pinLength: validatedData.pin?.length,
+      })
+    } catch (validationError: any) {
+      console.error('[CREATE-PROFILE] Validation failed:', {
+        error: validationError.name,
+        errors: validationError.errors,
+        receivedBody: body,
+      })
+      throw validationError
+    }
+    
+    const { prefix, pin } = validatedData
+
+    // Generate handle
+    console.log('[CREATE-PROFILE] Generating handle with prefix:', prefix)
+    const handle = generateHandle(prefix)
+    console.log('[CREATE-PROFILE] Generated handle:', handle)
+    
+    // Hash PIN
+    console.log('[CREATE-PROFILE] Hashing PIN...')
+    const pinHash = await hashPin(pin)
+    console.log('[CREATE-PROFILE] PIN hashed successfully')
+
+    // Check database connection
+    console.log('[CREATE-PROFILE] Checking database connection...')
+    try {
+      await prisma.$connect()
+      console.log('[CREATE-PROFILE] Database connected')
+    } catch (dbError: any) {
+      console.error('[CREATE-PROFILE] Database connection failed:', {
+        code: dbError.code,
+        message: dbError.message,
+      })
+      throw dbError
+    }
+
+    // Create user
+    console.log('[CREATE-PROFILE] Creating user in database...')
+    let user
+    try {
+      user = await prisma.user.create({
+        data: {
+          handle,
+          pinHash,
+          locale: 'nl',
+        },
+      })
+      console.log('[CREATE-PROFILE] User created successfully:', {
+        id: user.id,
+        handle: user.handle,
+      })
+    } catch (dbError: any) {
+      console.error('[CREATE-PROFILE] Database operation failed:', {
+        code: dbError.code,
+        message: dbError.message,
+        meta: dbError.meta,
+      })
+      throw dbError
+    }
 
     // Create session
+    console.log('[CREATE-PROFILE] Creating session...')
     const { createSession } = await import('@/lib/auth')
     const token = await createSession(user.id)
+    console.log('[CREATE-PROFILE] Session created successfully')
 
     const response = NextResponse.json(
       { handle: user.handle },
@@ -38,13 +119,18 @@ export async function POST(request: NextRequest) {
       maxAge: 60 * 60 * 24 * 30, // 30 days
     })
 
+    const duration = Date.now() - startTime
+    console.log(`[CREATE-PROFILE] Success - Completed in ${duration}ms`)
     return response
   } catch (error: any) {
-    console.error('Create profile error:', {
+    const duration = Date.now() - startTime
+    console.error(`[CREATE-PROFILE] Error after ${duration}ms:`, {
       name: error.name,
       message: error.message,
       code: error.code,
-      stack: error.stack,
+      stack: process.env.NODE_ENV === 'development' ? error.stack : undefined,
+      meta: error.meta,
+      cause: error.cause,
     })
     
     if (error.name === 'ZodError') {

@@ -3,6 +3,8 @@
 import { useState, useEffect } from 'react'
 import AuthModal from '@/components/AuthModal'
 
+export const dynamic = 'force-dynamic'
+
 export default function AuthPage() {
   const [isOpen, setIsOpen] = useState(true)
   const [mounted, setMounted] = useState(false)

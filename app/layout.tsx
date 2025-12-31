@@ -21,6 +21,8 @@ export const metadata: Metadata = {
   description: 'Bilingual Dutch NT2 Lezen exam training app',
 }
 
+export const dynamic = 'force-dynamic'
+
 export default async function RootLayout({
   children,
 }: {
@@ -39,7 +41,7 @@ export default async function RootLayout({
       locale = 'nl'
     }
   } catch (e) {
-    console.error('Error reading cookies:', e)
+    // During build, cookies() will throw - use default
     locale = 'nl'
   }
 

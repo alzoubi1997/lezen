@@ -15,8 +15,8 @@ export async function POST(request: NextRequest) {
     console.error('[CREATE-PROFILE] DATABASE_URL is not set')
     return NextResponse.json(
       { 
-        error: 'Database configuration error. Please contact support.',
-        details: 'DATABASE_URL environment variable is missing'
+        error: 'Database niet geconfigureerd. Voeg DATABASE_URL toe in Vercel Environment Variables.',
+        details: 'Ga naar Vercel Dashboard → Settings → Environment Variables → Voeg DATABASE_URL toe'
       },
       { status: 503 }
     )

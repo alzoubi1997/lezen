@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { createPortal } from 'react-dom'
 import { useTranslations } from 'next-intl'
 import { useRouter } from 'next/navigation'
 import { X } from 'lucide-react'
@@ -40,9 +41,14 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [createdHandle, setCreatedHandle] = useState('')
+  const [mounted, setMounted] = useState(false)
 
   // Get translations - hook must be called unconditionally
   const t = useTranslations()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     // Prevent body scroll when modal is open
@@ -58,7 +64,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
     }
   }, [isOpen])
 
-  if (!isOpen) {
+  if (!isOpen || !mounted) {
     return null
   }
 
@@ -74,19 +80,29 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
         body: JSON.stringify({ prefix, pin }),
       })
 
-      const data = await res.json()
-
       if (!res.ok) {
-        setError(data.error || 'Er is iets misgegaan')
+        let errorMessage = 'Er is iets misgegaan'
+        try {
+          const data = await res.json()
+          errorMessage = data.error || errorMessage
+        } catch (parseError) {
+          // If JSON parsing fails, use status text
+          errorMessage = res.statusText || errorMessage
+        }
+        setError(errorMessage)
         setLoading(false)
         return
       }
 
+      const data = await res.json()
       setCreatedHandle(data.handle)
       setLoading(false)
-    } catch (err) {
+    } catch (err: any) {
       console.error('Create profile fetch error:', err)
-      setError('Er is iets misgegaan. Controleer de console voor details.')
+      const errorMsg = err.message?.includes('fetch') 
+        ? 'Netwerkfout. Controleer uw internetverbinding.'
+        : 'Er is iets misgegaan. Controleer de console voor details.'
+      setError(errorMsg)
       setLoading(false)
     }
   }
@@ -103,20 +119,31 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
         body: JSON.stringify({ handle, pin }),
       })
 
-      const data = await res.json()
-
       if (!res.ok) {
-        setError(data.error || t('auth.invalidCredentials'))
+        let errorMessage = t('auth.invalidCredentials')
+        try {
+          const data = await res.json()
+          errorMessage = data.error || errorMessage
+        } catch (parseError) {
+          // If JSON parsing fails, use status text
+          errorMessage = res.statusText || errorMessage
+        }
+        setError(errorMessage)
         setLoading(false)
         return
       }
 
+      const data = await res.json()
+      
       // Success - redirect to home page
       onClose()
       window.location.href = '/'
-    } catch (err) {
+    } catch (err: any) {
       console.error('Login fetch error:', err)
-      setError('Er is iets misgegaan. Controleer de console voor details.')
+      const errorMsg = err.message?.includes('fetch') 
+        ? 'Netwerkfout. Controleer uw internetverbinding.'
+        : 'Er is iets misgegaan. Controleer de console voor details.'
+      setError(errorMsg)
       setLoading(false)
     }
   }
@@ -126,7 +153,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
   }
 
   const modalContent = createdHandle ? (
-    <div data-auth-modal className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" style={{position:'fixed',top:0,left:0,right:0,bottom:0,zIndex:50,backgroundColor:'rgba(0,0,0,0.5)'}}>
+    <div data-auth-modal className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
       <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-4 text-xl font-bold">{t('auth.profileCreated')}</h2>
         <p className="mb-2 text-sm text-gray-600">{t('auth.saveHandle')}</p>
@@ -154,8 +181,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
       </div>
     </div>
   ) : (
-    <div data-auth-modal className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" style={{position:'fixed',top:0,left:0,right:0,bottom:0,zIndex:50,backgroundColor:'rgba(0,0,0,0.5)'}}>
-      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl" style={{backgroundColor:'white'}}>
+    <div data-auth-modal className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
         <div className="mb-4 flex items-center justify-between">
           <h2 className="text-xl font-bold">
             {mode === 'create'
@@ -288,5 +315,10 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
     </div>
   )
 
-  return modalContent
+  // Use portal to render modal to document.body to avoid DOM manipulation issues
+  if (typeof document !== 'undefined') {
+    return createPortal(modalContent, document.body)
+  }
+  
+  return null
 }

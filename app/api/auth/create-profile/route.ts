@@ -40,9 +40,15 @@ export async function POST(request: NextRequest) {
 
     return response
   } catch (error: any) {
-    console.error('Create profile error:', error)
+    console.error('Create profile error:', {
+      name: error.name,
+      message: error.message,
+      code: error.code,
+      stack: error.stack,
+    })
     
     if (error.name === 'ZodError') {
+      console.error('Validation error:', error.errors)
       return NextResponse.json(
         { error: 'Ongeldige gegevens' },
         { status: 400 }
@@ -58,7 +64,8 @@ export async function POST(request: NextRequest) {
     }
 
     // Handle database connection errors
-    if (error.code === 'P1001' || error.message?.includes('Can\'t reach database')) {
+    if (error.code === 'P1001' || error.message?.includes('Can\'t reach database') || error.message?.includes('connect')) {
+      console.error('Database connection error:', error.message)
       return NextResponse.json(
         { error: 'Database verbinding mislukt. Controleer de database instellingen.' },
         { status: 503 }

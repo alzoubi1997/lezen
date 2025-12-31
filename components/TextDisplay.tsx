@@ -16,7 +16,7 @@ export default function TextDisplay({
   highlightEvidence = false,
   highlightedQuestionId = null,
 }: TextDisplayProps) {
-  const evidenceRefs = useRef<Map<string, HTMLMarkElement>>(new Map())
+  const evidenceRefs = useRef<Map<string, HTMLElement>>(new Map())
 
   // Scroll to highlighted evidence when it changes
   useEffect(() => {
@@ -30,12 +30,12 @@ export default function TextDisplay({
           
           // Method 2: Try querySelector by ID
           if (!evidenceElement) {
-            evidenceElement = document.querySelector(`#evidence-${highlightedQuestionId}`) as HTMLMarkElement
+            evidenceElement = document.querySelector(`#evidence-${highlightedQuestionId}`) as HTMLElement
           }
           
           // Method 3: Try querySelector by data attribute
           if (!evidenceElement) {
-            evidenceElement = document.querySelector(`[data-question-id="${highlightedQuestionId}"]`) as HTMLMarkElement
+            evidenceElement = document.querySelector(`[data-question-id="${highlightedQuestionId}"]`) as HTMLElement
           }
           
           if (evidenceElement) {

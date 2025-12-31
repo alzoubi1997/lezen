@@ -6,10 +6,9 @@ generator client {
 }
 
 datasource db {
-  // For local development: use "sqlite" with DATABASE_URL="file:./dev.db"
-  // For production (Vercel): use "postgresql" with DATABASE_URL pointing to PostgreSQL
-  // Change provider based on your environment
-  provider = "sqlite"  // Change to "postgresql" for production
+  // Using PostgreSQL for production (Vercel)
+  // For local development, you can temporarily change to "sqlite" with DATABASE_URL="file:./dev.db"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 

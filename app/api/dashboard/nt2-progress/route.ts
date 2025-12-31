@@ -148,16 +148,20 @@ export async function GET() {
     // Track practices that haven't been grouped yet
     let practiceBuffer: AttemptMetrics[] = []
 
+    console.log(`[NT2 Progress] Processing ${allSortedAttempts.length} sorted attempts (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
+
     for (const attempt of allSortedAttempts) {
       if (attempt.modelKind === 'EXAM') {
         // First, try to complete any pending practice block
         if (practiceBuffer.length === 3) {
+          console.log(`[NT2 Progress] Creating practice block from buffer before exam`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
           prevBlock = block
           practiceBuffer = []
         } else if (practiceBuffer.length > 0) {
           // Save incomplete practice block
+          console.log(`[NT2 Progress] Saving ${practiceBuffer.length} incomplete practices before exam`)
           incompleteBlock.push(...practiceBuffer)
           practiceBuffer = []
         }
@@ -169,9 +173,11 @@ export async function GET() {
       } else {
         // It's a practice - add to buffer
         practiceBuffer.push(attempt)
+        console.log(`[NT2 Progress] Added practice to buffer: ${attempt.modelTitle} (buffer size: ${practiceBuffer.length})`)
         
         // If we have 3 practices, create a block
         if (practiceBuffer.length === 3) {
+          console.log(`[NT2 Progress] Creating practice block from 3 practices: ${practiceBuffer.map(a => a.modelTitle).join(', ')}`)
           const block = calculateBlock36Metrics(practiceBuffer, prevBlock)
           blocks.push(block)
           prevBlock = block
@@ -182,8 +188,11 @@ export async function GET() {
 
     // Handle any remaining practices in buffer
     if (practiceBuffer.length > 0) {
+      console.log(`[NT2 Progress] Saving ${practiceBuffer.length} remaining incomplete practices`)
       incompleteBlock.push(...practiceBuffer)
     }
+
+    console.log(`[NT2 Progress] Final: ${blocks.length} blocks, ${incompleteBlock.length} incomplete practices`)
 
     // Layer 3: Calculate overall stats (simplified)
     // Only use complete blocks for average

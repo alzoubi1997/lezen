@@ -57,14 +57,25 @@ export async function GET() {
     const seenPractices = new Map<number, number>() // practice number -> index of latest attempt
     const uniquePracticeAttempts: typeof practiceAttempts = []
     
+    console.log(`[NT2 Progress] Processing ${practiceAttempts.length} practice attempts for deduplication`)
+    
     for (let i = practiceAttempts.length - 1; i >= 0; i--) {
       const attempt = practiceAttempts[i]
-      const practiceNum = attempt.model.number
+      const practiceNum = attempt.model?.number
+      if (practiceNum === undefined || practiceNum === null) {
+        console.warn(`[NT2 Progress] Practice attempt ${attempt.id} has no model.number, skipping deduplication`)
+        uniquePracticeAttempts.unshift(attempt) // Include it anyway
+        continue
+      }
       if (!seenPractices.has(practiceNum)) {
         seenPractices.set(practiceNum, i)
         uniquePracticeAttempts.unshift(attempt) // Add to front to maintain chronological order
+      } else {
+        console.log(`[NT2 Progress] Duplicate practice ${practiceNum} found, using latest attempt`)
       }
     }
+    
+    console.log(`[NT2 Progress] After deduplication: ${uniquePracticeAttempts.length} unique practice attempts`)
     
     // Sort by date again after deduplication
     uniquePracticeAttempts.sort((a, b) => {

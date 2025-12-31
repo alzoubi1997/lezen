@@ -252,6 +252,47 @@ export async function GET() {
     
     console.log(`[NT2 Progress] Incomplete block now contains ${incompleteBlock.length} attempts (including duplicates)`)
 
+    // CRITICAL: Check if incompleteBlock has exactly 3 unique practices - if so, create a block!
+    // This ensures that if user has 3 different practices, they form a complete block
+    // Get unique practices from incompleteBlock (by practice number, using latest attempt per practice)
+    const uniquePracticesInIncomplete = new Map<number, AttemptMetrics>()
+    for (const attempt of incompleteBlock) {
+      const practiceNum = attempt.modelNumber
+      if (practiceNum !== undefined) {
+        // Keep the latest attempt for each practice number
+        if (!uniquePracticesInIncomplete.has(practiceNum)) {
+          uniquePracticesInIncomplete.set(practiceNum, attempt)
+        } else {
+          const existing = uniquePracticesInIncomplete.get(practiceNum)!
+          // Keep the one with the latest date
+          if (attempt.date > existing.date) {
+            uniquePracticesInIncomplete.set(practiceNum, attempt)
+          }
+        }
+      }
+    }
+
+    console.log(`[NT2 Progress] Unique practices in incompleteBlock: ${uniquePracticesInIncomplete.size}`)
+
+    // If we have exactly 3 unique practices, create a block from them!
+    if (uniquePracticesInIncomplete.size === 3) {
+      const threePractices = Array.from(uniquePracticesInIncomplete.values()).sort((a, b) => 
+        a.date.getTime() - b.date.getTime()
+      )
+      console.log(`[NT2 Progress] ✨ Found 3 unique practices in incompleteBlock, creating block: ${threePractices.map(p => p.modelTitle).join(', ')}`)
+      const block = calculateBlock36Metrics(threePractices, prevBlock)
+      blocks.push(block)
+      prevBlock = block
+      
+      // Remove these practices from incompleteBlock (keep only duplicates or other practices)
+      const practiceNumbersToRemove = new Set(threePractices.map(p => p.modelNumber).filter(n => n !== undefined) as number[])
+      incompleteBlock = incompleteBlock.filter(attempt => {
+        const practiceNum = attempt.modelNumber
+        return practiceNum === undefined || !practiceNumbersToRemove.has(practiceNum)
+      })
+      console.log(`[NT2 Progress] Removed practices from incompleteBlock, now has ${incompleteBlock.length} attempts`)
+    }
+
     console.log(`[NT2 Progress] Final: ${blocks.length} blocks, ${incompleteBlock.length} incomplete practices`)
 
     // Layer 3: Calculate overall stats (simplified)

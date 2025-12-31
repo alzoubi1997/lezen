@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { type Block36Metrics } from '@/lib/nt2-scoring'
 import { CheckCircle2, XCircle, ChevronDown, ChevronUp } from 'lucide-react'

@@ -7,8 +7,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
   let locale: 'nl' | 'ar' = 'nl'
   
   // If requestLocale is provided (from headers), use it
-  if (requestLocale && (requestLocale === 'nl' || requestLocale === 'ar')) {
-    locale = requestLocale as 'nl' | 'ar'
+  // requestLocale is a Promise, so we need to await it
+  const resolvedLocale = requestLocale ? await requestLocale : null
+  if (resolvedLocale && (resolvedLocale === 'nl' || resolvedLocale === 'ar')) {
+    locale = resolvedLocale
   } else {
     try {
       // Only try to access cookies if we're in a request context (not during build)

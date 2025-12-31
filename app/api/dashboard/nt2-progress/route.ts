@@ -143,7 +143,7 @@ export async function GET() {
     // - Each exam = 1 block (exams already have 36 questions)
     // - 3 practices = 1 block (3 × 12 = 36 questions)
     const blocks: Block36Metrics[] = []
-    const incompleteBlock: AttemptMetrics[] = []
+    let incompleteBlock: AttemptMetrics[] = []
     let prevBlock: Block36Metrics | null = null
 
     // Process all attempts chronologically, interleaving practices and exams

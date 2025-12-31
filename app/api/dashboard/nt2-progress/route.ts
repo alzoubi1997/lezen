@@ -145,6 +145,9 @@ export async function GET() {
       a.date.getTime() - b.date.getTime()
     )
 
+    console.log(`[NT2 Progress] Sorted attempts: ${allSortedAttempts.length} total (${practiceMetrics.length} practices, ${examMetrics.length} exams)`)
+    console.log(`[NT2 Progress] Practice metrics: ${practiceMetrics.map(m => `${m.modelTitle} (${m.modelNumber})`).join(', ')}`)
+
     // Track practices that haven't been grouped yet
     let practiceBuffer: AttemptMetrics[] = []
 
@@ -219,6 +222,12 @@ export async function GET() {
     console.log(`[NT2 Progress] Response: blocks=${blocks.length}, incompleteBlock=${incompleteBlockFormatted.length}, totalAttempts=${allAttemptMetrics.length}`)
     console.log(`[NT2 Progress] Practice attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'PRACTICE').length}`)
     console.log(`[NT2 Progress] Exam attempts in allAttemptMetrics: ${allAttemptMetrics.filter(a => a.modelKind === 'EXAM').length}`)
+    if (blocks.length > 0) {
+      console.log(`[NT2 Progress] Latest block: index=${latestBlock?.blockIndex}, date=${latestBlock?.blockDate}, score=${latestBlock?.yourPercent36}%, practices=${latestBlock?.practiceNames.join(', ')}`)
+    }
+    if (incompleteBlockFormatted.length > 0) {
+      console.log(`[NT2 Progress] Incomplete block practices: ${incompleteBlockFormatted.map(a => a.modelTitle).join(', ')}`)
+    }
 
     return NextResponse.json({
       attempts: allAttemptMetrics,

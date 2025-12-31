@@ -395,83 +395,89 @@ export default function DashboardContent() {
               return (
                 <div
                   key={attempt.id}
-                  className="group relative w-full overflow-hidden rounded-2xl border-2 bg-white p-5 shadow-md transition-all hover:shadow-xl hover:scale-[1.01]"
+                  className="group relative w-full overflow-visible rounded-2xl border-2 bg-white p-5 shadow-md transition-all hover:shadow-xl hover:scale-[1.01]"
                   style={{
                     borderLeft: `4px solid ${isPass ? '#10b981' : '#ef4444'}`,
                     borderColor: isPass ? '#d1fae5' : '#fee2e2',
                   }}
                 >
-                  <button
-                    onClick={() => {
-                      const url = `/attempt/${attempt.id}/results`
-                      router.prefetch(url)
-                      router.push(url)
-                    }}
-                    className="w-full text-left"
-                  >
-                    <div className="flex items-start justify-between gap-4 pr-8">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-3">
-                        <div
-                          className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl shadow-sm ${
-                            isPass
-                              ? 'bg-gradient-to-br from-emerald-100 to-green-200 text-emerald-700'
-                              : 'bg-gradient-to-br from-rose-100 to-red-200 text-rose-700'
-                          }`}
-                        >
-                          {isPass ? (
-                            <CheckCircle2 className="h-6 w-6" />
-                          ) : (
-                            <XCircle className="h-6 w-6" />
+                  <div className="flex items-start gap-3">
+                    <button
+                      onClick={() => {
+                        const url = `/attempt/${attempt.id}/results`
+                        router.prefetch(url)
+                        router.push(url)
+                      }}
+                      className="flex-1 text-left"
+                    >
+                      <div className="flex items-start justify-between gap-4">
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-3">
+                            <div
+                              className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl shadow-sm ${
+                                isPass
+                                  ? 'bg-gradient-to-br from-emerald-100 to-green-200 text-emerald-700'
+                                  : 'bg-gradient-to-br from-rose-100 to-red-200 text-rose-700'
+                              }`}
+                            >
+                              {isPass ? (
+                                <CheckCircle2 className="h-6 w-6" />
+                              ) : (
+                                <XCircle className="h-6 w-6" />
+                              )}
+                            </div>
+                            <div className="min-w-0 flex-1">
+                              <p className="text-xs font-semibold text-gray-500 mb-1">
+                                {new Date(attempt.finishedAt).toLocaleDateString()}
+                              </p>
+                              <p className="text-base font-bold text-gray-900 truncate">
+                                {attempt.modelTitle}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="flex flex-col items-end gap-2 shrink-0">
+                          <p
+                            className={`text-3xl font-bold ${
+                              isPass ? 'text-emerald-600' : 'text-rose-600'
+                            }`}
+                          >
+                            {attempt.score.toFixed(1)}%
+                          </p>
+                          <div
+                            className={`rounded-full px-4 py-1.5 text-xs font-bold shadow-sm ${
+                              isPass
+                                ? 'bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-700'
+                                : 'bg-gradient-to-r from-rose-100 to-red-100 text-rose-700'
+                            }`}
+                          >
+                            {isPass ? t('dashboard.geslaagd') : t('dashboard.gezakt')}
+                          </div>
+                          {!isPass && (
+                            <p className="mt-1 text-xs font-medium text-gray-500">
+                              {t('dashboard.requiredToPass')} {requiredPassPercent.toFixed(2)}%
+                            </p>
                           )}
                         </div>
-                        <div>
-                          <p className="text-xs font-semibold text-gray-500 mb-1">
-                            {new Date(attempt.finishedAt).toLocaleDateString()}
-                          </p>
-                          <p className="text-base font-bold text-gray-900">
-                            {attempt.modelTitle}
-                          </p>
-                        </div>
                       </div>
-                    </div>
-                    <div className="flex flex-col items-end gap-2">
-                      <p
-                        className={`text-3xl font-bold ${
-                          isPass ? 'text-emerald-600' : 'text-rose-600'
-                        }`}
-                      >
-                        {attempt.score.toFixed(1)}%
-                      </p>
-                      <div
-                        className={`rounded-full px-4 py-1.5 text-xs font-bold shadow-sm ${
-                          isPass
-                            ? 'bg-gradient-to-r from-emerald-100 to-green-100 text-emerald-700'
-                            : 'bg-gradient-to-r from-rose-100 to-red-100 text-rose-700'
-                        }`}
-                      >
-                        {isPass ? t('dashboard.geslaagd') : t('dashboard.gezakt')}
-                      </div>
-                      {!isPass && (
-                        <p className="mt-1 text-xs font-medium text-gray-500">
-                          {t('dashboard.requiredToPass')} {requiredPassPercent.toFixed(2)}%
-                        </p>
+                    </button>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        handleDeleteAttempt(attempt.id, e)
+                      }}
+                      disabled={deletingAttemptId === attempt.id}
+                      className="flex-shrink-0 h-12 w-12 flex items-center justify-center rounded-xl bg-red-500 text-white shadow-lg transition-all hover:bg-red-600 hover:shadow-xl active:scale-95 disabled:cursor-not-allowed disabled:opacity-50 touch-manipulation"
+                      title={t('dashboard.deleteAttempt')}
+                      aria-label={t('dashboard.deleteAttempt')}
+                    >
+                      {deletingAttemptId === attempt.id ? (
+                        <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
+                      ) : (
+                        <X className="h-6 w-6" />
                       )}
-                    </div>
+                    </button>
                   </div>
-                </button>
-                  <button
-                    onClick={(e) => handleDeleteAttempt(attempt.id, e)}
-                    disabled={deletingAttemptId === attempt.id}
-                    className="absolute top-4 right-4 flex h-8 w-8 items-center justify-center rounded-lg bg-red-50 text-red-600 opacity-0 transition-all hover:bg-red-100 hover:shadow-md group-hover:opacity-100 disabled:cursor-not-allowed disabled:opacity-50"
-                    title={t('dashboard.deleteAttempt')}
-                  >
-                    {deletingAttemptId === attempt.id ? (
-                      <div className="h-4 w-4 animate-spin rounded-full border-2 border-red-600 border-t-transparent"></div>
-                    ) : (
-                      <X className="h-4 w-4" />
-                    )}
-                  </button>
                 </div>
               )
             })}

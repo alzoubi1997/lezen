@@ -8,20 +8,32 @@ export async function GET() {
     const now = new Date()
     const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000)
 
-    // Get total visits since launch
-    const totalVisits = await prisma.visit.count()
-
-    // Get visits in last 30 days
-    const visitsLast30Days = await prisma.visit.count({
-      where: {
-        createdAt: {
-          gte: thirtyDaysAgo,
+    // Run both queries in parallel for better performance
+    const [totalVisits, visitsLast30Days] = await Promise.all([
+      prisma.visit.count(),
+      prisma.visit.count({
+        where: {
+          createdAt: {
+            gte: thirtyDaysAgo,
+          },
         },
-      },
-    })
+      }),
+    ])
+
+    // Ensure totalVisits is always >= visitsLast30Days (logical consistency)
+    // This prevents display issues where total appears less than a subset
+    // This can happen due to race conditions, timezone issues, or data inconsistencies
+    const correctedTotalVisits = Math.max(totalVisits, visitsLast30Days)
+
+    // Log if correction was needed for debugging
+    if (correctedTotalVisits !== totalVisits) {
+      console.warn(
+        `Visit stats correction: totalVisits (${totalVisits}) was less than visitsLast30Days (${visitsLast30Days}), corrected to ${correctedTotalVisits}`
+      )
+    }
 
     return NextResponse.json({
-      totalVisits,
+      totalVisits: correctedTotalVisits,
       visitsLast30Days,
     })
   } catch (error) {

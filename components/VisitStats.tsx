@@ -16,11 +16,22 @@ export default function VisitStats() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Record this visit
-    fetch('/api/visits/record', { method: 'POST' }).catch(console.error)
-
-    // Fetch visit statistics
-    fetch('/api/visits/stats')
+    // Record this visit first, then fetch stats after a short delay
+    // to ensure the visit is saved before counting
+    fetch('/api/visits/record', { method: 'POST' })
+      .then(() => {
+        // Small delay to ensure visit is committed to database
+        return new Promise(resolve => setTimeout(resolve, 100))
+      })
+      .then(() => {
+        // Fetch visit statistics with cache-busting
+        return fetch('/api/visits/stats', {
+          cache: 'no-store',
+          headers: {
+            'Cache-Control': 'no-cache',
+          },
+        })
+      })
       .then((res) => res.json())
       .then((data) => {
         setStats(data)

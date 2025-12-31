@@ -45,7 +45,7 @@ export default function NT2ProgressDashboard() {
     )
   }
 
-  if (!data || data.attempts.length === 0) {
+  if (!data || (data.attempts.length === 0 && (!data.incompleteBlock || data.incompleteBlock.length === 0))) {
     return (
       <div className="flex min-h-screen items-center justify-center">
         <p>{t('dashboard.noAttempts')}</p>
@@ -69,14 +69,6 @@ export default function NT2ProgressDashboard() {
       }
       return newSet
     })
-  }
-
-  if (!data.latestBlock && data.avgCompletedBlocks === null) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <p>{t('dashboard.noAttempts')}</p>
-      </div>
-    )
   }
 
   return (

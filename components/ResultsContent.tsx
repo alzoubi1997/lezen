@@ -23,6 +23,8 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
   const [explanationMode, setExplanationMode] = useState<'nl' | 'both'>('nl')
   const textRefs = useRef<Map<string, HTMLDivElement>>(new Map())
   const [highlightedQuestionId, setHighlightedQuestionId] = useState<string | null>(null)
+  const [downloading, setDownloading] = useState<'full' | 'wrong' | null>(null)
+  const [downloadError, setDownloadError] = useState<string | null>(null)
 
   const fetchReview = useCallback(async () => {
     try {
@@ -64,21 +66,97 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
     }
   }
 
-  const downloadFull = () => {
-    const params = new URLSearchParams({
-      attemptId,
-      includeText: includeText.toString(),
-    })
-    window.open(`/api/pdf/full?${params}`, '_blank')
+  const downloadFull = async () => {
+    setDownloadError(null)
+    setDownloading('full')
+    
+    try {
+      const params = new URLSearchParams({
+        attemptId,
+        includeText: includeText.toString(),
+      })
+      const pdfUrl = `/api/pdf/full?${params}`
+
+      // Use fetch + blob for better reliability on mobile and desktop
+      const pdfRes = await fetch(pdfUrl, {
+        credentials: 'include', // Include cookies for authentication
+      })
+
+      if (!pdfRes.ok) {
+        if (pdfRes.status === 401) {
+          setDownloadError(locale === 'ar' ? 'يجب تسجيل الدخول أولاً' : 'Je moet eerst inloggen')
+        } else if (pdfRes.status === 404) {
+          setDownloadError(locale === 'ar' ? 'الملف غير موجود' : 'Bestand niet gevonden')
+        } else {
+          setDownloadError(locale === 'ar' ? 'فشل في تحميل الملف' : 'Kon bestand niet downloaden')
+        }
+        setTimeout(() => setDownloadError(null), 5000)
+        return
+      }
+
+      const blob = await pdfRes.blob()
+      const url = window.URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = pdfRes.headers.get('Content-Disposition')?.split('filename=')[1]?.replace(/"/g, '') || 'full-exam.pdf'
+      document.body.appendChild(a)
+      a.click()
+      window.URL.revokeObjectURL(url)
+      document.body.removeChild(a)
+    } catch (err) {
+      console.error('Failed to download PDF:', err)
+      setDownloadError(locale === 'ar' ? 'حدث خطأ أثناء التحميل' : 'Er is een fout opgetreden bij het downloaden')
+      setTimeout(() => setDownloadError(null), 5000)
+    } finally {
+      setDownloading(null)
+    }
   }
 
-  const downloadWrong = () => {
-    // Always include both explanations in PDF when both languages are available
-    const params = new URLSearchParams({
-      attemptId,
-      explanationMode: 'both', // Always use 'both' to include both Dutch and Arabic explanations
-    })
-    window.open(`/api/pdf/wrong?${params}`, '_blank')
+  const downloadWrong = async () => {
+    setDownloadError(null)
+    setDownloading('wrong')
+    
+    try {
+      // Always include both explanations in PDF when both languages are available
+      const params = new URLSearchParams({
+        attemptId,
+        explanationMode: 'both', // Always use 'both' to include both Dutch and Arabic explanations
+      })
+      const pdfUrl = `/api/pdf/wrong?${params}`
+
+      // Use fetch + blob for better reliability on mobile and desktop
+      const pdfRes = await fetch(pdfUrl, {
+        credentials: 'include', // Include cookies for authentication
+      })
+
+      if (!pdfRes.ok) {
+        if (pdfRes.status === 401) {
+          setDownloadError(locale === 'ar' ? 'يجب تسجيل الدخول أولاً' : 'Je moet eerst inloggen')
+        } else if (pdfRes.status === 404) {
+          setDownloadError(locale === 'ar' ? 'الملف غير موجود' : 'Bestand niet gevonden')
+        } else {
+          setDownloadError(locale === 'ar' ? 'فشل في تحميل الملف' : 'Kon bestand niet downloaden')
+        }
+        setTimeout(() => setDownloadError(null), 5000)
+        return
+      }
+
+      const blob = await pdfRes.blob()
+      const url = window.URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = pdfRes.headers.get('Content-Disposition')?.split('filename=')[1]?.replace(/"/g, '') || 'wrong-questions.pdf'
+      document.body.appendChild(a)
+      a.click()
+      window.URL.revokeObjectURL(url)
+      document.body.removeChild(a)
+    } catch (err) {
+      console.error('Failed to download PDF:', err)
+      setDownloadError(locale === 'ar' ? 'حدث خطأ أثناء التحميل' : 'Er is een fout opgetreden bij het downloaden')
+      setTimeout(() => setDownloadError(null), 5000)
+    } finally {
+      setDownloading(null)
+    }
   }
 
   if (loading) {
@@ -296,6 +374,17 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
           <h3 className={`text-lg font-bold text-white ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{t('common.download')}</h3>
         </div>
         <div className="p-5">
+          {downloadError && (
+            <div className={`mb-4 rounded-lg border-2 border-red-300 bg-gradient-to-br from-red-50 to-red-100 px-4 py-3 shadow-sm ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+              <div className="flex items-center gap-2">
+                <div className="h-5 w-5 rounded-full bg-red-500 flex items-center justify-center shrink-0">
+                  <span className="text-white text-xs font-bold">!</span>
+                </div>
+                <p className="text-sm font-bold text-red-700">{downloadError}</p>
+              </div>
+            </div>
+          )}
+          
           {/* Checkbox Option */}
           <div className={`mb-4 flex items-center gap-3 rounded-lg border border-gray-200 bg-white p-3 shadow-sm ${locale === 'ar' ? 'justify-end' : 'justify-start'}`}>
             <label className={`flex cursor-pointer items-center gap-3 ${locale === 'ar' ? 'flex-row-reverse' : ''}`}>
@@ -304,7 +393,8 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
                   type="checkbox"
                   checked={includeText}
                   onChange={(e) => setIncludeText(e.target.checked)}
-                  className="peer h-5 w-5 cursor-pointer appearance-none rounded border-2 border-gray-300 bg-white checked:border-primary-600 checked:bg-primary-600 transition-colors"
+                  disabled={downloading !== null}
+                  className="peer h-5 w-5 cursor-pointer appearance-none rounded border-2 border-gray-300 bg-white checked:border-primary-600 checked:bg-primary-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 />
                 <CheckCircle2 className="pointer-events-none absolute left-0.5 top-0.5 h-4 w-4 text-white opacity-0 peer-checked:opacity-100" />
               </div>
@@ -318,17 +408,27 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
           <div className={`flex flex-col gap-3 sm:flex-row ${locale === 'ar' ? 'sm:justify-end' : 'sm:justify-start'}`}>
             <button
               onClick={downloadFull}
-              className="group flex flex-1 items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-primary-600 to-primary-700 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-primary-700 hover:to-primary-800 hover:shadow-lg active:scale-95"
+              disabled={downloading !== null}
+              className="group flex flex-1 items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-primary-600 to-primary-700 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-primary-700 hover:to-primary-800 hover:shadow-lg active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
             >
-              <Download className="h-5 w-5 transition-transform group-hover:scale-110" />
-              {t('results.downloadFull')}
+              {downloading === 'full' ? (
+                <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
+              ) : (
+                <Download className="h-5 w-5 transition-transform group-hover:scale-110" />
+              )}
+              {downloading === 'full' ? (locale === 'ar' ? 'جاري التحميل...' : 'Downloaden...') : t('results.downloadFull')}
             </button>
             <button
               onClick={downloadWrong}
-              className="group flex flex-1 items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-red-700 hover:to-red-800 hover:shadow-lg active:scale-95"
+              disabled={downloading !== null}
+              className="group flex flex-1 items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-red-600 to-red-700 px-6 py-3 font-semibold text-white shadow-md transition-all hover:from-red-700 hover:to-red-800 hover:shadow-lg active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
             >
-              <Download className="h-5 w-5 transition-transform group-hover:scale-110" />
-              {t('results.downloadWrong')}
+              {downloading === 'wrong' ? (
+                <div className="h-5 w-5 animate-spin rounded-full border-2 border-white border-t-transparent"></div>
+              ) : (
+                <Download className="h-5 w-5 transition-transform group-hover:scale-110" />
+              )}
+              {downloading === 'wrong' ? (locale === 'ar' ? 'جاري التحميل...' : 'Downloaden...') : t('results.downloadWrong')}
             </button>
           </div>
         </div>

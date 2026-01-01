@@ -84,8 +84,13 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
   }
 
   const [showStartOptions, setShowStartOptions] = useState<string | null>(null)
+  const [downloadingModelId, setDownloadingModelId] = useState<string | null>(null)
+  const [downloadError, setDownloadError] = useState<string | null>(null)
 
   const downloadPDF = async (modelId: string, type: 'full' | 'questions') => {
+    setDownloadError(null)
+    setDownloadingModelId(modelId)
+    
     try {
       // Create temporary attempt for PDF generation
       const res = await fetch('/api/attempt/start', {
@@ -93,18 +98,69 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ modelId, mode: activeTab }),
       })
-      const data = await res.json()
-      if (data.attemptId) {
-        if (type === 'questions') {
-          // Questions only - no answers, no text
-          window.open(`/api/pdf/questions?attemptId=${data.attemptId}`, '_blank')
-        } else {
-          // Full exam - with text and answers
-          window.open(`/api/pdf/full?attemptId=${data.attemptId}&includeText=true`, '_blank')
+
+      if (!res.ok) {
+        const errorData = await res.json().catch(() => ({ error: 'Unknown error' }))
+        if (res.status === 401) {
+          setDownloadError(locale === 'ar' ? 'يجب تسجيل الدخول أولاً' : 'Je moet eerst inloggen')
+          setTimeout(() => setDownloadError(null), 5000)
+          return
         }
+        setDownloadError(errorData.error || (locale === 'ar' ? 'فشل التحميل' : 'Download mislukt'))
+        setTimeout(() => setDownloadError(null), 5000)
+        return
+      }
+
+      const data = await res.json()
+      if (!data.attemptId) {
+        setDownloadError(locale === 'ar' ? 'فشل في إنشاء المحاولة' : 'Kon poging niet aanmaken')
+        setTimeout(() => setDownloadError(null), 5000)
+        return
+      }
+
+      // Build PDF URL
+      const pdfUrl = type === 'questions' 
+        ? `/api/pdf/questions?attemptId=${data.attemptId}`
+        : `/api/pdf/full?attemptId=${data.attemptId}&includeText=true`
+
+      // Try to download using fetch + blob (more reliable than window.open)
+      try {
+        const pdfRes = await fetch(pdfUrl, {
+          credentials: 'include', // Include cookies for authentication
+        })
+
+        if (!pdfRes.ok) {
+          if (pdfRes.status === 401) {
+            setDownloadError(locale === 'ar' ? 'يجب تسجيل الدخول أولاً' : 'Je moet eerst inloggen')
+          } else if (pdfRes.status === 404) {
+            setDownloadError(locale === 'ar' ? 'الملف غير موجود' : 'Bestand niet gevonden')
+          } else {
+            setDownloadError(locale === 'ar' ? 'فشل في تحميل الملف' : 'Kon bestand niet downloaden')
+          }
+          setTimeout(() => setDownloadError(null), 5000)
+          return
+        }
+
+        const blob = await pdfRes.blob()
+        const url = window.URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = pdfRes.headers.get('Content-Disposition')?.split('filename=')[1]?.replace(/"/g, '') || `download-${type}.pdf`
+        document.body.appendChild(a)
+        a.click()
+        window.URL.revokeObjectURL(url)
+        document.body.removeChild(a)
+      } catch (fetchError) {
+        // Fallback to window.open if fetch fails
+        console.warn('Fetch download failed, trying window.open:', fetchError)
+        window.open(pdfUrl, '_blank')
       }
     } catch (err) {
       console.error('Failed to download PDF:', err)
+      setDownloadError(locale === 'ar' ? 'حدث خطأ أثناء التحميل' : 'Er is een fout opgetreden bij het downloaden')
+      setTimeout(() => setDownloadError(null), 5000)
+    } finally {
+      setDownloadingModelId(null)
     }
   }
 
@@ -160,6 +216,16 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
+      {downloadError && (
+        <div className={`mb-6 rounded-xl border-2 border-red-300 bg-gradient-to-br from-red-50 to-red-100/50 px-4 py-3 shadow-lg ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
+          <div className="flex items-center gap-2">
+            <div className="h-5 w-5 rounded-full bg-red-500 flex items-center justify-center">
+              <span className="text-white text-xs font-bold">!</span>
+            </div>
+            <p className="text-sm font-bold text-red-700">{downloadError}</p>
+          </div>
+        </div>
+      )}
       <div className={`mb-8 ${locale === 'ar' ? 'text-right' : 'text-left'}`}>
         <h2 className="text-3xl font-bold bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">
           {t('models.title')}
@@ -299,22 +365,37 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
                       </button>
                     </div>
                     <div className="px-4 pb-4 pt-2 flex flex-col gap-3">
-                    <button
-                      onClick={() => downloadPDF(model.id, 'full')}
-                      className="flex items-center justify-center gap-2 rounded-xl border-2 border-primary-200/60 bg-gradient-to-br from-white to-primary-50/30 px-4 py-3 text-sm font-bold text-primary-700 shadow-md transition-all hover:border-primary-400 hover:bg-primary-100 hover:shadow-lg hover:scale-105"
-                      title={locale === 'ar' ? 'تحميل الامتحان الكامل' : 'Download full exam'}
-                    >
-                      <Download className="h-5 w-5" />
-                      {locale === 'ar' ? 'كامل' : 'Full'}
-                    </button>
-                    <button
-                      onClick={() => downloadPDF(model.id, 'questions')}
-                      className="flex items-center justify-center gap-2 rounded-xl border-2 border-primary-200/60 bg-gradient-to-br from-white to-primary-50/30 px-4 py-3 text-sm font-bold text-primary-700 shadow-md transition-all hover:border-primary-400 hover:bg-primary-100 hover:shadow-lg hover:scale-105"
-                      title={locale === 'ar' ? 'تحميل الأسئلة فقط' : 'Download questions only'}
-                    >
-                      <Download className="h-5 w-5" />
-                      {locale === 'ar' ? 'أسئلة' : 'Questions'}
-                    </button>
+                      {downloadError && downloadingModelId === model.id && (
+                        <div className="rounded-lg bg-red-50 border-2 border-red-200 px-3 py-2 text-sm font-bold text-red-700">
+                          {downloadError}
+                        </div>
+                      )}
+                      <button
+                        onClick={() => downloadPDF(model.id, 'full')}
+                        disabled={downloadingModelId === model.id}
+                        className="flex items-center justify-center gap-2 rounded-xl border-2 border-primary-200/60 bg-gradient-to-br from-white to-primary-50/30 px-4 py-3 text-sm font-bold text-primary-700 shadow-md transition-all hover:border-primary-400 hover:bg-primary-100 hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                        title={locale === 'ar' ? 'تحميل الامتحان الكامل' : 'Download full exam'}
+                      >
+                        {downloadingModelId === model.id ? (
+                          <div className="h-5 w-5 animate-spin rounded-full border-2 border-primary-700 border-t-transparent"></div>
+                        ) : (
+                          <Download className="h-5 w-5" />
+                        )}
+                        {downloadingModelId === model.id ? (locale === 'ar' ? 'جاري التحميل...' : 'Downloaden...') : (locale === 'ar' ? 'كامل' : 'Full')}
+                      </button>
+                      <button
+                        onClick={() => downloadPDF(model.id, 'questions')}
+                        disabled={downloadingModelId === model.id}
+                        className="flex items-center justify-center gap-2 rounded-xl border-2 border-primary-200/60 bg-gradient-to-br from-white to-primary-50/30 px-4 py-3 text-sm font-bold text-primary-700 shadow-md transition-all hover:border-primary-400 hover:bg-primary-100 hover:shadow-lg hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                        title={locale === 'ar' ? 'تحميل الأسئلة فقط' : 'Download questions only'}
+                      >
+                        {downloadingModelId === model.id ? (
+                          <div className="h-5 w-5 animate-spin rounded-full border-2 border-primary-700 border-t-transparent"></div>
+                        ) : (
+                          <Download className="h-5 w-5" />
+                        )}
+                        {downloadingModelId === model.id ? (locale === 'ar' ? 'جاري التحميل...' : 'Downloaden...') : (locale === 'ar' ? 'أسئلة' : 'Questions')}
+                      </button>
                     </div>
                   </div>
                 ) : (

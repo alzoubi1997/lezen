@@ -1,0 +1,724 @@
+{
+  "kind": "EXAM",
+  "number": 3,
+  "titleNl": "Examen 3",
+  "titleAr": "الامتحان 3",
+  "totalTimeSec": 6000,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Meningsvrijheid onder voorwaarden: waar ligt de grens?",
+      "topic": "Recht & maatschappij",
+      "level": "B2+",
+      "content": "Vrijheid van meningsuiting wordt vaak gepresenteerd als een fundamenteel en onaantastbaar recht binnen democratische samenlevingen. Het idee dat burgers hun gedachten, overtuigingen en kritiek vrij moeten kunnen uiten, vormt een belangrijk tegenwicht tegen machtsmisbruik en autoritaire controle. Toch blijkt in de praktijk dat deze vrijheid zelden absoluut is. Vrijwel elke samenleving stelt voorwaarden, expliciet of impliciet, aan wat gezegd mag worden en op welke manier. Juist in die voorwaarden ontstaat spanning: wanneer beschermt de overheid kwetsbare groepen, en wanneer beperkt zij het publieke debat?\n\nHistorisch gezien is meningsvrijheid nooit bedoeld geweest als een vrijbrief voor elke vorm van uiting. In veel rechtsstelsels werd al vroeg onderscheid gemaakt tussen kritiek op beleid en uitingen die aanzetten tot geweld, haat of discriminatie. Dit onderscheid lijkt op papier helder, maar blijkt in de praktijk lastig toepasbaar. Wat voor de één een scherpe mening is, ervaart een ander als bedreigend of ontmenselijkend. De beoordeling van taal is daardoor onvermijdelijk normatief en afhankelijk van context.\n\nDe opkomst van sociale media heeft deze problematiek verder vergroot. Waar meningsuiting vroeger vooral plaatsvond in relatief afgebakende ruimtes, zoals kranten of publieke bijeenkomsten, verspreiden uitspraken zich nu razendsnel en zonder duidelijke redactionele controle. Een individuele boodschap kan binnen enkele uren miljoenen mensen bereiken. Hierdoor neemt de potentiële impact van woorden toe, terwijl de drempel om ze te uiten juist lager is geworden. Overheden voelen zich daarom steeds vaker genoodzaakt in te grijpen, niet alleen om strafbare uitingen te bestrijden, maar ook om maatschappelijke spanningen te beperken.\n\nTegelijkertijd roept dit ingrijpen wantrouwen op. Wanneer de staat bepaalt welke uitingen toelaatbaar zijn, ontstaat het risico dat grenzen verschuiven. Critici vrezen dat maatregelen die vandaag worden ingevoerd om extremisme tegen te gaan, morgen kunnen worden gebruikt om legitieme oppositie te dempen. Zeker wanneer begrippen als 'haat', 'desinformatie' of 'maatschappelijke ontwrichting' vaag gedefinieerd zijn, wordt het moeilijk te controleren of beperkingen proportioneel blijven.\n\nDaarbij speelt ook de rol van instituties buiten de overheid. Technologiebedrijven nemen steeds vaker beslissingen over het verwijderen of beperken van content, vaak op basis van eigen richtlijnen. Hoewel deze bedrijven formeel geen staatsmacht hebben, beïnvloeden zij wel degelijk het publieke debat. Hun beslissingen zijn doorgaans weinig transparant en nauwelijks democratisch gecontroleerd. Hierdoor verschuift de vraag naar de grenzen van meningsvrijheid van het juridische domein naar een hybride gebied van politiek, economie en moraal.\n\nEen ander spanningsveld ontstaat rondom de bescherming van minderheden. Voorstanders van strengere regulering benadrukken dat woorden maatschappelijke gevolgen hebben en dat onbeperkte vrijheid bestaande ongelijkheden kan versterken. Zij zien beperkingen niet als aantasting van vrijheid, maar als voorwaarde voor een gelijkwaardig publiek debat. Tegenstanders daarentegen stellen dat het beperken van taal problemen niet oplost, maar juist ondergronds duwt, waardoor polarisatie toeneemt in plaats van afneemt.\n\nDe kernvraag blijft daardoor onbeantwoord: waar ligt de grens? Een volledig vrije meningsuiting bestaat niet, maar een te strak gereguleerd debat ondermijnt het democratische karakter van de samenleving. De uitdaging ligt niet zozeer in het vaststellen van regels, maar in het voortdurend herijken ervan. Dat vraagt om transparantie, rechtsbescherming en vooral een publiek debat dat zelf open genoeg blijft om kritiek op die grenzen mogelijk te maken.",
+      "minWordCount": 500,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat wordt in de tekst genoemd als een belangrijke reden waarom overheden vaker ingrijpen in uitingen op sociale media?",
+          "promptAr": "",
+          "options": [
+            "Omdat sociale media volledig buiten het rechtssysteem opereren",
+            "Omdat uitspraken sneller en met grotere impact worden verspreid",
+            "Omdat traditionele media hun invloed hebben verloren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst stelt dat de snelle en brede verspreiding de impact van uitspraken vergroot.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Een individuele boodschap kan binnen enkele uren miljoenen mensen bereiken."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat kan worden afgeleid uit de zorgen van critici over overheidsingrijpen?",
+          "promptAr": "",
+          "options": [
+            "Dat elke vorm van regulering per definitie ondemocratisch is",
+            "Dat grenzen aan meningsvrijheid altijd tijdelijk zijn",
+            "Dat maatregelen tegen extremisme ook anders kunnen worden ingezet"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Critici vrezen dat eenmaal ingevoerde beperkingen later breder gebruikt kunnen worden.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Critici vrezen dat maatregelen die vandaag worden ingevoerd om extremisme tegen te gaan, morgen kunnen worden gebruikt om legitieme oppositie te dempen."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Welke uitspraak komt het dichtst bij de betekenis van de passage over technologiebedrijven?",
+          "promptAr": "",
+          "options": [
+            "Technologiebedrijven hebben geen invloed op het publieke debat",
+            "Technologiebedrijven nemen beslissingen die democratische controle missen",
+            "Technologiebedrijven volgen strikt de regels van de overheid"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat hun invloed groot is, maar hun besluiten weinig transparant zijn.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hun beslissingen zijn doorgaans weinig transparant en nauwelijks democratisch gecontroleerd."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur het perspectief van minderheden in relatie tot meningsvrijheid?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat vrijheid altijd schadelijk is",
+            "Om een extra dimensie toe te voegen aan het debat over regulering",
+            "Om te bewijzen dat tegenstanders ongelijk hebben"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het perspectief laat zien dat beperkingen ook als bescherming kunnen worden gezien.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Voorstanders van strengere regulering benadrukken dat woorden maatschappelijke gevolgen hebben en dat onbeperkte vrijheid bestaande ongelijkheden kan versterken."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Meningsvrijheid moet volledig worden afgeschaft",
+            "De grenzen van meningsvrijheid vragen om voortdurende heroverweging",
+            "Sociale media vormen de enige bedreiging voor het publieke debat"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt het spanningsveld en de noodzaak van blijvende afweging.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De uitdaging ligt niet zozeer in het vaststellen van regels, maar in het voortdurend herijken ervan."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Cultureel erfgoed in een diverse samenleving: bewaren of herdefiniëren?",
+      "topic": "Cultuur & maatschappij",
+      "level": "B2+",
+      "content": "Cultureel erfgoed wordt vaak voorgesteld als iets vaststaands: monumenten, tradities en gebruiken die uit het verleden zijn overgeleverd en die bescherming verdienen. In een diverse samenleving staat deze opvatting echter steeds vaker ter discussie. Nieuwe bevolkingsgroepen, veranderende waarden en internationale invloeden zorgen ervoor dat erfgoed niet langer uitsluitend wordt gezien als een weerspiegeling van één dominante geschiedenis. De vraag rijst of cultureel erfgoed vooral bewaard moet blijven zoals het is, of dat het voortdurend opnieuw gedefinieerd mag – of zelfs moet – worden.\n\nTraditioneel werd erfgoedbeleid ontwikkeld vanuit het idee van continuïteit. Bescherming van historische gebouwen, nationale feestdagen en canonieke verhalen moest zorgen voor een gedeeld referentiekader. Dit kader bood burgers houvast en versterkte het gevoel van verbondenheid met een collectief verleden. Critici wijzen er echter op dat deze benadering vaak selectief is. Niet alle stemmen uit het verleden krijgen evenveel aandacht, waardoor bepaalde groepen zich niet herkennen in het officiële erfgoedverhaal. Wat als neutrale geschiedenis wordt gepresenteerd, blijkt in de praktijk vaak een keuze te zijn die machtsverhoudingen weerspiegelt.\n\nIn een samenleving die steeds diverser wordt, groeit de spanning tussen behoud en representatie. Voor nieuwere generaties met een migratieachtergrond kan het dominante erfgoed vreemd of zelfs uitsluitingsmechanisch aanvoelen. Tegelijkertijd ervaren anderen elke aanpassing als een bedreiging van nationale identiteit. Erfgoed fungeert daarmee niet alleen als cultureel anker, maar ook als politiek strijdtoneel. Discussies over standbeelden, straatnamen of museale collecties illustreren hoe erfgoed symbool kan worden van bredere maatschappelijke conflicten.\n\nVoorstanders van herdefiniëring benadrukken dat erfgoed nooit statisch is geweest. Tradities zijn door de eeuwen heen aangepast aan nieuwe omstandigheden, ook al wordt dit achteraf vaak vergeten. Volgens deze visie betekent herdefiniëring geen verlies, maar juist een verrijking: door meerdere perspectieven toe te laten, ontstaat een inclusiever verhaal waarin meer mensen zich kunnen herkennen. Erfgoed wordt dan niet langer gezien als een eindproduct, maar als een proces waarin verleden en heden met elkaar in dialoog staan.\n\nTegenstanders vrezen echter dat te veel flexibiliteit leidt tot uitholling. Als alles voortdurend ter discussie staat, verliest erfgoed zijn stabiliserende functie. Bovendien bestaat het risico dat historische context wordt vereenvoudigd of gemanipuleerd om aan hedendaagse gevoeligheden te voldoen. In dat geval wordt erfgoed niet herijkt, maar herschreven, wat kan leiden tot verlies van historisch besef. Deze zorg speelt vooral wanneer politieke of ideologische belangen het herdefiniëringsproces sturen.\n\nEen middenpositie probeert deze tegenstelling te overbruggen door onderscheid te maken tussen vorm en betekenis. De fysieke of historische kern van erfgoed blijft behouden, terwijl de interpretatie ervan meebeweegt met de samenleving. Musea die expliciet ruimte maken voor meerdere narratieven zijn hiervan een voorbeeld. Zij presenteren niet één definitieve waarheid, maar laten zien hoe interpretaties door de tijd heen veranderen. Op die manier blijft het erfgoed intact, terwijl het gesprek erover wordt verbreed.\n\nDe kernvraag is uiteindelijk niet of erfgoed moet worden bewaard of herdefinieerd, maar wie daarover beslist. Wanneer alleen experts of beleidsmakers bepalen wat telt als erfgoed, blijft uitsluiting bestaan. Echte inclusiviteit vraagt om participatie van verschillende groepen, ook als dit leidt tot ongemakkelijke gesprekken. Erfgoed wordt dan geen symbool van verdeeldheid, maar een instrument om diversiteit bespreekbaar te maken.\n\nIn een diverse samenleving kan cultureel erfgoed alleen relevant blijven als het zowel continuïteit als verandering toelaat. Het behoud van het verleden en de erkenning van nieuwe perspectieven hoeven elkaar niet uit te sluiten. Integendeel: juist in de spanning tussen bewaren en herdefiniëren ligt de mogelijkheid om erfgoed te laten functioneren als een gedeelde, maar dynamische basis voor de toekomst.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat wordt in de tekst genoemd als traditioneel uitgangspunt van erfgoedbeleid?",
+          "promptAr": "",
+          "options": [
+            "Dat erfgoed vooral economische waarde moet hebben",
+            "Dat erfgoed continuïteit en verbondenheid moet bieden",
+            "Dat erfgoed regelmatig volledig vernieuwd moet worden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft erfgoedbeleid traditioneel als gericht op continuïteit en verbondenheid.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Traditioneel werd erfgoedbeleid ontwikkeld vanuit het idee van continuïteit."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom ervaren sommige groepen het dominante erfgoed als problematisch?",
+          "promptAr": "",
+          "options": [
+            "Omdat het te weinig educatieve functies heeft",
+            "Omdat het vaak selectief is en niet alle stemmen weerspiegelt",
+            "Omdat het vooral economisch wordt ingezet"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst suggereert dat selectieve geschiedschrijving tot uitsluiting leidt.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Niet alle stemmen uit het verleden krijgen evenveel aandacht, waardoor bepaalde groepen zich niet herkennen in het officiële erfgoedverhaal."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom noemt de auteur standbeelden en straatnamen?",
+          "promptAr": "",
+          "options": [
+            "Om concrete voorbeelden te geven van erfgoedconflicten",
+            "Om historische feiten te corrigeren",
+            "Om beleidsoplossingen voor te stellen"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "Deze voorbeelden illustreren hoe erfgoed symbool wordt van bredere conflicten.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Discussies over standbeelden, straatnamen of museale collecties illustreren hoe erfgoed symbool kan worden van bredere maatschappelijke conflicten."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat bedoelen voorstanders met erfgoed als 'proces'?",
+          "promptAr": "",
+          "options": [
+            "Dat erfgoed langzaam verdwijnt",
+            "Dat erfgoed voortdurend in dialoog staat met het heden",
+            "Dat erfgoed alleen door experts kan worden aangepast"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst herformuleert erfgoed als iets dat meebeweegt met maatschappelijke veranderingen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Erfgoed wordt dan niet langer gezien als een eindproduct, maar als een proces waarin verleden en heden met elkaar in dialoog staan."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat is volgens de tekst het risico van herdefiniëring onder politieke druk?",
+          "promptAr": "",
+          "options": [
+            "Dat erfgoed economisch onrendabel wordt",
+            "Dat historisch besef verloren kan gaan",
+            "Dat erfgoed ontoegankelijk wordt voor jongeren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst waarschuwt voor herschrijving die historische context aantast.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In dat geval wordt erfgoed niet herijkt, maar herschreven, wat kan leiden tot verlies van historisch besef."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Welke voorwaarde is volgens de auteur essentieel voor inclusief erfgoed?",
+          "promptAr": "",
+          "options": [
+            "Strikte controle door de overheid",
+            "Deelname van verschillende maatschappelijke groepen",
+            "Beperking tot academische interpretaties"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Inclusiviteit vereist dat meerdere groepen betrokken zijn bij besluitvorming.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Echte inclusiviteit vraagt om participatie van verschillende groepen, ook als dit leidt tot ongemakkelijke gesprekken."
+        },
+        {
+          "orderIndex": 6,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Erfgoed moet volledig worden aangepast aan hedendaagse waarden",
+            "Erfgoed moet onveranderd worden beschermd",
+            "Erfgoed moet zowel continuïteit als verandering toelaten"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De auteur benadrukt het belang van een balans tussen behoud en herinterpretatie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Het behoud van het verleden en de erkenning van nieuwe perspectieven hoeven elkaar niet uit te sluiten."
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "De expert in het publieke debat: autoriteit of mening?",
+      "topic": "Wetenschap & maatschappij",
+      "level": "B2+",
+      "content": "In het publieke debat wordt steeds vaker een beroep gedaan op experts. Wetenschappers, artsen, economen en beleidsadviseurs verschijnen in talkshows, schrijven opiniestukken en geven toelichting op complexe maatschappelijke kwesties. Hun aanwezigheid lijkt vanzelfsprekend in een samenleving waarin problemen technisch en inhoudelijk steeds ingewikkelder worden. Tegelijkertijd groeit de twijfel over hun rol. Zijn experts dragers van gezag op basis van kennis, of zijn zij slechts deelnemers aan het debat met een mening naast vele andere?\n\nTraditioneel werd expertise gezien als een vorm van autoriteit. Die autoriteit was niet persoonlijk, maar institutioneel verankerd: universiteiten, onderzoeksinstituten en beroepsorganisaties fungeerden als garanties voor kwaliteit en betrouwbaarheid. In die context werd een uitspraak van een expert niet primair beoordeeld op overtuigingskracht, maar op methodologische onderbouwing. De expert sprak niet namens zichzelf, maar namens een discipline met vaste normen en controles.\n\nDat beeld is echter veranderd. In het huidige medialandschap opereren experts steeds vaker als individuele stemmen. Ze worden uitgenodigd om snel te reageren, stelling te nemen en complexe vraagstukken te vereenvoudigen tot begrijpelijke boodschappen. Daarbij speelt zichtbaarheid een grote rol. Wie helder formuleert en goed communiceert, krijgt meer ruimte dan wie nuanceert of twijfel uitspreekt. Hierdoor kan expertise verschuiven van inhoudelijke diepgang naar communicatieve vaardigheid.\n\nDeze ontwikkeling roept spanning op tussen kennis en mening. Wanneer experts deelnemen aan publieke discussies, mengen zij feiten met interpretaties. Dat is op zichzelf onvermijdelijk, maar het onderscheid wordt voor het publiek steeds moeilijker te herkennen. Een wetenschappelijke conclusie kan worden opgevat als persoonlijke overtuiging, terwijl een normatieve uitspraak wordt gepresenteerd als feit. Hierdoor ontstaat verwarring over wat expertise precies inhoudt en waar haar grenzen liggen.\n\nDaarnaast speelt vertrouwen een cruciale rol. Publiek vertrouwen in experts is geen vanzelfsprekendheid meer. Schandalen, tegenstrijdige adviezen en veranderende inzichten hebben geleid tot scepsis. Voor sommigen bevestigt dit het idee dat experts \"het ook niet weten\". Voor anderen toont het juist de aard van wetenschap: kennis is voorlopig en ontwikkelt zich. Het probleem is dat deze dynamiek slecht past bij het publieke debat, waarin duidelijke en stabiele antwoorden worden verwacht.\n\nOok de politisering van expertise draagt bij aan de spanning. Experts worden regelmatig ingezet ter ondersteuning van beleidskeuzes. Wanneer beleid ter discussie staat, wordt daarmee ook de expert die het onderbouwt onderdeel van het conflict. In zulke situaties wordt expertise niet beoordeeld op kwaliteit, maar op vermeende belangen of politieke kleur. Dat kan ertoe leiden dat experts als partijdig worden gezien, zelfs wanneer zij zorgvuldig en onafhankelijk te werk gaan.\n\nTegelijkertijd is het onrealistisch om experts volledig buiten het publieke debat te houden. Maatschappelijke vraagstukken zoals klimaatverandering, gezondheidszorg en digitalisering vereisen gespecialiseerde kennis. Zonder expertise dreigt het debat te verzanden in simplificaties of misinformatie. De uitdaging ligt dus niet in het uitsluiten van experts, maar in het verduidelijken van hun rol.\n\nEen mogelijke oplossing is transparantie. Experts kunnen explicieter aangeven waar hun kennis eindigt en hun interpretatie begint. Door onzekerheden te benoemen en alternatieve perspectieven te erkennen, versterken zij hun geloofwaardigheid, ook al lijkt dat op korte termijn minder overtuigend. Daarnaast ligt er een verantwoordelijkheid bij media om expertise niet te reduceren tot soundbites, maar context te bieden.\n\nUiteindelijk draait de vraag niet om de keuze tussen autoriteit of mening, maar om de voorwaarden waaronder expertise functioneert in het publieke debat. Expertise verliest haar waarde niet doordat zij wordt besproken, maar wel wanneer zij wordt verward met persoonlijke overtuiging of politiek instrument. Een volwassen publiek debat vraagt daarom niet om onfeilbare experts, maar om herkenbare, begrensde en verantwoordelijke vormen van deskundigheid.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat was volgens de tekst de traditionele basis van autoriteit van experts?",
+          "promptAr": "",
+          "options": [
+            "Hun populariteit in de media",
+            "Hun inbedding in instellingen en disciplines",
+            "Hun politieke onafhankelijkheid"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft dat autoriteit institutioneel was verankerd.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Die autoriteit was niet persoonlijk, maar institutioneel verankerd: universiteiten, onderzoeksinstituten en beroepsorganisaties fungeerden als garanties voor kwaliteit en betrouwbaarheid."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat kan volgens de tekst een gevolg zijn van de nadruk op communicatieve vaardigheden?",
+          "promptAr": "",
+          "options": [
+            "Meer methodologische controle",
+            "Minder zichtbaarheid van experts",
+            "Verschuiving van inhoud naar presentatie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Goede communicatie kan belangrijker worden dan inhoudelijke nuance.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor kan expertise verschuiven van inhoudelijke diepgang naar communicatieve vaardigheid."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat wordt bedoeld met de uitspraak dat feiten en interpretaties vermengd raken?",
+          "promptAr": "",
+          "options": [
+            "Het verschil tussen wetenschap en mening vervaagt",
+            "Experts spreken elkaar vaker tegen",
+            "Publiek wantrouwt alle wetenschappelijke kennis"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "Het onderscheid tussen kennis en mening wordt onduidelijk.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Dat is op zichzelf onvermijdelijk, maar het onderscheid wordt voor het publiek steeds moeilijker te herkennen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur het thema vertrouwen uitgebreid?",
+          "promptAr": "",
+          "options": [
+            "Om experts te bekritiseren",
+            "Om een kernprobleem in de relatie met het publiek te tonen",
+            "Om politieke invloed te benadrukken"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Vertrouwen bepaalt hoe expertise wordt ontvangen in het debat.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Publiek vertrouwen in experts is geen vanzelfsprekendheid meer."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke houding ten opzichte van expertise ondersteunt de auteur impliciet?",
+          "promptAr": "",
+          "options": [
+            "Experts moeten zich terugtrekken uit het debat",
+            "Experts moeten hun grenzen duidelijk maken",
+            "Experts moeten overtuigender communiceren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur benadrukt verantwoordelijkheid en transparantie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Experts kunnen explicieter aangeven waar hun kennis eindigt en hun interpretatie begint."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Experts verliezen onvermijdelijk hun gezag",
+            "Media zijn verantwoordelijk voor alle verwarring",
+            "Expertise vraagt om heldere voorwaarden in het publieke debat"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst pleit voor een duidelijke en begrensde rol van experts.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Uiteindelijk draait de vraag niet om de keuze tussen autoriteit of mening, maar om de voorwaarden waaronder expertise functioneert in het publieke debat."
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Normaliteit als norm: wie bepaalt wat 'afwijkend' is?",
+      "topic": "Maatschappij & inclusie",
+      "level": "B2+",
+      "content": "In maatschappelijke discussies wordt vaak gesproken over wat 'normaal' is, alsof het een vaststaand en objectief gegeven betreft. Toch blijkt bij nadere beschouwing dat normaliteit geen neutrale beschrijving is, maar een sociaal construct dat voortdurend wordt gevormd, aangepast en verdedigd. Wat als normaal geldt, zegt vaak minder over de werkelijkheid zelf dan over de machtsverhoudingen, culturele tradities en institutionele belangen die een samenleving structureren. De vraag wie bepaalt wat als afwijkend wordt gezien, is daarom onlosmakelijk verbonden met bredere thema's zoals inclusie, uitsluiting en sociale controle.\n\nHistorisch gezien is normaliteit altijd gekoppeld geweest aan dominante groepen. Gedrag, lichamen en levensstijlen die overeenkwamen met de waarden van de meerderheid werden als vanzelfsprekend beschouwd, terwijl alles daarbuiten als problematisch of afwijkend werd gelabeld. Dit mechanisme is niet per se het gevolg van kwade wil, maar van de neiging van samenlevingen om stabiliteit te zoeken door middel van herkenbare patronen. Afwijking wordt in dat kader ervaren als een verstoring van orde, en roept daardoor ongemak of zelfs angst op.\n\nWetenschappelijke disciplines hebben lange tijd bijgedragen aan het versterken van deze normatieve kaders. In de geneeskunde en psychologie werden meetinstrumenten ontwikkeld die 'gemiddeld' functioneren vastlegden, met als impliciete aanname dat dit gemiddelde ook wenselijk was. Wie daarvan afweek, kreeg een diagnose, een label of een behandeling. Hoewel deze benaderingen vaak bedoeld waren om hulp te bieden, hadden ze ook een disciplinerende werking: ze bevestigden dat er een juiste manier van zijn bestond, en dat afwijking correctie vereiste.\n\nTegelijkertijd is normaliteit geen statisch begrip. Wat in de ene periode als afwijkend werd beschouwd, kan in een andere context juist als acceptabel of zelfs wenselijk gelden. Denk aan veranderingen in opvattingen over gezinssamenstellingen, genderrollen of mentale gezondheid. Deze verschuivingen laten zien dat normen onderhevig zijn aan maatschappelijke dynamiek en niet los kunnen worden gezien van politieke, economische en culturele ontwikkelingen. Normaliteit beweegt mee met wat een samenleving bereid is te erkennen en te legitimeren.\n\nToch betekent deze veranderlijkheid niet automatisch dat uitsluiting verdwijnt. Nieuwe normen kunnen oude vervangen, maar ook nieuwe vormen van marginalisering creëren. Wanneer inclusie wordt gekoppeld aan specifieke voorwaarden, ontstaat het risico dat mensen alleen worden geaccepteerd zolang zij voldoen aan een aangepast, maar nog steeds beperkend kader. Zo kan diversiteit worden gevierd in abstracte termen, terwijl concrete afwijkingen in gedrag of uiterlijk alsnog worden ontmoedigd.\n\nOnderwijs, media en beleid spelen een cruciale rol in het reproduceren of ter discussie stellen van normaliteit. Schoolcurricula bepalen impliciet welke kennis en perspectieven als standaard gelden. Media versterken beelden van wat als succesvol, gezond of wenselijk wordt gezien. Beleidsmaatregelen, bijvoorbeeld op het gebied van arbeidsparticipatie of zorg, vertalen deze normen naar concrete verwachtingen waaraan burgers moeten voldoen. Wie daar niet aan kan of wil voldoen, loopt het risico als probleemgeval te worden behandeld.\n\nDe kernvraag is dan ook niet of normen noodzakelijk zijn — elke samenleving heeft gedeelde kaders nodig om te functioneren — maar hoe flexibel en inclusief deze normen worden vormgegeven. Wanneer normaliteit wordt gepresenteerd als een breed spectrum in plaats van een smalle maatstaf, ontstaat ruimte voor verschillen zonder dat deze direct als tekortkomingen worden geïnterpreteerd. Dat vraagt om een kritische houding tegenover vanzelfsprekendheden en om bereidheid om macht en perspectief ter discussie te stellen.\n\nUiteindelijk confronteert het debat over normaliteit ons met een fundamentele spanning: de behoefte aan orde en herkenbaarheid tegenover de realiteit van menselijke diversiteit. Wie bepaalt wat 'afwijkend' is, bepaalt indirect ook wie zich volledig onderdeel mag voelen van de samenleving. Juist daarom is het noodzakelijk om normaliteit niet als eindpunt te zien, maar als onderwerp van voortdurend maatschappelijk gesprek.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een belangrijke reden waarom samenlevingen afwijking als problematisch ervaren?",
+          "promptAr": "",
+          "options": [
+            "Omdat afwijking altijd leidt tot economische instabiliteit",
+            "Omdat afwijking wordt gezien als verstoring van bestaande orde",
+            "Omdat afwijking wettelijk verboden is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Afwijking roept ongemak op omdat zij wordt ervaren als een verstoring van stabiliteit en orde.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Afwijking wordt in dat kader ervaren als een verstoring van orde, en roept daardoor ongemak of zelfs angst op."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat kan worden afgeleid uit de rol van wetenschap bij het vaststellen van normaliteit?",
+          "promptAr": "",
+          "options": [
+            "Wetenschap is volledig neutraal in haar definities",
+            "Wetenschappelijke normen kunnen ook sociale controle versterken",
+            "Wetenschap heeft geen invloed op maatschappelijke normen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Meetinstrumenten en diagnoses hadden naast een helpende ook een disciplinerende functie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hoewel deze benaderingen vaak bedoeld waren om hulp te bieden, hadden ze ook een disciplinerende werking: ze bevestigden dat er een juiste manier van zijn bestond, en dat afwijking correctie vereiste."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Welke uitspraak geeft het best de betekenis weer van de veranderlijkheid van normaliteit?",
+          "promptAr": "",
+          "options": [
+            "Normaliteit verdwijnt na verloop van tijd volledig",
+            "Normaliteit is afhankelijk van maatschappelijke context en tijd",
+            "Normaliteit wordt alleen door wetgeving bepaald"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benadrukt dat wat normaal is verschuift door culturele en politieke veranderingen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wat in de ene periode als afwijkend werd beschouwd, kan in een andere context juist als acceptabel of zelfs wenselijk gelden."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur het risico van 'voorwaardelijke inclusie'?",
+          "promptAr": "",
+          "options": [
+            "Om te laten zien dat inclusie altijd succesvol is",
+            "Om te waarschuwen voor nieuwe vormen van uitsluiting",
+            "Om te pleiten voor strengere normen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De auteur wil aantonen dat nieuwe normen opnieuw kunnen marginaliseren.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Nieuwe normen kunnen oude vervangen, maar ook nieuwe vormen van marginalisering creëren."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke houding pleit de auteur impliciet voor ten aanzien van maatschappelijke normen?",
+          "promptAr": "",
+          "options": [
+            "Strikte handhaving van vaste normen",
+            "Volledige afschaffing van alle normen",
+            "Een flexibele en kritische benadering van normaliteit"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De auteur benadrukt het belang van flexibiliteit en voortdurende reflectie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Dat vraagt om een kritische houding tegenover vanzelfsprekendheden en om bereidheid om macht en perspectief ter discussie te stellen."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Normaliteit is noodzakelijk en mag niet worden bevraagd",
+            "Normaliteit is een sociaal construct dat kritisch bekeken moet worden",
+            "Afwijking vormt altijd een bedreiging voor de samenleving"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst betoogt dat normaliteit geen neutraal gegeven is maar een onderwerp van discussie moet blijven.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Juist daarom is het noodzakelijk om normaliteit niet als eindpunt te zien, maar als onderwerp van voortdurend maatschappelijk gesprek."
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "title": "Aandacht als handelswaar: wie profiteert van onze concentratie?",
+      "topic": "Media & maatschappij",
+      "level": "B2+",
+      "content": "Aandacht wordt vaak gezien als een individuele mentale capaciteit: het vermogen om je te concentreren, te focussen en informatie te verwerken. In toenemende mate wordt aandacht echter ook beschouwd als een economische hulpbron. In een samenleving waarin informatie overvloedig aanwezig is, is niet langer toegang tot kennis het schaarse goed, maar de tijd en concentratie van mensen. Deze verschuiving heeft geleid tot een economisch model waarin aandacht wordt verzameld, gemeten en verhandeld.\n\nDigitale platforms zijn gebouwd rond dit principe. Sociale media, nieuwswebsites en streamingdiensten concurreren niet primair om de kwaliteit van hun inhoud, maar om de duur en intensiteit van de betrokkenheid van gebruikers. Hoe langer iemand blijft kijken, scrollen of klikken, hoe waardevoller hij wordt voor adverteerders. Aandacht fungeert daarmee als ruilmiddel: gebruikers krijgen toegang tot diensten, terwijl platforms hun aandacht doorverkopen aan commerciële partijen.\n\nDit model wordt vaak verdedigd als efficiënt. Gebruikers ontvangen gepersonaliseerde content die aansluit bij hun interesses, terwijl bedrijven hun reclame gerichter kunnen inzetten. Toch roept deze logica fundamentele vragen op. Want wanneer aandacht het product wordt, verschuift de focus van informeren naar vasthouden. Inhoud wordt niet geselecteerd op maatschappelijke relevantie, maar op het vermogen om emoties op te roepen en betrokkenheid te maximaliseren.\n\nOnderzoek laat zien dat vooral prikkelende, polariserende of simplistische boodschappen effectief zijn in het vasthouden van aandacht. Dit heeft gevolgen voor het publieke debat. Complexe vraagstukken vereisen nuance en tijd, maar worden in een aandachtseconomie vaak teruggebracht tot korte slogans of conflicten tussen uitersten. Daardoor ontstaat het risico dat publieke meningsvorming wordt gestuurd door wat aandacht trekt, niet door wat inhoudelijk het meest onderbouwd is.\n\nDaarnaast is aandacht geen neutrale hulpbron. Niet iedereen beschikt over dezelfde mogelijkheid om zijn aandacht te beschermen. Mensen met flexibele werktijden, hogere opleiding of digitale vaardigheden kunnen bewuster omgaan met informatieconsumptie. Anderen zijn afhankelijker van gratis platforms en hebben minder ruimte om zich aan continue prikkels te onttrekken. Zo versterkt de aandachtseconomie bestaande ongelijkheden, niet in inkomen, maar in mentale rust en autonomie.\n\nCritici stellen dat gebruikers geen echte keuzevrijheid hebben. Hoewel men formeel kan beslissen om een platform niet te gebruiken, zijn veel digitale diensten zo verweven met werk, onderwijs en sociale contacten dat uitsluiting nauwelijks realistisch is. Aandacht wordt daardoor niet vrijwillig afgestaan, maar structureel onttrokken. De grens tussen gebruiksgemak en manipulatie wordt hierbij steeds vager.\n\nToch is het te eenvoudig om platforms uitsluitend als schuldigen aan te wijzen. Ook gebruikers spelen een rol. De vraag naar snelle informatie, constante updates en directe bevestiging stimuleert het aanbod. Aandachtseconomie is daarmee geen eenrichtingsverkeer, maar een wisselwerking tussen commerciële strategieën en menselijk gedrag. De vraag is niet alleen wie profiteert, maar ook waarom dit systeem zo succesvol is.\n\nBeleidsmatig wordt gezocht naar antwoorden. Sommige landen experimenteren met regelgeving die transparantie afdwingt over algoritmen of beperkingen stelt aan gepersonaliseerde reclame. Anderen zetten in op mediawijsheid en educatie, met als doel burgers bewuster te laten omgaan met hun aandacht. De effectiviteit van deze maatregelen is echter onzeker zolang het economische fundament intact blijft.\n\nUiteindelijk raakt de discussie over aandacht aan een bredere maatschappelijke vraag: willen we dat concentratie een privézaak blijft, of accepteren we dat zij wordt behandeld als handelswaar? Zolang aandacht wordt gemeten in clicks en kijktijd, ligt de macht vooral bij degenen die beschikken over data en technologie. De uitdaging is om een evenwicht te vinden tussen toegankelijkheid van informatie en bescherming van mentale autonomie, zonder te vervallen in nostalgie naar een tijd die niet terugkomt.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst het schaarse goed in de hedendaagse informatiesamenleving?",
+          "promptAr": "",
+          "options": [
+            "Technologische innovatie",
+            "Betrouwbare kennis",
+            "Menselijke aandacht"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst stelt dat niet informatie, maar aandacht schaars is geworden.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In een samenleving waarin informatie overvloedig aanwezig is, is niet langer toegang tot kennis het schaarse goed, maar de tijd en concentratie van mensen."
+        },
+        {
+          "orderIndex": 1,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Digitale platforms zijn onmisbaar voor moderne communicatie",
+            "Aandacht is uitgegroeid tot een economisch product met maatschappelijke gevolgen",
+            "Gebruikers moeten zelf verantwoordelijk zijn voor hun mediagebruik"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert aandacht als handelswaar en de impact daarvan.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Deze verschuiving heeft geleid tot een economisch model waarin aandacht wordt verzameld, gemeten en verhandeld."
+        },
+        {
+          "orderIndex": 2,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Wat wordt bedoeld met de uitspraak dat aandacht als ruilmiddel fungeert?",
+          "promptAr": "",
+          "options": [
+            "Gebruikers betalen met geld voor online diensten",
+            "Platforms wisselen data uit met overheden",
+            "Gebruikers krijgen diensten in ruil voor hun aandacht"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Aandacht wordt ingezet om toegang tot digitale diensten te verkrijgen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Aandacht fungeert daarmee als ruilmiddel: gebruikers krijgen toegang tot diensten, terwijl platforms hun aandacht doorverkopen aan commerciële partijen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom zijn polariserende boodschappen effectief binnen de aandachtseconomie?",
+          "promptAr": "",
+          "options": [
+            "Ze zijn goedkoper om te produceren",
+            "Ze roepen sterke emotionele reacties op",
+            "Ze worden verplicht gepromoot door overheden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Emotionele prikkels houden de aandacht langer vast.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Onderzoek laat zien dat vooral prikkelende, polariserende of simplistische boodschappen effectief zijn in het vasthouden van aandacht."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom benoemt de auteur verschillen tussen groepen gebruikers?",
+          "promptAr": "",
+          "options": [
+            "Om individuele schuld te benadrukken",
+            "Om ongelijkheid binnen de aandachtseconomie te tonen",
+            "Om digitale vaardigheden te promoten"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De verschillen illustreren hoe ongelijkheid wordt versterkt.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zo versterkt de aandachtseconomie bestaande ongelijkheden, niet in inkomen, maar in mentale rust en autonomie."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke uitdaging ziet de auteur voor de toekomst?",
+          "promptAr": "",
+          "options": [
+            "Het volledig afschaffen van digitale platforms",
+            "Het herstellen van een informatieschaarste",
+            "Het vinden van balans tussen informatie en mentale autonomie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst eindigt met een oproep tot evenwicht.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De uitdaging is om een evenwicht te vinden tussen toegankelijkheid van informatie en bescherming van mentale autonomie, zonder te vervallen in nostalgie naar een tijd die niet terugkomt."
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Verantwoordelijkheid zonder macht: wanneer beleid faalt in uitvoering",
+      "topic": "Bestuur & maatschappij",
+      "level": "B2+",
+      "content": "In beleidsdocumenten wordt verantwoordelijkheid vaak voorgesteld als een duidelijke lijn: de overheid formuleert doelen, professionals voeren ze uit, en burgers profiteren van de resultaten. In de praktijk blijkt die lijn echter zelden recht en zelden stabiel. Steeds vaker krijgen uitvoerende organisaties en individuele professionals extra verantwoordelijkheden toebedeeld zonder dat daar voldoende beslissingsruimte, middelen of politieke steun tegenover staan. Dit spanningsveld tussen verantwoordelijkheid en macht vormt een structureel probleem binnen het openbaar bestuur en leidt regelmatig tot falend beleid, niet omdat de doelen onjuist zijn, maar omdat de uitvoering onvoldoende is toegerust.\n\nEen belangrijk kenmerk van modern beleid is decentralisatie. Taken worden overgeheveld naar gemeenten, scholen, zorginstellingen of uitvoeringsinstanties met het idee dat beleid dichter bij de burger effectiever en menselijker wordt. Tegelijkertijd blijft de centrale overheid vaak de kaders, indicatoren en financiële grenzen bepalen. Hierdoor ontstaat een situatie waarin lokale uitvoerders verantwoordelijk worden gehouden voor resultaten waar zij slechts beperkt invloed op hebben. Wanneer doelstellingen niet worden gehaald, verschuift de publieke kritiek naar de uitvoeringslaag, terwijl de structurele oorzaken buiten beeld blijven.\n\nDit probleem wordt versterkt door de toenemende nadruk op meetbaarheid en verantwoording. Professionals moeten rapporteren, registreren en evalueren om aan te tonen dat zij correct hebben gehandeld. Hoewel transparantie op zichzelf waardevol is, kan deze verantwoordingscultuur doorschieten. Tijd en energie die nodig zijn voor directe dienstverlening verdwijnen in administratieve processen. Ironisch genoeg wordt zo de uitvoerder afgerekend op cijfers die weinig zeggen over de daadwerkelijke kwaliteit van het werk. Verantwoordelijkheid wordt daarmee gereduceerd tot het correct volgen van procedures, niet tot het leveren van zinvolle oplossingen.\n\nDaarnaast speelt politieke onzekerheid een rol. Beleidsprioriteiten veranderen vaak met verkiezingscycli, terwijl uitvoeringsproblemen juist langdurige aandacht vereisen. Professionals in het veld moeten omgaan met wisselende richtlijnen en tijdelijke programma's, zonder dat zij structureel kunnen investeren in duurzame oplossingen. Wanneer beleid vervolgens onvoldoende effect sorteert, wordt de uitvoeringspraktijk als 'onvoldoende flexibel' of 'onprofessioneel' bestempeld, terwijl de oorzaak eerder ligt in inconsistente aansturing.\n\nEen ander aspect is het morele dilemma waarin uitvoerders terechtkomen. Zij staan dicht bij burgers en zien de concrete gevolgen van beleid, maar hebben weinig ruimte om af te wijken van regels. Hierdoor ontstaat spanning tussen professionele ethiek en institutionele loyaliteit. In sommige gevallen leidt dit tot stil verzet, creatieve interpretatie van regels of zelfs burn-out. Verantwoordelijkheid wordt dan ervaren als een last in plaats van als erkenning van expertise.\n\nCritici stellen dat falend beleid vaak onterecht wordt gepersonaliseerd. Door de focus te leggen op 'fouten in de uitvoering' blijven fundamentele beleidskeuzes buiten schot. Dit mechanisme beschermt politieke besluitvormers, maar ondermijnt het vertrouwen in instituties. Burgers zien immers dat problemen blijven bestaan, terwijl niemand werkelijk aanspreekbaar lijkt. De uitvoerder heeft verantwoordelijkheid, maar geen macht; de beleidsmaker heeft macht, maar draagt zelden directe consequenties.\n\nTegenover deze kritiek staat het argument dat uitvoeringsvrijheid ook risico's kent. Meer beslissingsruimte kan leiden tot ongelijkheid, willekeur of gebrek aan uniformiteit. Beleidsmakers vrezen dat te veel autonomie de rechtszekerheid aantast. Deze spanning tussen controle en vertrouwen vormt de kern van het debat. De vraag is niet of verantwoordelijkheid of macht belangrijker is, maar hoe beide in balans kunnen worden gebracht.\n\nStructurele verbetering vereist daarom meer dan kleine aanpassingen. Het vraagt om een herwaardering van uitvoering als volwaardig onderdeel van beleid. Dit betekent uitvoerders betrekken bij beleidsvorming, realistische doelen formuleren en ruimte laten voor professionele afwegingen. Alleen wanneer verantwoordelijkheid gepaard gaat met daadwerkelijke invloed, kan beleid zijn beloften waarmaken. Zonder die koppeling blijft falen een terugkerend patroon, niet door onwil, maar door een systeem dat verantwoordelijkheid loskoppelt van macht.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een gevolg van decentralisatie van beleid?",
+          "promptAr": "",
+          "options": [
+            "Dat uitvoerders meer autonomie krijgen dan beleidsmakers",
+            "Dat uitvoerders verantwoordelijk zijn voor resultaten zonder volledige zeggenschap",
+            "Dat beleidsdoelen eenvoudiger worden gerealiseerd"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Decentralisatie vergroot verantwoordelijkheid zonder gelijke machtspositie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor ontstaat een situatie waarin lokale uitvoerders verantwoordelijk worden gehouden voor resultaten waar zij slechts beperkt invloed op hebben."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Wat kan worden afgeleid over de rol van meetbaarheid in beleid?",
+          "promptAr": "",
+          "options": [
+            "Meetbaarheid verbetert altijd de kwaliteit van dienstverlening",
+            "Meetbaarheid maakt beleid begrijpelijker voor burgers",
+            "Meetbaarheid kan de kern van het werk verdringen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Administratieve eisen kunnen de inhoudelijke kwaliteit onder druk zetten.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Tijd en energie die nodig zijn voor directe dienstverlening verdwijnen in administratieve processen."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Waarom bespreekt de auteur morele dilemma's van uitvoerders?",
+          "promptAr": "",
+          "options": [
+            "Om individuele fouten te bekritiseren",
+            "Om te laten zien hoe regelgeving professioneel handelen belemmert",
+            "Om politieke besluitvorming te verdedigen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Het morele spanningsveld illustreert de kloof tussen regels en praktijk.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Hierdoor ontstaat spanning tussen professionele ethiek en institutionele loyaliteit."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 4,
+          "promptNl": "Welke zin geeft het best dezelfde betekenis weer als het idee dat falend beleid wordt 'gepersonaliseerd'?",
+          "promptAr": "",
+          "options": [
+            "Problemen worden toegeschreven aan individuen in plaats van aan systemen",
+            "Burgers krijgen de schuld van beleidsproblemen",
+            "Beleidsmakers nemen collectieve verantwoordelijkheid"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "De tekst stelt dat uitvoerders persoonlijk worden aangesproken voor structurele problemen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Door de focus te leggen op 'fouten in de uitvoering' blijven fundamentele beleidskeuzes buiten schot."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale boodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Beleidsmakers moeten strengere controle uitoefenen op uitvoering",
+            "Verantwoordelijkheid zonder macht leidt structureel tot falend beleid",
+            "Decentralisatie is per definitie onwenselijk"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De hele tekst draait om het gebrek aan balans tussen verantwoordelijkheid en invloed.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Zonder die koppeling blijft falen een terugkerend patroon, niet door onwil, maar door een systeem dat verantwoordelijkheid loskoppelt van macht."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Welke oplossing suggereert de auteur impliciet?",
+          "promptAr": "",
+          "options": [
+            "Minder betrokkenheid van uitvoerders bij beleid",
+            "Volledige afschaffing van verantwoording",
+            "Betere afstemming tussen beleidsvorming en uitvoering"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De auteur pleit voor structurele samenwerking en realistische beleidsvorming.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Dit betekent uitvoerders betrekken bij beleidsvorming, realistische doelen formuleren en ruimte laten voor professionele afwegingen."
+        }
+      ]
+    }
+  ]
+}
+

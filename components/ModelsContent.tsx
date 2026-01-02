@@ -312,9 +312,16 @@ export default function ModelsContent({ initialKind }: { initialKind?: string })
 
               {/* Content */}
               <div className="flex-1 mb-4">
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
-                  {title}
-                </h3>
+                <div className="flex items-center gap-2 mb-2 flex-wrap">
+                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-primary-600 transition-colors">
+                    {title}
+                  </h3>
+                  {model.kind === 'EXAM' && model.number === 1 && (
+                    <span className="inline-flex items-center rounded-full bg-gradient-to-r from-amber-100 to-yellow-100 px-3 py-1 text-xs font-bold text-amber-700 border border-amber-300 shadow-sm">
+                      {locale === 'ar' ? 'خفيف (للتحمية)' : 'Licht (opwarming)'}
+                    </span>
+                  )}
+                </div>
                 <div className="flex items-center gap-2 text-sm text-gray-600 flex-wrap">
                   <div className="rounded-lg bg-blue-100 px-2 py-1">
                     <span className="font-semibold text-blue-700">

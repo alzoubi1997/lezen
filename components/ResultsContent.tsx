@@ -211,7 +211,14 @@ export default function ResultsContent({ attemptId }: ResultsContentProps) {
       <div className="mb-6 overflow-hidden rounded-xl border bg-white shadow-lg">
         {/* Header */}
         <div className="bg-primary-600 px-5 py-3">
-          <h3 className={`text-lg font-bold text-white ${locale === 'ar' ? 'text-right' : 'text-left'}`}>{modelTitle}</h3>
+          <div className={`flex items-center gap-2 flex-wrap ${locale === 'ar' ? 'justify-end' : 'justify-start'}`}>
+            <h3 className="text-lg font-bold text-white">{modelTitle}</h3>
+            {review.model.kind === 'EXAM' && review.model.number === 1 && (
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-amber-200 to-yellow-200 px-3 py-1 text-xs font-bold text-amber-800 border border-amber-400 shadow-sm">
+                {locale === 'ar' ? 'خفيف (للتحمية)' : 'Licht (opwarming)'}
+              </span>
+            )}
+          </div>
         </div>
 
         <div className="p-4 bg-gradient-to-b from-white to-gray-50/50">

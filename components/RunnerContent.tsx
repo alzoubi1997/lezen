@@ -643,9 +643,16 @@ export default function RunnerContent({ attemptId }: RunnerContentProps) {
       {/* Dark purple header */}
       <div className="bg-[#3A1070] text-white px-6 h-8 flex items-center relative">
         <div className="mx-auto max-w-6xl flex items-center justify-between w-full">
-          <h1 className="text-sm font-semibold">
-            {attempt?.model?.titleNl || 'Examen'}
-          </h1>
+          <div className="flex items-center gap-2">
+            <h1 className="text-sm font-semibold">
+              {attempt?.model?.titleNl || 'Examen'}
+            </h1>
+            {attempt?.model?.kind === 'EXAM' && attempt?.model?.number === 1 && (
+              <span className="inline-flex items-center rounded-full bg-gradient-to-r from-amber-200 to-yellow-200 px-2 py-0.5 text-xs font-bold text-amber-800 border border-amber-400 shadow-sm">
+                {locale === 'ar' ? 'خفيف' : 'Licht'}
+              </span>
+            )}
+          </div>
           <div className="absolute left-1/2 transform -translate-x-1/2">
             <span className="text-xs font-medium">
               {t('runner.question')} {totalQuestionNumber} {t('runner.of')} {totalQuestions}

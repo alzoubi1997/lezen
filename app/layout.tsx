@@ -20,6 +20,9 @@ const tajawal = Tajawal({
 export const metadata: Metadata = {
   title: 'NT2 Lezen Training',
   description: 'Bilingual Dutch NT2 Lezen exam training app',
+  other: {
+    'google-adsense-account': 'ca-pub-6914116727588875',
+  },
 }
 
 export const dynamic = 'force-dynamic'
@@ -87,13 +90,12 @@ export default async function RootLayout({
               : 'var(--font-inter), system-ui, sans-serif',
         }}
       >
-        {/* AdSense Script */}
+        {/* AdSense Script - Using beforeInteractive to load in head for verification */}
         <Script
-          id="adsense-init"
+          id="adsense-script"
           strategy="beforeInteractive"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914116727588875"
           crossOrigin="anonymous"
-          async
         />
         <NextIntlClientProvider messages={messages} locale={locale}>
           {/* @ts-ignore - React type compatibility issue */}

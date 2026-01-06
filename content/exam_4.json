@@ -1,0 +1,724 @@
+{
+  "kind": "EXAM",
+  "number": 4,
+  "titleNl": "Examen 4",
+  "titleAr": "الامتحان 4",
+  "totalTimeSec": 6000,
+  "texts": [
+    {
+      "orderIndex": 0,
+      "title": "Digitale privacy in het dagelijks leven: controle door de burger of illusie van keuze?",
+      "topic": "Technologie & maatschappij",
+      "level": "B2+",
+      "content": "Digitale privacy wordt vaak voorgesteld als een kwestie van individuele verantwoordelijkheid. Burgers zouden zelf kunnen bepalen welke gegevens zij delen, met wie en onder welke voorwaarden. In theorie lijkt deze controle eenvoudig: wie privacy belangrijk vindt, kan instellingen aanpassen, cookies weigeren of bepaalde platforms vermijden. In de praktijk blijkt deze keuzevrijheid echter veel minder vanzelfsprekend. Digitale technologie is zo diep verweven geraakt met werk, sociale contacten en publieke dienstverlening dat privacy geen louter persoonlijke voorkeur meer is, maar een structureel maatschappelijk vraagstuk.\n\nDe meeste digitale platforms functioneren op basis van intensieve dataverzameling. Persoonlijke gegevens vormen de kern van verdienmodellen waarin gerichte reclame, gedragsanalyse en voorspellende algoritmen centraal staan. Gebruikers geven formeel toestemming voor deze dataverwerking, maar doen dit vaak onder tijdsdruk en zonder volledig inzicht in de gevolgen. Privacyverklaringen zijn doorgaans lang, juridisch geformuleerd en moeilijk te doorgronden. Toestemming verliest daarmee haar betekenis als geïnformeerde keuze en wordt eerder een noodzakelijke stap om toegang te krijgen tot digitale diensten.\n\nDaarbij komt dat digitale keuzes zelden op zichzelf staan. Wie besluit een populair platform te vermijden, kan belangrijke sociale of professionele kansen mislopen. Communicatie verloopt via specifieke apps, informatie circuleert binnen dominante netwerken en steeds meer overheidsdiensten vereisen digitale identificatie. In deze context krijgt privacy een prijs. Wie zijn gegevens wil beschermen, betaalt mogelijk met uitsluiting, tijdverlies of verminderde toegankelijkheid. Controle over privacy bestaat dan vooral formeel, terwijl de dagelijkse praktijk weinig ruimte laat voor echte alternatieven.\n\nBeleidsmakers proberen deze spanning te beperken door middel van regelgeving. Wetgeving rond gegevensbescherming benadrukt transparantie, dataminimalisatie en het recht op inzage en correctie. Deze maatregelen zijn bedoeld om burgers meer grip te geven op hun digitale voetafdruk. Toch blijkt de impact ervan beperkt zolang de structurele machtsverhouding tussen individuen en grote technologiebedrijven intact blijft. Eén gebruiker staat tegenover complexe systemen die ontworpen zijn om data te maximaliseren, niet om keuze te vereenvoudigen. Regels bestaan, maar botsen met de realiteit van digitale afhankelijkheid.\n\nCritici wijzen erop dat de nadruk op individuele verantwoordelijkheid het kernprobleem verhult. Door privacy te framen als persoonlijke keuze, wordt voorbijgegaan aan de collectieve dimensie ervan. Wanneer één persoon zijn gegevens deelt, kan dat ook gevolgen hebben voor anderen, bijvoorbeeld via sociale netwerken of gekoppelde databestanden. Privacyverlies is daarmee geen optelsom van individuele beslissingen, maar een kenmerk van het digitale systeem als geheel. Individuele terughoudendheid biedt daardoor slechts beperkte bescherming.\n\nTegelijkertijd is het te eenvoudig om burgers volledig als machteloos te beschouwen. Bewustwording rondom privacy groeit en maatschappelijke druk dwingt bedrijven tot meer transparantie. Initiatieven voor privacyvriendelijke technologie en alternatieve platforms laten zien dat andere modellen mogelijk zijn. Toch blijven deze initiatieven marginaal zolang dominante spelers de infrastructuur controleren en overstappen gepaard gaat met hoge sociale en praktische kosten.\n\nDe discussie over digitale privacy raakt daarmee aan een bredere vraag over autonomie in een digitale samenleving. Autonomie veronderstelt niet alleen formele keuze, maar ook reële handelingsruimte. Zolang keuzes worden gestuurd door ontwerp, standaardinstellingen en economische prikkels, blijft controle beperkt. Privacy wordt dan niet actief opgegeven, maar geleidelijk uitgehold.\n\nUiteindelijk dwingt dit tot heroverweging van hoe digitale verantwoordelijkheid wordt verdeeld. Als privacy een publieke waarde is, kan zij niet uitsluitend worden overgelaten aan individuele afwegingen. Effectieve bescherming vereist collectieve afspraken, begrijpelijke regelgeving en technologische ontwerpen die keuze ondersteunen in plaats van ontmoedigen. Zonder deze voorwaarden blijft digitale privacy vooral een belofte, terwijl de dagelijkse praktijk wordt gekenmerkt door een hardnekkige illusie van controle.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat digitale platforms verboden moeten worden",
+            "Informeren over de beperkingen van individuele privacycontrole",
+            "Uitleg geven over privacywetgeving"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert de grenzen van individuele controle op een beschrijvende manier.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Digitale privacy wordt vaak voorgesteld als een kwestie van individuele verantwoordelijkheid."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom is toestemming voor dataverwerking volgens de tekst vaak geen echte keuze?",
+          "promptAr": "",
+          "options": [
+            "Omdat gebruikers geen toegang hebben tot privacyinstellingen",
+            "Omdat privacyvoorwaarden moeilijk te begrijpen zijn",
+            "Omdat dataverwerking wettelijk verplicht is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Privacyvoorwaarden zijn complex en nauwelijks toegankelijk.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Privacyverklaringen zijn doorgaans lang, juridisch geformuleerd en moeilijk te doorgronden."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over het vermijden van digitale platforms?",
+          "promptAr": "",
+          "options": [
+            "Het is eenvoudig en zonder gevolgen",
+            "Het leidt vooral tot technische problemen",
+            "Het kan sociale en professionele nadelen hebben"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Vermijden kan leiden tot uitsluiting of gemiste kansen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wie besluit een populair platform te vermijden, kan belangrijke sociale of professionele kansen mislopen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de auteur met de uitspraak dat controle 'vooral formeel' bestaat?",
+          "promptAr": "",
+          "options": [
+            "Dat privacy juridisch goed geregeld is",
+            "Dat keuzevrijheid theoretisch bestaat maar praktisch beperkt is",
+            "Dat burgers geen interesse hebben in privacy"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De controle is wettelijk vastgelegd maar moeilijk uitvoerbaar.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Controle over privacy bestaat dan vooral formeel, terwijl de dagelijkse praktijk weinig ruimte laat voor echte alternatieven."
+        },
+        {
+          "orderIndex": 4,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de centrale conclusie van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Digitale privacy is volledig een persoonlijke keuze",
+            "Wetgeving heeft het privacyprobleem opgelost",
+            "Digitale privacy vraagt om collectieve verantwoordelijkheid"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst eindigt met een pleidooi voor een gezamenlijke aanpak.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Als privacy een publieke waarde is, kan zij niet uitsluitend worden overgelaten aan individuele afwegingen."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Vergrijzing en solidariteit: wie draagt de kosten van een ouder wordende samenleving?",
+      "topic": "Maatschappij & zorg",
+      "level": "B2+",
+      "content": "De vergrijzing van de bevolking wordt vaak gepresenteerd als een demografisch feit, maar haar gevolgen reiken veel verder dan cijfers alleen. In steeds meer landen groeit het aandeel ouderen, terwijl het aantal werkenden relatief afneemt. Deze ontwikkeling zet bestaande solidariteitsmechanismen onder druk, met name op het gebied van pensioenen, gezondheidszorg en sociale voorzieningen. De centrale vraag is niet of vergrijzing gevolgen heeft, maar wie de kosten van een ouder wordende samenleving uiteindelijk zal dragen.\n\nTraditioneel zijn veel sociale systemen gebaseerd op intergenerationele solidariteit. De werkende bevolking draagt via belastingen en premies bij aan voorzieningen waarvan ouderen gebruikmaken. Dit model functioneerde lange tijd relatief stabiel, zolang de verhouding tussen werkenden en niet-werkenden gunstig bleef. Door vergrijzing verschuift deze balans echter. Minder werkenden moeten meer kosten dragen, terwijl de uitgaven per oudere vaak stijgen door langere levensverwachting en complexere zorgbehoeften.\n\nDeze ontwikkeling roept vragen op over rechtvaardigheid. Jongere generaties ervaren soms dat zij bijdragen aan een systeem waarvan zij zelf minder zeker zijn of het in de toekomst nog in dezelfde vorm zal bestaan. Tegelijkertijd benadrukken ouderen dat zij in het verleden zelf hebben bijgedragen aan de opbouw van het systeem. Solidariteit wordt zo niet langer als vanzelfsprekend ervaren, maar onderwerp van debat en onderhandeling.\n\nIn de gezondheidszorg wordt deze spanning bijzonder zichtbaar. Ouderen maken gemiddeld meer gebruik van zorgvoorzieningen, wat leidt tot stijgende kosten. Beleidsmakers zoeken naar manieren om deze uitgaven beheersbaar te houden, bijvoorbeeld door preventie, technologische innovatie of het stimuleren van zelfredzaamheid. Critici waarschuwen echter dat dergelijke maatregelen het risico in zich dragen dat verantwoordelijkheid wordt verschoven van het collectief naar het individu, wat kan leiden tot ongelijkheid in toegang tot zorg.\n\nOok pensioensystemen staan onder druk. Veel regelingen zijn gebaseerd op het idee van collectieve risicospreiding: iedereen draagt bij, ongeacht individuele levensloop. Door demografische veranderingen en flexibeler arbeidsmarkten wordt dit uitgangspunt steeds moeilijker vol te houden. Aanpassingen zoals hogere pensioenleeftijden of individuele pensioenpotten worden gepresenteerd als noodzakelijk, maar roepen weerstand op bij groepen die zich benadeeld voelen. Solidariteit verandert hier van een gedeeld principe in een bron van conflict.\n\nNaast financiële aspecten speelt ook de verdeling van niet-monetaire lasten een rol. Mantelzorg, vrijwilligerswerk en informele ondersteuning worden steeds belangrijker naarmate professionele zorg onder druk staat. Deze taken komen vaak terecht bij specifieke groepen, zoals vrouwen of mensen met flexibele banen. Daardoor wordt solidariteit niet alleen een kwestie van geld, maar ook van tijd en beschikbaarheid, wat bestaande sociale ongelijkheden kan versterken.\n\nTegelijkertijd is het beeld van vergrijzing als louter probleem te eenzijdig. Ouderen dragen op verschillende manieren bij aan de samenleving, bijvoorbeeld via vrijwilligerswerk, informele zorg of overdracht van kennis en ervaring. Wanneer vergrijzing uitsluitend wordt benaderd vanuit kostenperspectief, blijven deze bijdragen onderbelicht. Dit kan het maatschappelijk draagvlak voor solidariteit verder ondermijnen, omdat ouderen vooral worden gezien als last in plaats van als actieve deelnemers.\n\nDe discussie over vergrijzing dwingt tot heroverweging van solidariteit zelf. Is solidariteit een vaste afspraak tussen generaties, of een flexibel principe dat moet worden aangepast aan veranderende omstandigheden? Sommige pleiten voor een herverdeling waarbij ouderen meer zelf bijdragen, bijvoorbeeld via eigen betalingen of langer doorwerken. Anderen benadrukken dat solidariteit juist in tijden van demografische verandering haar waarde bewijst en niet mag worden uitgehold.\n\nUiteindelijk gaat het debat over vergrijzing niet alleen over kosten, maar over de inrichting van de samenleving. De manier waarop lasten en verantwoordelijkheden worden verdeeld, weerspiegelt keuzes over rechtvaardigheid, zorg en wederkerigheid. Zonder breed gedragen visie op solidariteit dreigt vergrijzing te worden gereduceerd tot een boekhoudkundig probleem, terwijl het in wezen een maatschappelijke uitdaging is die vraagt om collectieve antwoorden.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat ouderen te veel kosten",
+            "Informeren over spanningen rond solidariteit en vergrijzing",
+            "Uitleg geven over pensioenwetgeving"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert het vraagstuk zonder een eenduidige oplossing op te leggen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De centrale vraag is niet of vergrijzing gevolgen heeft, maar wie de kosten van een ouder wordende samenleving uiteindelijk zal dragen."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is een direct gevolg van vergrijzing volgens de tekst?",
+          "promptAr": "",
+          "options": [
+            "Een stijging van het aantal werkenden",
+            "Een verandering in de verhouding tussen werkenden en niet-werkenden",
+            "Een afname van de levensverwachting"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft dat minder werkenden meer kosten moeten dragen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Minder werkenden moeten meer kosten dragen, terwijl de uitgaven per oudere vaak stijgen door langere levensverwachting en complexere zorgbehoeften."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom staat intergenerationele solidariteit onder druk?",
+          "promptAr": "",
+          "options": [
+            "Omdat ouderen geen bijdrage meer leveren",
+            "Omdat jongere generaties twijfelen aan de houdbaarheid van het systeem",
+            "Omdat belastingen te laag zijn"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Jongeren zijn onzeker of zij later dezelfde voordelen zullen ontvangen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Jongere generaties ervaren soms dat zij bijdragen aan een systeem waarvan zij zelf minder zeker zijn of het in de toekomst nog in dezelfde vorm zal bestaan."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met het risico van verschuivende verantwoordelijkheid in de zorg?",
+          "promptAr": "",
+          "options": [
+            "Dat zorg volledig wordt geprivatiseerd",
+            "Dat het collectief minder verantwoordelijkheid neemt en het individu meer",
+            "Dat ouderen geen zorg meer krijgen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst beschrijft een verschuiving van collectieve naar individuele verantwoordelijkheid.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "het risico in zich dragen dat verantwoordelijkheid wordt verschoven van het collectief naar het individu"
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke niet-financiële vorm van solidariteit wordt genoemd?",
+          "promptAr": "",
+          "options": [
+            "Belastingen",
+            "Mantelzorg en vrijwilligerswerk",
+            "Pensioenpremies"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst benoemt tijd en zorg als belangrijke niet-monetaire lasten.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Mantelzorg, vrijwilligerswerk en informele ondersteuning worden steeds belangrijker naarmate professionele zorg onder druk staat."
+        },
+        {
+          "orderIndex": 5,
+          "type": "INFERENCE",
+          "difficulty": 4,
+          "promptNl": "Waarom kan een eenzijdige focus op kosten het draagvlak voor solidariteit verminderen?",
+          "promptAr": "",
+          "options": [
+            "Omdat ouderen dan meer belastingen betalen",
+            "Omdat bijdragen van ouderen aan de samenleving onzichtbaar blijven",
+            "Omdat zorg goedkoper wordt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Ouderen worden dan vooral als last gezien.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wanneer vergrijzing uitsluitend wordt benaderd vanuit kostenperspectief, blijven deze bijdragen onderbelicht."
+        },
+        {
+          "orderIndex": 6,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Vergrijzing is vooral een financieel probleem",
+            "Solidariteit moet volledig worden afgeschaft",
+            "Vergrijzing vraagt om een hernieuwde, collectieve visie op solidariteit"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt solidariteit als maatschappelijk vraagstuk.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "het in wezen een maatschappelijke uitdaging is die vraagt om collectieve antwoorden."
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "Taalbeleid op de werkvloer: inclusie bevordering of praktische belemmering?",
+      "topic": "Arbeid & maatschappij",
+      "level": "B2+",
+      "content": "In een steeds internationaler wordende arbeidsmarkt speelt taal een centrale rol. Werkvloeren worden diverser door migratie, internationale samenwerking en grensoverschrijdende bedrijven. Tegen deze achtergrond voeren veel organisaties expliciet taalbeleid in, met als doel duidelijke communicatie, veiligheid en efficiëntie te waarborgen. Tegelijkertijd roept dit beleid fundamentele vragen op: bevordert een eenduidige voertaal inclusie, of vormt zij juist een praktische belemmering voor werknemers met een andere taalachtergrond?\n\nVoorstanders van strikt taalbeleid benadrukken het belang van begrijpelijkheid en gelijkheid. Wanneer iedereen dezelfde werktaal gebruikt, zouden misverstanden afnemen en zou samenwerking soepeler verlopen. In sectoren waar veiligheid cruciaal is, zoals de zorg, de bouw of de industrie, kan eenduidige communicatie letterlijk levens redden. Vanuit dit perspectief wordt taalbeleid gepresenteerd als neutraal en noodzakelijk, gericht op het functioneren van de organisatie als geheel.\n\nDaarnaast wordt taalbeleid vaak gekoppeld aan professionele normen. Beheersing van de werktaal zou een voorwaarde zijn voor deelname aan besluitvorming, klantcontact en doorgroeimogelijkheden. Werkgevers stellen dat duidelijke taalvereisten transparantie scheppen: iedereen weet wat er wordt verwacht. In theorie voorkomt dit willekeur en biedt het werknemers houvast bij hun professionele ontwikkeling.\n\nCritici wijzen er echter op dat taalbeleid zelden neutraal is. De keuze voor één dominante werktaal weerspiegelt vaak bestaande machtsverhoudingen. Werknemers die deze taal als moedertaal spreken, bewegen zich vanzelfsprekend binnen informele netwerken en communicatievormen. Voor anderen betekent hetzelfde beleid extra inspanning, onzekerheid en soms structurele achterstelling. Wat wordt gepresenteerd als gelijkheid, kan in de praktijk ongelijkheid versterken.\n\nBovendien gaat taal op de werkvloer verder dan functionele communicatie. Informele gesprekken, humor en sociale interactie spelen een belangrijke rol in teamvorming en werkplezier. Wanneer taalbeleid deze aspecten onvoldoende meeneemt, kan het leiden tot sociale uitsluiting. Werknemers die zich minder zeker voelen in de dominante taal, trekken zich mogelijk terug uit gesprekken, wat hun zichtbaarheid en invloed vermindert. Inclusie wordt dan formeel nagestreefd, maar informeel ondermijnd.\n\nEen ander spanningspunt is de haalbaarheid van taalvereisten. Niet alle functies vereisen hetzelfde taalniveau, maar beleid maakt dit onderscheid niet altijd expliciet. In sommige gevallen worden hoge taalnormen gesteld voor taken waarbij deze nauwelijks relevant zijn. Hierdoor kan taalbeleid functioneren als selectiemechanisme dat verder gaat dan praktische noodzaak. De vraag rijst dan of taal een middel is om samenwerking te verbeteren, of een instrument om toegang te beperken.\n\nTegelijkertijd mag het belang van taal voor veiligheid en kwaliteit niet worden onderschat. In meertalige werkomgevingen zonder duidelijke afspraken kan verwarring ontstaan over instructies, verantwoordelijkheden en procedures. Werknemers kunnen hierdoor fouten maken of zich onzeker voelen. Een volledig loslaten van taalbeleid is daarom geen realistisch alternatief. De uitdaging ligt in het vinden van een balans tussen duidelijke communicatie en ruimte voor diversiteit.\n\nSommige organisaties experimenteren met flexibel taalbeleid. Zij onderscheiden tussen formele en informele communicatie, of bieden ondersteuning zoals taalcursussen en meertalige documentatie. In deze benadering wordt taal niet gezien als harde voorwaarde, maar als ontwikkelbaar vermogen. Dit vraagt echter investeringen in tijd en middelen, en een bereidheid om productiviteit niet uitsluitend op korte termijn te beoordelen.\n\nDe discussie over taalbeleid raakt daarmee aan bredere vragen over inclusie op de werkvloer. Inclusie betekent niet alleen toegang tot werk, maar ook volwaardige deelname aan sociale en professionele processen. Wanneer taalbeleid uitsluitend wordt benaderd vanuit efficiëntie, bestaat het risico dat menselijke en sociale aspecten onderbelicht blijven. Andersom kan een te vrijblijvende benadering leiden tot praktische problemen en frustratie.\n\nUiteindelijk is taalbeleid geen technisch vraagstuk, maar een normatieve keuze. Het weerspiegelt hoe organisaties kijken naar gelijkheid, verantwoordelijkheid en diversiteit. Of taalbeleid inclusie bevordert of belemmert, hangt minder af van de gekozen taal dan van de manier waarop het beleid wordt vormgegeven, toegepast en ondersteund. Zonder aandacht voor machtsverhoudingen en dagelijkse praktijk blijft taalbeleid een instrument met onbedoelde gevolgen, zelfs wanneer het met de beste intenties is ingevoerd.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat taalbeleid moet worden afgeschaft",
+            "Informeren over spanningen rond taalbeleid op de werkvloer",
+            "Uitleg geven over taalcursussen voor werknemers"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert voor- en nadelen zonder eenzijdig standpunt.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Tegelijkertijd roept dit beleid fundamentele vragen op: bevordert een eenduidige voertaal inclusie, of vormt zij juist een praktische belemmering voor werknemers met een andere taalachtergrond?"
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom voeren organisaties volgens de tekst vaak expliciet taalbeleid in?",
+          "promptAr": "",
+          "options": [
+            "Om kosten te besparen",
+            "Om veiligheid en duidelijkheid te waarborgen",
+            "Om werknemers te controleren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Taalbeleid wordt gekoppeld aan veiligheid en efficiënte communicatie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In sectoren waar veiligheid cruciaal is, zoals de zorg, de bouw of de industrie, kan eenduidige communicatie letterlijk levens redden."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kan taalbeleid ongelijkheid versterken?",
+          "promptAr": "",
+          "options": [
+            "Omdat taal moeilijk te leren is",
+            "Omdat moedertaalsprekers een voordeel hebben",
+            "Omdat werknemers taalbeleid weigeren"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Dominante taalspeakers bewegen zich makkelijker binnen informele netwerken.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Werknemers die deze taal als moedertaal spreken, bewegen zich vanzelfsprekend binnen informele netwerken en communicatievormen."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de auteur met het onderscheid tussen formele en informele inclusie?",
+          "promptAr": "",
+          "options": [
+            "Dat regels belangrijker zijn dan gedrag",
+            "Dat inclusie op papier kan bestaan, maar sociaal ontbreken",
+            "Dat informele communicatie overbodig is"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Formele gelijkheid garandeert geen sociale deelname.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Inclusie wordt dan formeel nagestreefd, maar informeel ondermijnd."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke oplossing wordt genoemd om taalbeleid inclusiever te maken?",
+          "promptAr": "",
+          "options": [
+            "Lagere lonen voor anderstaligen",
+            "Volledige afschaffing van taalvereisten",
+            "Ondersteuning zoals taalcursussen"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Ondersteuning wordt genoemd als onderdeel van flexibel beleid.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "of bieden ondersteuning zoals taalcursussen en meertalige documentatie."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Taalbeleid is altijd noodzakelijk en neutraal",
+            "Taalbeleid belemmert inclusie meer dan het helpt",
+            "Het effect van taalbeleid hangt af van de manier waarop het wordt toegepast"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt balans en context.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "hangt minder af van de gekozen taal dan van de manier waarop het beleid wordt vormgegeven, toegepast en ondersteund."
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Burgerparticipatie bij besluitvorming: invloed of symbolisch gebaar?",
+      "topic": "Politiek & maatschappij",
+      "level": "B2+",
+      "content": "Burgerparticipatie wordt vaak gepresenteerd als een essentieel onderdeel van een democratische samenleving. Overheden nodigen burgers uit om mee te denken over beleid, plannen en projecten, met als doel draagvlak te vergroten en besluiten beter te laten aansluiten bij maatschappelijke behoeften. In theorie versterkt participatie de democratie door burgers niet alleen als stemgerechtigden, maar ook als actieve mede-vormgevers van beleid te beschouwen. In de praktijk roept burgerparticipatie echter steeds vaker de vraag op of zij daadwerkelijk invloed biedt, of vooral functioneert als symbolisch gebaar.\n\nDe afgelopen decennia zijn participatievormen sterk toegenomen. Inspraakavonden, burgerpanels, online consultaties en participatieve budgetten moeten de kloof tussen bestuur en burger verkleinen. Deze instrumenten suggereren openheid en toegankelijkheid. Tegelijkertijd blijven de kaders waarbinnen burgers mogen meedenken vaak vooraf vastgelegd. De belangrijkste beleidskeuzes zijn dan al gemaakt, waardoor participatie zich beperkt tot detailniveau. Burgers mogen reageren, maar niet sturen.\n\nCritici wijzen erop dat deze vorm van participatie verwachtingen wekt die niet kunnen worden waargemaakt. Wanneer burgers tijd en energie investeren in inspraak, maar hun inbreng nauwelijks terugzien in het uiteindelijke besluit, ontstaat teleurstelling. Participatie wordt dan ervaren als procedurele verplichting van de overheid, niet als reële machtsdeling. Dit kan het vertrouwen in instituties juist ondermijnen, in plaats van versterken.\n\nEen bijkomend probleem is de ongelijke vertegenwoordiging binnen participatietrajecten. Niet alle burgers beschikken over dezelfde tijd, middelen of vaardigheden om deel te nemen. Vaak zijn het hogeropgeleide, mondige en politiek geïnteresseerde burgers die hun weg weten te vinden naar inspraakmomenten. Groepen met minder sociale of culturele middelen blijven ondervertegenwoordigd, waardoor participatie het risico loopt bestaande ongelijkheden te reproduceren. De vraag rijst dan in hoeverre de 'stem van de burger' werkelijk representatief is.\n\nVoorstanders benadrukken echter dat participatie meer oplevert dan directe invloed op besluitvorming. Het proces zelf kan bijdragen aan begrip voor beleidsafwegingen en complexiteit. Door burgers te betrekken bij dilemma's en beperkingen, ontstaat meer inzicht in waarom bepaalde keuzes worden gemaakt. Vanuit dit perspectief is participatie niet primair een machtsinstrument, maar een communicatiemiddel dat wederzijds begrip bevordert.\n\nToch blijft de kernvraag bestaan: wanneer spreken we van betekenisvolle participatie? Veel onderzoekers stellen dat participatie pas geloofwaardig is wanneer duidelijk is wat er met de inbreng gebeurt. Transparantie over de rol van burgers, de beslissingsruimte en de uiteindelijke weging van argumenten is cruciaal. Zonder deze duidelijkheid verwordt participatie tot ritueel, waarbij betrokkenheid wordt gesimuleerd zonder daadwerkelijke consequenties.\n\nDaarnaast vraagt effectieve burgerparticipatie om bestuurlijke bereidheid om controle los te laten. Dit botst vaak met politieke realiteit. Beleidsmakers zijn verantwoordelijk voor beslissingen en worden daarop afgerekend, terwijl participatie onvoorspelbare uitkomsten kan hebben. Hierdoor ontstaat spanning tussen democratische openheid en bestuurlijke beheersbaarheid. In zulke situaties wordt participatie soms ingezet om draagvlak te legitimeren, niet om beleid te veranderen.\n\nEr zijn echter voorbeelden waarin participatie wel degelijk invloed heeft. Burgerbegrotingen, waarbij burgers direct beslissen over de besteding van publieke middelen, laten zien dat machtsdeling mogelijk is. Ook langdurige participatietrajecten, waarin burgers vanaf het begin worden betrokken, vergroten de kans op betekenisvolle invloed. Deze voorbeelden tonen aan dat participatie geen vast gegeven is, maar afhankelijk van ontwerp, context en politieke wil.\n\nUiteindelijk draait het debat over burgerparticipatie om de vraag welke democratie wordt nagestreefd. Is participatie bedoeld om besluiten te verbeteren, om draagvlak te creëren, of om burgers mede-verantwoordelijk te maken voor complexe keuzes? Zolang deze doelen niet expliciet worden benoemd, blijft onduidelijk of participatie een instrument van invloed is of een symbolisch gebaar. Een volwassen democratie vraagt daarom niet om méér participatie, maar om eerlijkere participatie, waarin verwachtingen, rollen en macht helder zijn afgebakend.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat burgerparticipatie zinloos is",
+            "Informeren over spanningen tussen participatie en besluitvorming",
+            "Uitleg geven over verschillende participatievormen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert de beperkingen en mogelijkheden van participatie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In de praktijk roept burgerparticipatie echter steeds vaker de vraag op of zij daadwerkelijk invloed biedt, of vooral functioneert als symbolisch gebaar."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Waarom neemt het aantal participatievormen volgens de tekst toe?",
+          "promptAr": "",
+          "options": [
+            "Omdat burgers dit wettelijk afdwingen",
+            "Om de afstand tussen overheid en burger te verkleinen",
+            "Omdat beleid complexer is geworden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Participatie wordt ingezet om de kloof tussen bestuur en burger te verminderen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "met als doel draagvlak te vergroten en besluiten beter te laten aansluiten bij maatschappelijke behoeften."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom ervaren sommige burgers participatie als teleurstellend?",
+          "promptAr": "",
+          "options": [
+            "Omdat zij te weinig informatie krijgen",
+            "Omdat hun inbreng weinig invloed heeft op besluiten",
+            "Omdat participatie te veel tijd kost"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Teleurstelling ontstaat wanneer inspraak geen zichtbare gevolgen heeft.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Wanneer burgers tijd en energie investeren in inspraak, maar hun inbreng nauwelijks terugzien in het uiteindelijke besluit, ontstaat teleurstelling."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met participatie als 'procedurele verplichting'?",
+          "promptAr": "",
+          "options": [
+            "Participatie is wettelijk verplicht",
+            "Participatie wordt uitgevoerd zonder echte betrokkenheid",
+            "Participatie verloopt volgens vaste regels"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De term verwijst naar participatie zonder reële machtsdeling.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Participatie wordt dan ervaren als procedurele verplichting van de overheid, niet als reële machtsdeling."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke groep is vaak oververtegenwoordigd in participatietrajecten?",
+          "promptAr": "",
+          "options": [
+            "Jongeren",
+            "Lageropgeleide burgers",
+            "Mondige en hogeropgeleide burgers"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst beschrijft ongelijke deelname aan participatie.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Vaak zijn het hogeropgeleide, mondige en politiek geïnteresseerde burgers die hun weg weten te vinden naar inspraakmomenten."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Burgerparticipatie werkt alleen op lokaal niveau",
+            "Burgerparticipatie is per definitie symbolisch",
+            "De waarde van participatie hangt af van ontwerp en machtsdeling"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt dat participatie pas betekenisvol is bij duidelijke invloed.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "maar afhankelijk van ontwerp, context en politieke wil."
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "title": "Preventie versus vrijheid: hoe ver mag de overheid ingrijpen in leefstijlkeuzes?",
+      "topic": "Gezondheid & maatschappij",
+      "level": "B2+",
+      "content": "Preventie neemt een steeds centralere plaats in binnen het overheidsbeleid. Door vroegtijdig in te grijpen in leefstijlkeuzes hopen overheden gezondheidsproblemen te voorkomen en de druk op zorgsystemen te verminderen. Campagnes tegen roken, suikerbelasting en richtlijnen voor beweging en voeding zijn inmiddels vertrouwde instrumenten. Tegelijkertijd roept deze preventieve benadering fundamentele vragen op over vrijheid en verantwoordelijkheid. Wanneer wordt bescherming betutteling, en waar ligt de grens tussen collectief belang en individuele autonomie?\n\nVoorstanders van preventief beleid benadrukken de maatschappelijke baten. Gezondere burgers betekenen lagere zorgkosten, hogere arbeidsproductiviteit en minder ongelijkheid in gezondheid. Vanuit dit perspectief is preventie geen inperking van vrijheid, maar een investering in welzijn. Bovendien wordt vaak gesteld dat leefstijlkeuzes niet louter individueel zijn. Omgevingsfactoren zoals marketing, beschikbaarheid en sociale normen beïnvloeden gedrag in sterke mate. Overheidsingrijpen corrigeert volgens deze redenering marktfalen en beschermt burgers tegen structurele prikkels die ongezonde keuzes bevorderen.\n\nCritici wijzen er echter op dat preventiebeleid gemakkelijk normatief wordt. Wanneer de overheid bepaalt wat een 'gezonde' leefstijl is, ontstaat het risico dat afwijkingen worden gemoraliseerd. Burgers die niet voldoen aan richtlijnen kunnen worden gestigmatiseerd of impliciet verantwoordelijk gehouden voor hun gezondheidstoestand. Dit raakt vooral groepen met minder middelen, voor wie gezonde keuzes vaak minder toegankelijk zijn. Preventie kan zo onbedoeld bijdragen aan schuldtoewijzing in plaats van ondersteuning.\n\nEen belangrijk spanningspunt is de effectiviteit van preventieve maatregelen. Sommige interventies, zoals rookverboden in publieke ruimtes, hebben aantoonbaar effect gehad. Andere maatregelen, zoals informatiecampagnes, blijken minder impact te hebben op langdurig gedrag. Dit roept de vraag op of vergaande ingrepen gerechtvaardigd zijn wanneer het effect onzeker is. Het risico bestaat dat vrijheid wordt beperkt zonder proportionele maatschappelijke winst.\n\nDaarnaast speelt de vraag van legitimiteit. Democratische overheden ontlenen hun gezag aan de instemming van burgers, maar preventiebeleid wordt vaak top-down ingevoerd. Wanneer maatregelen als opgelegd worden ervaren, kan weerstand ontstaan die het draagvlak ondermijnt. Suikerbelasting of verplichtende etikettering worden dan gezien als inmenging in persoonlijke levenssfeer, zelfs wanneer de intentie preventief is. Het succes van preventie hangt daardoor niet alleen af van inhoud, maar ook van proces en communicatie.\n\nTegenover deze bezwaren staat het argument dat absolute vrijheid een illusie is. Leefstijlkeuzes vinden plaats binnen een context van reclame, sociale druk en economische belangen. In die zin is niet-ingrijpen ook een politieke keuze, die bestaande machtsverhoudingen intact laat. De overheid kiest dan impliciet de kant van producenten en markten. Preventiebeleid kan worden gezien als poging om die balans te herstellen en burgers meer reële keuzevrijheid te bieden.\n\nEen middenpositie zoekt naar proportioneel en ondersteunend beleid. In plaats van verbieden of verplichten, richt dit beleid zich op het aanpassen van de omgeving: gezondere opties goedkoper maken, publieke ruimte inrichten voor beweging, en transparantie vergroten over producten. Deze benadering erkent individuele vrijheid, maar neemt structurele barrières weg. Toch blijft ook hier de vraag wie bepaalt wat wenselijk is en op basis van welke criteria.\n\nDe discussie over preventie raakt aan een bredere opvatting van verantwoordelijkheid. Is gezondheid primair een individuele plicht, of een gedeelde maatschappelijke verantwoordelijkheid? Wanneer preventie uitsluitend wordt ingezet om kosten te beheersen, verliest zij haar legitimiteit. Wanneer zij daarentegen is ingebed in een breder sociaal beleid dat ongelijkheden adresseert, kan zij bijdragen aan zowel gezondheid als rechtvaardigheid.\n\nUiteindelijk vraagt preventiebeleid om voortdurende afweging. Te weinig ingrijpen laat schadelijke patronen voortbestaan; te veel ingrijpen ondermijnt autonomie en vertrouwen. De grens ligt niet vast, maar wordt bepaald door proportionaliteit, effectiviteit en maatschappelijke dialoog. Preventie is daarmee geen technisch instrument, maar een normatieve keuze die steeds opnieuw moet worden verantwoord in relatie tot vrijheid.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat preventie altijd moet worden doorgevoerd",
+            "Informeren over de spanningen tussen preventie en vrijheid",
+            "Uitleg geven over specifieke gezondheidsmaatregelen"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert argumenten voor en tegen zonder eenzijdig standpunt.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Tegelijkertijd roept deze preventieve benadering fundamentele vragen op over vrijheid en verantwoordelijkheid."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat is volgens de tekst een belangrijk doel van preventief beleid?",
+          "promptAr": "",
+          "options": [
+            "Het beperken van individuele keuzes",
+            "Het verminderen van zorgkosten en gezondheidsproblemen",
+            "Het vervangen van curatieve zorg"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Preventie wordt gepresenteerd als investering in welzijn en kostenbeheersing.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Door vroegtijdig in te grijpen in leefstijlkeuzes hopen overheden gezondheidsproblemen te voorkomen en de druk op zorgsystemen te verminderen."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Waarom kan preventiebeleid volgens critici leiden tot stigmatisering?",
+          "promptAr": "",
+          "options": [
+            "Omdat richtlijnen altijd wetenschappelijk onzeker zijn",
+            "Omdat afwijkend gedrag moreel wordt beoordeeld",
+            "Omdat preventie alleen voor rijke burgers werkt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Normatieve richtlijnen kunnen schuld en stigma creëren.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "ontstaat het risico dat afwijkingen worden gemoraliseerd."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat wordt bedoeld met de uitspraak dat 'niet-ingrijpen ook een politieke keuze is'?",
+          "promptAr": "",
+          "options": [
+            "Dat overheden geen verantwoordelijkheid dragen",
+            "Dat markten vanzelf gezonde keuzes bevorderen",
+            "Dat passiviteit bestaande machtsverhoudingen bevestigt"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "Afzien van beleid laat huidige invloeden intact.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "In die zin is niet-ingrijpen ook een politieke keuze, die bestaande machtsverhoudingen intact laat."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke benadering wordt genoemd als mogelijke middenweg?",
+          "promptAr": "",
+          "options": [
+            "Strikte verboden op ongezond gedrag",
+            "Volledige afschaffing van preventie",
+            "Het aanpassen van de leefomgeving"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst noemt omgevingsgerichte maatregelen als proportioneel.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "richt dit beleid zich op het aanpassen van de omgeving: gezondere opties goedkoper maken, publieke ruimte inrichten voor beweging, en transparantie vergroten over producten."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Preventie ondermijnt altijd individuele vrijheid",
+            "Vrijheid moet altijd zwaarder wegen dan gezondheid",
+            "Preventie vereist een zorgvuldige afweging tussen collectief belang en autonomie"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt proportionaliteit en dialoog.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "De grens ligt niet vast, maar wordt bepaald door proportionaliteit, effectiviteit en maatschappelijke dialoog."
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Kennis als machtsmiddel: wie bepaalt wat als 'deskundig' geldt?",
+      "topic": "Wetenschap & maatschappij",
+      "level": "B2+",
+      "content": "In moderne samenlevingen speelt kennis een centrale rol in besluitvorming. Beleidskeuzes, medische richtlijnen en technologische innovaties worden vaak gelegitimeerd door te verwijzen naar expertise. Wie als deskundig wordt erkend, krijgt toegang tot invloedrijke posities en publieke platforms. Tegelijkertijd roept dit de vraag op wie bepaalt wat als kennis geldt en welke stemmen als gezaghebbend worden beschouwd. Kennis fungeert daarmee niet alleen als instrument voor begrip, maar ook als machtsmiddel.\n\nTraditioneel was deskundigheid sterk institutioneel verankerd. Universiteiten, onderzoeksinstituten en beroepsorganisaties fungeerden als poortwachters die bepaalden welke kennis betrouwbaar was. Opleiding, methodologie en peer review vormden de criteria voor erkenning. Deze structuur bood bescherming tegen willekeur en droeg bij aan kwaliteitsborging. Toch had zij ook een uitsluitende werking: kennis die niet paste binnen academische kaders, zoals ervaringskennis of lokale expertise, kreeg minder erkenning.\n\nDe digitalisering heeft deze verhoudingen veranderd. Informatie is breder toegankelijk geworden en expertise lijkt minder exclusief. Online platforms bieden ruimte aan alternatieve perspectieven en maken het mogelijk om gevestigde kennis ter discussie te stellen. Dit wordt door sommigen gezien als democratisering van kennis. Anderen waarschuwen echter dat deze ontwikkeling het onderscheid tussen onderbouwde expertise en persoonlijke mening vervaagt. Wanneer alle stemmen gelijk worden gepresenteerd, wordt het voor het publiek moeilijker om betrouwbaarheid te beoordelen.\n\nIn het publieke debat speelt framing een belangrijke rol. Deskundigheid wordt niet alleen bepaald door inhoud, maar ook door presentatie. Experts die helder communiceren en mediavaardig zijn, krijgen vaker een podium dan degenen die nuance en onzekerheid benadrukken. Hierdoor kan de perceptie ontstaan dat overtuigingskracht belangrijker is dan methodologische zorgvuldigheid. Kennis verliest dan haar status als kritisch instrument en wordt ingezet als retorisch middel.\n\nOok politieke context beïnvloedt wat als deskundig geldt. Beleidsmakers selecteren vaak experts die hun agenda ondersteunen. Tegengestelde inzichten worden weggezet als minder relevant of als 'controversieel'. In zulke situaties wordt expertise niet beoordeeld op kwaliteit, maar op bruikbaarheid. Dit ondermijnt het vertrouwen in kennisinstituties, omdat deskundigheid wordt geassocieerd met belangen in plaats van onafhankelijkheid.\n\nTegelijkertijd is volledige neutraliteit een illusie. Kennisproductie vindt altijd plaats binnen sociale en historische contexten. Onderzoeksvragen, financiering en interpretatie worden beïnvloed door waarden en prioriteiten. Het erkennen van deze context betekent echter niet dat alle kennis relatief is. Het vraagt om transparantie over aannames en beperkingen, zodat macht en kennis niet samenvallen zonder verantwoording.\n\nEen groeiende stroming pleit daarom voor een bredere definitie van deskundigheid. Naast academische kennis wordt ruimte gemaakt voor ervaringsdeskundigen, professionals uit de praktijk en betrokken burgers. In beleidsprocessen kan dit leiden tot rijkere besluitvorming, omdat verschillende perspectieven worden meegenomen. Tegelijkertijd roept deze benadering nieuwe vragen op over afbakening: wanneer is kennis voldoende onderbouwd om richtinggevend te zijn?\n\nDe spanning tussen inclusie en kwaliteit komt hier scherp naar voren. Een te enge definitie van expertise sluit waardevolle inzichten uit, terwijl een te ruime definitie het risico van willekeur vergroot. De uitdaging ligt in het ontwikkelen van criteria die zowel open als kritisch zijn. Dit vereist institutionele aanpassingen, maar ook een publiek debat over wat we van deskundigheid verwachten.\n\nUiteindelijk draait de discussie over kennis als machtsmiddel om legitimiteit. Macht die wordt gelegitimeerd door kennis vraagt om vertrouwen, en dat vertrouwen is afhankelijk van transparantie, pluraliteit en toetsbaarheid. Wanneer duidelijk is hoe expertise tot stand komt en welke belangen een rol spelen, kan kennis haar gezag behouden zonder onbetwistbaar te worden. In een complexe samenleving is deskundigheid onmisbaar, maar zij kan alleen functioneren wanneer macht en kennis niet samenvallen zonder publieke verantwoording.",
+      "minWordCount": 550,
+      "maxWordCount": 700,
+      "questions": [
+        {
+          "orderIndex": 0,
+          "type": "INTENT",
+          "difficulty": 4,
+          "promptNl": "Wat is het belangrijkste doel van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Overtuigen dat academische kennis moet verdwijnen",
+            "Informeren over hoe kennis en macht met elkaar verweven zijn",
+            "Uitleg geven over onderzoeksmethoden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "De tekst analyseert de relatie tussen expertise en invloed.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Kennis fungeert daarmee niet alleen als instrument voor begrip, maar ook als machtsmiddel."
+        },
+        {
+          "orderIndex": 1,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Wat was volgens de tekst een kenmerk van traditionele deskundigheid?",
+          "promptAr": "",
+          "options": [
+            "Vrije toegang voor iedereen",
+            "Institutionele verankering en kwaliteitscontrole",
+            "Volledige onafhankelijkheid van waarden"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Deskundigheid was gekoppeld aan instellingen en methoden.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Universiteiten, onderzoeksinstituten en beroepsorganisaties fungeerden als poortwachters die bepaalden welke kennis betrouwbaar was."
+        },
+        {
+          "orderIndex": 2,
+          "type": "INFERENCE",
+          "difficulty": 3,
+          "promptNl": "Wat kan worden afgeleid over de invloed van digitalisering op expertise?",
+          "promptAr": "",
+          "options": [
+            "Zij heeft expertise overbodig gemaakt",
+            "Zij heeft het onderscheid tussen kennis en mening vervaagd",
+            "Zij heeft academische kennis versterkt"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Brede toegankelijkheid maakt betrouwbaarheid lastiger te beoordelen.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "het onderscheid tussen onderbouwde expertise en persoonlijke mening vervaagt."
+        },
+        {
+          "orderIndex": 3,
+          "type": "PARAPHRASE",
+          "difficulty": 3,
+          "promptNl": "Wat bedoelt de auteur met deskundigheid als 'retorisch middel'?",
+          "promptAr": "",
+          "options": [
+            "Dat kennis wordt gebruikt om te overtuigen in plaats van te toetsen",
+            "Dat experts altijd ongelijk hebben",
+            "Dat media geen rol spelen"
+          ],
+          "correctIndex": 0,
+          "explanationNl": "Presentatie kan belangrijker worden dan inhoud.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Kennis verliest dan haar status als kritisch instrument en wordt ingezet als retorisch middel."
+        },
+        {
+          "orderIndex": 4,
+          "type": "INFO",
+          "difficulty": 3,
+          "promptNl": "Welke ontwikkeling wordt genoemd als poging om deskundigheid te verbreden?",
+          "promptAr": "",
+          "options": [
+            "Het beperken van publieke debatten",
+            "Het betrekken van ervaringsdeskundigen",
+            "Het afschaffen van kwaliteitscriteria"
+          ],
+          "correctIndex": 1,
+          "explanationNl": "Er wordt gepleit voor meer perspectieven naast academische kennis.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "Naast academische kennis wordt ruimte gemaakt voor ervaringsdeskundigen, professionals uit de praktijk en betrokken burgers."
+        },
+        {
+          "orderIndex": 5,
+          "type": "MAIN_IDEA",
+          "difficulty": 4,
+          "promptNl": "Wat is de kernboodschap van de tekst?",
+          "promptAr": "",
+          "options": [
+            "Kennis moet volledig losstaan van macht",
+            "Deskundigheid is altijd politiek bepaald",
+            "Kennis vraagt om transparantie en verantwoording om legitiem gezag te behouden"
+          ],
+          "correctIndex": 2,
+          "explanationNl": "De tekst benadrukt balans tussen gezag en publieke controle.",
+          "explanationAr": "",
+          "trapNoteNl": "",
+          "trapNoteAr": "",
+          "evidenceQuote": "maar zij kan alleen functioneren wanneer macht en kennis niet samenvallen zonder publieke verantwoording."
+        }
+      ]
+    }
+  ]
+}
+

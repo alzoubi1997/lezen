@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter, Tajawal } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
+import Script from 'next/script'
 import './globals.css'
 
 const inter = Inter({
@@ -86,6 +87,14 @@ export default async function RootLayout({
               : 'var(--font-inter), system-ui, sans-serif',
         }}
       >
+        {/* AdSense Script */}
+        <Script
+          id="adsense-init"
+          strategy="beforeInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6914116727588875"
+          crossOrigin="anonymous"
+          async
+        />
         <NextIntlClientProvider messages={messages} locale={locale}>
           {/* @ts-ignore - React type compatibility issue */}
           {children}
